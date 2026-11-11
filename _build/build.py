@@ -146,6 +146,7 @@ def page(title, desc, path, body, schema, image="accueil", actif=None, foot=""):
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css?v={ASSET_V}">
 {ld}
+<script src="/calc.js?v={ASSET_V}" defer></script>
 </head>
 <body>
 <a class="skip" href="#contenu">Aller au contenu</a>
@@ -202,6 +203,8 @@ def article(d, pages):
     i2 = [m.end() for m in re.finditer("</section>", corps)]
     if len(i2) >= 3:  # encart d'action après la 2e section
         corps = corps[:i2[1]] + CTA_MILIEU + corps[i2[1]:]
+    if slug in CALC and i2:  # calculateur après la 1re section
+        corps = corps[:i2[0]] + f'<div class="calc" data-calc="{CALC[slug]}"><noscript>Activez JavaScript pour utiliser le calculateur.</noscript></div>' + corps[i2[0]:]
     urg = URGENCE.get(slug)
     urg_html = f'<aside class="urgence"><p class="lab">Ne tardez pas</p><p>{inline(urg)}</p></aside>' if urg else ""
     bref = "".join(f"<li>{inline(x)}</li>" for x in d.get("en_bref", []))
@@ -332,6 +335,7 @@ CTA_MILIEU = ('<aside class="cta"><div><p class="ctat">Votre parent a peut-être
 CTA_FIN = ('<aside class="cta fin"><div><p class="ctat">Ne passez pas à côté d’une aide</p>'
            '<p>APA, aide ménagère, crédit d’impôt, aides de la caisse de retraite : les aides se cumulent souvent. Faites le point en 1 minute.</p></div>'
            '<a class="btn" href="/quelles-aides/">Voir les aides de mon parent</a></aside>')
+CALC = {"apa": "apa", "aspa": "aspa", "aide-a-domicile": "credit", "ehpad-prix-aides": "ehpad", "conge-proche-aidant": "ajpa"}
 URGENCE = {
     "apa": "L'APA n'est due qu'à partir du dépôt du **dossier complet**. Elle ne couvre rien avant : chaque mois d'attente est un mois d'aide perdu.",
     "apa/demande": "Les droits s'ouvrent à la date du **dossier complet**, pas avant. Déposez dès que possible, quitte à compléter ensuite.",
@@ -378,6 +382,7 @@ def main():
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         page("Page introuvable | Aider mes parents", "Cette page n'existe pas.", "/404.html", '<div class="wrap prose"><h1>Page introuvable</h1><p><a href="/">Revenir à l\'accueil</a></p></div>', [], "accueil", None, FOOTER).replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"'))
     open(os.path.join(OUT, "style.css"), "w", encoding="utf-8").write(CSS)
+    shutil.copy(os.path.join(ROOT, "_build", "calc.js"), os.path.join(OUT, "calc.js"))
     open(os.path.join(OUT, "favicon.svg"), "w", encoding="utf-8").write(
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#2f5f8a"/><path d="M32 48s-14-8.5-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 46 29c0 10.5-14 19-14 19z" fill="#f2b98b"/></svg>')
     open(os.path.join(OUT, "CNAME"), "w").write("aidermesparents.fr\n")

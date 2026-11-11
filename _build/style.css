@@ -102,3 +102,14 @@ button{font:inherit;cursor:pointer;border:0}
 .h2l{color:inherit;text-decoration:none}.h2l:after{content:" →";color:var(--brand);font-size:.8em}
 .cards1{grid-template-columns:1fr;margin-top:10px}.card.big{padding:20px 22px}.card.big b{font-family:Fraunces,Georgia,serif;font-size:22px}
 .card.big span{display:block;margin:6px 0;color:var(--fg)}.card.big i{font-style:normal;color:var(--brand);font-weight:600}
+.calc{background:var(--card);border:2px solid var(--brand);border-radius:20px;padding:20px 22px;margin:26px 0;box-shadow:0 14px 30px -24px rgba(47,95,138,.6)}
+.calc h2.ct{margin:.2em 0 .5em;font-size:24px}
+.calc-f{display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;align-items:end}
+.calc-f label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:16px}
+.calc-f label.chk{flex-direction:row;align-items:center;gap:10px;font-weight:400}
+.calc-f input,.calc-f select{font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:#fff;color:var(--fg)}
+.calc-f input:focus,.calc-f select:focus{outline:2px solid var(--brand);border-color:var(--brand)}
+.calc-f .btn{grid-column:1/-1;justify-self:start}
+.calc-r .big{font-family:Fraunces,Georgia,serif;font-size:34px;font-weight:700;color:var(--brand);margin:14px 0 4px}.calc-r .big small{font-size:18px;color:var(--mut);font-weight:600}
+.calc-r ul{margin:6px 0}.calc-r .note,.calc-cta{font-size:15px;color:var(--mut)}.calc-cta{margin:12px 0 0;border-top:1px solid var(--line);padding-top:10px}
+@media (max-width:640px){.calc-f{grid-template-columns:1fr}}
