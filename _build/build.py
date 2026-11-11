@@ -78,6 +78,20 @@ PAGES = {  # slug -> (rubrique, image, libellé court pour le menu et les cartes
     "residence-senior": ("etablissement", "ehpad", "Résidence services seniors"),
     "aidant-familial": ("aidants", "aidant", "Aidant familial : vos droits"),
     "conge-proche-aidant": ("aidants", "aidant", "Congé de proche aidant et AJPA"),
+    "pension-de-reversion": ("aides", "accueil", "Pension de réversion"),
+    "allocation-veuvage": ("aides", "accueil", "Allocation veuvage"),
+    "pch-apres-60-ans": ("aides", "aidant", "PCH après 60 ans"),
+    "apl-ehpad": ("etablissement", "ehpad", "APL en EHPAD"),
+    "aide-menagere-caisse-retraite": ("domicile", "aide-domicile", "Aide ménagère de la caisse de retraite"),
+    "retour-domicile-apres-hospitalisation": ("domicile", "aide-domicile", "Retour à domicile après l'hôpital"),
+    "accueil-familial-personne-agee": ("etablissement", "ehpad", "Accueil familial"),
+    "accueil-de-jour-alzheimer": ("etablissement", "ehpad", "Accueil de jour Alzheimer"),
+    "parent-ne-peut-plus-vivre-seul": ("aidants", "aidant", "Mon parent ne peut plus vivre seul"),
+    "habilitation-familiale": ("aidants", "aidant", "Habilitation familiale"),
+    "tutelle-curatelle-parent": ("aidants", "aidant", "Tutelle ou curatelle d'un parent"),
+    "mandat-protection-future": ("aidants", "aidant", "Mandat de protection future"),
+    "procuration-bancaire-parent": ("aidants", "aidant", "Procuration bancaire"),
+    "accueillir-parent-chez-soi": ("aidants", "accueil", "Accueillir un parent chez soi"),
 }
 ALT = {
     "accueil": "Une femme serre sa mère âgée dans ses bras, toutes deux rient sur une terrasse ensoleillée",
@@ -103,7 +117,7 @@ def url(slug):
 def nav_html(actif=None):
     cur = ' aria-current="true"'
     items = "".join(
-        f'<li><a href="/{RUB_SLUG[r]}/"{cur if actif == r else ""}>{E(t)}</a></li>' for r, t, _ in RUBRIQUES)
+        f'<li><a href="/{RUB_SLUG[r]}/"{cur if actif == r else ""}>{E(t)}</a></li>' for r, t, _ in RUBRIQUES) + '<li><a class="navsim" href="/simulateurs/">Simulateurs</a></li>'
     return (f'<header class="top"><div class="wrap bar"><a class="logo" href="/" aria-label="{SITE}, accueil">'
             f'<span class="mark" aria-hidden="true"></span><span>aider<b>mes</b>parents</span></a>'
             f'<nav aria-label="Rubriques"><ul>{items}</ul></nav></div></header>')
@@ -248,7 +262,7 @@ def article(d, pages):
     schema = [
         {"@context": "https://schema.org", "@type": "Article", "headline": strip(d["h1"])[:110], "description": d.get("description", ""),
          "image": f"{DOMAIN}/img/{img}.jpg", "datePublished": LANCEMENT, "dateModified": verif, "inLanguage": "fr-FR",
-         "author": {"@type": "Organization", "name": SITE, "url": DOMAIN + "/"},
+         "author": {"@type": "Person", "name": "Louis Lardeux", "url": DOMAIN + "/a-propos/"},
          "publisher": {"@type": "Organization", "name": SITE, "url": DOMAIN + "/", "logo": {"@type": "ImageObject", "url": DOMAIN + "/favicon.svg"}},
          "mainEntityOfPage": DOMAIN + path,
          "citation": [x["url"] for x in d.get("sources", []) if str(x.get("url", "")).startswith("https://")]},
@@ -355,10 +369,13 @@ def accueil(pages, contenus):
 
 
 STATIQUES = {
-    "a-propos": ("Qui sommes-nous | Aider mes parents", "Pourquoi ce guide existe, comment il est rédigé et vérifié.",
-                 "<h1>Qui sommes-nous</h1><p>aidermesparents.fr est né d'un constat simple : quand un parent perd son autonomie, les familles découvrent un maquis d'aides, de dossiers et de délais, répartis entre l'État, le département, la caisse de retraite, la CAF et la mairie. Beaucoup passent à côté d'aides auxquelles leur parent a droit.</p>"
-                 "<h2>Comment nous travaillons</h2><ul><li>Chaque montant, plafond et délai est vérifié sur une source officielle, citée en bas de la page.</li><li>Chaque page indique sa date de vérification.</li><li>Nous ne vendons rien aux familles et nous ne sommes rattachés à aucune administration ni caisse.</li><li>Si vous repérez une erreur, écrivez-nous : nous corrigeons sous 48 heures.</li></ul>"
-                 "<h2>Contact</h2><p><a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a></p>"),
+    "a-propos": ("Qui sommes-nous | Aider mes parents", "Qui écrit ce guide, comment chaque information est vérifiée, et comment le site est financé.",
+                 "<h1>Qui sommes-nous</h1><div class='auteur'><span class='initiales' aria-hidden='true'>LL</span><div><b>Louis Lardeux</b><span>Fondateur et éditeur de aidermesparents.fr</span></div></div>"
+                 "<p>aidermesparents.fr est né d'un constat simple : quand un parent perd son autonomie, les familles découvrent un maquis d'aides, de dossiers et de délais, répartis entre l'État, le département, la caisse de retraite, la CAF et la mairie. Beaucoup passent à côté d'aides auxquelles leur parent a droit, faute de savoir qu'elles existent.</p>"
+                 "<p>Je ne suis ni travailleur social, ni avocat, ni notaire. Mon travail consiste à rassembler les règles officielles, à les vérifier une par une et à les expliquer simplement. Quand une situation demande un professionnel (juge, notaire, médecin, assistante sociale), la page le dit.</p>"
+                 "<h2>Comment chaque page est vérifiée</h2><ul><li><b>Uniquement des sources officielles</b> pour les montants, plafonds et délais : service-public.gouv.fr, pour-les-personnes-agees.gouv.fr, CNSA, Assurance retraite, CAF, Anah, Légifrance. Elles sont citées en bas de chaque page.</li><li><b>Une date de vérification</b> sur chaque page, mise à jour quand les montants changent (en général au 1er janvier et au 1er avril).</li><li><b>Les calculateurs</b> reprennent les barèmes officiels, et nous refaisons les calculs à la main sur des cas types avant de les publier.</li><li><b>Les données par département</b> viennent de l'annuaire officiel de l'administration et des prix déclarés par les EHPAD à la CNSA.</li></ul>"
+                 "<h2>Comment le site est financé</h2><p>Les guides, les questionnaires et les calculateurs sont gratuits. Le site propose un plan d'action personnalisé payant (7,99 €) pour ceux qui veulent gagner du temps ; les démarches elles-mêmes restent gratuites auprès des organismes. À l'avenir, certaines pages pourront présenter des services partenaires : ils seront toujours signalés comme tels, et ils ne changent jamais le contenu des guides.</p>"
+                 "<h2>Une erreur ? Écrivez-nous</h2><p>Si une information vous semble fausse ou dépassée, écrivez à <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a> : nous vérifions et corrigeons sous 48 heures.</p>"),
     "mentions-legales": ("Mentions légales | Aider mes parents", "Mentions légales du site aidermesparents.fr.",
                          "<h1>Mentions légales</h1><h2>Éditeur</h2><p>Louis Lardeux, entrepreneur individuel (micro-entreprise), SIREN 999 443 880, France. Contact : <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a>.</p>"
                          "<h2>Hébergement</h2><p>GitHub Pages, GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>"
@@ -379,7 +396,7 @@ CTA_MILIEU = ('<aside class="cta"><div><p class="ctat">Votre parent a peut-être
 CTA_FIN = ('<aside class="cta fin"><div><p class="ctat">Ne passez pas à côté d’une aide</p>'
            '<p>APA, aide ménagère, crédit d’impôt, aides de la caisse de retraite : les aides se cumulent souvent. Faites le point en 1 minute.</p></div>'
            '<a class="btn" href="/quelles-aides/">Voir les aides de mon parent</a></aside>')
-CALC = {"apa": "apa", "aspa": "aspa", "aide-a-domicile": "credit", "ehpad-prix-aides": "ehpad", "conge-proche-aidant": "ajpa"}
+CALC = {"apa": "apa", "aspa": "aspa", "aide-a-domicile": "credit", "ehpad-prix-aides": "ehpad", "conge-proche-aidant": "ajpa", "mutuelle-senior": "c2s", "maprimeadapt": "mpa", "aide-sociale-hebergement": "apaetab"}
 URGENCE = {
     "apa": "L'APA n'est due qu'à partir du dépôt du **dossier complet**. Elle ne couvre rien avant : chaque mois d'attente est un mois d'aide perdu.",
     "apa/demande": "Les droits s'ouvrent à la date du **dossier complet**, pas avant. Déposez dès que possible, quitte à compléter ensuite.",
@@ -427,6 +444,13 @@ def main():
           "5 questions pour voir les aides à vérifier pour votre parent : APA, ASPA, aide ménagère, crédit d'impôt, MaPrimeAdapt, aides aux aidants.",
           "/quelles-aides/", QUIZ.replace("@@STRIPE@@", STRIPE_PLAN), [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Quelles aides pour mon parent ?", "applicationCategory": "UtilityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}], "accueil", None, FOOTER)); urls.append(("/quelles-aides/", LANCEMENT))
     write("/mon-plan/", page("Votre plan d'action | Aider mes parents", "Votre plan d'action personnalisé pour les aides de votre parent.", "/mon-plan/", PLAN, [], "accueil", None, FOOTER).replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"'))
+    sims = [("apa", "/apa/"), ("aspa", "/aspa/"), ("credit", "/aide-a-domicile/"), ("ehpad", "/ehpad-prix-aides/"), ("apaetab", "/aide-sociale-hebergement/"), ("mpa", "/maprimeadapt/"), ("c2s", "/mutuelle-senior/"), ("ajpa", "/conge-proche-aidant/")]
+    sim_body = ('<div class="wrap prose"><nav class="crumbs" aria-label="Fil d\'Ariane"><a href="/">Accueil</a> › <span>Simulateurs</span></nav><h1>Les simulateurs d\'aides pour les personnes âgées</h1>'
+                '<p class="chapo">Huit calculateurs gratuits, avec les barèmes officiels de 2026 : APA à domicile et en EHPAD, minimum vieillesse, crédit d\'impôt, reste à charge en EHPAD, MaPrimeAdapt, mutuelle gratuite et allocation de proche aidant. Tout se calcule dans votre navigateur : rien n\'est enregistré.</p>'
+                '<ul class="trust"><li>Barèmes officiels 2026</li><li>Aucune donnée enregistrée</li><li>Gratuit</li></ul>'
+                + "".join(f'<div class="calc" data-calc="{c}"></div><p class="calc-cta"><a href="{u}">Le guide complet →</a></p>' for c, u in sims) + '</div>')
+    write("/simulateurs/", page("Simulateurs d'aides pour personnes âgées (2026)", "Calculez gratuitement l'APA, l'ASPA, le reste à charge en EHPAD, MaPrimeAdapt, le crédit d'impôt et la mutuelle gratuite, avec les barèmes 2026.",
+          "/simulateurs/", sim_body, [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Simulateurs d'aides pour personnes âgées", "applicationCategory": "FinanceApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}], "accueil", None, FOOTER)); urls.append(("/simulateurs/", LANCEMENT))
     for s, (t, dsc, b) in STATIQUES.items():
         write(url(s), page(t, dsc, url(s), f'<div class="wrap prose">{b}</div>', [], "accueil", None, FOOTER)); urls.append((url(s), LANCEMENT))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(

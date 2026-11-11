@@ -1,19 +1,343 @@
 [
- {"slug":"apa","h1":"APA : montant, conditions et calcul de l'allocation personnalisée d'autonomie","mots_cles":["apa (60 500/mois)","allocation personnalisée d'autonomie","simulateur apa (390)","gir 4 apa montant"],"intention":"Comprendre ce qu'est l'APA, qui y a droit, combien on touche selon le GIR et les revenus, APA à domicile et en établissement, reste à charge (participation).","ne_pas_traiter":"le détail du dossier et des étapes de la demande (page apa/demande), la grille AGGIR en détail (page grille-aggir)","lot":"A"},
- {"slug":"apa/demande","h1":"Demande d'APA : le dossier, les étapes et les délais","mots_cles":["dossier apa (8 100)","demande apa (2 900)","apa refusée recours"],"intention":"Faire la demande concrètement : où trouver le formulaire (demande-autonomie.gouv.fr, conseil départemental), pièces, visite d'évaluation, délais légaux, notification, révision, recours si refus.","ne_pas_traiter":"les montants détaillés (page apa)","lot":"A"},
- {"slug":"grille-aggir","h1":"Grille AGGIR : comprendre les 6 niveaux de GIR","mots_cles":["grille aggir (8 100, en hausse)","gir 1 à gir 6","test gir"],"intention":"Ce que mesure la grille, les 10 variables discriminantes, les 6 GIR expliqués avec des exemples concrets, qui évalue, ce que chaque GIR ouvre comme droits (APA pour GIR 1 à 4, caisse de retraite pour GIR 5-6).","ne_pas_traiter":"les montants de l'APA (lien vers apa)","lot":"A"},
- {"slug":"aspa","h1":"ASPA (minimum vieillesse) : montant, conditions et récupération sur succession","mots_cles":["aspa (60 500)","minimum vieillesse"],"intention":"Montant au 1er janvier 2026 pour une personne seule et un couple, plafonds de ressources, âge, résidence, demande (caisse de retraite), récupération sur succession (seuil de l'actif net).","ne_pas_traiter":"","lot":"A"},
- {"slug":"carte-mobilite-inclusion","h1":"Carte mobilité inclusion pour une personne âgée : mentions, demande et délais","mots_cles":["carte mobilité inclusion (90 500)","cmi stationnement","cmi priorité","cmi invalidité"],"intention":"Les 3 mentions (invalidité, priorité, stationnement), la voie simplifiée pour les bénéficiaires de l'APA en GIR 1 et 2 (attribution sans demande MDPH), demande via le département ou la MDPH, délais, ce que la carte permet.","ne_pas_traiter":"","lot":"A"},
- {"slug":"aide-a-domicile","h1":"Aide à domicile pour une personne âgée : prix, aides et crédit d'impôt","mots_cles":["aide à domicile personne âgée (4 400)","aide maintien à domicile (390)","crédit d'impôt aide à domicile","auxiliaire de vie (côté famille)","garde de nuit personne âgée (320)"],"intention":"Les solutions (service prestataire, mandataire, emploi direct CESU), prix horaires indicatifs, aides qui financent (APA, caisse de retraite, mutuelle, aide sociale), crédit d'impôt de 50 % et ses plafonds, comment choisir un service.","ne_pas_traiter":"le détail de l'APA (lien), la téléassistance et le portage de repas (pages dédiées)","lot":"B"},
- {"slug":"aidant-familial","h1":"Aidant familial : vos droits, les aides et la possibilité d'être rémunéré","mots_cles":["aidant familial (8 100)","aide aidant familial (880)","aidant familial rémunéré (320)","droit au répit"],"intention":"Qui est aidant, être salarié par son parent via l'APA (et les exclusions, conjoint), dédommagement, droit au répit de l'APA, accueil de jour et hébergement temporaire, retraite (AVPF/assurance vieillesse des aidants), soutien psychologique.","ne_pas_traiter":"le détail du congé de proche aidant et de l'AJPA (page conge-proche-aidant)","lot":"B"},
- {"slug":"conge-proche-aidant","h1":"Congé de proche aidant et AJPA : durée, indemnisation et démarches","mots_cles":["congé proche aidant (5 400)","allocation journalière proche aidant","ajpa montant"],"intention":"Conditions, durée (3 mois renouvelable, 1 an sur la carrière), fractionnement et temps partiel, délai de prévenance de l'employeur, montant de l'AJPA 2026 par jour et demi-journée, demande à la CAF ou MSA, cas des indépendants et demandeurs d'emploi.","ne_pas_traiter":"les autres droits de l'aidant (page aidant-familial)","lot":"B"},
- {"slug":"teleassistance","h1":"Téléassistance pour une personne âgée : prix, aides et fonctionnement","mots_cles":["téléassistance personne âgée (590)","téléassistance gratuite (880)"],"intention":"Comment ça marche (médaillon, montre, détecteur de chute), prix mensuels indicatifs, services gratuits ou aidés (départements, communes, CCAS, caisses de retraite, APA), crédit d'impôt, comment choisir, résiliation.","ne_pas_traiter":"","lot":"B"},
- {"slug":"portage-de-repas","h1":"Portage de repas à domicile pour une personne âgée : prix et aides","mots_cles":["portage de repas (880)"],"intention":"Fonctionnement, prix indicatifs par repas, aides (CCAS, APA, caisses de retraite), crédit d'impôt sur la part livraison, comment trouver un service.","ne_pas_traiter":"","lot":"B"},
- {"slug":"ehpad-prix-aides","h1":"Prix d'un EHPAD et aides pour le payer","mots_cles":["ehpad prix (1 900)","aide ehpad (1 300)","reste à charge ehpad (90)","hébergement temporaire ehpad (390)"],"intention":"Les 3 tarifs (hébergement, dépendance, soins), prix moyen mensuel en France (source officielle CNSA/DREES), aides : APA en établissement, APL/ALS, aide sociale à l'hébergement (lien), réduction d'impôt de 25 % sur les frais de dépendance et d'hébergement, comparateur officiel des prix (pour-les-personnes-agees.gouv.fr).","ne_pas_traiter":"le détail de l'ASH et de l'obligation alimentaire (pages dédiées)","lot":"C"},
- {"slug":"aide-sociale-hebergement","h1":"Aide sociale à l'hébergement (ASH) : conditions, montant et démarches","mots_cles":["aide sociale ehpad (720)","aide sociale à l'hébergement","ash ehpad"],"intention":"Conditions (âge, ressources, établissement habilité), ce qui reste à la personne (10 % des revenus, minimum), mise en jeu de l'obligation alimentaire, récupération sur succession, demande au CCAS ou à la mairie.","ne_pas_traiter":"l'obligation alimentaire en détail (lien)","lot":"C"},
- {"slug":"obligation-alimentaire","h1":"Obligation alimentaire envers ses parents : qui doit payer l'EHPAD ?","mots_cles":["obligation alimentaire parents (1 000)","obligation alimentaire ehpad (880)"],"intention":"Qui est concerné (enfants, gendres et belles-filles, petits-enfants selon les cas), comment le montant est fixé, juge aux affaires familiales, cas de dispense (parent défaillant), lien avec l'ASH, déduction fiscale de la pension.","ne_pas_traiter":"","lot":"C"},
- {"slug":"residence-senior","h1":"Résidence services seniors : prix, aides et différence avec un EHPAD","mots_cles":["résidence senior (14 800)","résidence autonomie"],"intention":"Résidence services (privée) vs résidence autonomie (publique) vs EHPAD, prix indicatifs, aides (APL, APA à domicile, crédit d'impôt sur services), pour qui, comment choisir.","ne_pas_traiter":"les prix EHPAD (lien)","lot":"C"},
- {"slug":"sortir-plus","h1":"Sortir Plus (Agirc-Arrco) : conditions, chèques et demande","mots_cles":["sortir plus agirc arrco (1 900, en hausse)"],"intention":"Ce que finance le service (accompagnement pour sortir), conditions d'âge, participation financière, comment demander (numéro, en ligne), autres aides Agirc-Arrco (aide à domicile momentanée, bilan prévention).","ne_pas_traiter":"","lot":"C"},
- {"slug":"maprimeadapt","h1":"MaPrimeAdapt : conditions, montant et travaux financés","mots_cles":["maprimeadapt (2 900)","monte escalier aide (480)","douche senior aide (170)","adaptation logement personne âgée"],"intention":"Conditions (âge 70 ans, ou 60-69 GIR 1-6, handicap), plafonds de ressources 2026, taux de 50 ou 70 %, plafond de travaux, assistant AMO obligatoire, travaux éligibles (douche, monte-escalier, rampe…), démarches France Rénov', cumul avec crédit d'impôt et aides des caisses de retraite.","ne_pas_traiter":"","lot":"D"},
- {"slug":"mutuelle-senior","h1":"Mutuelle senior : bien choisir et les aides pour la payer","mots_cles":["mutuelle senior (9 900)"],"intention":"Pourquoi la mutuelle coûte plus cher après 60 ans, garanties utiles (hospitalisation, optique, auditif 100 % santé, dentaire), complémentaire santé solidaire (CSS) gratuite ou à moins de 1 € par jour et ses plafonds, résiliation à tout moment après 1 an, aide des caisses de retraite.","ne_pas_traiter":"","lot":"D"}
+ {
+  "slug": "apa",
+  "h1": "APA : montant, conditions et calcul de l'allocation personnalisée d'autonomie",
+  "mots_cles": [
+   "apa (60 500/mois)",
+   "allocation personnalisée d'autonomie",
+   "simulateur apa (390)",
+   "gir 4 apa montant"
+  ],
+  "intention": "Comprendre ce qu'est l'APA, qui y a droit, combien on touche selon le GIR et les revenus, APA à domicile et en établissement, reste à charge (participation).",
+  "ne_pas_traiter": "le détail du dossier et des étapes de la demande (page apa/demande), la grille AGGIR en détail (page grille-aggir)",
+  "lot": "A"
+ },
+ {
+  "slug": "apa/demande",
+  "h1": "Demande d'APA : le dossier, les étapes et les délais",
+  "mots_cles": [
+   "dossier apa (8 100)",
+   "demande apa (2 900)",
+   "apa refusée recours"
+  ],
+  "intention": "Faire la demande concrètement : où trouver le formulaire (demande-autonomie.gouv.fr, conseil départemental), pièces, visite d'évaluation, délais légaux, notification, révision, recours si refus.",
+  "ne_pas_traiter": "les montants détaillés (page apa)",
+  "lot": "A"
+ },
+ {
+  "slug": "grille-aggir",
+  "h1": "Grille AGGIR : comprendre les 6 niveaux de GIR",
+  "mots_cles": [
+   "grille aggir (8 100, en hausse)",
+   "gir 1 à gir 6",
+   "test gir"
+  ],
+  "intention": "Ce que mesure la grille, les 10 variables discriminantes, les 6 GIR expliqués avec des exemples concrets, qui évalue, ce que chaque GIR ouvre comme droits (APA pour GIR 1 à 4, caisse de retraite pour GIR 5-6).",
+  "ne_pas_traiter": "les montants de l'APA (lien vers apa)",
+  "lot": "A"
+ },
+ {
+  "slug": "aspa",
+  "h1": "ASPA (minimum vieillesse) : montant, conditions et récupération sur succession",
+  "mots_cles": [
+   "aspa (60 500)",
+   "minimum vieillesse"
+  ],
+  "intention": "Montant au 1er janvier 2026 pour une personne seule et un couple, plafonds de ressources, âge, résidence, demande (caisse de retraite), récupération sur succession (seuil de l'actif net).",
+  "ne_pas_traiter": "",
+  "lot": "A"
+ },
+ {
+  "slug": "carte-mobilite-inclusion",
+  "h1": "Carte mobilité inclusion pour une personne âgée : mentions, demande et délais",
+  "mots_cles": [
+   "carte mobilité inclusion (90 500)",
+   "cmi stationnement",
+   "cmi priorité",
+   "cmi invalidité"
+  ],
+  "intention": "Les 3 mentions (invalidité, priorité, stationnement), la voie simplifiée pour les bénéficiaires de l'APA en GIR 1 et 2 (attribution sans demande MDPH), demande via le département ou la MDPH, délais, ce que la carte permet.",
+  "ne_pas_traiter": "",
+  "lot": "A"
+ },
+ {
+  "slug": "aide-a-domicile",
+  "h1": "Aide à domicile pour une personne âgée : prix, aides et crédit d'impôt",
+  "mots_cles": [
+   "aide à domicile personne âgée (4 400)",
+   "aide maintien à domicile (390)",
+   "crédit d'impôt aide à domicile",
+   "auxiliaire de vie (côté famille)",
+   "garde de nuit personne âgée (320)"
+  ],
+  "intention": "Les solutions (service prestataire, mandataire, emploi direct CESU), prix horaires indicatifs, aides qui financent (APA, caisse de retraite, mutuelle, aide sociale), crédit d'impôt de 50 % et ses plafonds, comment choisir un service.",
+  "ne_pas_traiter": "le détail de l'APA (lien), la téléassistance et le portage de repas (pages dédiées)",
+  "lot": "B"
+ },
+ {
+  "slug": "aidant-familial",
+  "h1": "Aidant familial : vos droits, les aides et la possibilité d'être rémunéré",
+  "mots_cles": [
+   "aidant familial (8 100)",
+   "aide aidant familial (880)",
+   "aidant familial rémunéré (320)",
+   "droit au répit"
+  ],
+  "intention": "Qui est aidant, être salarié par son parent via l'APA (et les exclusions, conjoint), dédommagement, droit au répit de l'APA, accueil de jour et hébergement temporaire, retraite (AVPF/assurance vieillesse des aidants), soutien psychologique.",
+  "ne_pas_traiter": "le détail du congé de proche aidant et de l'AJPA (page conge-proche-aidant)",
+  "lot": "B"
+ },
+ {
+  "slug": "conge-proche-aidant",
+  "h1": "Congé de proche aidant et AJPA : durée, indemnisation et démarches",
+  "mots_cles": [
+   "congé proche aidant (5 400)",
+   "allocation journalière proche aidant",
+   "ajpa montant"
+  ],
+  "intention": "Conditions, durée (3 mois renouvelable, 1 an sur la carrière), fractionnement et temps partiel, délai de prévenance de l'employeur, montant de l'AJPA 2026 par jour et demi-journée, demande à la CAF ou MSA, cas des indépendants et demandeurs d'emploi.",
+  "ne_pas_traiter": "les autres droits de l'aidant (page aidant-familial)",
+  "lot": "B"
+ },
+ {
+  "slug": "teleassistance",
+  "h1": "Téléassistance pour une personne âgée : prix, aides et fonctionnement",
+  "mots_cles": [
+   "téléassistance personne âgée (590)",
+   "téléassistance gratuite (880)"
+  ],
+  "intention": "Comment ça marche (médaillon, montre, détecteur de chute), prix mensuels indicatifs, services gratuits ou aidés (départements, communes, CCAS, caisses de retraite, APA), crédit d'impôt, comment choisir, résiliation.",
+  "ne_pas_traiter": "",
+  "lot": "B"
+ },
+ {
+  "slug": "portage-de-repas",
+  "h1": "Portage de repas à domicile pour une personne âgée : prix et aides",
+  "mots_cles": [
+   "portage de repas (880)"
+  ],
+  "intention": "Fonctionnement, prix indicatifs par repas, aides (CCAS, APA, caisses de retraite), crédit d'impôt sur la part livraison, comment trouver un service.",
+  "ne_pas_traiter": "",
+  "lot": "B"
+ },
+ {
+  "slug": "ehpad-prix-aides",
+  "h1": "Prix d'un EHPAD et aides pour le payer",
+  "mots_cles": [
+   "ehpad prix (1 900)",
+   "aide ehpad (1 300)",
+   "reste à charge ehpad (90)",
+   "hébergement temporaire ehpad (390)"
+  ],
+  "intention": "Les 3 tarifs (hébergement, dépendance, soins), prix moyen mensuel en France (source officielle CNSA/DREES), aides : APA en établissement, APL/ALS, aide sociale à l'hébergement (lien), réduction d'impôt de 25 % sur les frais de dépendance et d'hébergement, comparateur officiel des prix (pour-les-personnes-agees.gouv.fr).",
+  "ne_pas_traiter": "le détail de l'ASH et de l'obligation alimentaire (pages dédiées)",
+  "lot": "C"
+ },
+ {
+  "slug": "aide-sociale-hebergement",
+  "h1": "Aide sociale à l'hébergement (ASH) : conditions, montant et démarches",
+  "mots_cles": [
+   "aide sociale ehpad (720)",
+   "aide sociale à l'hébergement",
+   "ash ehpad"
+  ],
+  "intention": "Conditions (âge, ressources, établissement habilité), ce qui reste à la personne (10 % des revenus, minimum), mise en jeu de l'obligation alimentaire, récupération sur succession, demande au CCAS ou à la mairie.",
+  "ne_pas_traiter": "l'obligation alimentaire en détail (lien)",
+  "lot": "C"
+ },
+ {
+  "slug": "obligation-alimentaire",
+  "h1": "Obligation alimentaire envers ses parents : qui doit payer l'EHPAD ?",
+  "mots_cles": [
+   "obligation alimentaire parents (1 000)",
+   "obligation alimentaire ehpad (880)"
+  ],
+  "intention": "Qui est concerné (enfants, gendres et belles-filles, petits-enfants selon les cas), comment le montant est fixé, juge aux affaires familiales, cas de dispense (parent défaillant), lien avec l'ASH, déduction fiscale de la pension.",
+  "ne_pas_traiter": "",
+  "lot": "C"
+ },
+ {
+  "slug": "residence-senior",
+  "h1": "Résidence services seniors : prix, aides et différence avec un EHPAD",
+  "mots_cles": [
+   "résidence senior (14 800)",
+   "résidence autonomie"
+  ],
+  "intention": "Résidence services (privée) vs résidence autonomie (publique) vs EHPAD, prix indicatifs, aides (APL, APA à domicile, crédit d'impôt sur services), pour qui, comment choisir.",
+  "ne_pas_traiter": "les prix EHPAD (lien)",
+  "lot": "C"
+ },
+ {
+  "slug": "sortir-plus",
+  "h1": "Sortir Plus (Agirc-Arrco) : conditions, chèques et demande",
+  "mots_cles": [
+   "sortir plus agirc arrco (1 900, en hausse)"
+  ],
+  "intention": "Ce que finance le service (accompagnement pour sortir), conditions d'âge, participation financière, comment demander (numéro, en ligne), autres aides Agirc-Arrco (aide à domicile momentanée, bilan prévention).",
+  "ne_pas_traiter": "",
+  "lot": "C"
+ },
+ {
+  "slug": "maprimeadapt",
+  "h1": "MaPrimeAdapt : conditions, montant et travaux financés",
+  "mots_cles": [
+   "maprimeadapt (2 900)",
+   "monte escalier aide (480)",
+   "douche senior aide (170)",
+   "adaptation logement personne âgée"
+  ],
+  "intention": "Conditions (âge 70 ans, ou 60-69 GIR 1-6, handicap), plafonds de ressources 2026, taux de 50 ou 70 %, plafond de travaux, assistant AMO obligatoire, travaux éligibles (douche, monte-escalier, rampe…), démarches France Rénov', cumul avec crédit d'impôt et aides des caisses de retraite.",
+  "ne_pas_traiter": "",
+  "lot": "D"
+ },
+ {
+  "slug": "mutuelle-senior",
+  "h1": "Mutuelle senior : bien choisir et les aides pour la payer",
+  "mots_cles": [
+   "mutuelle senior (9 900)"
+  ],
+  "intention": "Pourquoi la mutuelle coûte plus cher après 60 ans, garanties utiles (hospitalisation, optique, auditif 100 % santé, dentaire), complémentaire santé solidaire (CSS) gratuite ou à moins de 1 € par jour et ses plafonds, résiliation à tout moment après 1 an, aide des caisses de retraite.",
+  "ne_pas_traiter": "",
+  "lot": "D"
+ },
+ {
+  "slug": "pension-de-reversion",
+  "h1": "Pension de réversion : conditions, montant et demande",
+  "mots_cles": [
+   "pension de réversion"
+  ],
+  "intention": "Qui y a droit (conjoint, ex-conjoint, pas le pacsé), conditions de ressources du régime général, âge, taux (54 % régime de base, 60 % Agirc-Arrco), demande unique en ligne (info-retraite), délais, cumul.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "E"
+ },
+ {
+  "slug": "allocation-veuvage",
+  "h1": "Allocation veuvage : conditions, montant et demande",
+  "mots_cles": [
+   "allocation veuvage"
+  ],
+  "intention": "Pour qui (moins de 55 ans), montant 2026, plafond de ressources, durée, demande à la caisse.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "E"
+ },
+ {
+  "slug": "pch-apres-60-ans",
+  "h1": "PCH après 60 ans : peut-on la garder ou la demander ?",
+  "mots_cles": [
+   "pch après 60 ans"
+  ],
+  "intention": "Règles d'âge de la PCH, exceptions, choix entre PCH et APA, démarches MDPH.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "E"
+ },
+ {
+  "slug": "apl-ehpad",
+  "h1": "APL en EHPAD : conditions, montant et demande à la CAF",
+  "mots_cles": [
+   "apl ehpad"
+  ],
+  "intention": "Aide au logement (APL ou ALS) en EHPAD : établissement conventionné ou non, calcul, démarche CAF/MSA, cumul avec l'aide sociale.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "E"
+ },
+ {
+  "slug": "aide-menagere-caisse-retraite",
+  "h1": "Aide ménagère de la caisse de retraite : conditions et demande",
+  "mots_cles": [
+   "aide ménagère caisse de retraite"
+  ],
+  "intention": "Plan d'action personnalisé de l'Assurance retraite pour les GIR 5 et 6, aides MSA et Agirc-Arrco, participation selon revenus, démarche.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "F"
+ },
+ {
+  "slug": "retour-domicile-apres-hospitalisation",
+  "h1": "Retour à domicile après une hospitalisation : les aides",
+  "mots_cles": [
+   "aide retour à domicile après hospitalisation"
+  ],
+  "intention": "Aide au retour à domicile après hospitalisation (ARDH) de l'Assurance retraite, aide à domicile momentanée Agirc-Arrco, mutuelle, conditions et délais.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "F"
+ },
+ {
+  "slug": "accueil-familial-personne-agee",
+  "h1": "Accueil familial d'une personne âgée : prix, aides et fonctionnement",
+  "mots_cles": [
+   "accueil familial personne âgée"
+  ],
+  "intention": "Famille d'accueil agréée par le département, contrat, rémunération et frais, aides (APA, aide sociale, crédit d'impôt), différence avec l'EHPAD.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "F"
+ },
+ {
+  "slug": "accueil-de-jour-alzheimer",
+  "h1": "Accueil de jour Alzheimer : prix, aides et fonctionnement",
+  "mots_cles": [
+   "accueil de jour alzheimer"
+  ],
+  "intention": "Fonctionnement, prix journalier, prise en charge des transports, financement par l'APA (droit au répit), trouver une place.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "F"
+ },
+ {
+  "slug": "parent-ne-peut-plus-vivre-seul",
+  "h1": "Mon parent ne peut plus vivre seul : que faire ?",
+  "mots_cles": [
+   "parent ne peut plus vivre seul"
+  ],
+  "intention": "Repérer les signes, faire évaluer, les options (renforcer l'aide à domicile, résidence, accueil familial, EHPAD), par où commencer, qui contacter.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "F"
+ },
+ {
+  "slug": "habilitation-familiale",
+  "h1": "Habilitation familiale : protéger un parent âgé sans tutelle",
+  "mots_cles": [
+   "habilitation familiale"
+  ],
+  "intention": "Définition, conditions, procédure devant le juge des contentieux de la protection, certificat médical circonstancié et son coût, différence avec la tutelle.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "G"
+ },
+ {
+  "slug": "tutelle-curatelle-parent",
+  "h1": "Tutelle ou curatelle d'un parent âgé : démarches et coût",
+  "mots_cles": [
+   "tutelle curatelle personne âgée"
+  ],
+  "intention": "Différence tutelle, curatelle, sauvegarde de justice, qui peut demander, certificat médical, juge, rôle du tuteur familial ou mandataire.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "G"
+ },
+ {
+  "slug": "mandat-protection-future",
+  "h1": "Mandat de protection future : à quoi ça sert et comment le faire",
+  "mots_cles": [
+   "mandat de protection future"
+  ],
+  "intention": "Principe, forme sous seing privé ou notariée, coût, mise en œuvre, limites.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "G"
+ },
+ {
+  "slug": "procuration-bancaire-parent",
+  "h1": "Procuration bancaire pour un parent âgé : comment faire",
+  "mots_cles": [
+   "procuration bancaire"
+  ],
+  "intention": "Procuration sur compte, limites, révocation, alternatives (habilitation familiale), précautions.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "G"
+ },
+ {
+  "slug": "accueillir-parent-chez-soi",
+  "h1": "Accueillir un parent âgé chez soi : aides et avantages fiscaux",
+  "mots_cles": [
+   "accueillir un parent âgé chez soi"
+  ],
+  "intention": "Déduction forfaitaire pour hébergement d'un ascendant (avantage en nature), APA à domicile possible, rôle d'aidant salarié, rattachement fiscal impossible (sauf invalide), aménagement du logement.",
+  "ne_pas_traiter": "les sujets déjà couverts par les autres pages du plan : faire un lien vers elles",
+  "lot": "G"
+ }
 ]

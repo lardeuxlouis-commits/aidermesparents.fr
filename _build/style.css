@@ -128,3 +128,7 @@ ul.deps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto
 ul.deps a{display:block;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);text-decoration:none;color:var(--fg)}ul.deps a:hover{border-color:var(--brand)}
 .num{display:inline-block;min-width:34px;font-weight:700;color:var(--brand)}
 .dep-lien{background:var(--soft);border-radius:12px;padding:10px 14px;font-weight:600}
+.top nav a.navsim{background:var(--brand);color:#fff}.top nav a.navsim:hover{background:var(--brand2);color:#fff}
+.auteur{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;margin:10px 0 20px}
+.auteur .initiales{width:56px;height:56px;border-radius:50%;background:var(--soft);color:var(--brand);display:grid;place-items:center;font-weight:700;font-size:20px}
+.auteur b{display:block;font-size:19px}.auteur span{color:var(--mut)}

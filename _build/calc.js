@@ -91,6 +91,48 @@
         var jours = j + d / 2, cap = Math.min(jours, 22), m = Math.min(j, 22) * 66.64 + Math.max(0, Math.min(d, (22 - Math.min(j, 22)) * 2)) * 33.32;
         return '<p class="big">' + eur(m) + ' <small>par mois</small></p><ul><li>66,64 € par jour et 33,32 € par demi-journée en 2026</li><li>22 jours au maximum par mois, 66 jours par personne aidée</li>' + (jours > 22 ? '<li>Au-delà de 22 jours dans le mois, l’AJPA n’est pas versée.</li>' : '') + '</ul><p class="note">Montant net de prélèvements sociaux à vérifier sur votre notification CAF ou MSA.</p>';
       }
+    },
+    c2s: {
+      titre: 'Simulateur : la mutuelle gratuite (complémentaire santé solidaire)',
+      html: '<label>Personnes dans le foyer<select name="n"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></label>' +
+        '<label>Ressources du foyer sur les 12 derniers mois<input name="r" inputmode="decimal" placeholder="ex. 13 000"></label>' +
+        '<label>Âge de votre parent<select name="age"><option value="60">60 à 69 ans</option><option value="70" selected>70 ans ou plus</option><option value="0">moins de 60 ans</option></select></label>',
+      calc: function (f) {
+        var n = +f.n.value, r = num(f.r.value), G = [0, 10421, 15632, 18758, 21885], P = [0, 14069, 21103, 25324, 29544];
+        var g = n <= 4 ? G[n] : G[4] + 4169 * (n - 4), pay = n <= 4 ? P[n] : P[4] + 5628 * (n - 4), age = +f.age.value;
+        var cout = age >= 70 ? 30 : age >= 60 ? 25 : 0;
+        if (r <= g) return '<p class="big">Gratuite</p><ul><li>Plafond 2026 pour ' + n + ' personne' + (n > 1 ? 's' : '') + ' : ' + eur(g) + ' par an</li><li>La complémentaire santé solidaire rembourse comme une bonne mutuelle, sans cotisation.</li></ul><p class="note">Estimation. La caisse d’assurance maladie vérifie les ressources des 12 derniers mois.</p>';
+        if (r <= pay) return '<p class="big">' + (cout ? eur(cout) + ' <small>par mois et par personne</small>' : 'Payante') + '</p><ul><li>Vos ressources sont entre ' + eur(g) + ' et ' + eur(pay) + ' : la C2S est payante, à un prix fixé selon l’âge</li></ul><p class="note">Estimation, montant selon l’âge de chaque personne couverte.</p>';
+        return '<p class="big">Pas de C2S</p><ul><li>Les ressources dépassent ' + eur(pay) + ' par an pour ' + n + ' personne' + (n > 1 ? 's' : '') + '.</li><li>Regardez plutôt <a href="/mutuelle-senior/">comment bien choisir une mutuelle senior</a>.</li></ul>';
+      }
+    },
+    mpa: {
+      titre: 'Simulateur : MaPrimeAdapt pour adapter le logement',
+      html: '<label>Personnes dans le foyer<select name="n"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></label>' +
+        '<label>Revenu fiscal de référence (dernier avis d’impôt)<input name="r" inputmode="decimal" placeholder="ex. 19 000"></label>' +
+        '<label class="chk"><input type="checkbox" name="idf"> Le logement est en Île-de-France</label>' +
+        '<label>Situation<select name="s"><option value="70">70 ans ou plus</option><option value="60">60 à 69 ans avec un GIR (perte d’autonomie)</option><option value="h">Taux d’incapacité d’au moins 50 %</option><option value="0">Aucune de ces situations</option></select></label>',
+      calc: function (f) {
+        if (f.s.value === '0') return '<p class="big">Non éligible</p><ul><li>MaPrimeAdapt est réservée aux 70 ans et plus, aux 60 à 69 ans classés en GIR, et aux personnes ayant au moins 50 % d’incapacité.</li></ul>';
+        var n = +f.n.value, r = num(f.r.value), idf = f.idf.checked;
+        var TM = idf ? [0, 24031, 35270, 42357, 49455, 56580] : [0, 17363, 25393, 30540, 35676, 40835], M = idf ? [0, 29253, 42933, 51564, 60208, 68877] : [0, 22259, 32553, 39148, 45735, 52348];
+        var t = r <= TM[n] ? 0.7 : r <= M[n] ? 0.5 : 0;
+        if (!t) return '<p class="big">Revenus trop élevés</p><ul><li>Le plafond « modestes » est de ' + eur(M[n]) + ' pour ' + n + ' personne' + (n > 1 ? 's' : '') + (idf ? ' en Île-de-France' : ' hors Île-de-France') + '.</li><li>Les caisses de retraite et certaines communes ont d’autres aides : voir <a href="/maprimeadapt/">le guide</a>.</li></ul>';
+        return '<p class="big">' + Math.round(t * 100) + ' % <small>des travaux, jusqu’à ' + eur(22000 * t) + ' d’aide</small></p><ul><li>Profil « ' + (t === 0.7 ? 'très modestes' : 'modestes') + ' » : plafond de travaux de 22 000 € HT</li><li>Un assistant à maîtrise d’ouvrage (AMO) est obligatoire avant le dépôt sur France Rénov’</li></ul><p class="note">Estimation selon les plafonds 2026. Ne commencez aucun travaux avant l’accord de l’Anah.</p>';
+      }
+    },
+    apaetab: {
+      titre: 'Simulateur : l’APA en EHPAD',
+      html: '<label>Tarif dépendance du GIR de votre parent (par jour)<input name="a" inputmode="decimal" placeholder="ex. 22,60"></label>' +
+        '<label>Tarif dépendance GIR 5-6 de l’établissement (par jour)<input name="t" inputmode="decimal" placeholder="ex. 6,10"></label>' +
+        '<label>Ressources mensuelles de votre parent<input name="res" inputmode="decimal" placeholder="ex. 1 600"></label>',
+      calc: function (f) {
+        var J = 30.42, A = num(f.a.value) * J, T = num(f.t.value) * J, R = num(f.res.value), S = MTP;
+        save('res', f.res.value);
+        var P = R < 2.21 * S ? T : R <= 3.4 * S ? T + (A - T) * (R - 2.21 * S) / (1.19 * S) * 0.8 : T + (A - T) * 0.8;
+        var apa = Math.max(0, A - P);
+        return '<p class="big">' + eur(apa) + ' <small>d’APA par mois, versés à l’EHPAD</small></p><ul><li>Tarif dépendance du GIR : ' + eur(A) + ' par mois</li><li>Reste à la charge de votre parent sur la dépendance : ' + eur(P) + ' par mois</li><li>' + (R < 2.21 * S ? 'Sous ' + eur(2.21 * S) + ' de ressources, il ne paie que le tarif GIR 5-6.' : 'Au-delà de ' + eur(2.21 * S) + ' de ressources, sa participation augmente progressivement.') + '</li></ul><p class="note">Barème national 2026 (fiche CNSA). Les tarifs de l’établissement figurent dans son contrat de séjour ou sur pour-les-personnes-agees.gouv.fr.</p>';
+      }
     }
   };
 
