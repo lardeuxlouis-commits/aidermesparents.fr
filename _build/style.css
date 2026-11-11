@@ -113,3 +113,11 @@ button{font:inherit;cursor:pointer;border:0}
 .calc-r .big{font-family:Fraunces,Georgia,serif;font-size:34px;font-weight:700;color:var(--brand);margin:14px 0 4px}.calc-r .big small{font-size:18px;color:var(--mut);font-weight:600}
 .calc-r ul{margin:6px 0}.calc-r .note,.calc-cta{font-size:15px;color:var(--mut)}.calc-cta{margin:12px 0 0;border-top:1px solid var(--line);padding-top:10px}
 @media (max-width:640px){.calc-f{grid-template-columns:1fr}}
+.offre{background:linear-gradient(135deg,var(--warmsoft),var(--soft));border:2px solid var(--warm);border-radius:20px;padding:20px 22px;margin:28px 0}
+.offre ul{padding-left:20px}.offre li{margin:6px 0}
+.btn.off{opacity:.55}.flash{outline:2px solid var(--alert);border-radius:8px}
+.plan-total{background:var(--soft);border-radius:18px;padding:16px 20px;margin:10px 0 20px}.plan-total .big{font-family:Fraunces,Georgia,serif;font-size:36px;font-weight:700;color:var(--brand);margin:4px 0}.plan-total small{font-size:18px;color:var(--mut)}
+.plan-aide{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 18px 4px;margin:14px 0}.plan-aide h3{font-size:21px}.plan-aide .m{font-weight:700;color:var(--brand)}
+.lettre pre{white-space:pre-wrap;font:15px/1.6 "Source Sans 3",sans-serif;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px}
+.note{font-size:15px;color:var(--mut)}
+@media print{.top,footer,.noprint,.cta,.offre{display:none!important}.lettre{border:0}details.lettre>*{display:block}body{background:#fff}}

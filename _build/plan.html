@@ -1,0 +1,22 @@
+<div class="wrap prose plan-page">
+<div id="plan-vente">
+<h1>Votre plan d'action personnalisé</h1>
+<p class="chapo">Après paiement, vous complétez 4 informations et votre plan s'affiche : les aides de votre parent avec les montants estimés, ce qu'il faut faire et dans quel ordre, les pièces à rassembler, le calendrier et les lettres prêtes à envoyer.</p>
+<p><a class="btn" href="/quelles-aides/">Commencer par le questionnaire gratuit</a></p>
+</div>
+<div id="plan-form" hidden>
+<h2>Plus que 4 informations</h2>
+<p class="chapo">Merci pour votre achat. Ces précisions servent à calculer les montants et à adapter les démarches. Elles restent dans votre navigateur : rien n'est envoyé ni enregistré.</p>
+<form id="pf" class="quiz" onsubmit="return false">
+<fieldset><legend>Département de votre parent</legend><label>Numéro du département<input name="dep" inputmode="numeric" maxlength="3" placeholder="ex. 59" required></label></fieldset>
+<fieldset><legend>Ses ressources mensuelles exactes</legend><label>Retraites et autres revenus, par mois<input name="res" inputmode="decimal" placeholder="ex. 1 350" required></label>
+<label><input type="checkbox" name="couple"> Il vit en couple (indiquez alors les ressources du couple)</label></fieldset>
+<fieldset><legend>Son logement</legend>
+<label><input type="radio" name="log" value="proprio" required> Propriétaire</label><label><input type="radio" name="log" value="loc"> Locataire</label><label><input type="radio" name="log" value="autre"> Hébergé ou en établissement</label></fieldset>
+<fieldset><legend>Son prénom (facultatif, pour personnaliser le plan)</legend><label><input name="prenom" placeholder="ex. Monique"></label></fieldset>
+<button class="btn" type="submit">Afficher mon plan</button>
+</form>
+</div>
+<div id="plan-out"></div>
+</div>
+<script src="/plan.js" defer></script>

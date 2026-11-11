@@ -7,6 +7,7 @@ OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://aidermesparents.fr"
 SITE = "Aider mes parents"
 LANCEMENT = "2026-11-12"
+STRIPE_PLAN = "https://buy.stripe.com/fZubJ0gED8IVcFB6F22B202"
 INDEXNOW = "ec97aa51e6fa335766b8991daee53218"
 
 E = lambda s: html.escape(str(s or ""), quote=True)
@@ -326,6 +327,12 @@ STATIQUES = {
                          "<h1>Mentions légales</h1><h2>Éditeur</h2><p>Louis Lardeux, entrepreneur individuel (micro-entreprise), SIREN 999 443 880, France. Contact : <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a>.</p>"
                          "<h2>Hébergement</h2><p>GitHub Pages, GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>"
                          "<h2>Informations</h2><p>Les contenus ont une vocation d'information générale. Ils ne remplacent pas l'avis de l'organisme qui verse l'aide, qui seul fait foi. Les photos d'illustration sont générées et ne représentent pas de personnes réelles.</p>"),
+    "conditions-de-vente": ("Conditions de vente | Aider mes parents", "Conditions de vente du plan d'action personnalisé.",
+                            "<h1>Conditions de vente</h1><h2>Le service</h2><p>Le plan d'action personnalisé est un document numérique généré dans votre navigateur à partir de vos réponses : aides possibles et montants estimés selon les barèmes 2026, ordre des démarches, pièces à fournir, calendrier et modèles de lettres. Il ne constitue pas un conseil juridique. Les démarches auprès des organismes (département, caisses de retraite, CAF, Anah) sont gratuites ; seul l'organisme qui verse une aide décide de son attribution et de son montant.</p>"
+                            "<h2>Prix et paiement</h2><p>7,99 € TTC, paiement unique sans abonnement, par carte via Stripe. TVA non applicable, article 293 B du CGI.</p>"
+                            "<h2>Accès et droit de rétractation</h2><p>Le plan est accessible immédiatement après le paiement, sur l'appareil utilisé. En cochant la case prévue avant le paiement, vous demandez cet accès immédiat et reconnaissez perdre votre droit de rétractation une fois le plan affiché (article L221-28 du code de la consommation).</p>"
+                            "<h2>Remboursement</h2><p>Si le plan ne vous convient pas, écrivez-nous dans les 14 jours suivant l'achat à <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a> : nous vous remboursons, sans justification.</p>"
+                            "<h2>Vendeur</h2><p>Louis Lardeux, entrepreneur individuel, SIREN 999 443 880. Médiation de la consommation : en cas de litige non résolu, vous pouvez recourir gratuitement à un médiateur de la consommation.</p>"),
     "confidentialite": ("Confidentialité | Aider mes parents", "Données personnelles et cookies sur aidermesparents.fr.",
                         "<h1>Confidentialité</h1><p>Ce site ne dépose aucun cookie publicitaire et ne vous demande aucune donnée pour être consulté.</p><p>La mesure d'audience, si elle est activée, se fait sans cookie et de façon anonyme.</p><p>Pour toute question : <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a>.</p>"),
 }
@@ -347,6 +354,7 @@ URGENCE = {
 }
 
 QUIZ = open(os.path.join(ROOT, "_build", "quiz.html"), encoding="utf-8").read()
+PLAN = open(os.path.join(ROOT, "_build", "plan.html"), encoding="utf-8").read()
 ASSET_V = ""
 
 
@@ -377,13 +385,15 @@ def main():
             path, h = article(contenus[s], pages); write(path, h); urls.append((path, contenus[s].get("date_verification", LANCEMENT)))
     write("/quelles-aides/", page("Quelles aides pour mon parent âgé ? Le point en 1 minute",
           "5 questions pour voir les aides à vérifier pour votre parent : APA, ASPA, aide ménagère, crédit d'impôt, MaPrimeAdapt, aides aux aidants.",
-          "/quelles-aides/", QUIZ, [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Quelles aides pour mon parent ?", "applicationCategory": "UtilityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}], "accueil", None, FOOTER)); urls.append(("/quelles-aides/", LANCEMENT))
+          "/quelles-aides/", QUIZ.replace("@@STRIPE@@", STRIPE_PLAN), [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Quelles aides pour mon parent ?", "applicationCategory": "UtilityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}], "accueil", None, FOOTER)); urls.append(("/quelles-aides/", LANCEMENT))
+    write("/mon-plan/", page("Votre plan d'action | Aider mes parents", "Votre plan d'action personnalisé pour les aides de votre parent.", "/mon-plan/", PLAN, [], "accueil", None, FOOTER).replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"'))
     for s, (t, dsc, b) in STATIQUES.items():
         write(url(s), page(t, dsc, url(s), f'<div class="wrap prose">{b}</div>', [], "accueil", None, FOOTER)); urls.append((url(s), LANCEMENT))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         page("Page introuvable | Aider mes parents", "Cette page n'existe pas.", "/404.html", '<div class="wrap prose"><h1>Page introuvable</h1><p><a href="/">Revenir à l\'accueil</a></p></div>', [], "accueil", None, FOOTER).replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"'))
     open(os.path.join(OUT, "style.css"), "w", encoding="utf-8").write(CSS)
     shutil.copy(os.path.join(ROOT, "_build", "calc.js"), os.path.join(OUT, "calc.js"))
+    shutil.copy(os.path.join(ROOT, "_build", "plan.js"), os.path.join(OUT, "plan.js"))
     open(os.path.join(OUT, "favicon.svg"), "w", encoding="utf-8").write(
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#2f5f8a"/><path d="M32 48s-14-8.5-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 46 29c0 10.5-14 19-14 19z" fill="#f2b98b"/></svg>')
     open(os.path.join(OUT, "CNAME"), "w").write("aidermesparents.fr\n")
