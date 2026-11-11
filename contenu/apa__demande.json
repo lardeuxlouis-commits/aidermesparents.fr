@@ -1,261 +1,269 @@
 {
-  "slug": "apa/demande",
-  "title": "Demande d'APA : dossier, étapes et délais en 2026",
-  "description": "Un seul formulaire, une visite à domicile, une réponse sous 2 mois au plus. Pièces à fournir, délais légaux, urgence et recours si l'APA est refusée.",
-  "h1": "Demande d'APA : le dossier, les étapes et les délais",
-  "chapo": "Pour demander l'APA à domicile, on remplit le formulaire « Demande d'aides à l'autonomie à domicile » (le même dans toute la France), en ligne ou sur papier selon le département, et on l'envoie au conseil départemental. Une visite d'évaluation a lieu chez la personne, puis le département répond au plus tard 2 mois après le dépôt du dossier complet.",
-  "en_bref": [
-    "Un seul formulaire pour tous les départements : le cerfa n°16301, ou son service en ligne si votre département le propose.",
-    "Pièces : pièce d'identité, dernier avis d'imposition, RIB, et dans certains cas la taxe foncière.",
-    "Le département accuse réception sous 10 jours et décide au plus tard 2 mois après réception du dossier complet.",
-    "Vous avez 10 jours pour accepter ou contester la proposition de plan d'aide.",
-    "En cas de refus : recours auprès du département dans les 2 mois qui suivent la notification."
-  ],
-  "sections": [
+ "slug": "apa/demande",
+ "title": "Dossier APA 2026 : formulaire, pièces, étapes et délais",
+ "description": "Un seul formulaire, une visite à domicile, une réponse sous 2 mois au plus. Pièces à fournir, délais légaux, urgence et recours si l'APA est refusée.",
+ "h1": "Dossier de demande d'APA : formulaire, étapes et délais",
+ "chapo": "Le dossier APA tient en un formulaire : « Demande d'aides à l'autonomie à domicile », le même dans toute la France, à envoyer au conseil départemental, en ligne ou sur papier selon le département. Une visite d'évaluation a lieu chez la personne, puis le département répond au plus tard 2 mois après le dépôt du dossier complet.",
+ "en_bref": [
+  "Un seul formulaire pour tous les départements : le cerfa n°16301, ou son service en ligne si votre département le propose.",
+  "Pièces : pièce d'identité, dernier avis d'imposition, RIB, et dans certains cas la taxe foncière.",
+  "Le département accuse réception sous 10 jours et décide au plus tard 2 mois après réception du dossier complet.",
+  "Vous avez 10 jours pour accepter ou contester la proposition de plan d'aide.",
+  "En cas de refus : recours auprès du département dans les 2 mois qui suivent la notification."
+ ],
+ "sections": [
+  {
+   "h2": "Où trouver le formulaire de demande d'APA ?",
+   "blocs": [
     {
-      "h2": "Où trouver le formulaire de demande d'APA ?",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "Depuis le 1er octobre 2023, il existe un formulaire unique, quel que soit le département : « Demande d'aides à l'autonomie à domicile pour les personnes âgées » (cerfa n°16301). Il sert à demander l'APA, versée par le département, ou l'accompagnement à domicile proposé par l'Assurance retraite et la MSA. Dans le formulaire, un court questionnaire sur le niveau d'autonomie (page 7, partie 4) vous aide à savoir où l'envoyer : au conseil départemental pour l'APA, ou à la caisse de retraite."
-        },
-        {
-          "type": "p",
-          "texte": "Selon votre département, vous pouvez :"
-        },
-        {
-          "type": "liste",
-          "items": [
-            "**envoyer le formulaire papier par courrier** au conseil départemental ;",
-            "**ou le transmettre en ligne** sur le service numérique d'aides à l'autonomie, quand le département le propose (le portail national est demande-autonomie.gouv.fr, ouvert progressivement sur le territoire)."
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "Pour savoir lequel s'applique chez vous, entrez le numéro de département sur la page APA de service-public.gouv.fr ou contactez le point d'information local pour les personnes âgées de votre secteur."
-        },
-        {
-          "type": "attention",
-          "texte": "Déposez la demande auprès de l'ancien département si votre proche vit en résidence autonomie, chez un accueillant familial, ou s'il a déménagé dans un nouveau département depuis moins de 3 mois."
-        },
-        {
-          "type": "p",
-          "texte": "En EHPAD, la démarche est différente : après le choix de l'établissement, la direction indique les formalités à accomplir. Les montants sont détaillés sur la page montant de l'APA."
-        }
-      ]
+     "type": "p",
+     "texte": "Depuis le 1er octobre 2023, il existe un formulaire unique, quel que soit le département : « Demande d'aides à l'autonomie à domicile pour les personnes âgées » (cerfa n°16301). Il sert à demander l'APA, versée par le département, ou l'accompagnement à domicile proposé par l'Assurance retraite et la MSA. Dans le formulaire, un court questionnaire sur le niveau d'autonomie (page 7, partie 4) vous aide à savoir où l'envoyer : au conseil départemental pour l'APA, ou à la caisse de retraite."
     },
     {
-      "h2": "Quelles pièces joindre au dossier d'APA ?",
-      "blocs": [
-        {
-          "type": "liste",
-          "items": [
-            "la photocopie d'une pièce d'identité du demandeur : carte d'identité (recto verso), passeport ou livret de famille. Pour un ressortissant hors Union européenne, Espace économique européen et Suisse : carte de résident ou titre de séjour en cours de validité ;",
-            "un relevé d'identité bancaire (RIB) au nom du demandeur ;",
-            "la photocopie du dernier avis d'imposition ou de non-imposition du demandeur (toutes les pages), et celui de son conjoint le cas échéant ;",
-            "la photocopie du dernier avis de taxe foncière, dans certains cas (pour chaque bien non loué du demandeur et de son conjoint) ;",
-            "si la personne est sous protection juridique, la photocopie de la décision de justice."
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "Le certificat médical n'est pas obligatoire pour l'APA : il est facultatif. S'il est joint, l'évaluateur peut s'en servir. Le formulaire permet aussi de demander une carte mobilité inclusion en même temps, avec un certificat médical (voir la CMI pour une personne âgée)."
-        },
-        {
-          "type": "p",
-          "texte": "Un enfant peut aider son parent à remplir le dossier. Si le parent est sous protection juridique, la décision de justice est à joindre."
-        }
-      ]
+     "type": "p",
+     "texte": "Selon votre département, vous pouvez :"
     },
     {
-      "h2": "Que se passe-t-il après l'envoi du dossier ?",
-      "blocs": [
-        {
-          "type": "etapes",
-          "items": [
-            "**Accusé de réception.** Les services du département ont 10 jours pour accuser réception. Si le dossier est incomplet, ils réclament les pièces manquantes.",
-            "**Dossier complet.** À partir de ce moment, tous les délais se comptent. Le département vous informe par courrier.",
-            "**Visite d'évaluation à domicile.** Un professionnel de l'équipe médico-sociale du département fait le point sur la situation, les besoins et les attentes, et évalue le niveau de perte d'autonomie (le GIR). Il échange aussi avec le proche aidant, s'il le souhaite.",
-            "**Proposition de plan d'aide.** Si la personne est éligible, elle reçoit une proposition dans les 30 jours suivant le dépôt du dossier complet.",
-            "**Votre réponse.** Vous avez 10 jours pour accepter, refuser ou demander une modification. En cas de modification demandée, l'équipe envoie une nouvelle et dernière proposition sous 8 jours.",
-            "**Décision.** Elle arrive par courrier, au plus tard 2 mois après le dépôt du dossier complet. Le premier versement intervient le mois qui suit la décision."
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "En cas d'accord, la notification de décision est le point de départ de l'ouverture des droits. Dans certains départements, le courrier de convocation précise qu'une personne de l'entourage peut être présente pendant la visite, ce qui rassure souvent."
-        }
-      ]
+     "type": "liste",
+     "items": [
+      "**envoyer le formulaire papier par courrier** au conseil départemental ;",
+      "**ou le transmettre en ligne** sur le service numérique d'aides à l'autonomie, quand le département le propose (le portail national est demande-autonomie.gouv.fr, ouvert progressivement sur le territoire)."
+     ]
     },
     {
-      "h2": "Comment se passe la visite d'évaluation à domicile ?",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "L'évaluateur pose des questions sur la façon dont la personne accomplit les gestes du quotidien (se lever, faire sa toilette, s'habiller, se déplacer) et sur son entourage. Dans certains départements, il demande aussi à voir la salle de bain, les toilettes et la chambre, pour repérer les risques de chute et le matériel utile. Il peut calculer le GIR sur place et construire le plan d'aide avec la personne."
-        },
-        {
-          "type": "p",
-          "texte": "Le plan d'aide peut comporter des heures d'aide à domicile, des protections, du portage de repas, de la téléassistance, de l'accueil de jour, du matériel adapté ou des aménagements du logement."
-        },
-        {
-          "type": "p",
-          "texte": "Pour préparer la visite : listez avec votre parent ce qui devient difficile et ce qui est déjà fait par la famille, et décrivez les mauvais jours, pas seulement les bons. Le niveau de perte d'autonomie est jugé sur ce que la personne ne fait pas seule, pas sur ce qu'elle réussit un jour de forme."
-        },
-        {
-          "type": "p",
-          "texte": "Les niveaux de GIR sont expliqués sur la page grille AGGIR."
-        }
-      ]
+     "type": "p",
+     "texte": "Pour savoir lequel s'applique chez vous, entrez le numéro de département sur la page APA de service-public.gouv.fr ou contactez le point d'information local pour les personnes âgées de votre secteur."
     },
     {
-      "h2": "Quels sont les délais, et comment obtenir l'APA en urgence ?",
-      "blocs": [
-        {
-          "type": "tableau",
-          "entetes": [
-            "Étape",
-            "Délai officiel"
-          ],
-          "lignes": [
-            [
-              "Accusé de réception du dossier",
-              "10 jours"
-            ],
-            [
-              "Proposition de plan d'aide",
-              "30 jours après le dépôt du dossier complet"
-            ],
-            [
-              "Réponse à la proposition de plan",
-              "10 jours pour votre avis"
-            ],
-            [
-              "Nouvelle proposition après demande de modification",
-              "8 jours"
-            ],
-            [
-              "Décision du département",
-              "au plus tard 2 mois après le dossier complet"
-            ]
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "En cas d'urgence médicale ou sociale (changement brutal de l'état de santé, de l'entourage), le département peut attribuer l'APA à titre provisoire, sous forme d'avance forfaitaire. Elle prend effet à la date d'enregistrement du dossier complet, pour 2 mois maximum, en attendant le plan d'aide. Son montant est de 1 040,16 € selon service-public.gouv.fr et de 1 040,17 € selon pour-les-personnes-agees.gouv.fr (2026)."
-        },
-        {
-          "type": "attention",
-          "texte": "L'avance est récupérable sur les montants versés ensuite. Elle peut devoir être remboursée en tout ou partie si la demande est rejetée parce que la perte d'autonomie est insuffisante. Demandez au service autonomie de votre département comment signaler l'urgence."
-        }
-      ]
+     "type": "attention",
+     "texte": "Déposez la demande auprès de l'ancien département si votre proche vit en résidence autonomie, chez un accueillant familial, ou s'il a déménagé dans un nouveau département depuis moins de 3 mois."
     },
     {
-      "h2": "Que faire si l'APA est refusée ou si le montant est trop bas ?",
-      "blocs": [
-        {
-          "type": "etapes",
-          "items": [
-            "**Recours administratif préalable obligatoire (RAPO).** Écrivez au président du conseil départemental, en expliquant pourquoi vous contestez, dans les 2 mois qui suivent la notification de la décision. Joignez la copie de la notification et tout document utile. Envoyez le courrier en recommandé avec avis de réception, ou déposez-le à l'accueil des services du département.",
-            "**Réponse du département.** Le président du conseil départemental a 2 mois pour répondre après réception du recours.",
-            "**Recours contentieux.** Si vous restez en désaccord, vous pouvez saisir le tribunal administratif, dans les 2 mois qui suivent la notification de la décision contestée. Un pourvoi devant le Conseil d'État est possible ensuite."
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "Pour un plan d'aide jugé insuffisant, il n'est pas nécessaire d'attendre un refus : pendant les 10 jours de la proposition, vous pouvez demander une modification. Ensuite, la révision reste possible à tout moment."
-        }
-      ]
-    },
-    {
-      "h2": "Comment faire réviser l'APA quand la situation change ?",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "Vous pouvez demander une réévaluation des besoins (donc du plan d'aide et du montant) si la situation personnelle ou financière de la personne change, ou si celle de son proche aidant change. La demande peut être faite par la personne elle-même, son représentant légal ou un proche aidant. Après réception du dossier complet, elle est étudiée en urgence ou dans les 2 mois, selon les circonstances."
-        },
-        {
-          "type": "p",
-          "texte": "Signalez aussi au département tout changement de situation : déménagement, hospitalisation, changement de salarié, modification des revenus. Si une révision réduit l'APA, vous pouvez la contester par un recours amiable puis, si besoin, devant le tribunal."
-        },
-        {
-          "type": "attention",
-          "texte": "Après l'accord, deux obligations à respecter pour ne pas voir l'APA suspendue : déclarer l'aide à domicile ou la famille d'accueil dans le mois qui suit la notification (cerfa n°10544), et fournir dans le mois les justificatifs de dépenses demandés."
-        }
-      ]
+     "type": "p",
+     "texte": "En EHPAD, la démarche est différente : après le choix de l'établissement, la direction indique les formalités à accomplir. Les montants sont détaillés sur la page montant de l'APA."
     }
-  ],
-  "faq": [
+   ]
+  },
+  {
+   "h2": "Quelles pièces joindre au dossier d'APA ?",
+   "blocs": [
     {
-      "q": "Qui peut faire la demande d'APA : la personne âgée ou ses enfants ?",
-      "r": "Le dossier est établi au nom de la personne âgée, mais un enfant ou un proche peut le remplir avec elle. Si le demandeur est sous protection juridique, la photocopie de la décision de justice est à joindre au dossier."
+     "type": "liste",
+     "items": [
+      "la photocopie d'une pièce d'identité du demandeur : carte d'identité (recto verso), passeport ou livret de famille. Pour un ressortissant hors Union européenne, Espace économique européen et Suisse : carte de résident ou titre de séjour en cours de validité ;",
+      "un relevé d'identité bancaire (RIB) au nom du demandeur ;",
+      "la photocopie du dernier avis d'imposition ou de non-imposition du demandeur (toutes les pages), et celui de son conjoint le cas échéant ;",
+      "la photocopie du dernier avis de taxe foncière, dans certains cas (pour chaque bien non loué du demandeur et de son conjoint) ;",
+      "si la personne est sous protection juridique, la photocopie de la décision de justice."
+     ]
     },
     {
-      "q": "L'APA est-elle rétroactive ?",
-      "r": "L'ouverture des droits se fait à la date de la notification de décision en cas d'accord, selon pour-les-personnes-agees.gouv.fr. Le premier versement comprend l'APA due depuis la date d'ouverture des droits, et il a lieu le mois qui suit la décision."
+     "type": "p",
+     "texte": "Le certificat médical n'est pas obligatoire pour l'APA : il est facultatif. S'il est joint, l'évaluateur peut s'en servir. Le formulaire permet aussi de demander une carte mobilité inclusion en même temps, avec un certificat médical (voir la CMI pour une personne âgée)."
     },
     {
-      "q": "Combien de temps pour avoir une réponse à une demande d'APA ?",
-      "r": "Le département doit décider au plus tard 2 mois après avoir reçu le dossier complet. Une proposition de plan d'aide est envoyée dans les 30 jours suivant le dépôt du dossier complet si la personne est éligible. En pratique, un dossier incomplet fait repartir le décompte."
-    },
-    {
-      "q": "Peut-on faire une demande d'APA sans certificat médical ?",
-      "r": "Oui. Le certificat médical est facultatif pour l'APA et sert seulement d'appui à l'évaluateur. Il est en revanche demandé dans certains cas pour la demande de carte mobilité inclusion faite avec l'APA."
-    },
-    {
-      "q": "Mon parent refuse la visite à domicile, que faire ?",
-      "r": "La visite sert à évaluer le GIR, sans elle l'APA à domicile ne peut pas être calculée. Rassurez votre parent : dans certains départements, le courrier précise qu'un proche peut être présent, et le professionnel est là pour comprendre ses besoins, pas pour le juger. Vous pouvez aussi l'appeler au préalable pour expliquer ce qui va se passer."
-    },
-    {
-      "q": "Où trouver de l'aide pour remplir le dossier ?",
-      "r": "Les points d'information locaux dédiés aux personnes âgées, listés dans l'annuaire de pour-les-personnes-agees.gouv.fr, répondent aux questions sur la demande d'APA et les démarches. Les médiateurs numériques peuvent aussi aider, gratuitement, pour les démarches en ligne."
+     "type": "p",
+     "texte": "Un enfant peut aider son parent à remplir le dossier. Si le parent est sous protection juridique, la décision de justice est à joindre."
     }
-  ],
-  "liens_internes": [
+   ]
+  },
+  {
+   "h2": "Que se passe-t-il après l'envoi du dossier ?",
+   "blocs": [
     {
-      "slug": "apa",
-      "ancre": "le montant de l'APA et le calcul du reste à charge"
+     "type": "etapes",
+     "items": [
+      "**Accusé de réception.** Les services du département ont 10 jours pour accuser réception. Si le dossier est incomplet, ils réclament les pièces manquantes.",
+      "**Dossier complet.** À partir de ce moment, tous les délais se comptent. Le département vous informe par courrier.",
+      "**Visite d'évaluation à domicile.** Un professionnel de l'équipe médico-sociale du département fait le point sur la situation, les besoins et les attentes, et évalue le niveau de perte d'autonomie (le GIR). Il échange aussi avec le proche aidant, s'il le souhaite.",
+      "**Proposition de plan d'aide.** Si la personne est éligible, elle reçoit une proposition dans les 30 jours suivant le dépôt du dossier complet.",
+      "**Votre réponse.** Vous avez 10 jours pour accepter, refuser ou demander une modification. En cas de modification demandée, l'équipe envoie une nouvelle et dernière proposition sous 8 jours.",
+      "**Décision.** Elle arrive par courrier, au plus tard 2 mois après le dépôt du dossier complet. Le premier versement intervient le mois qui suit la décision."
+     ]
     },
     {
-      "slug": "grille-aggir",
-      "ancre": "comprendre les niveaux de GIR"
-    },
-    {
-      "slug": "carte-mobilite-inclusion",
-      "ancre": "demander la carte mobilité inclusion en même temps"
-    },
-    {
-      "slug": "aide-a-domicile",
-      "ancre": "choisir une aide à domicile"
-    },
-    {
-      "slug": "aidant-familial",
-      "ancre": "les aides pour l'aidant familial"
+     "type": "p",
+     "texte": "En cas d'accord, la notification de décision est le point de départ de l'ouverture des droits. Dans certains départements, le courrier de convocation précise qu'une personne de l'entourage peut être présente pendant la visite, ce qui rassure souvent."
     }
-  ],
-  "sources": [
+   ]
+  },
+  {
+   "h2": "Comment se passe la visite d'évaluation à domicile ?",
+   "blocs": [
     {
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10009",
-      "titre": "Service-public.gouv.fr : Allocation personnalisée d'autonomie (Apa) à domicile"
+     "type": "p",
+     "texte": "L'évaluateur pose des questions sur la façon dont la personne accomplit les gestes du quotidien (se lever, faire sa toilette, s'habiller, se déplacer) et sur son entourage. Dans certains départements, il demande aussi à voir la salle de bain, les toilettes et la chambre, pour repérer les risques de chute et le matériel utile. Il peut calculer le GIR sur place et construire le plan d'aide avec la personne."
     },
     {
-      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/comment-faire-la-demande-d-apa-a-domicile",
-      "titre": "Pour les personnes âgées : Comment faire la demande d'APA à domicile ? (mis à jour le 30/01/2026)"
+     "type": "p",
+     "texte": "Le plan d'aide peut comporter des heures d'aide à domicile, des protections, du portage de repas, de la téléassistance, de l'accueil de jour, du matériel adapté ou des aménagements du logement."
     },
     {
-      "url": "https://www.pour-les-personnes-agees.gouv.fr/preserver-son-autonomie/perte-d-autonomie-evaluation-et-droits/visite-d-evaluation-a-domicile-deux-referentes-apa-expliquent-son-deroulement",
-      "titre": "Pour les personnes âgées : Visite d'évaluation à domicile, deux référentes APA expliquent son déroulement"
+     "type": "p",
+     "texte": "Pour préparer la visite : listez avec votre parent ce qui devient difficile et ce qui est déjà fait par la famille, et décrivez les mauvais jours, pas seulement les bons. Le niveau de perte d'autonomie est jugé sur ce que la personne ne fait pas seule, pas sur ce qu'elle réussit un jour de forme."
     },
     {
-      "url": "https://www.pour-les-personnes-agees.gouv.fr/comment-fonctionne-la-grille-aggir",
-      "titre": "Pour les personnes âgées : Comment fonctionne la grille AGGIR ?"
+     "type": "p",
+     "texte": "Les niveaux de GIR sont expliqués sur la page grille AGGIR."
     }
-  ],
-  "date_verification": "2026-11-11",
-  "a_verifier": [
-    "Écart entre sources officielles : l'APA forfaitaire d'urgence est de 1 040,16 € sur service-public.gouv.fr et de 1 040,17 € sur pour-les-personnes-agees.gouv.fr. La page cite les deux.",
-    "Le portail demande-autonomie.gouv.fr n'a pas pu être consulté directement (page chargée en JavaScript) : la liste des départements raccordés n'est pas indiquée.",
-    "Ce qui se passe si le département ne répond pas dans les 2 mois (décision implicite, versement provisoire) n'a pas été lu sur une source officielle : non traité.",
-    "La rétroactivité exacte (date d'ouverture des droits) n'est pas détaillée par les pages lues, hormis le point de départ à la notification : à confirmer au département."
-  ]
+   ]
+  },
+  {
+   "h2": "Quels sont les délais, et comment obtenir l'APA en urgence ?",
+   "blocs": [
+    {
+     "type": "tableau",
+     "entetes": [
+      "Étape",
+      "Délai officiel"
+     ],
+     "lignes": [
+      [
+       "Accusé de réception du dossier",
+       "10 jours"
+      ],
+      [
+       "Proposition de plan d'aide",
+       "30 jours après le dépôt du dossier complet"
+      ],
+      [
+       "Réponse à la proposition de plan",
+       "10 jours pour votre avis"
+      ],
+      [
+       "Nouvelle proposition après demande de modification",
+       "8 jours"
+      ],
+      [
+       "Décision du département",
+       "au plus tard 2 mois après le dossier complet"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "En cas d'urgence médicale ou sociale (changement brutal de l'état de santé, de l'entourage), le département peut attribuer l'APA à titre provisoire, sous forme d'avance forfaitaire. Elle prend effet à la date d'enregistrement du dossier complet, pour 2 mois maximum, en attendant le plan d'aide. Son montant est de 1 040,16 € selon service-public.gouv.fr et de 1 040,17 € selon pour-les-personnes-agees.gouv.fr (2026)."
+    },
+    {
+     "type": "attention",
+     "texte": "L'avance est récupérable sur les montants versés ensuite. Elle peut devoir être remboursée en tout ou partie si la demande est rejetée parce que la perte d'autonomie est insuffisante. Demandez au service autonomie de votre département comment signaler l'urgence."
+    }
+   ]
+  },
+  {
+   "h2": "Que faire si l'APA est refusée ou si le montant est trop bas ?",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "**Recours administratif préalable obligatoire (RAPO).** Écrivez au président du conseil départemental, en expliquant pourquoi vous contestez, dans les 2 mois qui suivent la notification de la décision. Joignez la copie de la notification et tout document utile. Envoyez le courrier en recommandé avec avis de réception, ou déposez-le à l'accueil des services du département.",
+      "**Réponse du département.** Le président du conseil départemental a 2 mois pour répondre après réception du recours.",
+      "**Recours contentieux.** Si vous restez en désaccord, vous pouvez saisir le tribunal administratif, dans les 2 mois qui suivent la notification de la décision contestée. Un pourvoi devant le Conseil d'État est possible ensuite."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour un plan d'aide jugé insuffisant, il n'est pas nécessaire d'attendre un refus : pendant les 10 jours de la proposition, vous pouvez demander une modification. Ensuite, la révision reste possible à tout moment."
+    }
+   ]
+  },
+  {
+   "h2": "Comment faire réviser l'APA quand la situation change ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Vous pouvez demander une réévaluation des besoins (donc du plan d'aide et du montant) si la situation personnelle ou financière de la personne change, ou si celle de son proche aidant change. La demande peut être faite par la personne elle-même, son représentant légal ou un proche aidant. Après réception du dossier complet, elle est étudiée en urgence ou dans les 2 mois, selon les circonstances."
+    },
+    {
+     "type": "p",
+     "texte": "Signalez aussi au département tout changement de situation : déménagement, hospitalisation, changement de salarié, modification des revenus. Si une révision réduit l'APA, vous pouvez la contester par un recours amiable puis, si besoin, devant le tribunal."
+    },
+    {
+     "type": "attention",
+     "texte": "Après l'accord, deux obligations à respecter pour ne pas voir l'APA suspendue : déclarer l'aide à domicile ou la famille d'accueil dans le mois qui suit la notification (cerfa n°10544), et fournir dans le mois les justificatifs de dépenses demandés."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Comment télécharger le dossier de demande d'APA ?",
+   "r": "Le formulaire officiel est le cerfa n°16301, « Demande d'aides à l'autonomie à domicile », le même dans tous les départements. Vous le trouvez sur service-public.gouv.fr ou sur le site de votre conseil départemental. Si votre département propose le service en ligne demande-autonomie.gouv.fr, vous pouvez aussi faire la demande sans papier."
+  },
+  {
+   "q": "Qui remplit le dossier APA ?",
+   "r": "La personne âgée elle-même, ou un proche pour elle : un enfant, un conjoint ou toute personne qui l'aide. La demande reste au nom de la personne âgée, et c'est elle qui signe. Le CCAS de la mairie ou un point d'information local peut aussi aider à remplir le formulaire."
+  },
+  {
+   "q": "Qui peut faire la demande d'APA : la personne âgée ou ses enfants ?",
+   "r": "Le dossier est établi au nom de la personne âgée, mais un enfant ou un proche peut le remplir avec elle. Si le demandeur est sous protection juridique, la photocopie de la décision de justice est à joindre au dossier."
+  },
+  {
+   "q": "L'APA est-elle rétroactive ?",
+   "r": "L'ouverture des droits se fait à la date de la notification de décision en cas d'accord, selon pour-les-personnes-agees.gouv.fr. Le premier versement comprend l'APA due depuis la date d'ouverture des droits, et il a lieu le mois qui suit la décision."
+  },
+  {
+   "q": "Combien de temps pour avoir une réponse à une demande d'APA ?",
+   "r": "Le département doit décider au plus tard 2 mois après avoir reçu le dossier complet. Une proposition de plan d'aide est envoyée dans les 30 jours suivant le dépôt du dossier complet si la personne est éligible. En pratique, un dossier incomplet fait repartir le décompte."
+  },
+  {
+   "q": "Peut-on faire une demande d'APA sans certificat médical ?",
+   "r": "Oui. Le certificat médical est facultatif pour l'APA et sert seulement d'appui à l'évaluateur. Il est en revanche demandé dans certains cas pour la demande de carte mobilité inclusion faite avec l'APA."
+  },
+  {
+   "q": "Mon parent refuse la visite à domicile, que faire ?",
+   "r": "La visite sert à évaluer le GIR, sans elle l'APA à domicile ne peut pas être calculée. Rassurez votre parent : dans certains départements, le courrier précise qu'un proche peut être présent, et le professionnel est là pour comprendre ses besoins, pas pour le juger. Vous pouvez aussi l'appeler au préalable pour expliquer ce qui va se passer."
+  },
+  {
+   "q": "Où trouver de l'aide pour remplir le dossier ?",
+   "r": "Les points d'information locaux dédiés aux personnes âgées, listés dans l'annuaire de pour-les-personnes-agees.gouv.fr, répondent aux questions sur la demande d'APA et les démarches. Les médiateurs numériques peuvent aussi aider, gratuitement, pour les démarches en ligne."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "apa",
+   "ancre": "le montant de l'APA et le calcul du reste à charge"
+  },
+  {
+   "slug": "grille-aggir",
+   "ancre": "comprendre les niveaux de GIR"
+  },
+  {
+   "slug": "carte-mobilite-inclusion",
+   "ancre": "demander la carte mobilité inclusion en même temps"
+  },
+  {
+   "slug": "aide-a-domicile",
+   "ancre": "choisir une aide à domicile"
+  },
+  {
+   "slug": "aidant-familial",
+   "ancre": "les aides pour l'aidant familial"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10009",
+   "titre": "Service-public.gouv.fr : Allocation personnalisée d'autonomie (Apa) à domicile"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/comment-faire-la-demande-d-apa-a-domicile",
+   "titre": "Pour les personnes âgées : Comment faire la demande d'APA à domicile ? (mis à jour le 30/01/2026)"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/preserver-son-autonomie/perte-d-autonomie-evaluation-et-droits/visite-d-evaluation-a-domicile-deux-referentes-apa-expliquent-son-deroulement",
+   "titre": "Pour les personnes âgées : Visite d'évaluation à domicile, deux référentes APA expliquent son déroulement"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/comment-fonctionne-la-grille-aggir",
+   "titre": "Pour les personnes âgées : Comment fonctionne la grille AGGIR ?"
+  }
+ ],
+ "date_verification": "2026-11-11",
+ "a_verifier": [
+  "Écart entre sources officielles : l'APA forfaitaire d'urgence est de 1 040,16 € sur service-public.gouv.fr et de 1 040,17 € sur pour-les-personnes-agees.gouv.fr. La page cite les deux.",
+  "Le portail demande-autonomie.gouv.fr n'a pas pu être consulté directement (page chargée en JavaScript) : la liste des départements raccordés n'est pas indiquée.",
+  "Ce qui se passe si le département ne répond pas dans les 2 mois (décision implicite, versement provisoire) n'a pas été lu sur une source officielle : non traité.",
+  "La rétroactivité exacte (date d'ouverture des droits) n'est pas détaillée par les pages lues, hormis le point de départ à la notification : à confirmer au département."
+ ]
 }

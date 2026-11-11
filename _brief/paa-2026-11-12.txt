@@ -1,0 +1,17 @@
+apa => apa | Quelles sont les conditions pour bénéficier de l'APA ? | Quel est le montant de l'aide de l'APA ? | Quels sont les inconvénients de l'APA ? | Qui sont les bénéficiaires de l'APA ?
+dossier apa => dossier apa | Comment obtenir un dossier pour l'APA ? | Comment télécharger un dossier APA ? | Quelles sont les conditions pour bénéficier de l'APA ? | Qui remplit le dossier de l'APA ?
+grille aggir => grille aggir | C'est quoi la grille aggir ? | Quels sont les 6 niveaux de GIR ? | Quelle est la grille AGGIR pour 2026 ? | Quelle est la différence entre les GIR 2 et GIR 3 ?
+aspa => aspa | Quelles sont les conditions pour toucher l'Aspa ? | Pour toucher l' |  economie.gouv.fr |   | economie.gouv.fr
+carte mobilité inclusion => Quels sont les avantages d'avoir une Carte Mobilité Inclusion ? | Est-ce que je peux me garer sur une place handicapée avec ma Carte Mobilité Inclusion ? | Quel taux d'invalidité pour avoir la Carte Mobilité Inclusion ? | Quelle est la différence entre une carte d'invalidité et une Carte Mobilité Inclusion ? | carte mobilité inclusion
+aide à domicile personne âgée => aide à domicile personne âgée | Combien coûte une aide à domicile pour une personne âgée ? | Le coût horaire d'une aide à domicile pour une personne âgée en France se situe généralement  |  Bonjoursenior.fr +1 |   | Bonjoursenior.fr +1
+prix ehpad => prix ehpad | Quel est le prix par mois d'un EHPAD ? | En France, le prix moyen d'un EHPAD (Établissement d'Hébergement pour Personnes Âgées Dépendantes) s'établit  |  Conseil dependance +1 |   | Conseil dependance +1
+aide sociale ehpad => aide sociale ehpad | Est-ce que les héritiers doivent rembourser l'aide sociale ? | Oui, certaines aides sociales sont récupérables sur la succession du défunt, mais  |  Actu-Juridique +1 |   | Actu-Juridique +1
+obligation alimentaire parents => obligation alimentaire parents | Est-ce que les enfants sont obligés de payer la maison de retraite des parents ? | En France,  |  colisee.fr +1 |   | colisee.fr +1
+congé proche aidant => congé proche aidant | Qui peut bénéficier du congé proche aidant ? | Le  |  YouTube·Ministère du Travail |   | YouTube·Ministère du Travail
+aidant familial => aidant familial | Quelles sont les conditions pour être aidant familial ? | En France, un  |  LNA Santé +1 |   | LNA Santé +1
+maprimeadapt => maprimeadapt | Quelles sont les conditions pour bénéficier de MaPrimeAdapt' ? | Consultez les informations officielles sur  | Service-Public.fr |   | Âge :
+mutuelle senior => mutuelle senior | Quelle est la mutuelle la plus intéressante pour les seniors ? | Quel est le prix moyen d'une mutuelle senior par mois ? | Quelle est la meilleure mutuelle pour les seniors en 2026 ? | Quelle est la mutuelle senior avec le meilleur taux ?
+résidence senior => résidence senior | Quel est le tarif moyen d'une résidence senior ? | Le tarif moyen d'une résidence services seniors en France se situe généralement  |  Cap Retraite +1 |   | Cap Retraite +1
+sortir plus agirc arrco => sortir plus agirc arrco | Qu'est-ce que le dispositif Sortir Plus d'Agirc-Arrco ? | Le dispositif  |  Agirc-Arrco +1 |   | Agirc-Arrco +1
+téléassistance personne âgée => téléassistance personne âgée | Quelle est la meilleure télésurveillance pour personnes âgées ? | Il n'existe pas de solution unique idéale :  |  LiNote +1 |   | LiNote +1
+portage de repas => portage de repas | Qui a droit au portage des repas à domicile ? | Le portage de repas à domicile est principalement destiné  |  La Poste |   | La Poste

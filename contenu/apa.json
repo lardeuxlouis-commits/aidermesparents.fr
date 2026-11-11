@@ -1,308 +1,312 @@
 {
-  "slug": "apa",
-  "title": "APA 2026 : montant par GIR, conditions et calcul",
-  "description": "L'APA à domicile peut atteindre 2 080,33 € par mois en GIR 1. Conditions, montants 2026 par GIR, reste à charge selon vos revenus et exemples chiffrés.",
-  "h1": "APA : montant, conditions et calcul de l'allocation personnalisée d'autonomie",
-  "chapo": "L'APA (allocation personnalisée d'autonomie) aide à payer l'aide dont une personne de 60 ans ou plus a besoin pour vivre chez elle ou en EHPAD. Elle est versée par le département aux personnes classées GIR 1 à 4. En 2026, l'APA à domicile peut aller jusqu'à 2 080,33 € par mois (GIR 1) et 811,52 € (GIR 4), moins une participation qui dépend des revenus.",
-  "en_bref": [
-    "Conditions : avoir 60 ans ou plus, vivre en France de façon stable et être évalué en GIR 1, 2, 3 ou 4.",
-    "Plafonds mensuels de l'APA à domicile en 2026 : 2 080,33 € (GIR 1), 1 682,30 € (GIR 2), 1 215,99 € (GIR 3), 811,52 € (GIR 4).",
-    "Aucune participation si les ressources sont de 933,89 € par mois ou moins. Au-delà de 3 439,31 €, la participation est de 90 % du plan d'aide.",
-    "L'APA n'est pas imposable et n'est pas récupérée sur la succession.",
-    "Elle n'est pas versée si son montant est inférieur à 36,93 € par mois."
-  ],
-  "sections": [
+ "slug": "apa",
+ "title": "APA 2026 : montant par GIR, conditions et calcul",
+ "description": "L'APA à domicile peut atteindre 2 080,33 € par mois en GIR 1. Conditions, montants 2026 par GIR, reste à charge selon vos revenus et exemples chiffrés.",
+ "h1": "APA : montant, conditions et calcul de l'allocation personnalisée d'autonomie",
+ "chapo": "L'APA (allocation personnalisée d'autonomie) aide à payer l'aide dont une personne de 60 ans ou plus a besoin pour vivre chez elle ou en EHPAD. Elle est versée par le département aux personnes classées GIR 1 à 4. En 2026, l'APA à domicile peut aller jusqu'à 2 080,33 € par mois (GIR 1) et 811,52 € (GIR 4), moins une participation qui dépend des revenus.",
+ "en_bref": [
+  "Conditions : avoir 60 ans ou plus, vivre en France de façon stable et être évalué en GIR 1, 2, 3 ou 4.",
+  "Plafonds mensuels de l'APA à domicile en 2026 : 2 080,33 € (GIR 1), 1 682,30 € (GIR 2), 1 215,99 € (GIR 3), 811,52 € (GIR 4).",
+  "Aucune participation si les ressources sont de 933,89 € par mois ou moins. Au-delà de 3 439,31 €, la participation est de 90 % du plan d'aide.",
+  "L'APA n'est pas imposable et n'est pas récupérée sur la succession.",
+  "Elle n'est pas versée si son montant est inférieur à 36,93 € par mois."
+ ],
+ "sections": [
+  {
+   "h2": "Qui a droit à l'APA ?",
+   "blocs": [
     {
-      "h2": "Qui a droit à l'APA ?",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "Trois conditions doivent être réunies, à domicile comme en établissement :"
-        },
-        {
-          "type": "liste",
-          "items": [
-            "**avoir au moins 60 ans** ;",
-            "**résider en France de façon stable et régulière** : chez soi, chez un proche, chez un accueillant familial ou en résidence autonomie ;",
-            "**être évalué en GIR 1, 2, 3 ou 4** sur la grille AGGIR. Les personnes classées GIR 5 ou 6 n'ont pas droit à l'APA."
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "Il n'y a pas de condition de revenus pour ouvrir le droit : les ressources servent seulement à calculer la participation que la personne paie elle-même (voir plus bas). Pour comprendre comment le GIR est attribué, consultez notre page sur la grille AGGIR et ses 6 niveaux."
-        },
-        {
-          "type": "p",
-          "texte": "C'est le conseil départemental qui décide de l'attribution et qui verse l'allocation. Pour savoir comment déposer le dossier, voir la demande d'APA, étape par étape."
-        }
-      ]
+     "type": "p",
+     "texte": "Trois conditions doivent être réunies, à domicile comme en établissement :"
     },
     {
-      "h2": "Quel est le montant de l'APA à domicile en 2026 ?",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "L'APA à domicile ne peut pas dépasser un plafond mensuel qui dépend du GIR. Ces montants sont ceux en vigueur depuis le 1er janvier 2026."
-        },
-        {
-          "type": "tableau",
-          "entetes": [
-            "GIR",
-            "Montant maximum de l'APA à domicile par mois (2026)"
-          ],
-          "lignes": [
-            [
-              "GIR 1",
-              "2 080,33 €"
-            ],
-            [
-              "GIR 2",
-              "1 682,30 €"
-            ],
-            [
-              "GIR 3",
-              "1 215,99 €"
-            ],
-            [
-              "GIR 4",
-              "811,52 €"
-            ]
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "Ce plafond n'est pas un montant versé automatiquement. Le montant réel dépend du **plan d'aide** construit après la visite d'évaluation : nombre d'heures d'aide à domicile, repas livrés, matériel, etc. Le plan ne peut pas dépasser le plafond de votre GIR."
-        },
-        {
-          "type": "attention",
-          "texte": "Si l'APA calculée est inférieure à 36,93 € par mois, elle n'est pas versée."
-        },
-        {
-          "type": "p",
-          "texte": "Deux majorations existent quand un proche aidant est indispensable (la personne serait en danger sans sa surveillance et personne d'autre, hors professionnel, ne peut le remplacer) :"
-        },
-        {
-          "type": "liste",
-          "items": [
-            "**dispositifs de répit** (accueil de jour, hébergement temporaire) : jusqu'à 583,52 € par an, à utiliser dans l'année qui suit l'attribution ;",
-            "**hospitalisation du proche aidant** : jusqu'à 1 159,32 € par hospitalisation, à utiliser pendant la période d'hospitalisation."
-          ]
-        }
-      ]
+     "type": "liste",
+     "items": [
+      "**avoir au moins 60 ans** ;",
+      "**résider en France de façon stable et régulière** : chez soi, chez un proche, chez un accueillant familial ou en résidence autonomie ;",
+      "**être évalué en GIR 1, 2, 3 ou 4** sur la grille AGGIR. Les personnes classées GIR 5 ou 6 n'ont pas droit à l'APA."
+     ]
     },
     {
-      "h2": "Combien dois-je payer moi-même ? Le calcul de la participation",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "L'APA versée est égale à la part du plan d'aide que vous utilisez, moins votre participation financière. Cette participation dépend de deux choses : le montant du plan d'aide et vos ressources mensuelles."
-        },
-        {
-          "type": "tableau",
-          "entetes": [
-            "Ressources mensuelles (personne seule)",
-            "Part du plan d'aide à votre charge"
-          ],
-          "lignes": [
-            [
-              "Jusqu'à 933,89 €",
-              "Aucune"
-            ],
-            [
-              "De 933,89 € à 3 439,31 €",
-              "Augmente progressivement de 0 % à 90 % du plan d'aide accepté"
-            ],
-            [
-              "Plus de 3 439,31 €",
-              "90 % du plan d'aide accepté"
-            ]
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "Les ressources prises en compte sont les revenus de votre dernier avis d'imposition ou de non-imposition, les produits de placements soumis au prélèvement libératoire, les biens autres que la résidence principale et les capitaux ni exploités ni placés. Ne comptent pas, entre autres : les allocations logement (APL, ALS, ALF), les remboursements de soins, le capital décès et l'allocation de reconnaissance du combattant."
-        },
-        {
-          "type": "p",
-          "texte": "**En couple** (marié, pacsé ou concubin), on additionne les ressources du couple puis on divise par 1,7. Le résultat est comparé aux mêmes seuils. Exemple officiel : 3 400 € de ressources de couple donnent 3 400 ÷ 1,7 = 2 000 € par mois."
-        },
-        {
-          "type": "exemple",
-          "titre": "Exemple 1 : revenus modestes",
-          "texte": "Votre mère vit seule, elle est en GIR 3 et touche 900 € par mois. Son plan d'aide accepté est de 1 000 € par mois (sous le plafond GIR 3 de 1 215,99 €). Ses ressources sont sous 933,89 € : elle ne paie rien et l'APA couvre les 1 000 €."
-        },
-        {
-          "type": "exemple",
-          "titre": "Exemple 2 : revenus élevés",
-          "texte": "Votre père vit seul, il est en GIR 2 et touche 3 600 € par mois. Son plan d'aide accepté est de 1 500 € (sous le plafond GIR 2 de 1 682,30 €). Ses ressources dépassent 3 439,31 € : il paie 90 % du plan, soit 1 350 €, et l'APA couvre 150 €. Elle est versée, puisqu'elle dépasse 36,93 €."
-        },
-        {
-          "type": "p",
-          "texte": "Entre 933,89 € et 3 439,31 €, le pourcentage exact est fixé par un calcul réglementaire. Le plus fiable est de demander l'estimation au département lors de la visite d'évaluation : dans certains départements, le professionnel en donne une estimation pendant la visite."
-        }
-      ]
+     "type": "p",
+     "texte": "Il n'y a pas de condition de revenus pour ouvrir le droit : les ressources servent seulement à calculer la participation que la personne paie elle-même (voir plus bas). Pour comprendre comment le GIR est attribué, consultez notre page sur la grille AGGIR et ses 6 niveaux."
     },
     {
-      "h2": "Que peut payer l'APA ?",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "L'APA finance les dépenses prévues dans le plan d'aide. Selon les besoins, il peut s'agir de :"
-        },
-        {
-          "type": "liste",
-          "items": [
-            "la rémunération d'une aide à domicile ou d'un accueillant familial ;",
-            "le transport et la livraison de repas ;",
-            "les aides techniques (par exemple une chaise de douche) et l'adaptation du logement (par exemple une rampe d'accès) ;",
-            "l'accueil temporaire, en établissement ou en famille d'accueil, y compris l'accueil de jour."
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "La partie du plan qui paie les aides régulières est versée chaque mois. Le premier versement arrive le mois qui suit la décision d'attribution et comprend l'APA due depuis la date d'ouverture des droits. Les dépenses ponctuelles (aides techniques, travaux, accueil temporaire) peuvent être versées en une fois, directement à l'entreprise ou à la personne concernée. La partie destinée à un salarié à domicile peut prendre la forme de chèques emploi service universel (Cesu) préfinancés."
-        },
-        {
-          "type": "p",
-          "texte": "Pour choisir un intervenant, voir l'aide à domicile pour une personne âgée."
-        }
-      ]
-    },
-    {
-      "h2": "Comment fonctionne l'APA en EHPAD ?",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "L'APA en établissement concerne les EHPAD et les unités de soins de longue durée (USLD). Elle ne paie pas l'hébergement : elle aide à régler le **tarif dépendance**, qui existe en trois niveaux (GIR 1-2, GIR 3-4, GIR 5-6). Le médecin coordonnateur de l'établissement évalue le GIR après l'entrée."
-        },
-        {
-          "type": "p",
-          "texte": "En 2026, si les revenus sont inférieurs à 2 846,77 € par mois, le résident paie le tarif dépendance le moins élevé (celui des GIR 5-6) et l'APA prend en charge la différence avec le tarif correspondant à son GIR. Au-dessus de ce seuil, la participation augmente. L'APA est versée dès l'enregistrement du dossier administratif complet, directement à l'établissement (elle est déduite de la facture) ou à la personne, qui la reverse."
-        },
-        {
-          "type": "p",
-          "texte": "Le montant calculé en EHPAD n'est pas le même qu'à domicile. Depuis le 1er juillet 2025, 23 départements expérimentent un forfait global unique (soins et dépendance fusionnés) : dans les établissements concernés, l'APA en établissement est supprimée, selon le portail pour-les-personnes-agees.gouv.fr. Pour les prix de l'hébergement et les autres aides, voir le coût d'un EHPAD et les aides et l'aide sociale à l'hébergement."
-        },
-        {
-          "type": "attention",
-          "texte": "Si votre proche vit en résidence autonomie, en résidence services ou chez un accueillant familial, la demande se fait en APA à domicile, pas en APA en établissement."
-        }
-      ]
-    },
-    {
-      "h2": "L'APA est-elle imposable, récupérée sur la succession, cumulable ?",
-      "blocs": [
-        {
-          "type": "liste",
-          "items": [
-            "**Impôt** : l'APA est exonérée d'impôt sur le revenu. Il n'y a pas à la déclarer.",
-            "**Succession** : l'APA n'est pas à rembourser après le décès, et le département ne peut pas la récupérer sur la succession, même si la situation financière s'améliore.",
-            "**Cumul** : à domicile, l'APA ne se cumule pas avec l'allocation simple d'aide sociale, les aides des caisses de retraite, la prestation de compensation du handicap (PCH) ni la majoration pour aide constante d'une tierce personne. Pour la prestation complémentaire pour recours à tierce personne (PCRTP), on peut déposer un dossier d'APA pour choisir l'aide la plus avantageuse."
-          ]
-        },
-        {
-          "type": "p",
-          "texte": "En revanche, l'APA est différente du minimum vieillesse, qui est sous conditions de ressources strictes : voir l'ASPA. Et une personne bénéficiaire de l'APA en GIR 1 ou 2 peut obtenir la carte mobilité inclusion : voir la CMI."
-        }
-      ]
-    },
-    {
-      "h2": "Et si mon proche est en GIR 5 ou 6 ?",
-      "blocs": [
-        {
-          "type": "p",
-          "texte": "Il n'a pas droit à l'APA. Il peut en revanche demander une aide auprès de sa caisse de retraite. Le formulaire de demande d'aides à l'autonomie à domicile est le même : un court questionnaire à l'intérieur indique s'il faut l'envoyer au département (APA) ou à la caisse de retraite (accompagnement à domicile des personnes âgées). Le détail des niveaux est expliqué sur la page grille AGGIR."
-        }
-      ]
+     "type": "p",
+     "texte": "C'est le conseil départemental qui décide de l'attribution et qui verse l'allocation. Pour savoir comment déposer le dossier, voir la demande d'APA, étape par étape."
     }
-  ],
-  "faq": [
+   ]
+  },
+  {
+   "h2": "Quel est le montant de l'APA à domicile en 2026 ?",
+   "blocs": [
     {
-      "q": "L'APA est-elle versée à partir de 60 ans pour tout le monde ?",
-      "r": "Non. L'âge de 60 ans est une condition, mais il faut aussi résider en France de façon stable et être évalué en GIR 1, 2, 3 ou 4. Une personne classée GIR 5 ou 6 n'a pas droit à l'APA, même à 90 ans."
+     "type": "p",
+     "texte": "L'APA à domicile ne peut pas dépasser un plafond mensuel qui dépend du GIR. Ces montants sont ceux en vigueur depuis le 1er janvier 2026."
     },
     {
-      "q": "Quel est le montant minimum de l'APA ?",
-      "r": "Si l'APA à domicile calculée est inférieure à 36,93 € par mois, elle n'est pas versée. Cela peut arriver quand les ressources sont élevées et le plan d'aide modeste, puisque la participation peut atteindre 90 % du plan."
+     "type": "tableau",
+     "entetes": [
+      "GIR",
+      "Montant maximum de l'APA à domicile par mois (2026)"
+     ],
+     "lignes": [
+      [
+       "GIR 1",
+       "2 080,33 €"
+      ],
+      [
+       "GIR 2",
+       "1 682,30 €"
+      ],
+      [
+       "GIR 3",
+       "1 215,99 €"
+      ],
+      [
+       "GIR 4",
+       "811,52 €"
+      ]
+     ]
     },
     {
-      "q": "Mon père a une retraite élevée, a-t-il quand même droit à l'APA ?",
-      "r": "Oui, le droit s'ouvre sans condition de revenus. En revanche sa participation sera plus importante : au-delà de 3 439,31 € de ressources par mois (personne seule), elle atteint 90 % du plan d'aide. L'APA est versée tant que son montant dépasse 36,93 € par mois."
+     "type": "p",
+     "texte": "Ce plafond n'est pas un montant versé automatiquement. Le montant réel dépend du **plan d'aide** construit après la visite d'évaluation : nombre d'heures d'aide à domicile, repas livrés, matériel, etc. Le plan ne peut pas dépasser le plafond de votre GIR."
     },
     {
-      "q": "Peut-on cumuler l'APA et les aides de la caisse de retraite ?",
-      "r": "Non, à domicile l'APA ne se cumule pas avec les aides des caisses de retraite, ni avec la PCH ou l'allocation simple d'aide sociale. Le classement GIR décide d'ailleurs de la porte d'entrée : le département pour les GIR 1 à 4, la caisse de retraite pour les GIR 5 et 6."
+     "type": "attention",
+     "texte": "Si l'APA calculée est inférieure à 36,93 € par mois, elle n'est pas versée."
     },
     {
-      "q": "L'APA est-elle imposable ?",
-      "r": "Non. L'APA est exonérée d'impôt, vous n'avez pas à reporter son montant dans la déclaration de revenus."
+     "type": "p",
+     "texte": "Deux majorations existent quand un proche aidant est indispensable (la personne serait en danger sans sa surveillance et personne d'autre, hors professionnel, ne peut le remplacer) :"
     },
     {
-      "q": "Le département peut-il reprendre l'APA sur l'héritage ?",
-      "r": "Non. Les sommes d'APA reçues ne sont pas récupérables sur la succession et ne sont pas à rembourser si la situation du bénéficiaire s'améliore. La récupération sur succession existe en revanche pour d'autres aides, comme l'ASPA."
-    },
-    {
-      "q": "Une personne en résidence autonomie peut-elle toucher l'APA ?",
-      "r": "Oui, mais c'est l'APA à domicile qui s'applique, et non l'APA en établissement. Elle doit déposer son dossier auprès du département de son ancien lieu de résidence si elle vient d'arriver dans la résidence."
+     "type": "liste",
+     "items": [
+      "**dispositifs de répit** (accueil de jour, hébergement temporaire) : jusqu'à 583,52 € par an, à utiliser dans l'année qui suit l'attribution ;",
+      "**hospitalisation du proche aidant** : jusqu'à 1 159,32 € par hospitalisation, à utiliser pendant la période d'hospitalisation."
+     ]
     }
-  ],
-  "liens_internes": [
+   ]
+  },
+  {
+   "h2": "Combien dois-je payer moi-même ? Le calcul de la participation",
+   "blocs": [
     {
-      "slug": "apa/demande",
-      "ancre": "comment faire la demande d'APA"
+     "type": "p",
+     "texte": "L'APA versée est égale à la part du plan d'aide que vous utilisez, moins votre participation financière. Cette participation dépend de deux choses : le montant du plan d'aide et vos ressources mensuelles."
     },
     {
-      "slug": "grille-aggir",
-      "ancre": "la grille AGGIR et les 6 GIR"
+     "type": "tableau",
+     "entetes": [
+      "Ressources mensuelles (personne seule)",
+      "Part du plan d'aide à votre charge"
+     ],
+     "lignes": [
+      [
+       "Jusqu'à 933,89 €",
+       "Aucune"
+      ],
+      [
+       "De 933,89 € à 3 439,31 €",
+       "Augmente progressivement de 0 % à 90 % du plan d'aide accepté"
+      ],
+      [
+       "Plus de 3 439,31 €",
+       "90 % du plan d'aide accepté"
+      ]
+     ]
     },
     {
-      "slug": "aspa",
-      "ancre": "le minimum vieillesse (ASPA)"
+     "type": "p",
+     "texte": "Les ressources prises en compte sont les revenus de votre dernier avis d'imposition ou de non-imposition, les produits de placements soumis au prélèvement libératoire, les biens autres que la résidence principale et les capitaux ni exploités ni placés. Ne comptent pas, entre autres : les allocations logement (APL, ALS, ALF), les remboursements de soins, le capital décès et l'allocation de reconnaissance du combattant."
     },
     {
-      "slug": "carte-mobilite-inclusion",
-      "ancre": "la carte mobilité inclusion"
+     "type": "p",
+     "texte": "**En couple** (marié, pacsé ou concubin), on additionne les ressources du couple puis on divise par 1,7. Le résultat est comparé aux mêmes seuils. Exemple officiel : 3 400 € de ressources de couple donnent 3 400 ÷ 1,7 = 2 000 € par mois."
     },
     {
-      "slug": "aide-a-domicile",
-      "ancre": "l'aide à domicile pour une personne âgée"
+     "type": "exemple",
+     "titre": "Exemple 1 : revenus modestes",
+     "texte": "Votre mère vit seule, elle est en GIR 3 et touche 900 € par mois. Son plan d'aide accepté est de 1 000 € par mois (sous le plafond GIR 3 de 1 215,99 €). Ses ressources sont sous 933,89 € : elle ne paie rien et l'APA couvre les 1 000 €."
     },
     {
-      "slug": "ehpad-prix-aides",
-      "ancre": "le coût d'un EHPAD et les aides"
+     "type": "exemple",
+     "titre": "Exemple 2 : revenus élevés",
+     "texte": "Votre père vit seul, il est en GIR 2 et touche 3 600 € par mois. Son plan d'aide accepté est de 1 500 € (sous le plafond GIR 2 de 1 682,30 €). Ses ressources dépassent 3 439,31 € : il paie 90 % du plan, soit 1 350 €, et l'APA couvre 150 €. Elle est versée, puisqu'elle dépasse 36,93 €."
     },
     {
-      "slug": "aide-sociale-hebergement",
-      "ancre": "l'aide sociale à l'hébergement"
+     "type": "p",
+     "texte": "Entre 933,89 € et 3 439,31 €, le pourcentage exact est fixé par un calcul réglementaire. Le plus fiable est de demander l'estimation au département lors de la visite d'évaluation : dans certains départements, le professionnel en donne une estimation pendant la visite."
     }
-  ],
-  "sources": [
+   ]
+  },
+  {
+   "h2": "Que peut payer l'APA ?",
+   "blocs": [
     {
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10009",
-      "titre": "Service-public.gouv.fr : Allocation personnalisée d'autonomie (Apa) à domicile, vérifié le 1er juin 2026"
+     "type": "p",
+     "texte": "L'APA finance les dépenses prévues dans le plan d'aide. Selon les besoins, il peut s'agir de :"
     },
     {
-      "url": "https://www.pour-les-personnes-agees.gouv.fr/actualites/ce-qui-change-au-1er-janvier-2026",
-      "titre": "Pour les personnes âgées : Ce qui change au 1er janvier 2026"
+     "type": "liste",
+     "items": [
+      "la rémunération d'une aide à domicile ou d'un accueillant familial ;",
+      "le transport et la livraison de repas ;",
+      "les aides techniques (par exemple une chaise de douche) et l'adaptation du logement (par exemple une rampe d'accès) ;",
+      "l'accueil temporaire, en établissement ou en famille d'accueil, y compris l'accueil de jour."
+     ]
     },
     {
-      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/lapa-en-etablissement",
-      "titre": "Pour les personnes âgées : L'APA en établissement"
+     "type": "p",
+     "texte": "La partie du plan qui paie les aides régulières est versée chaque mois. Le premier versement arrive le mois qui suit la décision d'attribution et comprend l'APA due depuis la date d'ouverture des droits. Les dépenses ponctuelles (aides techniques, travaux, accueil temporaire) peuvent être versées en une fois, directement à l'entreprise ou à la personne concernée. La partie destinée à un salarié à domicile peut prendre la forme de chèques emploi service universel (Cesu) préfinancés."
     },
     {
-      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/comment-faire-la-demande-d-apa-a-domicile",
-      "titre": "Pour les personnes âgées : Comment faire la demande d'APA à domicile ?"
-    },
-    {
-      "url": "https://www.pour-les-personnes-agees.gouv.fr/comment-fonctionne-la-grille-aggir",
-      "titre": "Pour les personnes âgées : Comment fonctionne la grille AGGIR ?"
+     "type": "p",
+     "texte": "Pour choisir un intervenant, voir l'aide à domicile pour une personne âgée."
     }
-  ],
-  "date_verification": "2026-11-11",
-  "a_verifier": [
-    "La formule exacte de la participation entre 933,89 € et 3 439,31 € (article R232-11 du code de l'action sociale et des familles) n'a pas pu être lue sur Légifrance : la page n'en donne que les bornes.",
-    "Le seuil haut de revenus pour l'APA en établissement (au-delà de 2 846,77 €) n'a pas été confirmé : seul le seuil de 2 846,77 € est publié sur la page officielle lue.",
-    "Les montants du tarif dépendance par EHPAD varient selon l'établissement et le département : à lire sur l'annuaire officiel des EHPAD.",
-    "La liste des 23 départements qui expérimentent la fusion des tarifs soins et dépendance (APA en établissement supprimée) n'a pas été relevée : à vérifier pour le département du lecteur."
-  ]
+   ]
+  },
+  {
+   "h2": "Comment fonctionne l'APA en EHPAD ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "L'APA en établissement concerne les EHPAD et les unités de soins de longue durée (USLD). Elle ne paie pas l'hébergement : elle aide à régler le **tarif dépendance**, qui existe en trois niveaux (GIR 1-2, GIR 3-4, GIR 5-6). Le médecin coordonnateur de l'établissement évalue le GIR après l'entrée."
+    },
+    {
+     "type": "p",
+     "texte": "En 2026, si les revenus sont inférieurs à 2 846,77 € par mois, le résident paie le tarif dépendance le moins élevé (celui des GIR 5-6) et l'APA prend en charge la différence avec le tarif correspondant à son GIR. Au-dessus de ce seuil, la participation augmente. L'APA est versée dès l'enregistrement du dossier administratif complet, directement à l'établissement (elle est déduite de la facture) ou à la personne, qui la reverse."
+    },
+    {
+     "type": "p",
+     "texte": "Le montant calculé en EHPAD n'est pas le même qu'à domicile. Depuis le 1er juillet 2025, 23 départements expérimentent un forfait global unique (soins et dépendance fusionnés) : dans les établissements concernés, l'APA en établissement est supprimée, selon le portail pour-les-personnes-agees.gouv.fr. Pour les prix de l'hébergement et les autres aides, voir le coût d'un EHPAD et les aides et l'aide sociale à l'hébergement."
+    },
+    {
+     "type": "attention",
+     "texte": "Si votre proche vit en résidence autonomie, en résidence services ou chez un accueillant familial, la demande se fait en APA à domicile, pas en APA en établissement."
+    }
+   ]
+  },
+  {
+   "h2": "L'APA est-elle imposable, récupérée sur la succession, cumulable ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Impôt** : l'APA est exonérée d'impôt sur le revenu. Il n'y a pas à la déclarer.",
+      "**Succession** : l'APA n'est pas à rembourser après le décès, et le département ne peut pas la récupérer sur la succession, même si la situation financière s'améliore.",
+      "**Cumul** : à domicile, l'APA ne se cumule pas avec l'allocation simple d'aide sociale, les aides des caisses de retraite, la prestation de compensation du handicap (PCH) ni la majoration pour aide constante d'une tierce personne. Pour la prestation complémentaire pour recours à tierce personne (PCRTP), on peut déposer un dossier d'APA pour choisir l'aide la plus avantageuse."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "En revanche, l'APA est différente du minimum vieillesse, qui est sous conditions de ressources strictes : voir l'ASPA. Et une personne bénéficiaire de l'APA en GIR 1 ou 2 peut obtenir la carte mobilité inclusion : voir la CMI."
+    }
+   ]
+  },
+  {
+   "h2": "Et si mon proche est en GIR 5 ou 6 ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Il n'a pas droit à l'APA. Il peut en revanche demander une aide auprès de sa caisse de retraite. Le formulaire de demande d'aides à l'autonomie à domicile est le même : un court questionnaire à l'intérieur indique s'il faut l'envoyer au département (APA) ou à la caisse de retraite (accompagnement à domicile des personnes âgées). Le détail des niveaux est expliqué sur la page grille AGGIR."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quels sont les inconvénients de l'APA ?",
+   "r": "L'APA ne paie qu'un plan d'aide défini par le département, pas une somme libre : elle finance des heures d'aide, des équipements ou des services précis. Une participation reste à la charge de votre parent dès que ses ressources dépassent 933,89 € par mois, et elle atteint 90 % du plan au-delà de 3 439,31 €. Enfin, l'APA n'est due qu'à partir du dépôt du dossier complet, et la réponse peut prendre jusqu'à 2 mois. En revanche, elle n'est pas récupérée sur la succession."
+  },
+  {
+   "q": "L'APA est-elle versée à partir de 60 ans pour tout le monde ?",
+   "r": "Non. L'âge de 60 ans est une condition, mais il faut aussi résider en France de façon stable et être évalué en GIR 1, 2, 3 ou 4. Une personne classée GIR 5 ou 6 n'a pas droit à l'APA, même à 90 ans."
+  },
+  {
+   "q": "Quel est le montant minimum de l'APA ?",
+   "r": "Si l'APA à domicile calculée est inférieure à 36,93 € par mois, elle n'est pas versée. Cela peut arriver quand les ressources sont élevées et le plan d'aide modeste, puisque la participation peut atteindre 90 % du plan."
+  },
+  {
+   "q": "Mon père a une retraite élevée, a-t-il quand même droit à l'APA ?",
+   "r": "Oui, le droit s'ouvre sans condition de revenus. En revanche sa participation sera plus importante : au-delà de 3 439,31 € de ressources par mois (personne seule), elle atteint 90 % du plan d'aide. L'APA est versée tant que son montant dépasse 36,93 € par mois."
+  },
+  {
+   "q": "Peut-on cumuler l'APA et les aides de la caisse de retraite ?",
+   "r": "Non, à domicile l'APA ne se cumule pas avec les aides des caisses de retraite, ni avec la PCH ou l'allocation simple d'aide sociale. Le classement GIR décide d'ailleurs de la porte d'entrée : le département pour les GIR 1 à 4, la caisse de retraite pour les GIR 5 et 6."
+  },
+  {
+   "q": "L'APA est-elle imposable ?",
+   "r": "Non. L'APA est exonérée d'impôt, vous n'avez pas à reporter son montant dans la déclaration de revenus."
+  },
+  {
+   "q": "Le département peut-il reprendre l'APA sur l'héritage ?",
+   "r": "Non. Les sommes d'APA reçues ne sont pas récupérables sur la succession et ne sont pas à rembourser si la situation du bénéficiaire s'améliore. La récupération sur succession existe en revanche pour d'autres aides, comme l'ASPA."
+  },
+  {
+   "q": "Une personne en résidence autonomie peut-elle toucher l'APA ?",
+   "r": "Oui, mais c'est l'APA à domicile qui s'applique, et non l'APA en établissement. Elle doit déposer son dossier auprès du département de son ancien lieu de résidence si elle vient d'arriver dans la résidence."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "apa/demande",
+   "ancre": "comment faire la demande d'APA"
+  },
+  {
+   "slug": "grille-aggir",
+   "ancre": "la grille AGGIR et les 6 GIR"
+  },
+  {
+   "slug": "aspa",
+   "ancre": "le minimum vieillesse (ASPA)"
+  },
+  {
+   "slug": "carte-mobilite-inclusion",
+   "ancre": "la carte mobilité inclusion"
+  },
+  {
+   "slug": "aide-a-domicile",
+   "ancre": "l'aide à domicile pour une personne âgée"
+  },
+  {
+   "slug": "ehpad-prix-aides",
+   "ancre": "le coût d'un EHPAD et les aides"
+  },
+  {
+   "slug": "aide-sociale-hebergement",
+   "ancre": "l'aide sociale à l'hébergement"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10009",
+   "titre": "Service-public.gouv.fr : Allocation personnalisée d'autonomie (Apa) à domicile, vérifié le 1er juin 2026"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/actualites/ce-qui-change-au-1er-janvier-2026",
+   "titre": "Pour les personnes âgées : Ce qui change au 1er janvier 2026"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/lapa-en-etablissement",
+   "titre": "Pour les personnes âgées : L'APA en établissement"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/comment-faire-la-demande-d-apa-a-domicile",
+   "titre": "Pour les personnes âgées : Comment faire la demande d'APA à domicile ?"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/comment-fonctionne-la-grille-aggir",
+   "titre": "Pour les personnes âgées : Comment fonctionne la grille AGGIR ?"
+  }
+ ],
+ "date_verification": "2026-11-11",
+ "a_verifier": [
+  "La formule exacte de la participation entre 933,89 € et 3 439,31 € (article R232-11 du code de l'action sociale et des familles) n'a pas pu être lue sur Légifrance : la page n'en donne que les bornes.",
+  "Le seuil haut de revenus pour l'APA en établissement (au-delà de 2 846,77 €) n'a pas été confirmé : seul le seuil de 2 846,77 € est publié sur la page officielle lue.",
+  "Les montants du tarif dépendance par EHPAD varient selon l'établissement et le département : à lire sur l'annuaire officiel des EHPAD.",
+  "La liste des 23 départements qui expérimentent la fusion des tarifs soins et dépendance (APA en établissement supprimée) n'a pas été relevée : à vérifier pour le département du lecteur."
+ ]
 }
