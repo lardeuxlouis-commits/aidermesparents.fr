@@ -7,6 +7,7 @@ OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://aidermesparents.fr"
 SITE = "Aider mes parents"
 LANCEMENT = "2026-11-12"
+INDEXNOW = "ec97aa51e6fa335766b8991daee53218"
 
 E = lambda s: html.escape(str(s or ""), quote=True)
 
@@ -386,6 +387,7 @@ def main():
     open(os.path.join(OUT, "favicon.svg"), "w", encoding="utf-8").write(
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#2f5f8a"/><path d="M32 48s-14-8.5-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 46 29c0 10.5-14 19-14 19z" fill="#f2b98b"/></svg>')
     open(os.path.join(OUT, "CNAME"), "w").write("aidermesparents.fr\n")
+    open(os.path.join(OUT, INDEXNOW + ".txt"), "w").write(INDEXNOW)
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
     sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{d}</lastmod></url>" for u, d in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
