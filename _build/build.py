@@ -9,7 +9,7 @@ OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://aidermesparents.fr"
 SITE = "Aider mes parents"
 LANCEMENT = "2026-11-12"
-STRIPE_PLAN = "https://buy.stripe.com/fZubJ0gED8IVcFB6F22B202"
+STRIPE_PLAN = "https://buy.stripe.com/14AbIUcRefiy41Faw1cQU00"
 INDEXNOW = "ec97aa51e6fa335766b8991daee53218"
 
 E = lambda s: html.escape(str(s or ""), quote=True)
