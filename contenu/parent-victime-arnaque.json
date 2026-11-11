@@ -1,0 +1,280 @@
+{
+ "slug": "parent-victime-arnaque",
+ "title": "Arnaque au faux conseiller bancaire : que faire ?",
+ "description": "Votre parent s'est fait arnaquer par un faux conseiller bancaire ? Opposition, remboursement, plainte, médiateur : les bons gestes dans l'ordre.",
+ "h1": "Mon parent s'est fait arnaquer par un faux conseiller bancaire : que faire ?",
+ "chapo": "Faites d'abord opposition à sa carte, puis appelez sa banque avec le numéro habituel pour signaler chaque opération. Pour un paiement qu'il n'a pas autorisé, la banque doit rembourser au plus tard à la fin du premier jour ouvrable suivant le signalement, sauf si elle prouve une négligence grave. Vous avez 13 mois après le débit pour contester. Ensuite, portez plainte.",
+ "en_bref": [
+  "Opposition immédiate : banque de votre parent ou 0 892 705 705, 24 h/24",
+  "Remboursement d'une opération non autorisée : au plus tard à la fin du 1er jour ouvrable suivant",
+  "C'est à la banque de prouver une négligence grave, pas à votre parent de prouver sa bonne foi",
+  "Contestation possible jusqu'à 13 mois après la date du débit",
+  "En cas de refus : réclamation écrite, puis médiateur bancaire, gratuit"
+ ],
+ "sections": [
+  {
+   "h2": "Les premiers gestes, dans l'heure qui suit",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Plus vous agissez vite, plus vous limitez les dégâts. Aidez votre parent à faire ces gestes dans l'ordre, et si possible depuis un autre téléphone que celui qui a reçu l'appel."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Faites opposition à sa carte bancaire, même si elle n'a pas encore servi : appelez le numéro d'opposition de sa banque ou le serveur interbancaire au **0 892 705 705**, disponible 24 h/24. Notez le numéro d'enregistrement qui vous est donné.",
+      "Appelez la banque avec le numéro habituel (celui de l'agence, du conseiller, ou de la carte), jamais avec un numéro donné par l'interlocuteur. Signalez tous les paiements et virements frauduleux et demandez leur remboursement, leur blocage ou le retour des fonds.",
+      "Changez le mot de passe de l'espace bancaire en ligne si l'escroc a pu y accéder.",
+      "Faites la liste de toutes les opérations suspectes et des bénéficiaires des virements.",
+      "Gardez toutes les preuves : numéro qui a appelé, heure de l'appel, SMS, e-mails, relevés, ordres de virement."
+     ]
+    },
+    {
+     "type": "attention",
+     "texte": "Certaines banques demandent une confirmation écrite de l'opposition par lettre recommandée. Demandez-le au moment de l'appel."
+    }
+   ]
+  },
+  {
+   "h2": "Comment reconnaître l'arnaque au faux conseiller bancaire ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "L'escroc appelle en se présentant comme un conseiller ou un agent du service anti-fraude de la banque. Il connaît souvent déjà beaucoup de choses : nom, adresse, parfois le numéro de carte ou de compte. Le numéro qui s'affiche peut même être celui de la vraie banque : c'est ce qu'on appelle l'usurpation de numéro, ou « spoofing »."
+    },
+    {
+     "type": "p",
+     "texte": "Il annonce des opérations suspectes et propose de les bloquer en urgence. Pour cela, il demande les codes reçus par SMS, ou fait valider des opérations sur l'application bancaire. En réalité, votre parent valide des virements ou des paiements au profit de l'escroc."
+    },
+    {
+     "type": "attention",
+     "texte": "Un vrai conseiller ne demande jamais un mot de passe, un code de confirmation, ni de valider ou d'annuler une opération sur l'application pour arrêter une fraude."
+    }
+   ]
+  },
+  {
+   "h2": "La banque doit-elle rembourser mon parent ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Oui, en principe. Pour une opération de paiement que votre parent n'a pas autorisée, la loi (article L133-18 du code monétaire et financier) oblige la banque à rembourser **immédiatement**, et au plus tard à la fin du premier jour ouvrable suivant le signalement. Elle doit aussi remettre le compte dans l'état où il était, frais et agios compris."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**La seule vraie exception** : la fraude du client lui-même, ou une **négligence grave** de sa part (article L133-19).",
+      "**C'est à la banque de prouver** cette négligence grave. Le simple fait que la carte, le code ou l'application aient été utilisés ne suffit pas à le prouver (article L133-23).",
+      "**Sans authentification forte** demandée par la banque (par exemple une validation sur l'application ou un code reçu par SMS), votre parent ne supporte aucune perte, sauf fraude de sa part.",
+      "**Délai pour contester** : 13 mois après la date du débit (article L133-24). Au-delà, le droit au remboursement est perdu."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "La banque peut retarder le remboursement si elle a de bonnes raisons de soupçonner une fraude de votre parent lui-même. Elle doit alors en informer la Banque de France par écrit."
+    }
+   ]
+  },
+  {
+   "h2": "Et s'il a lui-même validé l'opération au téléphone ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "C'est l'argument que les banques opposent le plus souvent. La Cour de cassation a jugé à deux reprises que ce n'est pas forcément une négligence grave quand le client a été trompé par un faux conseiller qui usurpait le numéro de la banque."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**23 octobre 2024** (chambre commerciale, n° 23-16.267, publié au bulletin) : un particulier avait reçu un appel affichant le numéro de sa conseillère, et validé lui-même l'ajout de bénéficiaires sur son application, pour 54 500 € de virements. La Cour a rejeté le recours de la banque : la négligence grave n'était pas établie.",
+      "**12 juin 2025** (chambre commerciale, n° 24-13.777) : la Cour rappelle que c'est à la banque de prouver la négligence grave. L'usurpation du numéro de la banque était de nature à persuader la victime qu'elle parlait à un vrai technicien."
+     ]
+    },
+    {
+     "type": "attention",
+     "texte": "Ces décisions ne valent pas remboursement automatique : chaque dossier est apprécié selon ses circonstances. Notez dès maintenant ce qui a rendu l'appel crédible (numéro affiché, informations connues de l'escroc, urgence annoncée). Ce sont ces détails qui comptent."
+    }
+   ]
+  },
+  {
+   "h2": "Comment écrire à la banque pour demander le remboursement ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Si la banque ne rembourse pas après l'appel, faites une réclamation écrite au service réclamations, par lettre recommandée avec avis de réception ou par e-mail avec accusé de réception. Joignez le récépissé de plainte ou de signalement, le numéro d'opposition et la liste des opérations."
+    },
+    {
+     "type": "exemple",
+     "titre": "Modèle de lettre de réclamation",
+     "texte": "Madame, Monsieur, Le [date], j'ai été contacté(e) par une personne se présentant comme un conseiller de votre établissement, depuis le numéro [numéro affiché]. À la suite de cet appel, les opérations suivantes ont été débitées de mon compte n° [numéro] sans mon autorisation : [date, montant, bénéficiaire de chaque opération]. J'ai fait opposition le [date] (n° d'enregistrement [numéro]) et déposé plainte le [date]. En application de l'article L133-18 du code monétaire et financier, je vous demande le remboursement de ces opérations ainsi que des frais liés. Je vous rappelle qu'en application de l'article L133-23, il vous appartient de prouver une éventuelle négligence grave de ma part. Je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées. [Nom, signature]"
+    },
+    {
+     "type": "p",
+     "texte": "Si c'est vous qui écrivez pour votre parent, la lettre doit être signée par lui, sauf si vous avez une [habilitation familiale](habilitation-familiale) ou une mesure de protection qui vous permet d'agir en son nom."
+    }
+   ]
+  },
+  {
+   "h2": "La banque refuse : comment saisir le médiateur bancaire ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Pour un litige sur un service de paiement, la banque a **15 jours** pour répondre à la réclamation écrite. Sans réponse satisfaisante dans ce délai, votre parent peut saisir le médiateur de sa banque."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Ses coordonnées figurent sur les relevés de compte, la convention de compte ou le site de la banque",
+      "Saisine par formulaire en ligne ou par courrier, en joignant la réclamation et la réponse de la banque",
+      "C'est **gratuit**",
+      "Le médiateur doit proposer une solution dans un délai de **90 jours**, prolongeable pour un dossier complexe",
+      "Sa proposition n'est pas obligatoire : votre parent peut la refuser et aller devant le juge"
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Porter plainte et signaler l'arnaque : à qui s'adresser ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Plainte** : au commissariat ou à la gendarmerie, ou par courrier au procureur de la République. Gardez le récépissé pour la banque.",
+      "**Perceval** : pour une fraude à la carte bancaire, signalement en ligne sur service-public.gouv.fr avec FranceConnect, même si la banque a déjà remboursé. Il donne aussi un récépissé.",
+      "**Info Escroqueries** : 0 805 805 817, appel gratuit, du lundi au vendredi de 9 h à 18 h 30, pour être écouté et orienté.",
+      "**17Cyber** (17cyber.gouv.fr) : diagnostic en ligne de la situation et conseils, service de la police, de la gendarmerie et de Cybermalveillance.gouv.fr. En cas d'urgence, appelez le 17 ou le 112.",
+      "**Pharos** (internet-signalement.gouv.fr) : si l'arnaque est passée par un site ou un message sur internet.",
+      "**France Victimes** : 116 006, gratuit, tous les jours de 9 h à 19 h, pour une aide et un accompagnement."
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Comment protéger mon parent pour la suite ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Après une arnaque, beaucoup de personnes âgées ont honte et n'osent plus en parler. Rassurez votre parent : ces escrocs sont organisés et trompent aussi des professionnels. Fixez ensemble une règle simple : à chaque appel « de la banque », on raccroche et on rappelle soi-même le numéro habituel."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Mettez à jour son téléphone et son ordinateur, et lancez un antivirus si l'escroc a pu y accéder",
+      "Pour l'aider à surveiller ses comptes tant qu'il décide seul : une [procuration bancaire](procuration-bancaire-parent)",
+      "S'il n'est plus en état de gérer son argent : l'[habilitation familiale](habilitation-familiale) ou une [tutelle ou curatelle](tutelle-curatelle-parent)",
+      "Pour anticiper pendant qu'il peut encore signer : le [mandat de protection future](mandat-protection-future)"
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "S'il s'agit d'un vendeur venu à domicile ou d'un démarchage par téléphone pour des travaux, voyez notre page sur le [démarchage abusif d'une personne âgée](demarchage-abusif-personne-agee)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mon père a donné le code reçu par SMS au faux conseiller, est-ce une négligence grave ?",
+   "r": "Pas automatiquement. C'est à la banque de le prouver, et la Cour de cassation a jugé en 2024 et en 2025 que la victime d'un faux conseiller qui usurpe le numéro de la banque n'avait pas commis de négligence grave. Tout dépend des circonstances : plus l'appel était crédible, plus votre parent est protégé."
+  },
+  {
+   "q": "Faut-il porter plainte pour être remboursé par la banque ?",
+   "r": "Service-public.gouv.fr conseille de remettre à la banque le récépissé de plainte, ou de signalement Perceval pour une fraude à la carte. Portez plainte rapidement : le récépissé appuie la demande de remboursement et la plainte aide l'enquête."
+  },
+  {
+   "q": "Peut-on récupérer l'argent d'un virement fait sous la pression d'un escroc ?",
+   "r": "Oui, s'il est reconnu comme non autorisé. La Cour de cassation l'a admis en octobre 2024 pour un client qui avait lui-même validé l'ajout des bénéficiaires sur son application, trompé par un faux conseiller. Signalez le virement le plus vite possible : la banque peut aussi tenter de récupérer les fonds."
+  },
+  {
+   "q": "Ma mère a découvert l'arnaque plusieurs mois après, est-il trop tard ?",
+   "r": "Non, tant que le débit date de moins de 13 mois. Au-delà, le droit au remboursement est perdu. Relisez ses relevés avec elle pour repérer toutes les opérations suspectes, pas seulement la dernière."
+  },
+  {
+   "q": "Quelle peine risque l'auteur d'une escroquerie ?",
+   "r": "L'escroquerie est punie de 5 ans d'emprisonnement et de 375 000 € d'amende (article 313-1 du code pénal). Votre parent peut se constituer partie civile pour demander réparation."
+  },
+  {
+   "q": "Le médiateur donne tort à mon parent, que faire ?",
+   "r": "L'avis du médiateur n'oblige ni votre parent, ni la banque. Votre parent peut saisir le juge. Faites-vous conseiller, par exemple par une association de consommateurs ou un avocat, avant d'engager une procédure."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "procuration-bancaire-parent",
+   "ancre": "procuration bancaire"
+  },
+  {
+   "slug": "habilitation-familiale",
+   "ancre": "habilitation familiale"
+  },
+  {
+   "slug": "tutelle-curatelle-parent",
+   "ancre": "tutelle ou curatelle"
+  },
+  {
+   "slug": "mandat-protection-future",
+   "ancre": "mandat de protection future"
+  },
+  {
+   "slug": "demarchage-abusif-personne-agee",
+   "ancre": "démarchage abusif d'une personne âgée"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35460/0_0_0?idFicheParent=F31324",
+   "titre": "service-public.gouv.fr, Fraude à la carte bancaire (fraude sur internet, Perceval)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35460/0_0_1?lang=fr",
+   "titre": "service-public.gouv.fr, Fraude à la carte bancaire (autre situation)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20523",
+   "titre": "service-public.gouv.fr, Médiateur bancaire : comment y recourir ?"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020861591",
+   "titre": "Légifrance, article L133-18 du code monétaire et financier"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035430527",
+   "titre": "Légifrance, article L133-19 du code monétaire et financier"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035430567",
+   "titre": "Légifrance, article L133-23 du code monétaire et financier"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035430562",
+   "titre": "Légifrance, article L133-24 du code monétaire et financier"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000050442874/",
+   "titre": "Légifrance, Cour de cassation, chambre commerciale, 23 octobre 2024, n° 23-16.267"
+  },
+  {
+   "url": "https://www.dalloz-actualite.fr/document/com-12-juin-2025-f-b-n-24-13777",
+   "titre": "Texte intégral de Cass. com., 12 juin 2025, n° 24-13.777, ECLI:FR:CCASS:2025:CO00321 (reproduit par Dalloz actualité)"
+  },
+  {
+   "url": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/fraude-faux-conseiller-bancaire",
+   "titre": "Cybermalveillance.gouv.fr, Que faire en cas de fraude au faux conseiller bancaire ?"
+  },
+  {
+   "url": "https://www.justice.fr/je-suis-victime/atteintes-biens/arnaque-fraude-escroquerie",
+   "titre": "justice.fr, Arnaque, fraude, escroquerie"
+  },
+  {
+   "url": "https://17cyber.gouv.fr",
+   "titre": "17Cyber, assistance en ligne aux victimes de cybermalveillance"
+  }
+ ],
+ "a_verifier": [
+  "Délai de 70 jours mentionné par service-public pour une fraude carte hors Espace économique européen : formulation ambiguë (délai de contestation ou de remboursement), non repris dans le texte",
+  "Arrêt du 12 juin 2025 : texte lu sur Dalloz actualité (reproduction intégrale avec ECLI), pas encore sur courdecassation.fr ou Légifrance ; il concerne une société cliente, pas un particulier",
+  "Délai d'un an pour saisir le médiateur après la réclamation écrite : vu dans un résumé de recherche, non confirmé sur la page lue, non repris",
+  "La banque peut-elle exiger une plainte avant de rembourser ? Aucune condition de ce type dans les articles L133-18 à L133-24 lus, mais pas de source officielle explicite, donc non affirmé dans le texte",
+  "Possibilité d'une plainte en ligne (THESEE) pour l'arnaque au faux conseiller : THESEE ne couvre que certaines e-escroqueries (faux sites, petites annonces, sentiments), non mentionnée dans le texte",
+  "Horaires et disponibilité 24 h/24 de 17Cyber avec échange avec un policier : non confirmés sur la page d'accueil lue, non repris"
+ ],
+ "date_verification": "2026-11-11"
+}

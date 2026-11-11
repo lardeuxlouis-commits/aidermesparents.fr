@@ -1,0 +1,254 @@
+{
+ "slug": "demarchage-abusif-personne-agee",
+ "title": "Démarchage abusif d'une personne âgée : annuler, signaler",
+ "description": "Un démarcheur a fait signer votre parent ? 14 jours pour se rétracter, aucun paiement avant 7 jours, contrat nul en cas d'abus de faiblesse. Les recours.",
+ "h1": "Démarchage abusif d'une personne âgée : comment annuler et se défendre",
+ "chapo": "Si votre parent a signé chez lui avec un vendeur, il a 14 jours pour se rétracter, sans se justifier. Le vendeur n'a le droit de recevoir aucun paiement pendant 7 jours après la signature. Si le vendeur a profité de sa faiblesse, le contrat est nul. Depuis le 11 août 2026, tout démarchage téléphonique sans accord préalable est interdit.",
+ "en_bref": [
+  "Rétractation : 14 jours, sans motif, par écrit",
+  "Aucun acompte, chèque ou prélèvement avant 7 jours après la signature à domicile",
+  "Abus de faiblesse : contrat nul, jusqu'à 3 ans de prison et 375 000 € d'amende",
+  "Depuis le 11 août 2026 : démarchage téléphonique interdit sans accord préalable, Bloctel n'existe plus",
+  "Travaux d'économie d'énergie ou d'adaptation du logement au vieillissement : démarchage par téléphone interdit, même avec accord"
+ ],
+ "sections": [
+  {
+   "h2": "Mon parent a signé chez lui : a-t-il le droit d'annuler ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Oui. Un contrat signé à domicile avec un vendeur, ou ailleurs que dans le magasin du professionnel, est un contrat « conclu hors établissement ». Votre parent dispose de **14 jours calendaires** pour se rétracter, sans avoir à se justifier et sans frais, en dehors des frais de retour éventuels d'un bien."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Pour un service ou des travaux** : le délai part du lendemain de la signature",
+      "**Pour un bien** (appareil, matériel) : le délai part du lendemain de sa réception",
+      "**Si le dernier jour tombe un samedi, un dimanche ou un jour férié** : le délai est prolongé jusqu'au premier jour ouvrable suivant",
+      "**Si le vendeur n'a pas remis le formulaire ou l'information sur la rétractation** : le délai est prolongé de 12 mois après la fin des 14 jours"
+     ]
+    },
+    {
+     "type": "attention",
+     "texte": "Pas de droit de rétractation pour des travaux urgents de réparation demandés par votre parent, ni pour un service entièrement exécuté avant la fin du délai avec son accord. Relisez le contrat pour vérifier ce qui a été coché."
+    }
+   ]
+  },
+  {
+   "h2": "Le vendeur peut-il encaisser un acompte le jour même ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Non. Après une signature à domicile, le vendeur ne peut recevoir **aucun paiement pendant 7 jours** : ni acompte, ni chèque (même non encaissé), ni autorisation de prélèvement (article L221-10 du code de la consommation)."
+    },
+    {
+     "type": "p",
+     "texte": "Ne pas respecter ce délai est puni de 2 ans d'emprisonnement et de 150 000 € d'amende (article L242-7). Si un démarcheur a pris un chèque à votre parent le jour de la signature, c'est un signal d'alerte à signaler."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Exceptions : abonnement à un journal d'information politique",
+      "Services à la personne fournis par un organisme agréé",
+      "Ventes lors de réunions organisées chez le vendeur ou chez un client",
+      "Travaux urgents de réparation faits à la demande expresse du client"
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "Comment annuler le contrat : la lettre de rétractation",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Retrouvez le contrat et le formulaire de rétractation qui doit y être joint. Notez la date de signature ou de livraison.",
+      "Remplissez le formulaire, ou écrivez une lettre simple (modèle ci-dessous). Renvoyer le bien sans écrire ne suffit pas.",
+      "Envoyez-la par lettre recommandée avec avis de réception avant la fin du délai : vous aurez une preuve de la date. Gardez une copie.",
+      "Si un paiement a été fait, le vendeur doit le rembourser dans les 14 jours suivant la rétractation, par le même moyen de paiement."
+     ]
+    },
+    {
+     "type": "exemple",
+     "titre": "Modèle de lettre de rétractation",
+     "texte": "Madame, Monsieur, Le [date], j'ai signé à mon domicile un contrat avec votre société portant sur [nature des travaux ou du bien], pour un montant de [montant] €. Conformément au code de la consommation, je vous notifie ma décision de me rétracter de ce contrat. Je vous demande, le cas échéant, le remboursement des sommes versées dans un délai de 14 jours. Je vous prie d'agréer, Madame, Monsieur, mes salutations distinguées. [Nom, adresse, signature]"
+    },
+    {
+     "type": "p",
+     "texte": "La lettre doit être signée par votre parent, titulaire du contrat. Vous pouvez l'aider à la rédiger et l'envoyer pour lui."
+    }
+   ]
+  },
+  {
+   "h2": "Démarchage téléphonique : ce qui a changé le 11 août 2026",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Depuis le **11 août 2026**, une entreprise ne peut plus appeler un consommateur pour lui vendre quelque chose sans avoir obtenu **son accord préalable**, libre et clair. Cet accord peut être retiré à tout moment, même à l'oral. L'inscription sur Bloctel n'est plus nécessaire : la liste a pris fin."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Horaires autorisés** : du lundi au vendredi, de 10 h à 13 h et de 14 h à 20 h, sauf autres horaires acceptés par le consommateur",
+      "**Exception** : un professionnel avec qui votre parent a un contrat en cours peut l'appeler au sujet de ce contrat",
+      "**Contrat signé après un appel illégal** : il est nul",
+      "**Sanction** : jusqu'à 75 000 € d'amende pour une personne physique et 375 000 € pour une société, par appel"
+     ]
+    },
+    {
+     "type": "attention",
+     "texte": "Pour les travaux d'économie d'énergie, d'énergies renouvelables, de rénovation énergétique et d'**adaptation du logement au vieillissement ou au handicap**, tout démarchage par téléphone est interdit, même si votre parent a donné son accord. Seule exception : un rappel que votre parent a lui-même demandé, dans les 5 jours ouvrables, et uniquement sur ce produit."
+    },
+    {
+     "type": "p",
+     "texte": "Si un appel propose spontanément à votre parent une douche adaptée ou un monte-escalier, il est illégal. Pour financer ces travaux, renseignez-vous plutôt sur l'aide publique [MaPrimeAdapt'](maprimeadapt)."
+    }
+   ]
+  },
+  {
+   "h2": "Qu'est-ce que l'abus de faiblesse et que risque le vendeur ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La loi interdit d'abuser de la faiblesse ou de l'ignorance d'une personne pour lui faire signer un engagement lors d'une visite à domicile, quand elle n'était pas en mesure de comprendre la portée de ce qu'elle signait, de déceler les ruses employées, ou qu'elle a subi une contrainte (article L121-8 du code de la consommation). Le même interdit vaut pour un engagement obtenu par démarchage téléphonique, lors de réunions, dans un lieu qui n'est pas un commerce, ou en profitant d'une situation d'urgence (article L121-9)."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Le contrat est nul** (article L132-13) : il doit être annulé, même après les 14 jours de rétractation",
+      "**Sanction pénale** : 3 ans d'emprisonnement et 375 000 € d'amende, montant qui peut être porté à 10 % du chiffre d'affaires annuel moyen de l'entreprise (article L132-14)",
+      "**Peine complémentaire** : interdiction d'exercer l'activité jusqu'à 5 ans (article L132-15)"
+     ]
+    },
+    {
+     "type": "exemple",
+     "titre": "Exemple",
+     "texte": "Votre mère, 84 ans, vit seule. Un vendeur passe trois fois dans la semaine, insiste, et lui fait signer un contrat d'isolation de plusieurs milliers d'euros qu'elle ne se souvient pas avoir compris. Si les 14 jours sont passés, la rétractation n'est plus possible, mais l'abus de faiblesse permet de demander la nullité du contrat et de porter plainte."
+    },
+    {
+     "type": "p",
+     "texte": "Il faut prouver la faiblesse de votre parent au moment de la signature : un certificat médical, des témoignages de proches, le nombre de visites, l'écart entre le prix et ses moyens. Rassemblez ces éléments tôt."
+    }
+   ]
+  },
+  {
+   "h2": "Où signaler un démarchage abusif ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**SignalConso** (signal.conso.gouv.fr) : le service public pour signaler un problème avec un professionnel",
+      "**33700** : la plateforme officielle de lutte contre les spams vocaux et les SMS non sollicités",
+      "**Cnil** : si l'entreprise utilise les données de votre parent sans son accord",
+      "**Plainte** : au commissariat, à la gendarmerie, ou par courrier au procureur de la République, en cas d'abus de faiblesse ou de paiement exigé avant 7 jours"
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour l'abus de faiblesse, le délai pour porter plainte est de 6 ans à partir des faits. L'action devant le juge civil pour faire annuler le contrat se prescrit par 5 ans."
+    }
+   ]
+  },
+  {
+   "h2": "Comment éviter que cela se reproduise ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "Convenez avec votre parent qu'il ne signe rien le jour même et qu'il vous appelle avant tout engagement",
+      "Collez près du téléphone et de la porte un mot simple : « Je ne signe rien sans en parler à ma fille / mon fils »",
+      "Vérifiez avec lui ses relevés de compte chaque mois pour repérer un prélèvement inconnu",
+      "Si les sollicitations reviennent et qu'il n'arrive plus à se protéger seul : l'[habilitation familiale](habilitation-familiale) ou une [tutelle ou curatelle](tutelle-curatelle-parent)"
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Si l'escroc s'est fait passer pour la banque et a vidé un compte, la démarche n'est pas la même : voyez notre page [mon parent victime d'une arnaque bancaire](parent-victime-arnaque)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Le délai de 14 jours est dépassé, peut-on encore annuler ?",
+   "r": "Peut-être. Si le vendeur n'a pas remis l'information ou le formulaire de rétractation, le délai est prolongé de 12 mois. Si votre parent n'était pas en état de comprendre ce qu'il signait, le contrat peut être annulé pour abus de faiblesse, sans limite liée aux 14 jours."
+  },
+  {
+   "q": "Mon père a fait un chèque au démarcheur le jour de la signature, que faire ?",
+   "r": "Le vendeur n'avait pas le droit de le recevoir avant 7 jours. Contactez sans attendre la banque de votre parent pour savoir si une opposition est possible dans son cas, envoyez la lettre de rétractation si vous êtes dans les 14 jours, et signalez les faits sur SignalConso."
+  },
+  {
+   "q": "Faut-il encore s'inscrire sur Bloctel ?",
+   "r": "Non. Depuis le 11 août 2026, l'inscription sur Bloctel n'est plus nécessaire : un professionnel doit avoir l'accord préalable de votre parent pour l'appeler. S'il appelle sans cet accord, signalez-le."
+  },
+  {
+   "q": "Un vendeur peut-il appeler ma mère le samedi ?",
+   "r": "Non, sauf si elle a accepté d'autres horaires. Le démarchage téléphonique n'est autorisé que du lundi au vendredi, de 10 h à 13 h et de 14 h à 20 h, et seulement avec son accord préalable."
+  },
+  {
+   "q": "Une entreprise appelle pour proposer une douche adaptée à mon père, est-ce légal ?",
+   "r": "Non, sauf si votre père a lui-même demandé à être rappelé, et dans les 5 jours ouvrables. Le démarchage téléphonique pour adapter un logement au vieillissement ou au handicap est interdit, même avec accord. Un contrat signé après un appel illégal est nul."
+  },
+  {
+   "q": "Le démarcheur peut-il garder l'argent si mon parent se rétracte ?",
+   "r": "Non. Il doit rembourser toutes les sommes versées dans les 14 jours qui suivent la rétractation, par le même moyen de paiement. Pour un bien déjà livré, les frais de retour peuvent rester à la charge de votre parent."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "maprimeadapt",
+   "ancre": "MaPrimeAdapt'"
+  },
+  {
+   "slug": "habilitation-familiale",
+   "ancre": "habilitation familiale"
+  },
+  {
+   "slug": "tutelle-curatelle-parent",
+   "ancre": "tutelle ou curatelle"
+  },
+  {
+   "slug": "parent-victime-arnaque",
+   "ancre": "mon parent victime d'une arnaque bancaire"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10485",
+   "titre": "service-public.gouv.fr, Droit de rétractation (vente à distance et hors établissement)"
+  },
+  {
+   "url": "https://entreprendre.service-public.gouv.fr/vosdroits/F23224",
+   "titre": "entreprendre.service-public.gouv.fr, Démarchage à domicile : règles à respecter"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33267",
+   "titre": "service-public.gouv.fr, Démarchage téléphonique abusif, spam vocal ou par SMS : que faire ?"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032227278",
+   "titre": "Légifrance, article L121-8 du code de la consommation"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032220947/",
+   "titre": "Légifrance, code de la consommation, articles L121-9 et L121-10"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069565/LEGISCTA000032221133/",
+   "titre": "Légifrance, code de la consommation, articles L132-13 à L132-15 (abus de faiblesse, sanctions)"
+  },
+  {
+   "url": "https://www.justice.fr/fiche/abus-faiblesse",
+   "titre": "justice.fr, Abus de faiblesse"
+  }
+ ],
+ "a_verifier": [
+  "Article L132-14-1 (créé en 2025) : peines aggravées à 5 ans et 500 000 € dans certaines circonstances liées à l'article L121-9, résumé incomplet, non repris dans le texte",
+  "Fiches DGCCRF (abus de faiblesse, démarchage téléphonique) inaccessibles (erreur 403) : contenu non lu, faits repris uniquement depuis service-public, justice.fr et Légifrance",
+  "Possibilité de faire opposition à un chèque remis à un démarcheur : les cas d'opposition à un chèque sont limités, renvoyé vers la banque sans affirmer que c'est possible",
+  "Détail de l'exception « contrat en cours » au consentement préalable (périmètre exact de ce qui peut être proposé lors de l'appel)",
+  "Paiement dû si un service a commencé pendant le délai de rétractation à la demande du client : non vérifié, non traité",
+  "Rétractation d'un crédit affecté signé avec les travaux : délai et démarche non vérifiés, non traités"
+ ],
+ "date_verification": "2026-11-11"
+}

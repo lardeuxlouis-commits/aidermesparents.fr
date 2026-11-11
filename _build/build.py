@@ -92,6 +92,8 @@ PAGES = {  # slug -> (rubrique, image, libellé court pour le menu et les cartes
     "mandat-protection-future": ("aidants", "aidant", "Mandat de protection future"),
     "procuration-bancaire-parent": ("aidants", "aidant", "Procuration bancaire"),
     "accueillir-parent-chez-soi": ("aidants", "accueil", "Accueillir un parent chez soi"),
+    "parent-victime-arnaque": ("aidants", "aidant", "Mon parent s'est fait arnaquer"),
+    "demarchage-abusif-personne-agee": ("aidants", "aidant", "Démarchage abusif d'une personne âgée"),
 }
 ALT = {
     "accueil": "Une femme serre sa mère âgée dans ses bras, toutes deux rient sur une terrasse ensoleillée",
