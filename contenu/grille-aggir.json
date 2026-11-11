@@ -1,0 +1,292 @@
+{
+  "slug": "grille-aggir",
+  "title": "Grille AGGIR : les 6 niveaux de GIR expliqués",
+  "description": "Grille AGGIR : ce qu'elle mesure, les 10 critères, les 6 GIR expliqués simplement, qui évalue et ce que chaque niveau ouvre comme aides.",
+  "h1": "Grille AGGIR : comprendre les 6 niveaux de GIR",
+  "chapo": "La grille AGGIR est l'outil officiel qui mesure la perte d'autonomie d'une personne âgée. Elle classe la personne dans l'un des 6 GIR (groupes iso-ressources), du GIR 1 (perte d'autonomie la plus forte) au GIR 6 (la plus faible). Seuls les GIR 1 à 4 ouvrent droit à l'APA. Les GIR 5 et 6 relèvent plutôt des aides de la caisse de retraite.",
+  "en_bref": [
+    "La grille compte 17 rubriques, dont 10 seulement servent à calculer le GIR.",
+    "Chaque rubrique est cotée A, B ou C selon que la personne fait l'acte seule, partiellement ou pas du tout.",
+    "GIR 1 à 4 : droit à l'APA. GIR 5 et 6 : pas d'APA, mais possibilité d'aide de la caisse de retraite.",
+    "L'évaluation est faite par un professionnel : équipe du département à domicile, médecin coordonnateur en EHPAD.",
+    "Il n'existe pas d'auto-test officiel : le GIR n'est valable que s'il est attribué par l'évaluateur."
+  ],
+  "sections": [
+    {
+      "h2": "Qu'est-ce que la grille AGGIR et à quoi sert-elle ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "AGGIR signifie « autonomie gérontologie groupes iso-ressources ». C'est une grille nationale qui regarde ce que la personne fait seule ou non dans sa vie quotidienne : se laver, s'habiller, se lever, se déplacer, manger, se repérer, téléphoner. Le résultat est un chiffre, le GIR, de 1 à 6."
+        },
+        {
+          "type": "p",
+          "texte": "Le GIR sert à deux choses : savoir si la personne peut bénéficier de l'APA (GIR 1 à 4), et fixer le montant maximal de l'aide. Les montants sont détaillés sur la page APA : montant et conditions."
+        },
+        {
+          "type": "p",
+          "texte": "Un GIR décrit un niveau de perte d'autonomie, pas une maladie. Deux personnes avec le même diagnostic peuvent avoir des GIR différents, et le GIR d'une même personne peut changer : une réévaluation est possible quand la situation évolue."
+        }
+      ]
+    },
+    {
+      "h2": "Quels sont les 10 critères qui comptent vraiment ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "La grille compte 17 rubriques. Dix sont dites « discriminantes » : ce sont les seules utilisées pour calculer le GIR. Sept sont « illustratives » : elles n'entrent pas dans le calcul mais aident à construire le plan d'aide de l'APA à domicile."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "10 variables qui déterminent le GIR",
+            "Ce qui est regardé"
+          ],
+          "lignes": [
+            [
+              "Cohérence",
+              "communiquer, converser et se comporter de façon sensée"
+            ],
+            [
+              "Orientation",
+              "se repérer dans le temps, les lieux, les moments de la journée"
+            ],
+            [
+              "Toilette",
+              "se laver"
+            ],
+            [
+              "Habillage",
+              "s'habiller, se déshabiller, se présenter"
+            ],
+            [
+              "Alimentation",
+              "manger les aliments préparés"
+            ],
+            [
+              "Élimination",
+              "assumer l'hygiène urinaire et fécale"
+            ],
+            [
+              "Transferts",
+              "se lever, se coucher, s'asseoir"
+            ],
+            [
+              "Déplacements à l'intérieur",
+              "se déplacer dans le logement, y compris avec un appareillage"
+            ],
+            [
+              "Déplacements à l'extérieur",
+              "se déplacer à partir de la porte d'entrée sans moyen de transport"
+            ],
+            [
+              "Communication à distance",
+              "utiliser le téléphone, une alarme"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Les 7 variables illustratives sont : gestion (budget, biens), cuisine, ménage, transport, achats, suivi du traitement et activités de temps libre. Un parent qui ne cuisine plus et ne gère plus ses papiers peut donc rester en GIR 5 ou 6 : ces rubriques ne font pas basculer le GIR."
+        }
+      ]
+    },
+    {
+      "h2": "Comment sont cotées les réponses : A, B ou C ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Chacune des 17 rubriques reçoit une lettre :"
+        },
+        {
+          "type": "liste",
+          "items": [
+            "**A** : l'acte est fait seul, spontanément, totalement, habituellement et correctement ;",
+            "**B** : l'acte est fait seul mais pas spontanément, ou partiellement, ou pas habituellement, ou pas correctement ;",
+            "**C** : l'acte n'est pas fait seul."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Les 10 lettres des variables discriminantes permettent ensuite de classer la personne dans l'un des 6 GIR."
+        },
+        {
+          "type": "attention",
+          "texte": "Le mot « correctement » compte. Une personne qui se lave seule mais mal, ou oublie de manger sans qu'on le lui rappelle, n'est pas en A. Décrivez à l'évaluateur la réalité de tous les jours, pas seulement ce que votre parent réussit devant lui."
+        }
+      ]
+    },
+    {
+      "h2": "Que veulent dire GIR 1, 2, 3, 4, 5 et 6 ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "entetes": [
+            "GIR",
+            "Profil officiel",
+            "Pour fixer les idées"
+          ],
+          "lignes": [
+            [
+              "GIR 1",
+              "Confinée au lit, fonctions mentales gravement altérées, présence indispensable et continue d'intervenants",
+              "Une personne alitée qui ne reconnaît plus ses proches et a besoin d'une présence en continu"
+            ],
+            [
+              "GIR 2",
+              "Confinée au lit ou au fauteuil avec fonctions mentales non totalement altérées et prise en charge pour la plupart des actes ; ou fonctions mentales altérées mais capacité de se déplacer conservée",
+              "Une personne en fauteuil à qui il faut aider pour presque tout ; ou une personne atteinte de la maladie d'Alzheimer qui marche mais n'est plus en sécurité seule"
+            ],
+            [
+              "GIR 3",
+              "Autonomie mentale conservée en tout ou partie, autonomie pour se déplacer en partie, mais aides pour l'autonomie corporelle plusieurs fois par jour",
+              "Une personne lucide qui marche avec difficulté et a besoin d'aide chaque jour, plusieurs fois, pour la toilette, l'habillage ou les transferts"
+            ],
+            [
+              "GIR 4",
+              "Ne fait pas seule ses transferts mais, une fois levée, se déplace dans le logement, parfois aidée pour la toilette et l'habillage, s'alimente seule le plus souvent ; ou pas de problème pour se déplacer mais aide pour les activités corporelles et les repas",
+              "Une personne qu'il faut aider à se lever et à s'habiller, mais qui ensuite circule chez elle"
+            ],
+            [
+              "GIR 5",
+              "Assure seule ses déplacements dans le logement, s'alimente et s'habille seule ; aide ponctuelle pour la toilette et les tâches domestiques (repas, ménage)",
+              "Une personne qui se débrouille, mais pour qui le ménage et les courses deviennent pesants"
+            ],
+            [
+              "GIR 6",
+              "Autonome pour tous les actes discriminants de la vie courante ; aide ponctuelle possible pour les activités domestiques",
+              "Une personne autonome qui a juste besoin d'un coup de main de temps en temps"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "La colonne « profil officiel » reprend la description de pour-les-personnes-agees.gouv.fr. La colonne « pour fixer les idées » est une illustration pour vous aider à situer un proche : seul l'évaluateur peut attribuer un GIR."
+        }
+      ]
+    },
+    {
+      "h2": "Qui évalue le GIR, et où ?",
+      "blocs": [
+        {
+          "type": "liste",
+          "items": [
+            "**À domicile**, dans le cadre d'une demande d'APA : un professionnel de l'équipe médico-sociale APA du département se déplace chez la personne. Il peut s'appuyer sur un certificat médical, facultatif, s'il est joint au dossier. Des proches peuvent être présents.",
+            "**En EHPAD ou en USLD** : le médecin coordonnateur évalue le GIR avec l'équipe soignante, en général un mois après l'entrée.",
+            "**Pour les aides de la caisse de retraite** : les évaluateurs de la caisse utilisent aussi la grille."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Le médecin traitant n'attribue pas le GIR. Son certificat peut aider, mais la décision revient à l'évaluateur. Le déroulé de la visite est décrit sur la page la demande d'APA."
+        }
+      ]
+    },
+    {
+      "h2": "Que donne chaque GIR comme droits ?",
+      "blocs": [
+        {
+          "type": "liste",
+          "items": [
+            "**GIR 1 à 4** : éligibilité à l'APA, à domicile ou en établissement. Le GIR fixe aussi le plafond d'APA à domicile : voir les montants de l'APA.",
+            "**GIR 1 et 2 avec l'APA** : droit à la carte mobilité inclusion « stationnement » et « invalidité » attribuée sur demande et de façon définitive (voir la CMI). Les GIR 1 et 2 permettent aussi de demander la CMI stationnement sans être bénéficiaire de l'APA.",
+            "**GIR 5 et 6** : pas d'APA. La personne peut demander l'accompagnement à domicile proposé par sa caisse de retraite, ou une aide-ménagère."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Le même formulaire de demande d'aides à l'autonomie à domicile sert à la fois pour l'APA et pour les aides de la caisse de retraite. Un court questionnaire sur l'autonomie (page 7, partie 4) oriente vers le bon organisme."
+        }
+      ]
+    },
+    {
+      "h2": "Existe-t-il un test GIR en ligne et que faire si le GIR paraît trop bas ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Les sites officiels que nous avons consultés ne proposent pas de simulateur de GIR. Le GIR est établi lors de la visite d'évaluation. Les « tests » trouvés sur d'autres sites donnent seulement une idée et ne valent pas évaluation."
+        },
+        {
+          "type": "p",
+          "texte": "Si le GIR attribué vous semble inférieur à la réalité, deux voies : demander une réévaluation si la situation a évolué (aggravation, nouvelle maladie, aidant épuisé), ou contester la décision par un recours auprès du département dans les 2 mois qui suivent la notification. Voir la demande d'APA et les recours."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel GIR faut-il pour avoir l'APA ?",
+      "r": "Il faut être évalué en GIR 1, 2, 3 ou 4. Les personnes classées en GIR 5 ou 6 ne sont pas éligibles à l'APA, mais peuvent solliciter une aide-ménagère ou une aide de leur caisse de retraite."
+    },
+    {
+      "q": "Quelle est la différence entre le GIR 4 et le GIR 5 ?",
+      "r": "En GIR 4, la personne a besoin d'aide pour se lever ou se coucher, ou pour les activités corporelles et les repas. En GIR 5, elle se déplace dans son logement, s'alimente et s'habille seule : elle n'a besoin que d'une aide ponctuelle pour la toilette et les tâches domestiques. Cette frontière est celle de l'APA."
+    },
+    {
+      "q": "Le GIR peut-il changer avec le temps ?",
+      "r": "Oui. Une réévaluation du GIR peut être faite par l'équipe médico-sociale du département à domicile, ou par le médecin coordonnateur en établissement, quand la situation évolue."
+    },
+    {
+      "q": "La maladie d'Alzheimer donne-t-elle automatiquement un GIR 1 ou 2 ?",
+      "r": "Non. Le GIR ne dépend pas du nom de la maladie mais de ce que la personne peut faire seule. D'après la description officielle, le GIR 2 inclut des personnes dont les fonctions mentales sont altérées mais qui ont conservé leur capacité à se déplacer. Le GIR 1 correspond à des fonctions mentales gravement altérées avec confinement au lit."
+    },
+    {
+      "q": "Un enfant peut-il être présent lors de l'évaluation ?",
+      "r": "Oui. Les pages officielles indiquent que les proches peuvent être présents lors de la visite d'évaluation. Leur présence aide à décrire le quotidien, surtout quand la personne minimise ses difficultés."
+    },
+    {
+      "q": "La grille AGGIR sert-elle aussi à fixer le tarif en EHPAD ?",
+      "r": "Oui, en partie : l'établissement applique un tarif dépendance selon le GIR (trois niveaux : GIR 1-2, GIR 3-4, GIR 5-6), et l'APA en établissement aide à le payer. Voir la page sur le coût d'un EHPAD."
+    }
+  ],
+  "liens_internes": [
+    {
+      "slug": "apa",
+      "ancre": "le montant de l'APA selon le GIR"
+    },
+    {
+      "slug": "apa/demande",
+      "ancre": "la demande d'APA et la visite d'évaluation"
+    },
+    {
+      "slug": "carte-mobilite-inclusion",
+      "ancre": "la carte mobilité inclusion en GIR 1 et 2"
+    },
+    {
+      "slug": "ehpad-prix-aides",
+      "ancre": "le coût d'un EHPAD et les aides"
+    },
+    {
+      "slug": "aide-a-domicile",
+      "ancre": "l'aide à domicile"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/comment-fonctionne-la-grille-aggir",
+      "titre": "Pour les personnes âgées : Comment fonctionne la grille AGGIR ?"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/comment-le-gir-est-il-determine",
+      "titre": "Pour les personnes âgées : Comment le GIR est-il déterminé ?"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/comment-faire-la-demande-d-apa-a-domicile",
+      "titre": "Pour les personnes âgées : Comment faire la demande d'APA à domicile ?"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/lapa-en-etablissement",
+      "titre": "Pour les personnes âgées : L'APA en établissement"
+    },
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34049",
+      "titre": "Service-public.gouv.fr : Carte mobilité inclusion (CMI), vérifié le 28 avril 2026"
+    }
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Les exemples de la colonne « pour fixer les idées » sont des illustrations rédactionnelles tirées des descriptions officielles, pas des cas officiels.",
+    "L'annexe 2-1 du code de l'action sociale et des familles (guide de remplissage de la grille) n'a pas été lue : l'algorithme exact de classement n'est pas détaillé.",
+    "Pas de simulateur officiel de GIR trouvé sur les sites publics consultés : à re-vérifier avant publication."
+  ]
+}

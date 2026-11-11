@@ -1,0 +1,132 @@
+{
+  "slug": "ehpad-prix-aides",
+  "title": "Prix EHPAD 2026 : tarifs moyens et aides pour payer",
+  "description": "Une chambre en EHPAD coûte en moyenne 2 164 € à 3 128 € par mois avant aides. Les 3 tarifs, les aides (APA, APL, impôts) et un exemple de calcul.",
+  "h1": "Prix d'un EHPAD et aides pour le payer",
+  "chapo": "Selon la CNSA, une chambre seule en EHPAD coûtait en moyenne 2 164 € par mois en 2024 dans un établissement habilité à l'aide sociale, et 3 128 € dans les autres (étude publiée en mars 2026). Ces montants sont avant aides. L'APA, l'aide au logement et la réduction d'impôt de 25 % peuvent faire baisser la facture.",
+  "en_bref": [
+    "Prix moyen en 2024 : 2 164 € par mois (EHPAD habilité à l'aide sociale) ou 3 128 € (non habilité), avant aides.",
+    "La facture a 3 lignes : hébergement et dépendance à votre charge, soins payés par l'Assurance maladie.",
+    "Les prix varient de 2 055 € en Lozère à 5 106 € à Paris pour une chambre non habilitée à l'aide sociale.",
+    "Aides cumulables : APA (GIR 1 à 4), APL ou ALS, aide sociale à l'hébergement si l'EHPAD est habilité.",
+    "Réduction d'impôt : 25 % des dépenses, dans la limite de 10 000 € par an, soit 2 500 € au maximum."
+  ],
+  "sections": [
+    {
+      "h2": "Combien coûte un EHPAD par mois en France ?",
+      "blocs": [
+        {"type": "p", "texte": "La Caisse nationale de solidarité pour l'autonomie (CNSA) publie chaque année une étude des prix. La dernière, publiée en mars 2026, porte sur l'année 2024. Elle compare le **prix de référence** d'une chambre seule en hébergement permanent, qui additionne le prix d'hébergement et le tarif dépendance du niveau GIR 5-6 (le plus bas). Les soins n'y figurent pas : ils ne sont pas facturés au résident."},
+        {"type": "tableau", "entetes": ["Type de chambre seule (2024)", "Prix d'hébergement par jour", "Prix de référence par mois"], "lignes": [
+          ["EHPAD habilité à l'aide sociale", "66 € en moyenne", "2 164 € en moyenne"],
+          ["EHPAD non habilité à l'aide sociale", "98,25 € en moyenne", "3 128 € en moyenne"]
+        ]},
+        {"type": "p", "texte": "L'écart est donc d'environ 1 000 € par mois. Il s'explique surtout par le statut de l'établissement : les chambres habilitées à l'aide sociale sont presque toutes dans le public (98 % des places) et le privé non lucratif (82 %), alors que 90 % des places du privé commercial ne sont pas habilitées."},
+        {"type": "attention", "texte": "Ce sont des moyennes nationales, avant toute aide. Le prix que vous paierez dépend de l'établissement, de la ville et de la chambre. Regardez toujours le prix affiché par l'EHPAD que vous visez (voir plus bas)."}
+      ]
+    },
+    {
+      "h2": "Que paie-t-on exactement : hébergement, dépendance, soins ?",
+      "blocs": [
+        {"type": "p", "texte": "Une facture d'EHPAD comprend trois parties, avec un tarif par jour pour chacune :"},
+        {"type": "tableau", "entetes": ["Tarif", "Ce qu'il couvre", "Qui paie"], "lignes": [
+          ["Hébergement", "Chambre, repas, entretien, linge, animations", "Le résident (ou l'aide sociale s'il y a droit)"],
+          ["Dépendance", "Aide à la toilette, aux déplacements, aux repas", "Le résident, en partie compensé par l'APA"],
+          ["Soins", "Médecin coordonnateur, infirmiers, aides-soignants, une partie du matériel médical", "L'Assurance maladie, pas facturé au résident"]
+        ]},
+        {"type": "p", "texte": "Le **tarif dépendance** dépend du niveau d'autonomie (le GIR) et il y en a trois. En moyenne nationale au 31 décembre 2024, il était de 22,65 € par jour pour les GIR 1-2, de 14,36 € pour les GIR 3-4 et de 6,11 € pour les GIR 5-6 (CNSA). Dans la pratique, le tarif GIR 5-6 est le plus souvent facturé : il s'applique à toutes les personnes dont le revenu mensuel est inférieur à 2 846,77 € en 2026, quel que soit leur GIR."},
+        {"type": "attention", "texte": "Depuis le 1er juillet 2025, 23 départements expérimentent la fusion du tarif soins et du tarif dépendance en un forfait unique. Si votre parent est dans l'un d'eux, la présentation de la facture peut différer. Demandez à l'établissement comment elle est construite."}
+      ]
+    },
+    {
+      "h2": "Pourquoi les prix varient autant d'un EHPAD à l'autre ?",
+      "blocs": [
+        {"type": "p", "texte": "Trois facteurs pèsent le plus : le statut (public, associatif ou commercial), l'habilitation à l'aide sociale et la localisation. Pour une chambre non habilitée, le prix de séjour moyen en 2024 allait de 2 055 € en Lozère et 2 142 € en Aveyron à 5 106 € à Paris et 4 186 € dans les Hauts-de-Seine (CNSA). Pour une chambre habilitée, il allait de 1 881 € en Mayenne et 1 899 € dans l'Aveyron à 2 921 € à Paris."},
+        {"type": "p", "texte": "Les prix augmentent chaque année : +4,0 % en 2024 en moyenne, contre +4,4 % en 2023, alors que l'inflation était de 2 %. Le prix d'hébergement est inscrit dans le contrat de séjour. Il ne peut pas changer en cours d'année, mais il est réévalué tous les ans. Pour les places non habilitées, la hausse annuelle est encadrée par un plafond fixé chaque année par arrêté (5,48 % en 2024)."},
+        {"type": "liste", "items": [
+          "Places habilitées à l'aide sociale : le président du conseil départemental fixe le prix d'hébergement.",
+          "Places non habilitées : le gestionnaire fixe librement le prix à la signature du contrat de séjour.",
+          "Une chambre avec balcon ou plus grande peut coûter plus cher que le prix de base affiché."
+        ]}
+      ]
+    },
+    {
+      "h2": "Quelles aides permettent de réduire la facture ?",
+      "blocs": [
+        {"type": "p", "texte": "Quatre aides existent. Les trois premières sont cumulables entre elles (service-public.gouv.fr) :"},
+        {"type": "tableau", "entetes": ["Aide", "Ce qu'elle réduit", "Condition principale"], "lignes": [
+          ["APA en établissement", "Le tarif dépendance", "60 ans ou plus, GIR 1 à 4"],
+          ["APL ou ALS", "Le prix d'hébergement", "Ressources sous un plafond ; APL si l'EHPAD est conventionné APL, sinon ALS"],
+          ["Aide sociale à l'hébergement (ASH)", "Le reste de la facture si les revenus ne suffisent pas", "EHPAD habilité à l'aide sociale, revenus insuffisants"],
+          ["Réduction d'impôt", "L'impôt sur le revenu", "Être imposable, domicilié fiscalement en France"]
+        ]},
+        {"type": "p", "texte": "**L'APA** est calculée selon vos ressources, le tarif dépendance de l'établissement et votre GIR. Si vos revenus sont inférieurs à 2 846,77 € par mois (en 2026), vous payez le tarif GIR 5-6 et l'APA prend en charge la différence avec le tarif de votre GIR. Elle est versée à l'établissement (déduite de la facture) ou à vous, et elle n'est jamais récupérée sur la succession. Pour le détail du calcul et des GIR, voir notre page sur l'APA."},
+        {"type": "p", "texte": "**L'APL ou l'ALS** se demande à la CAF (ou à la MSA pour les retraités agricoles) avec un formulaire que l'établissement complète en partie. Les deux aides ne se cumulent pas. Le simulateur de la CAF permet d'estimer le montant."},
+        {"type": "p", "texte": "**La réduction d'impôt** est de 25 % des dépenses de dépendance et d'hébergement réellement supportées, dans la limite de 10 000 € par an et par personne hébergée, soit 2 500 € au maximum. Il faut d'abord retirer des dépenses les aides reçues (APA, aide sociale, aide au logement). Elle est accordée quel que soit l'âge. Un acompte de 60 % est versé en janvier, le solde l'été suivant."},
+        {"type": "p", "texte": "**L'aide sociale à l'hébergement** n'est possible que dans les EHPAD habilités. Elle a ses propres règles, en particulier sur la participation des enfants : tout est expliqué dans notre page dédiée à l'ASH."}
+      ]
+    },
+    {
+      "h2": "Un exemple de calcul pour comprendre la facture",
+      "blocs": [
+        {"type": "exemple", "titre": "Exemple : votre mère, GIR 2, 1 800 € de retraite par mois", "texte": "Elle entre dans un EHPAD dont les tarifs correspondent aux moyennes 2024 de la CNSA : 66 € d'hébergement par jour et une dépendance à 22,65 € (GIR 1-2) ou 6,11 € (GIR 5-6). Ses revenus sont sous 2 846,77 €, donc elle paie le tarif GIR 5-6. Sur 30 jours : hébergement 66 x 30 = 1 980 €, dépendance 6,11 x 30 = environ 183 €, soit environ 2 163 € avant aide au logement. L'APA prend en charge la différence entre les deux tarifs de dépendance : (22,65 - 6,11) x 30 = environ 496 €, versés directement à l'établissement. Sa facture est de 2 163 € par mois, avant APL ou ALS. Sur l'année, elle dépense environ 25 960 €. La base de la réduction d'impôt est plafonnée à 10 000 €, donc si elle est imposable la réduction atteint 2 500 €. Si une aide au logement est versée, on la retire d'abord des dépenses."},
+        {"type": "attention", "texte": "Cet exemple utilise des moyennes nationales pour illustrer le calcul. Il ne remplace pas le simulateur officiel, qui part des tarifs réels de l'établissement."}
+      ]
+    },
+    {
+      "h2": "Comment connaître le prix réel d'un EHPAD précis ?",
+      "blocs": [
+        {"type": "p", "texte": "L'annuaire officiel des EHPAD du site pour-les-personnes-agees.gouv.fr affiche les prix transmis par chaque établissement à la CNSA. Cette transmission est obligatoire, au plus tard le 30 juin de chaque année. Un EHPAD qui n'a pas transmis ses prix apparaît avec la mention « prix non transmis »."},
+        {"type": "etapes", "items": [
+          "Étape 1 : cherchez les EHPAD par commune, code postal ou département dans l'annuaire officiel.",
+          "Étape 2 : repérez le prix mensuel « à partir de ». Il est calculé sur le prix d'hébergement par jour x 30 jours, plus le tarif dépendance GIR 5-6 x 30 jours, pour la chambre de base. Il n'est pas calculé sur le prix réservé aux bénéficiaires de l'aide sociale.",
+          "Étape 3 : ouvrez la fiche détaillée pour voir les types de chambres, les prestations incluses et celles facturées en plus.",
+          "Étape 4 : utilisez l'onglet « Calcul du reste à charge » pour estimer ce que vous paierez après APA et aide au logement.",
+          "Étape 5 : ajoutez plusieurs EHPAD au comparateur pour les mettre côte à côte."
+        ]},
+        {"type": "attention", "texte": "Le prix affiché correspond aux prestations minimales fixées par la loi. Demandez au directeur la liste de ce qui est facturé en plus (coiffeur, pédicure, blanchisserie du linge personnel selon les établissements) avant de signer le contrat de séjour."}
+      ]
+    },
+    {
+      "h2": "Et pour un séjour de quelques jours ou semaines ?",
+      "blocs": [
+        {"type": "p", "texte": "L'hébergement temporaire permet d'accueillir un proche après une hospitalisation, pendant une période difficile ou pour laisser souffler l'aidant. La durée est souple : quelques jours, une semaine tous les deux mois, ou une période continue. Les prix des hébergements temporaires en EHPAD sont consultables dans un annuaire dédié du portail officiel."},
+        {"type": "p", "texte": "Plusieurs aides peuvent aider à le financer : l'APA pour les personnes classées GIR 1 à 4, une aide complémentaire pour le proche aidant d'un bénéficiaire de l'APA, l'ASH, des aides de certaines mairies ou départements, et parfois les caisses de retraite complémentaire ou la mutuelle. Pour les aides au répit des aidants, voir notre page sur le congé et les aides de l'aidant."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Qui paie l'EHPAD si la retraite ne suffit pas ?", "r": "Si les revenus ne couvrent pas la facture, la personne peut demander l'aide sociale à l'hébergement, à condition que l'EHPAD soit habilité. Le département paie la différence entre la facture et ce que la personne, voire ses obligés alimentaires, peut payer. Les sommes versées peuvent être récupérées par le département. Le détail est dans la page consacrée à l'ASH."},
+    {"q": "Les soins médicaux sont-ils payés par la famille en EHPAD ?", "r": "Le tarif soins couvre le personnel soignant et une partie du matériel médical. Il est pris en charge par l'Assurance maladie et n'est pas facturé au résident. La famille ne paie que l'hébergement et la part de dépendance non couverte par l'APA."},
+    {"q": "Faut-il déclarer l'APA aux impôts ?", "r": "Non. L'APA est exonérée d'impôt, donc son montant n'est pas à reporter dans la déclaration de revenus. En revanche, quand vous déclarez les frais d'hébergement pour la réduction d'impôt, vous devez en soustraire l'APA reçue."},
+    {"q": "Le prix de l'EHPAD peut-il augmenter en cours d'année ?", "r": "Le prix d'hébergement est inscrit dans le contrat de séjour signé à l'entrée et il ne peut pas changer en cours d'année. Il est réévalué chaque année. Pour les places non habilitées à l'aide sociale, la hausse annuelle est encadrée par un pourcentage fixé par arrêté."},
+    {"q": "Peut-on cumuler APA, aide au logement et aide sociale ?", "r": "Oui. Selon service-public.gouv.fr, l'APA, l'aide au logement (APL ou ALS) et l'aide sociale à l'hébergement sont cumulables. L'APL et l'ALS, elles, ne se cumulent pas entre elles : c'est l'une ou l'autre selon que l'établissement est conventionné APL."},
+    {"q": "Quand la réduction d'impôt pour l'EHPAD est-elle versée ?", "r": "Selon service-public.gouv.fr, un acompte de 60 % est versé en janvier, calculé sur la réduction obtenue l'année précédente. Le solde est payé l'été, d'après les dépenses réelles. Si l'acompte était trop élevé, le trop-perçu est à rembourser en septembre. Le portail officiel présente cette réduction pour les résidents imposables : pour une situation particulière, le service d'information des impôts répond au 0809 401 401."},
+    {"q": "Comment savoir si un EHPAD est habilité à l'aide sociale ?", "r": "La fiche de chaque établissement dans l'annuaire officiel indique le nombre de chambres habilitées à l'aide sociale à l'hébergement. Les prix signalés par une étoile sont ceux fixés par le département pour ces chambres. En cas de doute, demandez-le directement à la direction avant la visite."}
+  ],
+  "liens_internes": [
+    {"slug": "aide-sociale-hebergement", "ancre": "aide sociale à l'hébergement (ASH) : conditions et démarches"},
+    {"slug": "obligation-alimentaire", "ancre": "obligation alimentaire des enfants"},
+    {"slug": "apa", "ancre": "montant et calcul de l'APA"},
+    {"slug": "grille-aggir", "ancre": "comprendre les niveaux de GIR"},
+    {"slug": "residence-senior", "ancre": "résidence autonomie ou résidence services seniors"},
+    {"slug": "conge-proche-aidant", "ancre": "congé de proche aidant"}
+  ],
+  "sources": [
+    {"url": "https://www.cnsa.fr/sites/default/files/2026-04/PUB_RS-n27_Prix-EHPAD_2024_vf.pdf", "titre": "CNSA, Repères statistiques n°27 (mars 2026) : prix des EHPAD en 2024"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/comprendre-les-prix-tarifs-et-prestations-affiches-dans-l-annuaire-des-ehpad", "titre": "Comprendre les prix, tarifs et prestations affichés dans l'annuaire des EHPAD (mis à jour le 20/08/2026)"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/comprendre-les-prix-en-ehpad/comprendre-sa-facture-en-ehpad", "titre": "Comprendre sa facture en EHPAD"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/l-apa-en-etablissement", "titre": "L'APA en établissement"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/vivre-en-etablissement-et-faire-une-demande-d-apl-ou-d-als", "titre": "Vivre en établissement et faire une demande d'APL ou d'ALS"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38574", "titre": "Vous allez être hébergé en Ehpad : quelles aides financières ? (vérifié le 30 avril 2026)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17", "titre": "Réduction d'impôt pour frais d'accueil liés à la dépendance (vérifié le 15 avril 2026)"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/solutions-d-accueil-temporaire/l-hebergement-temporaire-ce-qu-il-faut-savoir", "titre": "L'hébergement temporaire : ce qu'il faut savoir"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Les moyennes de prix datent de 2024 (étude CNSA de mars 2026) : à remplacer dès la publication de l'étude sur 2025.",
+    "Le portail officiel dit que la réduction d'impôt concerne les résidents imposables, service-public.gouv.fr dit qu'il faut être hébergé en EHPAD ou USLD et domicilié fiscalement en France, sans mention explicite d'une condition d'imposition. La mécanique de réduction implique d'avoir un impôt à déduire : formulation à valider.",
+    "Aucun montant d'APL ou d'ALS en EHPAD n'est donné : il dépend du barème de la CAF et de l'établissement.",
+    "Pas de durée maximale d'hébergement temporaire trouvée sur les pages officielles lues : non indiquée dans la page.",
+    "Le chiffre de 98 % / 82 % / 10 % de places habilitées par statut vient de la même étude CNSA (données 2024)."
+  ]
+}

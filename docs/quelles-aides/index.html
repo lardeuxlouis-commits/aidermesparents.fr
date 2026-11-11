@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quelles aides pour mon parent âgé ? Le point en 1 minute</title>
+<meta name="description" content="5 questions pour voir les aides à vérifier pour votre parent : APA, ASPA, aide ménagère, crédit d&#x27;impôt, MaPrimeAdapt, aides aux aidants.">
+<link rel="canonical" href="https://aidermesparents.fr/quelles-aides/">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Aider mes parents">
+<meta property="og:title" content="Quelles aides pour mon parent âgé ? Le point en 1 minute">
+<meta property="og:description" content="5 questions pour voir les aides à vérifier pour votre parent : APA, ASPA, aide ménagère, crédit d&#x27;impôt, MaPrimeAdapt, aides aux aidants.">
+<meta property="og:url" content="https://aidermesparents.fr/quelles-aides/">
+<meta property="og:image" content="https://aidermesparents.fr/img/accueil.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1f5c4f">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css?v=ad7088a8">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Quelles aides pour mon parent ?", "applicationCategory": "UtilityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}</script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top"><div class="wrap bar"><a class="logo" href="/" aria-label="Aider mes parents, accueil"><span class="mark" aria-hidden="true"></span><span>aider<b>mes</b>parents</span></a><nav aria-label="Rubriques"><ul><li><a href="/#aides">Les aides financières</a></li><li><a href="/#domicile">Rester à domicile</a></li><li><a href="/#etablissement">EHPAD et résidences</a></li><li><a href="/#aidants">Vous, l&#x27;aidant</a></li></ul></nav></div></header>
+<main id="contenu">
+<div class="wrap prose quiz-page">
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <span>Quelles aides pour mon parent ?</span></nav>
+<h1>Quelles aides pour mon parent âgé ?</h1>
+<p class="chapo">Répondez à 5 questions sur la situation de votre parent. Vous obtenez la liste des aides à vérifier, avec les montants 2026 et la marche à suivre. C'est gratuit, anonyme, et rien n'est enregistré.</p>
+<ul class="trust"><li>Montants 2026 vérifiés</li><li>Aucune donnée enregistrée</li><li>Guide indépendant et gratuit</li></ul>
+<form id="quiz" class="quiz" onsubmit="return false">
+<fieldset><legend>1. Où vit votre parent ?</legend>
+<label><input type="radio" name="lieu" value="dom" required> Chez lui ou chez un proche</label>
+<label><input type="radio" name="lieu" value="res"> En résidence autonomie ou résidence services</label>
+<label><input type="radio" name="lieu" value="ehpad"> En EHPAD (ou il va y entrer)</label></fieldset>
+<fieldset><legend>2. Quel âge a-t-il ?</legend>
+<label><input type="radio" name="age" value="60" required> 60 à 64 ans</label>
+<label><input type="radio" name="age" value="65"> 65 à 69 ans</label>
+<label><input type="radio" name="age" value="70"> 70 à 74 ans</label>
+<label><input type="radio" name="age" value="75"> 75 ans ou plus</label></fieldset>
+<fieldset><legend>3. Au quotidien, il…</legend>
+<label><input type="radio" name="auto" value="6" required> se débrouille seul</label>
+<label><input type="radio" name="auto" value="5"> a besoin d'aide pour le ménage, les courses ou les papiers</label>
+<label><input type="radio" name="auto" value="3"> a besoin d'aide pour la toilette, l'habillage ou les repas</label>
+<label><input type="radio" name="auto" value="1"> a besoin d'une présence ou d'une aide presque constante</label></fieldset>
+<fieldset><legend>4. Ses ressources par mois (retraites et autres revenus), s'il vit seul</legend>
+<label><input type="radio" name="res" value="a" required> Moins de 870 €</label>
+<label><input type="radio" name="res" value="b"> De 870 à 1 044 €</label>
+<label><input type="radio" name="res" value="c"> De 1 044 à 1 850 €</label>
+<label><input type="radio" name="res" value="d"> Plus de 1 850 €</label>
+<p class="aide">En couple, comptez à peu près la moitié des ressources du couple.</p></fieldset>
+<fieldset><legend>5. Et vous, vous l'aidez régulièrement ?</legend>
+<label><input type="radio" name="vous" value="sal" required> Oui, et je suis salarié</label>
+<label><input type="radio" name="vous" value="autre"> Oui (indépendant, demandeur d'emploi, retraité…)</label>
+<label><input type="radio" name="vous" value="non"> Non, ou pas encore</label></fieldset>
+<button class="btn" type="submit" id="go">Voir les aides à vérifier</button>
+</form>
+<div id="res" aria-live="polite"></div>
+<p class="aide">Cet outil oriente, il ne décide pas : c'est l'organisme qui verse l'aide (département, caisse de retraite, CAF, Anah) qui vérifie les droits. Les seuils sont arrondis, les montants exacts sont sur chaque page.</p>
+</div>
+<script>
+(function(){
+var f=document.getElementById('quiz'),out=document.getElementById('res');
+f.addEventListener('submit',function(){
+ if(!f.checkValidity()){f.reportValidity();return}
+ var v=function(n){return f.elements[n].value},lieu=v('lieu'),age=+v('age'),auto=+v('auto'),res=v('res'),vous=v('vous');
+ var dom=lieu!=='ehpad',gir14=auto<=3,a=[];
+ function add(t,pourquoi,montant,url,prio){a.push({t:t,p:pourquoi,m:montant,u:url,prio:prio||0})}
+ if(gir14) add("APA, allocation personnalisée d'autonomie","Votre parent a plus de 60 ans et a besoin d'aide pour les gestes du quotidien : il relève probablement d'un GIR 1 à 4.",dom?"Jusqu'à 811,52 € (GIR 4) à 2 080,33 € (GIR 1) par mois à domicile, en 2026.":"Elle finance une partie du tarif dépendance de l'EHPAD.","/apa/",3);
+ if(gir14) add("Faire la demande d'APA","L'APA n'est due qu'à partir du dossier complet : chaque mois d'attente est perdu.","Réponse du département en 2 mois au plus.","/apa/demande/",3);
+ if(auto===1) add("Carte mobilité inclusion","Avec l'APA en GIR 1 ou 2, la carte stationnement et invalidité est attribuée sans démarche à la MDPH.","Stationnement gratuit sur les places réservées, priorité, avantages fiscaux.","/carte-mobilite-inclusion/",2);
+ if(age>=65 && (res==='a'||res==='b')) add("ASPA, le minimum vieillesse","Votre parent a 65 ans ou plus et des ressources sous le plafond.","Jusqu'à 1 043,59 € par mois pour une personne seule en 2026 (complément de ses ressources).","/aspa/",3);
+ if(dom && !gir14 && auto===5 && age>=65 && (res==='a'||res==='b')) add("Aide ménagère du département","Pour les personnes de 65 ans et plus, autonomes mais aidées pour le ménage, avec de faibles ressources.","Jusqu'à 30 heures par mois.","/aide-a-domicile/",2);
+ if(dom) add("Crédit d'impôt pour l'aide à domicile","Toutes les heures d'aide à domicile, de téléassistance ou de portage de repas ouvrent droit au crédit d'impôt, même sans être imposable.","50 % des dépenses, dans la limite de 12 000 € par an (plafond majoré selon l'âge).","/aide-a-domicile/",2);
+ if(dom && (age>=70 || gir14)) add("MaPrimeAdapt","Pour adapter le logement (douche, monte-escalier, rampe), si les revenus sont modestes.","50 % ou 70 % des travaux, sur 22 000 € HT de travaux au maximum.","/maprimeadapt/",res==='d'?0:2);
+ if(dom && auto<=5) add("Téléassistance","Un bouton d'appel pour rassurer tout le monde. Souvent aidée par le département ou la commune.","Quelques euros à une quinzaine d'euros par mois, parfois gratuite avec l'APA.","/teleassistance/",1);
+ if(dom && auto<=5) add("Portage de repas","Des repas livrés à domicile, souvent organisés par la mairie ou le CCAS.","Autour de 12 € le repas dans les exemples publics, avec des aides possibles.","/portage-de-repas/",1);
+ if(age>=75 && dom) add("Sortir Plus (Agirc-Arrco)","Pour les retraités de 75 ans et plus du privé : un accompagnant pour sortir (courses, médecin, visites).","Pris en charge par la caisse de retraite, dans la limite d'un plafond annuel.","/sortir-plus/",2);
+ if(lieu==='ehpad') add("Prix d'un EHPAD et aides","Les trois tarifs, l'APA en établissement, les aides au logement et la réduction d'impôt.","Réduction d'impôt de 25 % des frais, jusqu'à 2 500 € par an.","/ehpad-prix-aides/",3);
+ if(lieu==='ehpad' && res!=='d') add("Aide sociale à l'hébergement","Si ses ressources ne suffisent pas à payer l'EHPAD. À demander dans les 2 mois qui suivent l'entrée.","Il lui reste au moins 10 % de ses revenus, et jamais moins de 125 € par mois.","/aide-sociale-hebergement/",3);
+ if(lieu==='ehpad' && res!=='d') add("Obligation alimentaire des enfants","Avec l'aide sociale, le département peut demander une participation aux enfants.","Montant fixé selon vos moyens, déductible de vos impôts.","/obligation-alimentaire/",1);
+ if(lieu==='res') add("Résidence services ou autonomie","Les prix, les aides au logement et ce qui se finance avec l'APA à domicile.","","/residence-senior/",1);
+ if(res==='a') add("Complémentaire santé solidaire","Une mutuelle gratuite sous un plafond de ressources, ou à moins de 1 € par jour au-dessus.","Gratuite jusqu'à 10 421 € de ressources par an pour une personne seule.","/mutuelle-senior/",2);
+ if(vous==='sal' && gir14) add("Congé de proche aidant et AJPA","Vous pouvez vous arrêter pour aider votre parent, l'employeur ne peut pas refuser.","66,64 € par jour d'AJPA en 2026, jusqu'à 66 jours par personne aidée.","/conge-proche-aidant/",3);
+ if(vous!=='non') add("Vos droits d'aidant familial","Répit, rémunération possible via l'APA, trimestres de retraite : ce que vous pouvez obtenir pour vous.","Droit au répit jusqu'à 583,52 € par an via l'APA de votre parent.","/aidant-familial/",2);
+ a.sort(function(x,y){return y.prio-x.prio});
+ var h='<h2 id="vos-aides">'+a.length+' aides à vérifier pour votre parent</h2><ol class="resl">';
+ a.forEach(function(x){h+='<li><a href="'+x.u+'"><b>'+x.t+'</b><span>'+x.p+'</span>'+(x.m?'<em>'+x.m+'</em>':'')+'<i>Voir les conditions et la démarche →</i></a></li>'});
+ h+='</ol>';
+ if(gir14) h+='<aside class="urgence"><p class="lab">Par où commencer</p><p>Commencez par la <a href="/apa/demande/">demande d\'APA</a> : elle ouvre la porte à plusieurs autres aides, et elle n\'est due qu\'à partir du dossier complet.</p></aside>';
+ out.innerHTML=h;document.getElementById('vos-aides').scrollIntoView({behavior:'smooth',block:'start'});
+});})();
+</script>
+
+</main>
+<footer><div class="wrap"><div class="fcols"><div><h2>Les aides financières</h2><ul><li><a href="/apa/">APA : montant et conditions</a></li><li><a href="/apa/demande/">Faire la demande d&#x27;APA</a></li><li><a href="/grille-aggir/">Grille AGGIR et niveaux de GIR</a></li><li><a href="/aspa/">ASPA, le minimum vieillesse</a></li><li><a href="/carte-mobilite-inclusion/">Carte mobilité inclusion</a></li><li><a href="/sortir-plus/">Sortir Plus (Agirc-Arrco)</a></li><li><a href="/mutuelle-senior/">Mutuelle senior et aides</a></li></ul></div><div><h2>Rester à domicile</h2><ul><li><a href="/aide-a-domicile/">Aide à domicile : prix et aides</a></li><li><a href="/teleassistance/">Téléassistance</a></li><li><a href="/portage-de-repas/">Portage de repas</a></li><li><a href="/maprimeadapt/">MaPrimeAdapt : adapter le logement</a></li></ul></div><div><h2>EHPAD et résidences</h2><ul><li><a href="/ehpad-prix-aides/">Prix d&#x27;un EHPAD et aides</a></li><li><a href="/aide-sociale-hebergement/">Aide sociale à l&#x27;hébergement</a></li><li><a href="/obligation-alimentaire/">Obligation alimentaire</a></li><li><a href="/residence-senior/">Résidence services seniors</a></li></ul></div><div><h2>Vous, l&#x27;aidant</h2><ul><li><a href="/aidant-familial/">Aidant familial : vos droits</a></li><li><a href="/conge-proche-aidant/">Congé de proche aidant et AJPA</a></li></ul></div></div><p class="fnote">aidermesparents.fr est un guide indépendant. Il n'est rattaché à aucune administration, caisse ou entreprise. Les montants sont vérifiés sur les sources officielles citées en bas de chaque page.</p><p class="flinks"><a href="/a-propos/">Qui sommes-nous</a><a href="/mentions-legales/">Mentions légales</a><a href="/confidentialite/">Confidentialité</a></p></div></footer>
+</body>
+</html>

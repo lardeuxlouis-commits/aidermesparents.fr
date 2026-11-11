@@ -1,0 +1,145 @@
+{
+  "slug": "maprimeadapt",
+  "title": "MaPrimeAdapt 2026 : conditions, montants et travaux",
+  "description": "MaPrimeAdapt finance 50 % ou 70 % de vos travaux d'adaptation (douche, monte-escalier…), jusqu'à 22 000 € HT. Plafonds 2026 et démarches.",
+  "h1": "MaPrimeAdapt : conditions, montant et travaux financés",
+  "chapo": "MaPrimeAdapt est une aide de l'Anah qui paie 70 % (revenus très modestes) ou 50 % (revenus modestes) de vos travaux pour adapter un logement à la perte d'autonomie, dans la limite de 22 000 € hors taxes. Elle s'adresse aux 70 ans et plus, aux 60-69 ans classés en GIR, et aux personnes avec un taux d'incapacité d'au moins 50 %. Un assistant (AMO) est obligatoire.",
+  "en_bref": [
+    "Taux : 70 % des travaux si les revenus sont très modestes, 50 % s'ils sont modestes, sur un plafond de 22 000 € HT",
+    "Âge : 70 ans ou plus sans condition de santé, ou 60 à 69 ans avec un classement en GIR, ou taux d'incapacité d'au moins 50 %",
+    "Revenus : pour une personne seule hors Île-de-France, jusqu'à 17 363 € (très modestes) ou 22 259 € (modestes) de revenu fiscal de référence",
+    "Un assistant à maîtrise d'ouvrage (AMO) est obligatoire : il fait le diagnostic, cherche les artisans et monte le dossier",
+    "Ne commencez pas les travaux avant l'accord de l'Anah : l'aide est versée sur facture, avec une avance possible"
+  ],
+  "sections": [
+    {
+      "h2": "Qu'est-ce que MaPrimeAdapt et qui peut la demander ?",
+      "blocs": [
+        {"type": "p", "texte": "MaPrimeAdapt est une subvention de l'Agence nationale de l'habitat (Anah). Elle finance des travaux qui permettent de rester chez soi en sécurité quand on se déplace moins bien ou qu'on risque de chuter. Elle se demande aujourd'hui sur le site de France Rénov'."},
+        {"type": "p", "texte": "Vous pouvez la demander si vous êtes **propriétaire occupant** ou **locataire du parc privé** (avec l'accord de votre propriétaire). Les travaux doivent concerner votre résidence principale, en métropole ou en outre-mer."},
+        {"type": "p", "texte": "Il faut ensuite remplir **une** des trois conditions suivantes, vous ou un membre de votre foyer :"},
+        {"type": "liste", "items": [
+          "avoir 70 ans ou plus, sans aucune condition liée à la perte d'autonomie : pas besoin de prouver un handicap ni un GIR",
+          "avoir entre 60 et 69 ans et être classé dans un groupe iso-ressources (GIR), le niveau de perte d'autonomie évalué lors d'une demande d'APA ou par une caisse de retraite",
+          "avoir un taux d'incapacité d'au moins 50 % reconnu par la CDAPH ou l'ONACVG, ou être éligible à la PCH, à l'AEEH ou à l'AAH"
+        ]},
+        {"type": "p", "texte": "Enfin, vos revenus ne doivent pas dépasser les plafonds « modestes » ou « très modestes » (voir plus bas). Un propriétaire qui loue son logement à une personne en perte d'autonomie peut aussi obtenir une aide, avec des règles différentes (jusqu'à 21 000 €, avec une convention d'au moins six ans avec l'Anah)."}
+      ]
+    },
+    {
+      "h2": "Quel est le montant de MaPrimeAdapt en 2026 ?",
+      "blocs": [
+        {"type": "p", "texte": "Le montant dépend de votre catégorie de revenus. Le plafond de travaux subventionnables est le même pour tous : **22 000 € hors taxes**."},
+        {"type": "tableau", "entetes": ["Vos revenus", "Part des travaux financée", "Aide maximale (sur 22 000 € HT)"], "lignes": [
+          ["Très modestes", "70 %", "15 400 €"],
+          ["Modestes", "50 %", "11 000 €"]
+        ]},
+        {"type": "p", "texte": "L'aide ne couvre que ce que vous dépensez réellement : si vos travaux coûtent 8 000 € HT, elle est calculée sur 8 000 €, pas sur 22 000 €. Elle peut se cumuler avec les aides locales (commune, département, caisse de retraite), avec la prestation de compensation du handicap (PCH) et avec les aides à la rénovation énergétique."},
+        {"type": "exemple", "titre": "Exemple", "texte": "Votre mère a 78 ans, vit seule dans sa maison en Normandie et a un revenu fiscal de référence de 16 000 €. Elle est sous le plafond de 17 363 € : revenus très modestes, donc 70 %. Pour remplacer sa baignoire par une douche de plain-pied (8 000 € HT), l'aide est de 8 000 x 70 % = 5 600 €. Il reste 2 400 € HT à sa charge, avant d'éventuelles aides locales. Avec un revenu de 21 000 €, elle serait en revenus modestes : 50 %, soit 4 000 € d'aide et 4 000 € HT à sa charge."}
+      ]
+    },
+    {
+      "h2": "Quels sont les plafonds de ressources 2026 ?",
+      "blocs": [
+        {"type": "p", "texte": "C'est le **revenu fiscal de référence** (RFR) qui compte. Vous le trouvez sur l'avis d'imposition de l'année précédant votre demande. Les plafonds sont plus élevés en Île-de-France."},
+        {"type": "tableau", "entetes": ["Personnes dans le foyer", "Très modestes (70 %), hors Île-de-France", "Modestes (50 %), hors Île-de-France"], "lignes": [
+          ["1", "17 363 €", "22 259 €"],
+          ["2", "25 393 €", "32 553 €"],
+          ["3", "30 540 €", "39 148 €"],
+          ["4", "35 676 €", "45 735 €"],
+          ["5", "40 835 €", "52 348 €"],
+          ["Par personne en plus", "+ 5 151 €", "+ 6 598 €"]
+        ]},
+        {"type": "tableau", "entetes": ["Personnes dans le foyer", "Très modestes (70 %), Île-de-France", "Modestes (50 %), Île-de-France"], "lignes": [
+          ["1", "24 031 €", "29 253 €"],
+          ["2", "35 270 €", "42 933 €"],
+          ["3", "42 357 €", "51 564 €"],
+          ["4", "49 455 €", "60 208 €"],
+          ["5", "56 580 €", "68 877 €"],
+          ["Par personne en plus", "+ 7 116 €", "+ 8 663 €"]
+        ]},
+        {"type": "attention", "texte": "Si d'autres personnes vivent dans le logement, par exemple un enfant qui a sa propre déclaration d'impôts, vous devez indiquer leurs informations fiscales lors de la demande. Vérifiez votre catégorie de revenus avec France Rénov' avant de lancer les devis."}
+      ]
+    },
+    {
+      "h2": "Quels travaux MaPrimeAdapt finance-t-elle (douche, monte-escalier, rampe) ?",
+      "blocs": [
+        {"type": "p", "texte": "Les travaux peuvent concerner tout le logement et ses accès extérieurs. Ils sont choisis avec l'AMO selon vos difficultés réelles. Parmi les exemples cités par le service public :"},
+        {"type": "liste", "items": [
+          "**Salle de bain** : remplacement d'une baignoire par une douche de plain-pied, barres d'appui, revêtement antichute",
+          "**WC** : surélévation des toilettes, barres d'appui",
+          "**Monte-escalier** électrique",
+          "**Cuisine** : aménagement adapté",
+          "**Éclairage** à détection de mouvement, élargissement des couloirs",
+          "**Extérieur** : rampe d'accès vers l'entrée, place de stationnement pour personne à mobilité réduite, volets roulants, élargissement de la porte d'entrée"
+        ]},
+        {"type": "p", "texte": "Vous pouvez choisir un artisan labellisé (par exemple Silverbat, Handibat ou Proadapt) ou non. Ces labels signalent des professionnels formés à l'adaptation, ce qui peut vous aider à trouver quelqu'un de compétent, mais ils ne sont pas obligatoires."}
+      ]
+    },
+    {
+      "h2": "Pourquoi l'assistant (AMO) est-il obligatoire ?",
+      "blocs": [
+        {"type": "p", "texte": "L'assistant à maîtrise d'ouvrage, ou AMO, est un professionnel agréé ou habilité par l'Anah. Sans lui, pas d'aide. Il vient chez votre parent faire un **diagnostic autonomie** : il regarde toutes les pièces et repère les gestes devenus difficiles. Un ergothérapeute peut l'accompagner dans certains cas, et vous pouvez transmettre le rapport de celui qui suit déjà votre parent."},
+        {"type": "p", "texte": "L'AMO cherche ensuite les artisans, vérifie les devis, monte le dossier de demande d'aide, suit le chantier et vous accompagne pour la demande de paiement. Le diagnostic est inclus dans l'accompagnement MaPrimeAdapt."},
+        {"type": "attention", "texte": "Contactez plusieurs AMO avant de choisir : France Rénov' le recommande, notamment pour comparer leurs tarifs. Si l'AMO choisi refuse le dossier, votre conseiller France Rénov' peut vous en proposer d'autres."}
+      ]
+    },
+    {
+      "h2": "Comment faire la demande, étape par étape ?",
+      "blocs": [
+        {"type": "etapes", "items": [
+          "Étape 1 : appelez un conseiller France Rénov' au 0 808 800 700 (service gratuit, du lundi au vendredi de 9 h à 18 h, avec le dernier avis d'imposition en main), ou rendez-vous dans une maison France Services.",
+          "Étape 2 : créez votre compte sur france-renov.gouv.fr. Depuis le 17 août 2026, c'est le point d'entrée unique pour les aides de l'Anah. Vous pouvez passer par FranceConnect+ ou par e-mail, puis sécuriser le compte (FranceConnect+ ou code reçu par courrier postal).",
+          "Étape 3 : indiquez vos informations fiscales (numéro fiscal, revenu fiscal de référence) et l'adresse du logement à adapter.",
+          "Étape 4 : désignez un AMO. Il visite le logement, fait le diagnostic, recueille les devis et constitue le dossier.",
+          "Étape 5 : relisez le dossier, acceptez vos engagements (occuper le logement pendant 3 ans pour un propriétaire occupant) et validez la demande.",
+          "Étape 6 : attendez l'accord de l'Anah avant de lancer les travaux. L'Anah le demande, et France Rénov' le conseille fortement.",
+          "Étape 7 : à la fin du chantier, l'AMO fait la demande de paiement sur facture. Une avance est possible pour les propriétaires occupants et les locataires, à demander par l'AMO après l'accord."
+        ]},
+        {"type": "p", "texte": "Si votre parent n'est pas à l'aise avec Internet, il peut désigner un **mandataire** (une entreprise ou un proche aidant, donc vous) qui fait les démarches en ligne à sa place. Il doit signer une attestation et le mandataire doit avoir son propre compte. Le mandataire ne peut pas créer le compte à sa place. Il peut aussi toucher l'aide si le propriétaire occupant le souhaite."}
+      ]
+    },
+    {
+      "h2": "Peut-on cumuler MaPrimeAdapt avec d'autres aides ?",
+      "blocs": [
+        {"type": "p", "texte": "Oui. Le service public indique que MaPrimeAdapt se cumule avec les aides locales, la PCH (volet aménagement du logement) et les aides à la rénovation énergétique. Renseignez-vous auprès de la mairie et du département pour les aides locales."},
+        {"type": "p", "texte": "**Caisse de retraite** : l'Assurance retraite propose un plan d'aides personnalisé qui peut comprendre des solutions pour adapter le logement, ainsi qu'un outil en ligne et des fiches conseils (site Bien chez soi). Les conditions et montants varient selon la caisse, demandez à celle de votre parent."},
+        {"type": "p", "texte": "**Crédit d'impôt** : le crédit d'impôt de 25 % pour les équipements des personnes âgées ou handicapées (plafond de 5 000 € pour une personne seule, 10 000 € pour un couple, sur 5 ans) a été recentré sur les personnes qui ne peuvent pas obtenir MaPrimeAdapt. Selon impots.gouv.fr, 2025 est la dernière année qui ouvre droit à ce crédit, pour les dépenses payées jusqu'au 31 décembre 2025."},
+        {"type": "attention", "texte": "Pour une aide à domicile, une téléassistance ou un portage de repas, MaPrimeAdapt ne sert à rien : elle ne finance que les travaux et équipements du logement. L'allocation qui paie ces services est l'APA."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "MaPrimeAdapt est-elle versée avant ou après les travaux ?", "r": "L'aide est versée une fois les travaux terminés, sur présentation des factures, à condition qu'ils soient conformes au devis. Les propriétaires occupants et les locataires peuvent demander une avance après l'accord de l'Anah. C'est l'AMO qui dépose la demande d'avance, que vous validez ensuite depuis votre compte."},
+    {"q": "Peut-on avoir MaPrimeAdapt si on a plus de 70 ans mais des revenus élevés ?", "r": "Non. L'âge ouvre le droit à l'aide, mais les revenus doivent rester sous les plafonds « modestes » ou « très modestes ». Par exemple, une personne seule hors Île-de-France ne doit pas dépasser 22 259 € de revenu fiscal de référence. Au-delà, il reste à chercher les aides locales ou celles de la caisse de retraite."},
+    {"q": "Un monte-escalier est-il financé par MaPrimeAdapt ?", "r": "Oui, le monte-escalier électrique fait partie des travaux cités par le service public. Il est pris en charge à 50 % ou 70 % de son coût hors taxes, comme les autres travaux, dans la limite du plafond de 22 000 € HT pour l'ensemble du projet. Votre AMO vérifie que le devis est recevable."},
+    {"q": "Peut-on demander MaPrimeAdapt quand on est locataire ?", "r": "Oui, si le logement appartient au parc privé et si le propriétaire est d'accord pour les travaux. Les conditions d'âge, de perte d'autonomie et de revenus sont les mêmes. Le locataire dépose sa demande en passant par l'entrée « propriétaire occupant »."},
+    {"q": "Peut-on choisir son artisan avec MaPrimeAdapt ?", "r": "Oui. Vous pouvez choisir un artisan labellisé (Silverbat, Handibat, Proadapt…) ou non. L'AMO vous aide à trouver des artisans et à vérifier les devis. Attendez l'accord de l'Anah avant de signer ou de commencer le chantier."},
+    {"q": "Que faire si on a commencé les travaux avant la demande ?", "r": "C'est risqué. L'Anah demande d'attendre son accord avant de réaliser les travaux, et France Rénov' conseille fortement de ne pas commencer avant. Des travaux déjà faits ou payés avant l'accord peuvent ne pas être financés. Appelez France Rénov' au 0 808 800 700 pour votre cas précis."},
+    {"q": "Le propriétaire d'un logement loué peut-il aussi toucher une aide ?", "r": "Oui, un propriétaire bailleur dont le locataire est en perte d'autonomie peut obtenir jusqu'à 21 000 € (35 % d'un plafond de 750 € HT par m², limité à 80 m²). Il doit conventionner le logement avec l'Anah pendant au moins six ans, sauf dérogation du service instructeur."}
+  ],
+  "liens_internes": [
+    {"slug": "grille-aggir", "ancre": "comprendre les niveaux de GIR"},
+    {"slug": "apa", "ancre": "l'APA pour financer l'aide à domicile et les services"},
+    {"slug": "aide-a-domicile", "ancre": "les solutions d'aide à domicile"},
+    {"slug": "teleassistance", "ancre": "la téléassistance"}
+  ],
+  "sources": [
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37501", "titre": "Service-public.gouv.fr : MaPrimeAdapt', travaux d'adaptation du logement à la perte d'autonomie (vérifié le 1er janvier 2026)"},
+    {"url": "https://france-renov.gouv.fr/aides/maprimeadapt", "titre": "France Rénov' : MaPrimeAdapt', l'aide à l'adaptation"},
+    {"url": "https://france-renov.gouv.fr/aides/maprimeadapt/amo", "titre": "France Rénov' : Assistant à maîtrise d'ouvrage (AMO) autonomie"},
+    {"url": "https://france-renov.gouv.fr/preparer-projet/dossier-demande-aide/guide-maprimeadapt", "titre": "France Rénov' : faire une demande d'aide MaPrimeAdapt'"},
+    {"url": "https://www.anah.gouv.fr/actualites/france-renov-est-desormais-le-point-d-entree-unique-pour-toutes-les-demandes-d-aide-la", "titre": "Anah : France Rénov' point d'entrée unique (17 août 2026)"},
+    {"url": "https://www.impots.gouv.fr/particulier/aide-la-personne", "titre": "Impots.gouv.fr : aide à la personne, crédit d'impôt équipements"},
+    {"url": "https://www.lassuranceretraite.fr/portail-info/home/retraite/vie-retraite-bien-vieillir/bien-chez-soi.html", "titre": "Assurance retraite : Bien chez soi"}
+  ],
+  "date_verification": "2026-11-12",
+  "a_verifier": [
+    "Les barèmes de ressources reprennent la page service-public.gouv.fr vérifiée le 1er janvier 2026 (identiques à ceux relevés pour 2026 sur la recherche Anah) : confirmer qu'ils n'ont pas été revalorisés depuis.",
+    "Le montant du coût de l'AMO et sa prise en charge par l'Anah (un article de presse cite 350/600/800 € TTC, une évolution 2026 de l'accompagnement socle est évoquée) n'ont pas pu être confirmés sur une page officielle : volontairement non cités.",
+    "Crédit d'impôt équipements : impots.gouv.fr indique 2025 comme dernière année, vérifier si la loi de finances 2026 l'a prolongé.",
+    "Pas de montant officiel trouvé pour l'aide à l'habitat des caisses de retraite (Carsat) : non cité.",
+    "Page service-public (F37501) mentionne encore le dépôt sur monprojetanah alors que l'Anah indique depuis le 17 août 2026 un compte direct sur france-renov.gouv.fr : écart entre sources, l'Anah (plus récente) est retenue.",
+    "Délai d'instruction non trouvé sur une source officielle : non cité."
+  ]
+}

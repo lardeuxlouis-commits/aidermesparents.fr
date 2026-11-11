@@ -1,0 +1,259 @@
+{
+ "slug": "teleassistance",
+ "title": "Téléassistance personne âgée : prix et aides 2026",
+ "description": "Téléassistance pour un parent âgé : fonctionnement, prix d'exemples publics (dès 10,30 € par mois), aides, crédit d'impôt de 50 % et comment choisir.",
+ "h1": "Téléassistance pour une personne âgée : prix, aides et fonctionnement",
+ "chapo": "La téléassistance relie votre parent à un téléopérateur, jour et nuit, d'une simple pression sur un médaillon ou une montre. Il n'existe pas de tarif national : en 2026, un département affiche 15,47 € par mois (10,30 € en tarif réduit), un autre 12,68 €, et elle est gratuite pour les bénéficiaires de l'APA dans certains départements. Le crédit d'impôt de 50 % s'applique.",
+ "en_bref": [
+  "Service d'alerte 24 heures sur 24 et 7 jours sur 7 : un boîtier dans le logement et un médaillon, une montre ou un bracelet.",
+  "Prix d'exemples publics en 2026 : 15,47 € TTC par mois (tarif réduit 10,30 €) en Loire-Atlantique, 12,68 € TTC en Haute-Garonne.",
+  "Gratuite pour les bénéficiaires de l'APA en Haute-Garonne. Ailleurs, l'APA, la caisse de retraite ou la mairie peuvent aider.",
+  "Crédit d'impôt de 50 % sur l'abonnement, même sans autre service à domicile.",
+  "Les départements, communes et associations proposent des offres, à comparer avec celles des sociétés privées."
+ ],
+ "sections": [
+  {
+   "h2": "Comment fonctionne la téléassistance ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La téléassistance permet à une personne âgée d'entrer en contact avec un téléopérateur à toute heure, par exemple après une chute. Deux éléments sont nécessaires : un système avec micro et haut-parleur installé dans le logement, et un appareil porté sur soi (médaillon autour du cou, montre, bracelet ou lunettes spéciales)."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Votre parent déclenche l'alerte en appuyant sur le bouton, ou l'appareil la déclenche seul (détecteur de chute, de mouvement).",
+      "La centrale d'écoute est alertée. Un téléopérateur appelle immédiatement et peut lui parler grâce au micro-haut-parleur.",
+      "Si la situation n'est pas urgente, il prévient une des personnes de la liste fournie à la souscription, qui peuvent se rendre rapidement sur place.",
+      "Si votre parent ne répond pas ou si la situation est urgente ou dangereuse, il déclenche immédiatement l'intervention des secours."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "La liste de vos coordonnées, de celles de vos frères et sœurs et des voisins est donc essentielle : c'est elle qui est appelée en premier."
+    },
+    {
+     "type": "p",
+     "texte": "Une précision de vocabulaire : la téléalarme envoie une alerte en cas de chute, alors que la téléassistance permet en plus d'échanger de vive voix avec une plateforme d'assistance."
+    }
+   ]
+  },
+  {
+   "h2": "Médaillon, montre, détecteur de chute : quel matériel choisir ?",
+   "blocs": [
+    {
+     "type": "tableau",
+     "entetes": [
+      "Fonction",
+      "Ce qu'elle fait"
+     ],
+     "lignes": [
+      [
+       "Bouton d'alerte",
+       "Il faut appuyer pour alerter la centrale"
+      ],
+      [
+       "Détecteur de chute",
+       "Des capteurs détectent la chute et envoient seuls un signal, sans bouton à presser"
+      ],
+      [
+       "Détecteur de mouvements",
+       "Des capteurs dans le logement envoient une alerte en cas d'absence d'activité"
+      ],
+      [
+       "Étanchéité",
+       "Certains appareils s'utilisent sous la douche"
+      ],
+      [
+       "Géolocalisation (GPS)",
+       "Alerte possible même hors du domicile, avec localisation de la personne"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Le bon choix dépend de la situation de votre parent. S'il tombe sans pouvoir appuyer sur un bouton ou s'il vit seul avec des risques de malaise, le détecteur de chute ou de mouvements apporte une sécurité supplémentaire. S'il sort souvent, la géolocalisation compte. S'il se lave seul, vérifiez l'étanchéité. Prenez le temps de choisir le système qui correspond à son besoin de sécurité et à son mode de vie."
+    }
+   ]
+  },
+  {
+   "h2": "Combien coûte la téléassistance par mois ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le coût de l'abonnement diffère d'un prestataire à l'autre : il n'existe pas de prix national. Voici deux exemples d'offres publiques, en 2026, à lire comme des repères indicatifs :"
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Offre",
+      "Prix mensuel TTC",
+      "À savoir"
+     ],
+     "lignes": [
+      [
+       "Loire-Atlantique (service du Département)",
+       "15,47 € tarif tout public, 10,30 € tarif réduit selon le revenu fiscal de référence",
+       "Boîtier, bouton étanche en pendentif ou bracelet, détecteur de fumée connecté, détecteur de chutes lourdes, appels de convivialité. Résiliation possible à tout moment, sans frais."
+      ],
+      [
+       "Haute-Garonne (Téléassistance 31)",
+       "12,68 € à partir de 70 ans ou en situation de particulière fragilité, tarif révisable au 1er février",
+       "Gratuite pour les bénéficiaires de l'APA, de la PCH, ou de l'AAH avec 80 % d'incapacité ou plus."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les sociétés privées, certaines communes, associations et départements proposent des offres. Demandez toujours un devis détaillé : abonnement mensuel, frais d'installation éventuels, options (détecteur de chute, GPS), durée d'engagement et préavis."
+    }
+   ]
+  },
+  {
+   "h2": "La téléassistance peut-elle être gratuite ou aidée ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**L'APA à domicile** : les dépenses de téléassistance peuvent être inscrites dans le plan d'aide, pour une personne évaluée en GIR 1 à 4. Parlez-en à l'équipe médico-sociale qui visite votre parent.",
+      "**Les caisses de retraite** : après une hospitalisation ou si votre parent ne se sent pas en sécurité, la caisse peut proposer la mise en place d'une téléassistance. Si votre parent touche ou peut prétendre à l'APA, il ne peut pas cumuler cette aide avec celle de la caisse pour le même besoin.",
+      "**La mairie** : sous conditions, certaines communes participent aux frais d'installation ou à l'abonnement.",
+      "**Le département** : certains proposent leur propre service, parfois gratuit pour les bénéficiaires de l'APA (comme en Haute-Garonne) ou à tarif réduit selon les ressources (comme en Loire-Atlantique)."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour connaître les offres de votre secteur, contactez la mairie ou le point d'information local dédié aux personnes âgées."
+    }
+   ]
+  },
+  {
+   "h2": "Quel crédit d'impôt pour la téléassistance ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La téléassistance et la visio-assistance figurent parmi les services à la personne qui donnent droit au crédit d'impôt de 50 % si elles permettent le maintien à domicile d'une personne fragile. Elles y ouvrent droit même sans être comprises dans un ensemble de services. Le plafond général de dépenses est de 12 000 € par an, majoré dans certains cas."
+    },
+    {
+     "type": "exemple",
+     "titre": "Exemple",
+     "texte": "Un abonnement à 15,47 € par mois coûte 185,64 € par an. Avec le crédit d'impôt de 50 %, il revient à 92,82 € par an, soit environ 7,74 € par mois. Au tarif réduit de 10,30 €, il revient à 61,80 € par an, soit environ 5,15 € par mois. La Haute-Garonne précise qu'un contribuable non imposable est remboursé par chèque du Trésor public."
+    },
+    {
+     "type": "attention",
+     "texte": "Si l'APA ou une autre aide paie une partie de l'abonnement, elle est à déduire de la dépense avant de calculer le crédit d'impôt. Gardez l'attestation annuelle de l'organisme."
+    }
+   ]
+  },
+  {
+   "h2": "Comment bien choisir son contrat de téléassistance ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "Commencez par les offres publiques : département, mairie, CCAS, associations. Leur tarif peut être réduit, voire gratuit, selon les ressources ou l'APA.",
+      "Demandez qui répond à l'alerte : une centrale d'écoute 24 heures sur 24, et qui est prévenu (proches, secours).",
+      "Choisissez les options utiles, pas plus : détecteur de chute, détecteur de mouvements, GPS, appareil étanche.",
+      "Comparez les prix hors options, les frais d'installation, la durée d'engagement et le préavis de résiliation, par écrit.",
+      "Vérifiez que le prestataire est déclaré en services à la personne pour que le crédit d'impôt de 50 % s'applique (le département de Haute-Garonne l'indique pour son prestataire)."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour des conseils neutres sur les aides techniques en général, il existe aussi des centres d'information et de conseil sur les aides techniques (CICAT), sans intérêt commercial."
+    }
+   ]
+  },
+  {
+   "h2": "Comment souscrire, et comment résilier ?",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Choisissez l'organisme (département, mairie, association ou société privée) et demandez les conditions.",
+      "Faites la demande : en ligne pour les services départementaux (Haute-Garonne), ou auprès de l'organisme choisi. Le département informe son prestataire, qui prend contact pour fixer un rendez-vous d'installation.",
+      "Indiquez la liste des personnes à prévenir lors de la souscription.",
+      "Pour résilier, lisez le contrat : durée, reconduction et préavis. Le service du département de Loire-Atlantique précise que la résiliation et le changement d'options se font à tout moment et sans frais ; ce n'est pas forcément le cas des autres offres."
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quel est le prix de la téléassistance pour une personne âgée ?",
+   "r": "Il n'y a pas de tarif national. En 2026, le département de Loire-Atlantique affiche 15,47 € TTC par mois (10,30 € au tarif réduit) et la Haute-Garonne 12,68 € TTC. Après le crédit d'impôt de 50 %, ces abonnements reviennent environ à 7,74 € et 6,34 € par mois."
+  },
+  {
+   "q": "La téléassistance est-elle gratuite avec l'APA ?",
+   "r": "Cela dépend du département. En Haute-Garonne, elle est gratuite pour les bénéficiaires de l'APA. Ailleurs, les dépenses de téléassistance peuvent être inscrites dans le plan d'aide APA, après évaluation par l'équipe médico-sociale, avec une éventuelle participation selon les revenus."
+  },
+  {
+   "q": "Quelle est la différence entre téléassistance et téléalarme ?",
+   "r": "La téléalarme envoie une alerte en cas de chute. La téléassistance envoie aussi une alerte, mais permet en plus de parler de vive voix avec un téléopérateur grâce à un micro-haut-parleur."
+  },
+  {
+   "q": "Qui est prévenu quand ma mère appuie sur le bouton ?",
+   "r": "Le téléopérateur l'appelle d'abord. Si ce n'est pas urgent, il prévient une personne de la liste que vous avez donnée à la souscription. Si elle ne répond pas ou si la situation est urgente ou dangereuse, il déclenche les secours."
+  },
+  {
+   "q": "Faut-il avoir un âge minimum pour souscrire ?",
+   "r": "Il n'y a pas d'âge national. Les offres des départements fixent leurs propres conditions : par exemple plus de 60 ans en Loire-Atlantique (sans âge minimum pour les personnes handicapées) et plus de 70 ans en Haute-Garonne, ou bénéficiaire de l'APA."
+  },
+  {
+   "q": "La téléassistance ouvre-t-elle droit à un crédit d'impôt même si on est non imposable ?",
+   "r": "Oui, c'est un crédit d'impôt à 50 % de la dépense. Si votre parent n'est pas imposable, il est remboursé. Le prestataire doit être déclaré en services à la personne."
+  },
+  {
+   "q": "Le matériel suit-il mon parent s'il part en vacances ?",
+   "r": "Cela dépend du contrat. Loire-Atlantique indique que le matériel suit l'abonné en cas d'absence pour une durée déterminée dans le département, sans intervention d'un technicien. Vérifiez cette possibilité avant de signer."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "apa",
+   "ancre": "financement par l'APA"
+  },
+  {
+   "slug": "aide-a-domicile",
+   "ancre": "aide à domicile pour un parent âgé"
+  },
+  {
+   "slug": "portage-de-repas",
+   "ancre": "portage de repas"
+  },
+  {
+   "slug": "aidant-familial",
+   "ancre": "droits des aidants"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/la-teleassistance",
+   "titre": "La téléassistance (pour-les-personnes-agees.gouv.fr)"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/les-aides-financieres-pour-installer-une-teleassistance",
+   "titre": "Les aides financières pour installer une téléassistance"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12",
+   "titre": "Crédit d'impôt pour l'emploi d'un salarié à domicile (vérifié le 15 avril 2026)"
+  },
+  {
+   "url": "https://www.loire-atlantique.fr/teleassistance",
+   "titre": "Téléassistance, Département de Loire-Atlantique (tarifs 2026)"
+  },
+  {
+   "url": "https://www.haute-garonne.fr/teleassistance-31",
+   "titre": "Téléassistance 31, Département de la Haute-Garonne (page publiée le 23 septembre 2026)"
+  }
+ ],
+ "date_verification": "2026-11-11",
+ "a_verifier": [
+  "Aucune fourchette nationale de prix pour les offres privées trouvée dans une source officielle : seuls deux tarifs départementaux 2026 sont cités.",
+  "Règles légales de résiliation d'un contrat de téléassistance : non vérifiées dans une source officielle. Seule l'offre de Loire-Atlantique est citée.",
+  "Calcul de l'exemple Haute-Garonne : 12,68 € x 12 = 152,16 € par an, 76,08 € après crédit d'impôt, soit 6,34 € par mois (arrondi).",
+  "Frais d'installation éventuels : non relevés dans les sources officielles."
+ ]
+}

@@ -1,0 +1,226 @@
+{
+  "slug": "carte-mobilite-inclusion",
+  "title": "Carte mobilité inclusion senior : mentions et demande",
+  "description": "CMI stationnement, priorité, invalidité : à quoi sert chaque carte, qui peut l'avoir, comment la demander avec l'APA ou la MDPH et sous quel délai.",
+  "h1": "Carte mobilité inclusion pour une personne âgée : mentions, demande et délais",
+  "chapo": "La carte mobilité inclusion (CMI) est gratuite et facilite les déplacements d'une personne en perte d'autonomie. Elle existe en 3 mentions : stationnement, priorité et invalidité. Une personne âgée qui perçoit l'APA et qui est évaluée en GIR 1 ou 2 obtient automatiquement et à titre définitif la CMI stationnement et la CMI invalidité. Sinon, la demande se fait au département ou à la MDPH.",
+  "en_bref": [
+    "3 mentions : stationnement (se garer gratuitement), priorité (places assises et files d'attente), invalidité (mêmes droits que priorité, plus réductions et avantages fiscaux).",
+    "Bénéficiaires de l'APA en GIR 1 ou 2 : CMI stationnement et invalidité attribuées automatiquement et de façon définitive.",
+    "La demande peut se faire sur le même formulaire que l'APA, au département ; sinon à la MDPH.",
+    "Une fois la demande acceptée, la carte arrive environ 10 jours après l'envoi de la photo.",
+    "La carte est gratuite ; un duplicata en cas de perte ou de vol coûte 10 €."
+  ],
+  "sections": [
+    {
+      "h2": "Que permet chaque mention de la CMI ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "entetes": [
+            "Mention",
+            "Ce qu'elle permet",
+            "Pour qui"
+          ],
+          "lignes": [
+            [
+              "Stationnement",
+              "Utiliser gratuitement, sans limitation de durée, les places de stationnement ouvertes au public en France et dans l'Union européenne, y compris les places réservées. La commune peut limiter la durée, sans pouvoir la fixer à moins de 12 heures.",
+              "Personne dont la capacité de déplacement à pied est très limitée, ou qui doit être accompagnée dans ses déplacements, quel que soit son taux d'incapacité ; ou personne en GIR 1 ou 2"
+            ],
+            [
+              "Priorité",
+              "Place assise dans les transports en commun et les salles d'attente, priorité dans les files d'attente. La personne qui accompagne bénéficie des mêmes avantages.",
+              "Personne avec un taux d'incapacité inférieur à 80 % dont la station debout est pénible"
+            ],
+            [
+              "Invalidité",
+              "Mêmes avantages que la priorité, plus des réductions (par exemple dans les transports comme la SNCF, à se renseigner auprès de l'organisme) et des avantages fiscaux (par exemple, sous conditions, une demi-part supplémentaire pour l'impôt sur le revenu).",
+              "Personne avec un taux d'incapacité permanente de 80 % ou plus, ou invalide classé en 3e catégorie"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "La CMI stationnement est attribuée à une personne et non à un véhicule : elle peut servir dans n'importe quelle voiture, que la personne soit conductrice ou passagère. La carte se pose bien en vue contre le pare-brise, et se retire quand le véhicule n'est plus utilisé."
+        },
+        {
+          "type": "p",
+          "texte": "Les mentions se cumulent de la façon suivante : priorité avec stationnement, ou invalidité avec stationnement, jamais priorité et invalidité ensemble. Il est inutile de demander la priorité si on a l'invalidité, car elle donne les mêmes avantages."
+        },
+        {
+          "type": "attention",
+          "texte": "Les anciennes cartes d'invalidité, de priorité et de stationnement attribuées à titre définitif restent utilisables au plus tard jusqu'au 31 décembre 2026. Il faut demander une CMI avant cette date."
+        }
+      ]
+    },
+    {
+      "h2": "Qui peut avoir une CMI quand on est âgé ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Pour toutes les mentions, il faut être de nationalité française, ressortissant de l'Espace économique européen ou détenir un titre de séjour en cours de validité, et résider dans le département où la demande est déposée. Ensuite, chaque mention a ses critères, rappelés dans le tableau ci-dessus. Pour la CMI stationnement, relever du groupe 1 ou 2 de la grille AGGIR suffit : voir la grille AGGIR."
+        },
+        {
+          "type": "p",
+          "texte": "Le taux d'incapacité, quand il est en jeu, est apprécié par la commission des droits et de l'autonomie des personnes handicapées (CDAPH) avec un guide-barème national."
+        },
+        {
+          "type": "p",
+          "texte": "L'âge n'est donc pas un critère en soi : ce qui compte est la perte d'autonomie. Un parent de 82 ans qui marche sans difficulté ne l'obtiendra pas, un parent de 75 ans qui ne peut plus faire que quelques pas peut y prétendre."
+        }
+      ]
+    },
+    {
+      "h2": "Qu'est-ce que la voie simplifiée avec l'APA, en GIR 1 et 2 ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Les bénéficiaires de l'APA évalués en GIR 1 ou en GIR 2 obtiennent automatiquement et de façon définitive la CMI stationnement et la CMI invalidité. Ils n'ont pas à passer devant la commission de la MDPH. En établissement, la formulation officielle est qu'ils peuvent, à leur demande, en bénéficier automatiquement."
+        },
+        {
+          "type": "liste",
+          "items": [
+            "**Vous demandez l'APA pour la première fois** : la demande de CMI est incluse dans le formulaire « Demande d'aides à l'autonomie à domicile ». Joignez un certificat médical (pour les mentions stationnement et priorité) et une pièce d'identité. Pour l'invalidité, joignez le justificatif de pension d'invalidité de 3e catégorie le cas échéant.",
+            "**Votre parent perçoit déjà l'APA** : il faut retirer le formulaire spécifique auprès du service autonomie du département, car il n'existe pas de formulaire national. Joignez la pièce d'identité et la décision d'attribution de l'APA ; certains départements demandent aussi un certificat médical.",
+            "**En EHPAD** : la demande se fait avec le formulaire d'APA en établissement lors de la première demande, ou avec un formulaire du conseil départemental si la personne perçoit déjà l'APA."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Pour les montants et les conditions de l'APA, voir la page APA. Pour déposer le dossier, voir la demande d'APA."
+        }
+      ]
+    },
+    {
+      "h2": "Comment demander la CMI sans APA, auprès de la MDPH ?",
+      "blocs": [
+        {
+          "type": "etapes",
+          "items": [
+            "**Remplissez le formulaire** cerfa n°15692*01 de demande de CMI, ou le formulaire général « Demande ou renouvellement de prestations Handicap » (qui couvre aussi la CMI), ou utilisez le téléservice de votre MDPH s'il existe.",
+            "**Joignez les pièces justificatives** indiquées dans le formulaire ou la demande en ligne.",
+            "**Déposez le dossier** à la maison départementale des personnes handicapées (MDPH) du lieu de résidence, en ligne ou par courrier.",
+            "**Évaluation.** La commission (CDAPH) examine le dossier. Vous pouvez être convoqué par l'équipe pluridisciplinaire de la MDPH pour évaluer votre capacité de déplacement.",
+            "**Décision.** C'est toujours le président du conseil départemental qui décide d'attribuer la carte."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Quand la demande est étudiée par le département (APA) ou par la MDPH, la procédure de décision est la même. Les cartes sont délivrées pour un minimum de 1 an, jusqu'à 20 ans, ou à vie selon l'évolution de la situation."
+        }
+      ]
+    },
+    {
+      "h2": "Combien de temps pour recevoir la carte ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Les pages officielles ne donnent pas de délai global d'instruction pour obtenir la décision : il varie selon les départements et les MDPH. Les étapes qui suivent l'accord sont mieux connues :"
+        },
+        {
+          "type": "etapes",
+          "items": [
+            "Vous recevez un courrier de l'Imprimerie nationale avec un code secret pour le site carte-mobilite-inclusion.fr, un coupon réponse et une enveloppe pour la photo d'identité.",
+            "Vous envoyez la photo, par courrier ou en ligne sur le site (conforme ou non, vous le savez immédiatement).",
+            "La carte arrive par courrier environ 10 jours après l'envoi de la photo. Le suivi de fabrication est possible sur le site ou au 0 809 360 280."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "À savoir : la loi n°2026-492 du 12 juin 2026 prévoit des mesures pour accélérer le traitement des demandes de CMI stationnement, avec une attribution automatique dans certains cas. Elles ne s'appliquent qu'après la publication des textes d'application."
+        }
+      ]
+    },
+    {
+      "h2": "Que faire en cas de refus, de renouvellement ou de perte ?",
+      "blocs": [
+        {
+          "type": "liste",
+          "items": [
+            "**Refus** : faites d'abord un recours administratif préalable obligatoire (Rapo) auprès du président du conseil départemental, par courrier. Il a 2 mois pour répondre. Ensuite, vous avez 2 mois pour saisir le tribunal : le tribunal administratif pour la CMI stationnement, le tribunal judiciaire pour la CMI invalidité ou priorité.",
+            "**Durée** : la carte est définitive si la personne perçoit l'APA et relève du GIR 1 ou 2. En dehors de ce cas, la durée va de 1 à 20 ans. Le renouvellement se fait avec le même formulaire ou téléservice que la demande initiale.",
+            "**Perte, vol, destruction** : un duplicata se demande en ligne sur le site de suivi de la CMI. La refabrication coûte 10 € et invalide l'ancienne carte."
+          ]
+        },
+        {
+          "type": "attention",
+          "texte": "Pensez à demander le renouvellement bien avant la date de fin de validité. Et si la carte arrive à échéance alors que la perte d'autonomie s'est aggravée, profitez-en pour demander la mention manquante."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "La carte mobilité inclusion est-elle payante ?",
+      "r": "Non, les cartes mobilité inclusion sont gratuites. Seuls un deuxième exemplaire et la refabrication en cas de perte ou de vol sont payants : la refabrication coûte 10 €."
+    },
+    {
+      "q": "Peut-on avoir la CMI stationnement sans avoir l'APA ?",
+      "r": "Oui. Il faut avoir un handicap qui réduit de manière importante et durable la capacité de se déplacer à pied, ou avoir besoin d'être accompagné, ou relever du GIR 1 ou 2. La demande se fait alors à la MDPH et c'est le président du conseil départemental qui décide."
+    },
+    {
+      "q": "La CMI donne-t-elle droit à une réduction d'impôt ?",
+      "r": "La CMI invalidité ouvre droit à des avantages fiscaux, par exemple, sous conditions, une demi-part supplémentaire pour le calcul de l'impôt sur le revenu. Les conditions précises se vérifient auprès de l'administration fiscale."
+    },
+    {
+      "q": "Un enfant peut-il utiliser la CMI stationnement de son parent ?",
+      "r": "La carte est attribuée à une personne, pas à un véhicule : elle peut être utilisée dans n'importe quel véhicule, que cette personne soit conductrice ou passagère, y compris celui d'un proche qui l'accompagne dans ses déplacements. Elle est personnelle : elle n'a pas vocation à servir sans le parent."
+    },
+    {
+      "q": "L'ancienne carte d'invalidité ou de stationnement est-elle encore valable ?",
+      "r": "Une carte attribuée à titre définitif reste utilisable jusqu'au 31 décembre 2026 au plus tard. Une CMI doit être demandée avant cette date, ou avant la fin de validité si la carte est à durée limitée."
+    },
+    {
+      "q": "Quelle est la durée de validité de la CMI ?",
+      "r": "Elle est définitive pour un bénéficiaire de l'APA évalué en GIR 1 ou 2. Dans les autres cas, elle est accordée pour 1 à 20 ans. Pour la mention invalidité, elle est aussi définitive si le taux d'incapacité est d'au moins 80 % et si le handicap ne peut pas évoluer favorablement."
+    },
+    {
+      "q": "Peut-on cumuler CMI invalidité et CMI priorité ?",
+      "r": "Non. Il est inutile de demander la priorité si l'on a l'invalidité, car celle-ci donne les mêmes avantages. On peut en revanche associer la stationnement avec la priorité ou avec l'invalidité, ce qui donne alors deux cartes."
+    }
+  ],
+  "liens_internes": [
+    {
+      "slug": "apa",
+      "ancre": "l'APA et ses conditions"
+    },
+    {
+      "slug": "apa/demande",
+      "ancre": "déposer la demande d'APA et de CMI"
+    },
+    {
+      "slug": "grille-aggir",
+      "ancre": "le GIR 1 et le GIR 2"
+    },
+    {
+      "slug": "aidant-familial",
+      "ancre": "les droits de l'aidant familial"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34049",
+      "titre": "Service-public.gouv.fr : Carte mobilité inclusion (CMI), vérifié le 28 avril 2026"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/comment-demander-une-cmi",
+      "titre": "Pour les personnes âgées : Comment demander une CMI ?"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/comment-faire-la-demande-d-apa-a-domicile",
+      "titre": "Pour les personnes âgées : Comment faire la demande d'APA à domicile ?"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/lapa-en-etablissement",
+      "titre": "Pour les personnes âgées : L'APA en établissement"
+    }
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Aucun délai officiel d'instruction par le département ou la MDPH (ni règle de décision implicite) n'a été lu : à confirmer avant de promettre un délai.",
+    "Écart de formulation entre sources : le portail pour-les-personnes-agees.gouv.fr indique que les bénéficiaires de l'APA en GIR 1 ou 2 obtiennent « automatiquement et de façon définitive » la CMI stationnement et invalidité (page domicile), alors que la page EHPAD dit « à leur demande, automatiquement ». À confirmer auprès d'un département.",
+    "Le pour-les-personnes-agees.gouv.fr cite le tribunal de grande instance pour les recours contre un refus de CMI invalidité ou priorité ; service-public.gouv.fr (plus récent) cite le tribunal judiciaire. Le texte retient tribunal judiciaire.",
+    "La loi n°2026-492 du 12 juin 2026 : textes d'application non publiés au moment de la lecture, à re-vérifier."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "residence-senior",
+  "title": "Résidence senior : prix, aides et différence avec EHPAD",
+  "description": "Résidence services, résidence autonomie ou EHPAD : pour qui, quel coût, quelles aides (APL, APA, crédit d'impôt) et comment bien choisir.",
+  "h1": "Résidence services seniors : prix, aides et différence avec un EHPAD",
+  "chapo": "Une résidence senior (ou résidence services) est un ensemble de logements privés pour personnes âgées autonomes, avec des services collectifs, que l'on loue ou que l'on achète. La résidence autonomie est publique ou associative, à loyer modéré : en 2019, le prix médian d'un studio y était de 643 € à 688 € par mois. L'EHPAD, lui, est médicalisé et s'adresse aux personnes dépendantes.",
+  "en_bref": [
+    "Résidence services : logement privé, loyer au prix du marché, pas d'aide sociale à l'hébergement.",
+    "Résidence autonomie : établissement social, logement à loyer modéré, GIR 5-6 en principe, plus de 60 ans.",
+    "Prix médians 2019 en résidence autonomie : 688 € (studio avec kitchenette), 643 € (studio cuisine isolée), environ 790 € (deux-pièces).",
+    "Dans les deux cas : APL ou ALS, APA à domicile si GIR 1 à 4, aides des caisses de retraite.",
+    "La DGCCRF a relevé que près de 40 % des résidences services contrôlées informaient mal sur les prestations."
+  ],
+  "sections": [
+    {
+      "h2": "Résidence services, résidence autonomie, EHPAD : quelle différence ?",
+      "blocs": [
+        {"type": "p", "texte": "Ces trois solutions sont souvent confondues, car elles accueillent toutes des personnes âgées et proposent des services. Elles n'ont ni le même statut, ni le même public, ni les mêmes aides."},
+        {"type": "tableau", "entetes": ["", "Résidence services (« résidence senior »)", "Résidence autonomie", "EHPAD"], "lignes": [
+          ["Public", "Personnes âgées autonomes ou relativement autonomes", "Personnes de plus de 60 ans autonomes ou relativement autonomes (GIR 5-6 en principe)", "Personnes dépendantes, besoin de soins"],
+          ["Statut", "Principalement privé commercial, parfois associatif ; pas un établissement médico-social", "Majoritairement public (CCAS) ou associatif ; établissement médico-social", "Établissement médicalisé"],
+          ["Occupant", "Locataire (bail) ou propriétaire", "Résident avec contrat de séjour", "Résident avec contrat de séjour"],
+          ["Aide sociale à l'hébergement", "Non", "Oui, si la résidence est habilitée", "Oui, si l'EHPAD est habilité"]
+        ]},
+        {"type": "p", "texte": "Dans une résidence autonomie comme dans une résidence services, on vit dans un logement individuel et privatif, avec des espaces communs et des services collectifs : restauration, ménage, animations. Une résidence autonomie accueille en moyenne une cinquantaine de résidents. Certaines, en milieu rural, ont le label MARPA et comptent 30 places au maximum."},
+        {"type": "attention", "texte": "Une résidence senior n'est pas médicalisée. La DGCCRF a relevé, lors d'un contrôle de 256 établissements en 2021 et 2022, que certains sites présentaient des résidences comme médicalisées alors qu'elles ne sont pas des établissements médico-sociaux."}
+      ]
+    },
+    {
+      "h2": "Pour qui choisir une résidence senior ?",
+      "blocs": [
+        {"type": "p", "texte": "Ces résidences conviennent à une personne qui vit encore seule sans difficulté majeure mais ne veut plus, ou ne peut plus, rester chez elle : isolement, logement peu adapté, besoin de sécurité, accès facilité aux commerces. Elles sont souvent construites à proximité des commerces, des transports et des services."},
+        {"type": "p", "texte": "Pour entrer en **résidence autonomie**, les critères sont un niveau de perte d'autonomie évalué au maximum en GIR 5 ou 6 (une dérogation est parfois possible) et plus de 60 ans (avec dérogation possible pour les moins de 60 ans et les personnes en situation de handicap, dans des proportions limitées). Un couple qui entre en même temps doit remplir les deux critères pour chacun."},
+        {"type": "p", "texte": "Les résidences autonomie peuvent admettre à titre dérogatoire des personnes en GIR 1 à 4, si le projet de l'établissement le prévoit et s'il a signé des conventions avec un EHPAD et avec un service d'aide à domicile, un centre de santé ou d'autres professionnels de santé. Pour comprendre les GIR, voir notre page sur la grille AGGIR."}
+      ]
+    },
+    {
+      "h2": "Combien coûte une résidence senior ?",
+      "blocs": [
+        {"type": "p", "texte": "**En résidence autonomie**, la CNSA a analysé les prix de 2019, publiés sur le portail officiel. Le prix médian par mois est de 688 € pour un studio avec kitchenette, de 643 € pour un studio avec cuisine isolée, et d'environ 790 € pour un deux-pièces. Les prix varient du simple au triple selon l'ancienneté du bâti et le niveau des prestations. Ce sont des prix de 2019 : ils ont augmenté depuis."},
+        {"type": "p", "texte": "La facture a deux postes : la redevance (loyer et charges locatives) et les prestations (celles que le résident choisit parmi les prestations minimales obligatoirement proposées, plus d'éventuelles prestations facultatives comme la coiffure ou la pédicure). Les tarifs du loyer et des prestations minimales d'une résidence habilitée à l'aide sociale sont fixés par le président du conseil départemental."},
+        {"type": "p", "texte": "**En résidence services**, la facture mensuelle comprend le loyer, fixé au prix du marché, et les charges locatives. Certains services sont non individualisables et facturés au forfait, d'autres sont facturés selon la consommation. Le portail officiel ne donne pas de prix moyen national pour ces résidences : demandez le prix mensuel complet, tout compris, avant de visiter."},
+        {"type": "attention", "texte": "La DGCCRF a constaté que l'information sur les prix n'est parfois pas transparente : elle diffère d'un support à l'autre, ou le prix est présenté déduction faite de l'avantage fiscal ou des aides sociales. Demandez le prix avant toute aide et la liste détaillée de ce qui est inclus."}
+      ]
+    },
+    {
+      "h2": "Quelles aides pour payer une résidence senior ?",
+      "blocs": [
+        {"type": "tableau", "entetes": ["Aide", "Résidence services", "Résidence autonomie"], "lignes": [
+          ["APL ou ALS (non cumulables)", "Oui, sous conditions (aides au logement à domicile)", "Oui, APL si conventionnée, sinon ALS"],
+          ["Aide sociale à l'hébergement", "Non", "Oui, si la résidence est habilitée"],
+          ["APA à domicile (GIR 1 à 4)", "Oui", "Oui"],
+          ["Aides des caisses de retraite", "Oui, sous conditions", "Oui, sous conditions"],
+          ["Aide-ménagère du département", "Oui, si pas d'APA", "Oui, si pas d'APA"],
+          ["Crédit d'impôt pour l'aide à domicile", "Oui", "Oui"]
+        ]},
+        {"type": "p", "texte": "Pour l'APA, la règle est simple : en résidence autonomie, en résidence services ou en accueil familial, vous demandez l'**APA à domicile**, pas l'APA en établissement. Elle sert à payer l'aide dont vous avez besoin si votre degré d'autonomie est évalué GIR 1 à 4. Notre page sur l'APA détaille les plafonds et le calcul."},
+        {"type": "p", "texte": "Le **crédit d'impôt** pour l'emploi d'un salarié à domicile est de 50 % des dépenses supportées dans l'année, dans la limite de 12 000 € par an (soit 6 000 € d'avantage maximal). Le plafond est majoré de 1 500 € dans certains cas, sans pouvoir dépasser 15 000 €, notamment pour un membre du foyer de plus de 65 ans. L'emploi peut s'exercer dans une résidence pour personnes âgées. Les aides reçues, comme l'APA, sont à déduire des dépenses."},
+        {"type": "attention", "texte": "Le crédit d'impôt porte sur les services à la personne éligibles, pas sur le loyer. La DGCCRF a relevé que certaines résidences mettent en avant ce crédit d'impôt pour des prestations de confort qui ne remplissent pas les conditions. Demandez quelles prestations de la facture sont réellement éligibles."}
+      ]
+    },
+    {
+      "h2": "Comment choisir une résidence senior ?",
+      "blocs": [
+        {"type": "p", "texte": "Quelques repères pour comparer :"},
+        {"type": "liste", "items": [
+          "**Le type de contrat** : un bail en résidence services (vous êtes locataire ou propriétaire), un contrat de séjour obligatoire en résidence autonomie.",
+          "**Les prestations incluses** : en résidence autonomie, la loi impose une liste de prestations minimales, dont un dispositif de sécurité permettant de se signaler 24h/24, un service de restauration et un service de blanchisserie, que le résident choisit librement de consommer ou non.",
+          "**Les prestations facturées en plus** et leur évolution. En résidence autonomie, les prix des prestations facultatives sont fixés librement à la signature du contrat.",
+          "**La garantie demandée à l'entrée** : certaines résidences autonomie demandent le dépôt d'une garantie, voire un acte de caution solidaire signé par les obligés alimentaires.",
+          "**L'environnement** : commerces, transports, médecins à proximité, ce qui compte plus que les services sur place."
+        ]},
+        {"type": "p", "texte": "Les prix et prestations des résidences autonomie sont publiés dans l'annuaire officiel des résidences autonomie du portail pour-les-personnes-agees.gouv.fr. Le portail propose aussi un annuaire des résidences services, avec leurs coordonnées. Visitez au moins deux résidences et demandez toujours le contrat à l'avance."}
+      ]
+    },
+    {
+      "h2": "Et si la santé de votre parent se dégrade ?",
+      "blocs": [
+        {"type": "p", "texte": "C'est le point à anticiper. Dans une résidence autonomie, si l'état de santé se dégrade et que le niveau d'autonomie baisse, il est possible que la personne ne puisse pas rester : ces établissements ne peuvent accueillir qu'un petit nombre de résidents dépendants. Les soins courants y sont généralement assurés par des intervenants extérieurs (médecin, infirmier libéral, service de soins à domicile)."},
+        {"type": "p", "texte": "Si la dépendance devient importante, l'EHPAD devient alors la solution. Pour en connaître le prix, les aides et les démarches, consultez notre page sur les tarifs d'EHPAD."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Une résidence senior est-elle médicalisée ?", "r": "Non. Les résidences services seniors ne sont pas des établissements médico-sociaux et ne reçoivent pas d'autorisation d'une autorité publique. Les soins sont assurés par des professionnels de santé extérieurs. La DGCCRF a relevé que certaines communications laissaient croire le contraire."},
+    {"q": "Peut-on y entrer en couple ?", "r": "Oui, ces résidences accueillent des personnes seules ou en couple. En résidence autonomie, si un couple entre en même temps, les deux conjoints doivent remplir les critères d'admission."},
+    {"q": "Peut-on acheter son logement dans une résidence services ?", "r": "Oui. Selon le portail officiel, les occupants des résidences services sont locataires ou propriétaires. En résidence autonomie, on est résident avec un contrat de séjour, pas propriétaire."},
+    {"q": "L'APL est-elle possible en résidence senior ?", "r": "Oui, sous conditions de ressources. En résidence services, vous pouvez demander les aides au logement à domicile (APL ou ALS, non cumulables). En résidence autonomie, l'APL est possible si l'établissement est conventionné, sinon c'est l'ALS. La demande se fait auprès de la CAF."},
+    {"q": "Quel âge faut-il avoir ?", "r": "En résidence autonomie, il faut avoir plus de 60 ans, avec une dérogation possible pour les personnes plus jeunes ou en situation de handicap, dans des proportions limitées. Pour les résidences services, le portail ne précise pas d'âge minimal : renseignez-vous auprès de chaque résidence."},
+    {"q": "Qui peut m'aider à choisir près de chez moi ?", "r": "Les points d'information locaux de votre département renseignent sur les résidences autonomie et les aides. Le portail officiel donne aussi l'annuaire des résidences autonomie avec leurs prix, et celui des résidences services avec leurs coordonnées."}
+  ],
+  "liens_internes": [
+    {"slug": "ehpad-prix-aides", "ancre": "prix d'un EHPAD et aides"},
+    {"slug": "apa", "ancre": "APA à domicile"},
+    {"slug": "grille-aggir", "ancre": "grille AGGIR et niveaux de GIR"},
+    {"slug": "aide-a-domicile", "ancre": "aide à domicile"},
+    {"slug": "teleassistance", "ancre": "téléassistance"},
+    {"slug": "aide-sociale-hebergement", "ancre": "aide sociale à l'hébergement"}
+  ],
+  "sources": [
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-dans-une-residence-avec-services-pour-seniors/residence-autonomie-et-residence-services-quelle-difference", "titre": "Résidence autonomie et résidence services : quelle différence ?"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-dans-une-residence-avec-services-pour-seniors/les-residences-autonomie-pour-qui", "titre": "Les résidences autonomie : pour qui ?"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-dans-une-residence-avec-services-pour-seniors/comprendre-sa-facture-en-residence-autonomie", "titre": "Comprendre sa facture en résidence autonomie"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-dans-une-residence-avec-services-pour-seniors/les-aides-financieres-en-residence-autonomie", "titre": "Les aides financières en résidence autonomie"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-dans-une-residence-avec-services-pour-seniors/les-aides-financieres-en-residence-services", "titre": "Les aides financières en résidence services"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-dans-une-residence-avec-services-pour-seniors/cout-d-un-hebergement-en-residence-autonomie-en-2019", "titre": "Coût d'un hébergement en résidence autonomie en 2019 (CNSA)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12", "titre": "Crédit d'impôt pour l'emploi d'un salarié à domicile (vérifié le 15 avril 2026)"},
+    {"url": "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/prestations-des-residences-services-seniors-40-des-etablissements-controles-par-la-dgccrf-informent-mal-les-consommateurs", "titre": "DGCCRF : prestations des résidences services seniors (contrôles 2021 et 2022)"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Pas de prix récent ni de statistique officielle nationale trouvée pour les résidences services : seuls les prix 2019 des résidences autonomie (CNSA) sont sourcés. La page CNSA donne 797 € en titre et 787 € dans le texte pour le deux-pièces : j'ai écrit « environ 790 € ».",
+    "Le communiqué DGCCRF (economie.gouv.fr) n'a pas pu être ouvert (accès refusé) : chiffres (256 établissements, près de 40 %) et anomalies repris du résumé de recherche, à relire sur la page.",
+    "Les pages consultées ne précisent pas d'âge minimal en résidence services.",
+    "Le portail officiel écrit que la réduction d'impôt pour dépenses d'hébergement concerne aussi la résidence autonomie, mais service-public.gouv.fr (F17) ne cite que EHPAD et USLD : non traité dans la page, à clarifier.",
+    "Le crédit d'impôt à 50 % s'applique aux services à la personne éligibles : à confirmer pour chaque résidence au cas par cas."
+  ]
+}

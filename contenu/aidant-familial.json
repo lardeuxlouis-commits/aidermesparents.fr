@@ -1,0 +1,300 @@
+{
+  "slug": "aidant-familial",
+  "title": "Aidant familial : droits, aides et rémunération en 2026",
+  "description": "Aidant familial : être salarié par son parent avec l'APA, droit au répit à 583,52 € par an, retraite et soutien. Vos droits expliqués simplement.",
+  "h1": "Aidant familial : vos droits, les aides et la possibilité d'être rémunéré",
+  "chapo": "Un aidant familial aide régulièrement un proche âgé, sans être payé pour cela. Vos droits : être salarié par votre parent s'il touche l'APA (sauf si vous êtes son conjoint), financer des temps de repos grâce au droit au répit (jusqu'à 583,52 € par an en 2026), valider des trimestres de retraite et trouver du soutien près de chez vous.",
+  "en_bref": [
+    "Vous pouvez devenir le salarié de votre parent : avec l'APA, c'est autorisé pour un enfant, mais pas pour un conjoint, un concubin ou un partenaire de Pacs.",
+    "Droit au répit : jusqu'à 583,52 € par an en 2026 en plus du plan d'aide APA, pour un accueil de jour, un hébergement temporaire ou un relais à domicile.",
+    "Si vous êtes hospitalisé, l'aide de votre parent peut être majorée jusqu'à 1 159,32 € par hospitalisation (montant au 1er janvier 2026).",
+    "Vos trimestres de retraite peuvent être validés par l'assurance vieillesse des aidants, dans la limite de 264 jours sur la carrière.",
+    "Les plateformes d'accompagnement et de répit donnent gratuitement conseils, écoute et formation."
+  ],
+  "sections": [
+    {
+      "h2": "Qui est considéré comme aidant familial ou proche aidant ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "La loi (article L113-1-3 du code de l'action sociale et des familles) parle de proche aidant. C'est le conjoint, le partenaire de Pacs ou le concubin de la personne âgée, un parent ou un allié, ou une personne qui vit avec elle ou qui a des liens étroits et stables avec elle. Il faut l'aider de manière régulière et fréquente, à titre non professionnel, pour tout ou partie des gestes de la vie quotidienne : courses, rendez-vous, repas, toilette, papiers."
+        },
+        {
+          "type": "p",
+          "texte": "Un voisin ou un ami peut donc être proche aidant. On parle d'aidant familial quand c'est un membre de la famille. Il n'y a pas de démarche pour obtenir ce statut : les droits dépendent de votre situation et de celle de votre proche."
+        },
+        {
+          "type": "p",
+          "texte": "Pas sûr d'en être un ? L'Assurance retraite propose un questionnaire gratuit en ligne de 10 questions, « Aider mes proches fait-il de moi un aidant ? »."
+        }
+      ]
+    },
+    {
+      "h2": "Peut-on être payé pour aider son père ou sa mère ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Oui, en devenant son salarié : vous êtes alors l'aide à domicile de votre parent, et lui devient votre employeur. Il vous paie pour les actes essentiels de la vie quotidienne. Vous pouvez cumuler cet emploi avec une autre activité, dans les conditions fixées par la loi."
+        },
+        {
+          "type": "liste",
+          "items": [
+            "Si votre parent ne touche pas l'APA, il peut employer librement un membre de sa famille.",
+            "S'il touche l'APA, la loi autorise à salarier un membre de la famille, **sauf le conjoint, le concubin ou le partenaire de Pacs**. L'APA sert alors à payer le salaire.",
+            "Votre parent doit pouvoir justifier auprès du conseil départemental que l'APA est utilisée comme prévu dans son plan d'aide (nombre d'heures réalisées, type d'aide)."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Comme employeur, votre parent doit déclarer l'embauche à l'Urssaf et respecter le code du travail : contrat de travail, bulletins de paie, congés, cotisations. Le Cesu de l'Urssaf et la Fepem expliquent les formalités. Beaucoup de familles se font aider par un service mandataire pour la paperasse."
+        },
+        {
+          "type": "attention",
+          "texte": "Salarier un enfant a un prix. Le plan d'aide de l'APA est plafonné : la perte de revenus si vous quittez votre emploi peut être lourde. Sans cadre clair des tâches, la relation peut s'épuiser, créer des conflits avec vos frères et sœurs ou isoler votre parent. Certains gestes intimes (toilette) sont plus difficiles entre proches. Une médiation familiale peut aider en cas de tension."
+        },
+        {
+          "type": "p",
+          "texte": "Notez enfin que si vous êtes salarié de votre parent dans le cadre de l'APA, vous ne pouvez pas toucher l'allocation journalière du proche aidant. Le détail du congé et de cette allocation est dans notre page sur le congé de proche aidant."
+        }
+      ]
+    },
+    {
+      "h2": "Quelles aides financières existent pour l'aidant ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "entetes": [
+            "Aide",
+            "Ce qu'elle apporte"
+          ],
+          "lignes": [
+            [
+              "Droit au répit (APA)",
+              "Jusqu'à 583,52 € par an en 2026 pour financer du repos pour vous"
+            ],
+            [
+              "Majoration en cas d'hospitalisation",
+              "Jusqu'à 1 159,32 € par hospitalisation (montant au 1er janvier 2026)"
+            ],
+            [
+              "Salariat par votre parent",
+              "Un salaire payé grâce à l'APA, avec cotisations retraite et protection sociale"
+            ],
+            [
+              "Allocation journalière du proche aidant",
+              "Un revenu de remplacement pendant un congé : voir la page congé de proche aidant"
+            ],
+            [
+              "Assurance vieillesse des aidants",
+              "Des trimestres de retraite de base validés, cotisations payées par la CAF ou la MSA"
+            ],
+            [
+              "Aides fiscales",
+              "Déduction de pension alimentaire, part supplémentaire dans certains cas (voir plus bas)"
+            ],
+            [
+              "Don de jours de repos",
+              "Des collègues peuvent vous donner des jours de repos pour que vous restiez payé"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Certaines caisses de retraite, de retraite complémentaire et mutuelles proposent aussi des services ou des aides pour les aidants. Renseignez-vous auprès des vôtres."
+        }
+      ]
+    },
+    {
+      "h2": "Qu'est-ce que le droit au répit et comment l'obtenir ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Le droit au répit vous permet de souffler pendant que votre proche est pris en charge ailleurs. Il concerne l'aidant d'une personne qui touche l'APA, qui assure une présence ou une aide indispensable à la vie à domicile et que personne de l'entourage ne peut remplacer."
+        },
+        {
+          "type": "p",
+          "texte": "Il se finance de deux façons. D'abord par le plan d'aide APA lui-même, qui peut inclure un accueil de jour, un hébergement temporaire ou un relais à domicile. Ensuite, si le plafond du plan est atteint, par une majoration allant jusqu'à **583,52 € par an en 2026**. L'équipe médico-sociale qui visite votre parent évalue vos besoins de repos lors de la première demande d'APA ou d'une révision."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple",
+          "texte": "Le plan d'aide de votre père est au plafond. Vous aimeriez qu'il aille en accueil de jour deux fois par semaine pour avoir du temps pour vous. La majoration de 583,52 € par an représente en moyenne un peu plus de 48 € par mois (583,52 divisé par 12). Elle couvre une partie seulement du coût : votre père paie aussi une participation si son plan d'aide en demande une, et la structure peut demander un complément."
+        },
+        {
+          "type": "liste",
+          "items": [
+            "Accueil de jour : à la demi-journée ou à la journée, dans un centre dédié ou dans un EHPAD. Le prix est fixé chaque année par le département pour chaque structure.",
+            "Hébergement temporaire : quelques jours, une semaine tous les 2 mois, ou plus longtemps, en EHPAD, résidence autonomie, résidence services ou chez un accueillant familial.",
+            "Relais à domicile : une personne vient prendre le relais pour que vous puissiez vous absenter."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Si vous devez être hospitalisé et que vous ne pouvez pas être remplacé, le plan d'aide de votre proche peut être majoré ponctuellement, jusqu'à 1 159,32 € par hospitalisation (montant au 1er janvier 2026). Pour une hospitalisation programmée, faites la demande dès que la date est connue, au plus tard un mois avant."
+        },
+        {
+          "type": "p",
+          "texte": "Si votre proche ne touche pas l'APA, renseignez-vous auprès de sa caisse de retraite, de sa mutuelle ou de sa commune pour savoir si une aide au répit existe."
+        }
+      ]
+    },
+    {
+      "h2": "Et pour ma retraite : mes trimestres sont-ils validés ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Si vous réduisez ou arrêtez votre travail pour aider un proche, l'assurance vieillesse des aidants (AVA) peut valider des trimestres de retraite de base. Vos cotisations sont alors prises en charge par la CAF, ou par la MSA si vous relevez du régime agricole."
+        },
+        {
+          "type": "liste",
+          "items": [
+            "Si vous touchez l'allocation journalière du proche aidant, l'affiliation est automatique.",
+            "Si vous êtes en congé de proche aidant non indemnisé, vous pouvez demander l'affiliation à la CAF ou à la MSA, dans la limite de 264 jours sur la carrière.",
+            "Il n'est pas nécessaire de vivre avec la personne aidée ni d'avoir un lien de parenté avec elle.",
+            "Les fonctionnaires, militaires et magistrats ne sont pas concernés dans ces cas : leur régime spécial s'en charge."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Dans les autres situations, contactez la CAF ou la MSA, remplissez le formulaire et joignez les justificatifs : attestation d'APA, preuve d'une aide régulière, déclaration de ressources. Une agence France services peut vous aider."
+        }
+      ]
+    },
+    {
+      "h2": "Quels avantages fiscaux pour un enfant qui aide son parent ?",
+      "blocs": [
+        {
+          "type": "liste",
+          "items": [
+            "Vous hébergez chez vous une personne titulaire d'une carte mobilité inclusion « invalidité » ou d'une carte d'invalidité d'au moins 80 % (hors conjoint et enfant) : vous avez droit à une part supplémentaire pour l'impôt sur le revenu.",
+            "Vous participez aux frais d'EHPAD de votre parent au titre de l'obligation alimentaire : vous pouvez déduire la somme versée au titre de la pension alimentaire.",
+            "Vous hébergez durablement votre parent : une déduction plafonnée des frais d'accueil est possible, mais pas en même temps que la majoration de parts."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Votre parent bénéficie automatiquement d'une carte mobilité inclusion « invalidité » s'il touche l'APA et qu'il est évalué en GIR 1 ou GIR 2. Pour les montants déductibles, voyez impots.gouv.fr ou le point d'accueil des Finances publiques."
+        }
+      ]
+    },
+    {
+      "h2": "Où trouver du soutien quand on est épuisé ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Les plateformes d'accompagnement et de répit, en lien avec les services du département, répondent gratuitement à vos questions et vous écoutent. Elles peuvent organiser des formations, des groupes d'échanges entre aidants, des temps de répit à domicile d'une demi-journée ou plus, des sorties partagées avec votre proche et des séjours de vacances répit. L'information et le conseil sont gratuits, une contribution peut être demandée pour certaines prestations."
+        },
+        {
+          "type": "liste",
+          "items": [
+            "Parlez de votre rôle d'aidant à votre médecin traitant, qui peut organiser un suivi.",
+            "Échangez avec les équipes de l'accueil de jour, du service de soins à domicile ou de l'établissement : elles aident aussi les familles.",
+            "Rapprochez-vous du point d'information local de votre commune pour connaître les aides près de chez vous.",
+            "La MSA propose « Instants aidants », un accompagnement gratuit par téléphone avec un infirmier référent, pour les aidants de plus de 18 ans quel que soit leur régime."
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Un aidant familial est-il payé ?",
+      "r": "Pas automatiquement. L'aide apportée par un proche n'est pas rémunérée par défaut. Mais votre parent peut vous salarier, avec l'APA s'il la touche, sauf si vous êtes son conjoint, son concubin ou son partenaire de Pacs. Un congé de proche aidant peut aussi être indemnisé par l'AJPA."
+    },
+    {
+      "q": "Quelle différence entre aidant familial et proche aidant ?",
+      "r": "Le proche aidant est la notion large de la loi : famille, voisin ou ami qui aide régulièrement et fréquemment. L'aidant familial est un proche aidant qui est membre de la famille (conjoint, parent ou allié)."
+    },
+    {
+      "q": "Mon frère et moi pouvons-nous être salariés tous les deux par notre mère ?",
+      "r": "La loi autorise l'emploi de membres de la famille, hors conjoint, dans le cadre de l'APA. Le nombre d'heures finançables dépend du plan d'aide fixé par le département, qui est plafonné. Il faut donc partager les heures prévues au plan."
+    },
+    {
+      "q": "Peut-on cumuler un emploi et le salariat auprès de son parent ?",
+      "r": "Oui. L'aidant salarié de son proche peut cumuler cette activité avec un autre emploi, dans les conditions fixées par la loi sur le cumul d'emplois. Vérifiez aussi votre contrat de travail principal."
+    },
+    {
+      "q": "Le droit au répit est-il accordé automatiquement ?",
+      "r": "Non. L'aide au répit doit être inscrite dans le plan d'aide APA. L'équipe médico-sociale évalue vos besoins de repos lors de la visite d'évaluation, et la majoration n'est possible que si le plafond du plan est atteint et que vous êtes un aidant indispensable."
+    },
+    {
+      "q": "Que se passe-t-il pour mon parent si je tombe malade ou si je suis hospitalisé ?",
+      "r": "Si vous êtes son aidant indispensable et qu'il touche l'APA, vous pouvez demander une majoration ponctuelle de son plan d'aide, jusqu'à 1 159,32 € par hospitalisation en 2026. Elle finance un hébergement temporaire ou un relais à domicile. La demande se fait auprès du président du conseil départemental."
+    }
+  ],
+  "liens_internes": [
+    {
+      "slug": "conge-proche-aidant",
+      "ancre": "congé de proche aidant et allocation journalière"
+    },
+    {
+      "slug": "apa",
+      "ancre": "montant de l'APA de votre parent"
+    },
+    {
+      "slug": "aide-a-domicile",
+      "ancre": "mettre en place une aide à domicile"
+    },
+    {
+      "slug": "carte-mobilite-inclusion",
+      "ancre": "carte mobilité inclusion"
+    },
+    {
+      "slug": "obligation-alimentaire",
+      "ancre": "obligation alimentaire envers ses parents"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/trouver-du-soutien/aidant-familial-proche-aidant-quelles-definitions-et-quelles-aides",
+      "titre": "Aidant familial, proche aidant : quelles définitions et quelles aides ?"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/soutien-financier/etre-remunere-pour-l-aide-apportee-a-son-proche",
+      "titre": "Être rémunéré pour l'aide apportée à son proche"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/soutien-financier/l-aide-au-repit-dans-le-cadre-de-l-apa",
+      "titre": "L'aide au répit dans le cadre de l'APA (montant 2026)"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/soutien-financier/majoration-de-l-apa-en-cas-d-hospitalisation-du-proche-aidant",
+      "titre": "Majoration de l'APA en cas d'hospitalisation du proche aidant"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/soutien-financier/comment-beneficier-de-l-assurance-vieillesse-des-aidants-ava",
+      "titre": "Assurance vieillesse des aidants (AVA)"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/soutien-financier/vous-aidez-un-proche-age-quelles-aides-fiscales",
+      "titre": "Vous aidez un proche âgé : quelles aides fiscales ?"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/solutions-d-accueil-temporaire/aller-a-l-accueil-de-jour",
+      "titre": "Aller à l'accueil de jour"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/solutions-d-accueil-temporaire/l-hebergement-temporaire-ce-qu-il-faut-savoir",
+      "titre": "L'hébergement temporaire : ce qu'il faut savoir"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/preserver-son-autonomie/a-qui-s-adresser/les-plateformes-d-accompagnement-et-de-repit",
+      "titre": "Les plateformes d'accompagnement et de répit"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/se-preserver/aidants-familiaux-comment-preserver-votre-sante",
+      "titre": "Aidants familiaux : comment préserver votre santé"
+    },
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16920",
+      "titre": "Congé de proche aidant (Service-Public.gouv.fr)"
+    }
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Dédommagement d'un aidant non salarié : aucune source officielle lue sur un « dédommagement » finançable par l'APA (le salariat est confirmé, pas un dédommagement libre). Non traité.",
+    "Le nombre maximal d'heures payables à un enfant salarié dépend du plan d'aide fixé par chaque département : pas de chiffre national lu.",
+    "Le montant de la déduction fiscale pour frais d'accueil d'un parent hébergé n'a pas été lu (renvoi vers impots.gouv.fr).",
+    "Soutien psychologique : seuls les dispositifs lus (plateformes de répit, Instants aidants MSA, médecin traitant) sont cités, pas de numéro d'écoute national vérifié."
+  ]
+}

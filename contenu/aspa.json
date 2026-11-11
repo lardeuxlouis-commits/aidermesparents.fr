@@ -1,0 +1,261 @@
+{
+  "slug": "aspa",
+  "title": "ASPA 2026 (minimum vieillesse) : montant et conditions",
+  "description": "ASPA au 1er janvier 2026 : 1 043,59 € par mois seul, 1 620,18 € en couple. Conditions d'âge, de ressources, demande et récupération sur succession.",
+  "h1": "ASPA (minimum vieillesse) : montant, conditions et récupération sur succession",
+  "chapo": "L'ASPA, ou minimum vieillesse, complète les ressources d'un retraité modeste vivant en France. Depuis le 1er janvier 2026, le plafond est de 1 043,59 € brut par mois pour une personne seule et de 1 620,18 € pour un couple. On peut la demander dès 65 ans, ou 62 ans dans certains cas, auprès de sa caisse de retraite. Elle peut être récupérée sur la succession.",
+  "en_bref": [
+    "Montant maximum au 1er janvier 2026 : 1 043,59 € par mois pour une personne seule, 1 620,18 € pour un couple (montants bruts).",
+    "Âge : dès 65 ans, ou dès 62 ans pour une retraite anticipée pour carrière longue ou pour handicap.",
+    "La demande se fait auprès de la caisse de retraite, et le versement part au plus tôt le 1er jour du mois qui suit la réception de la demande.",
+    "L'APA, les allocations logement et l'aide financière des enfants ne comptent pas dans les revenus examinés.",
+    "Récupération sur succession en 2026 : seulement si l'actif net dépasse 108 586,14 € (métropole)."
+  ],
+  "sections": [
+    {
+      "h2": "Qu'est-ce que l'ASPA, le minimum vieillesse ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "L'allocation de solidarité aux personnes âgées (ASPA) est une prestation mensuelle versée aux retraités qui ont de faibles ressources (revenus et patrimoine) et qui vivent en France. Elle est versée par la caisse de retraite (Carsat, MSA, etc.). Elle ne s'ajoute pas à la retraite : elle la complète jusqu'à un plafond, d'où le nom courant de « minimum vieillesse »."
+        },
+        {
+          "type": "p",
+          "texte": "Elle est différente de l'APA, qui compense la perte d'autonomie et dépend du GIR : voir la page APA : montant et conditions. L'une n'empêche pas l'autre, car l'APA n'est pas comptée dans les revenus pris en compte pour l'ASPA."
+        }
+      ]
+    },
+    {
+      "h2": "Quel est le montant de l'ASPA en 2026 ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "L'ASPA est revalorisée au 1er janvier 2026. Les montants maximum sont les suivants (bruts)."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Situation",
+            "Plafond mensuel au 1er janvier 2026",
+            "Maximum annuel"
+          ],
+          "lignes": [
+            [
+              "Personne seule",
+              "1 043,59 €",
+              "12 523,14 €"
+            ],
+            [
+              "Couple (2 personnes reçoivent l'ASPA)",
+              "1 620,18 €",
+              "19 442,21 €"
+            ],
+            [
+              "Couple dont une seule personne reçoit l'ASPA",
+              "1 043,59 € maximum pour cette personne",
+              "12 523,14 €"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Ce plafond est aussi le seuil à ne pas dépasser pour y avoir droit : 1 043,59 € de revenus pour une personne seule, 1 620,18 € pour un couple. L'ASPA verse la différence entre le plafond et vos revenus."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple : personne seule",
+          "texte": "Votre mère vit seule et ses revenus pris en compte sont de 800 € par mois. L'ASPA est de 1 043,59 € moins 800 €, soit 243,59 € par mois."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple : couple, deux bénéficiaires",
+          "texte": "Vos parents ont 1 000 € de revenus par mois à eux deux et reçoivent tous les deux l'ASPA. Elle est de 1 620,18 € moins 1 000 €, soit 620,18 € par mois pour le couple."
+        },
+        {
+          "type": "p",
+          "texte": "Lorsqu'un seul membre du couple reçoit l'ASPA, la règle est la suivante : jusqu'à 576,59 € de revenus du couple par mois, il touche 1 043,59 € ; entre 576,59 € et 1 620,18 €, il touche la différence entre 1 620,18 € et les revenus du couple ; au-dessus de 1 620,18 €, rien n'est versé."
+        },
+        {
+          "type": "attention",
+          "texte": "Une veuve de guerre relève d'un autre plafond. Une personne qui vit avec sa fille, adulte ou mineure, est considérée comme vivant seule."
+        }
+      ]
+    },
+    {
+      "h2": "Quelles ressources sont prises en compte ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Le total est calculé sur les 3 mois qui précèdent le point de départ de l'ASPA. S'il dépasse le maximum autorisé, il est recalculé sur les 12 mois précédents."
+        },
+        {
+          "type": "tableau",
+          "entetes": [
+            "Pris en compte",
+            "Non pris en compte"
+          ],
+          "lignes": [
+            [
+              "Pensions de retraite",
+              "Allocation personnalisée d'autonomie (APA)"
+            ],
+            [
+              "Pension d'invalidité",
+              "Aide personnalisée au logement (APL) et allocation de logement sociale (ALS)"
+            ],
+            [
+              "Pension alimentaire fixée par un juge",
+              "Aide en espèces ou en nature reçue des descendants, non fixée par une décision judiciaire"
+            ],
+            [
+              "Revenus d'activité, après un abattement (1 640,72 € sur 3 mois ou 6 562,91 € sur 12 mois pour une personne seule)",
+              "Prestation de compensation du handicap, majoration pour tierce personne, prestations familiales"
+            ],
+            [
+              "Revenus des biens mobiliers et immobiliers : 3 % de leur valeur vénale à la date de la demande",
+              "Valeur de la résidence principale"
+            ],
+            [
+              "Biens donnés, sous certaines conditions",
+              "Allocation de reconnaissance du combattant, pensions liées aux distinctions honorifiques"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Le fait que l'aide financière versée par les enfants ne soit pas comptée est utile à savoir : un coup de pouce régulier de votre part ne fait pas baisser l'ASPA, tant qu'il n'est pas fixé par une décision de justice."
+        }
+      ]
+    },
+    {
+      "h2": "À partir de quel âge et sous quelles conditions de résidence ?",
+      "blocs": [
+        {
+          "type": "liste",
+          "items": [
+            "**Cas général : dès 65 ans.**",
+            "**Dès 62 ans** pour une retraite anticipée pour carrière longue ou pour handicap.",
+            "**Avant 65 ans**, avec un âge qui dépend de l'année de naissance, pour une retraite d'ancien combattant, de prisonnier de guerre, de déporté ou interné, ou de mère de famille ouvrière (par exemple 62 ans et 9 mois pour les personnes nées entre le 1er janvier 1963 et le 31 mars 1965, jusqu'à 64 ans à partir du 1er janvier 1969)."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Il faut résider en France de manière stable : avoir son foyer permanent en France, ou y séjourner plus de 9 mois dans l'année de versement. Les personnes de nationalité étrangère doivent en plus remplir l'une des situations prévues, par exemple détenir depuis au moins 10 ans, de façon continue, un titre de séjour autorisant à travailler, être réfugié, apatride, ressortissant de l'Espace économique européen ou de la Suisse."
+        }
+      ]
+    },
+    {
+      "h2": "Comment demander l'ASPA ?",
+      "blocs": [
+        {
+          "type": "etapes",
+          "items": [
+            "**Identifiez la bonne caisse.** Avec une seule retraite, la demande se fait auprès de l'organisme qui la verse. Avec plusieurs retraites, elle se fait dans cet ordre de priorité : le régime des non-salariés agricoles si la personne est exploitant agricole, le régime général s'il verse une retraite, sinon l'organisme qui verse la retraite la plus élevée.",
+            "**Remplissez le bon formulaire.** Il y a un formulaire pour la Carsat (Assurance retraite) et la Cavimac, un pour la MSA. Les fonctionnaires territoriaux et hospitaliers demandent le formulaire à la CNRACL.",
+            "**Joignez les justificatifs** listés dans la notice du formulaire, puis envoyez le dossier à la caisse.",
+            "**Premier versement.** L'ASPA est versée au plus tôt à partir du 1er jour du mois qui suit la date de réception de la demande."
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple de dates",
+          "texte": "Si la demande est reçue le 12 mai 2026, le point de départ de l'ASPA est le 1er juin 2026, et les revenus examinés sont ceux de mars, avril et mai 2026 (puis de juin 2025 à mai 2026 si ce total dépasse le plafond)."
+        },
+        {
+          "type": "attention",
+          "texte": "Une fois l'ASPA touchée, signalez à la caisse tout changement : revenus, situation familiale, lieu de résidence. Le montant peut être révisé, et le versement suspendu ou retiré."
+        }
+      ]
+    },
+    {
+      "h2": "L'ASPA est-elle récupérée sur la succession ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Oui, sous conditions. À votre décès, la caisse de retraite peut récupérer les sommes versées, mais seulement si l'actif net de la succession est au moins égal à un seuil. L'actif net, c'est le patrimoine moins les dettes et le coût des obsèques. Pour un décès survenu en 2026 en métropole, l'ASPA est récupérable uniquement si l'actif net dépasse **108 586,14 €**."
+        },
+        {
+          "type": "p",
+          "texte": "Même au-dessus du seuil, la récupération est plafonnée : elle ne porte que sur la fraction de l'actif net qui dépasse 108 586,14 €, et ne peut pas dépasser 8 463,42 € par année de versement de l'ASPA (au prorata pour une année incomplète). La caisse récupère le plus petit entre ce plafond et le total d'ASPA effectivement versé."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemples officiels, décès en 2026",
+          "texte": "Actif net de 100 000 € : aucune récupération. Actif net de 110 000 € et 4 années de versement : la fraction récupérable est de 110 000 € moins 108 586,14 €, soit 1 413,86 €. Actif net de 150 000 € et 4 années de versement : la fraction est de 41 413,86 € mais le plafond est de 4 x 8 463,42 €, soit 33 853,68 €. Dans les deux derniers cas, la caisse récupère au maximum ce montant et jamais plus que ce qui a été versé."
+        },
+        {
+          "type": "p",
+          "texte": "La caisse doit faire sa demande dans les 5 ans qui suivent l'enregistrement d'un écrit mentionnant la date et le lieu du décès et l'identité d'au moins un ayant droit, comme une déclaration de succession. Les dons faits à un tiers ou une prime d'assurance-vie versée après la demande d'ASPA peuvent être intégrés à l'actif net s'ils visent à réduire artificiellement le patrimoine. La valeur d'une exploitation agricole n'est pas intégrée à l'actif net."
+        },
+        {
+          "type": "attention",
+          "texte": "Ne pas demander l'ASPA par peur de la récupération n'est pas toujours le bon calcul : si le patrimoine est sous 108 586,14 €, rien n'est récupéré. Faites le calcul avant de renoncer."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quel est le montant du minimum vieillesse en 2026 ?",
+      "r": "Depuis le 1er janvier 2026, le maximum de l'ASPA est de 1 043,59 € brut par mois pour une personne seule et de 1 620,18 € brut par mois pour un couple. Le montant versé est la différence entre ce plafond et vos revenus."
+    },
+    {
+      "q": "Peut-on cumuler l'ASPA avec l'APA ?",
+      "r": "Oui, les deux aides ne s'excluent pas. L'APA fait partie des ressources non prises en compte pour l'ASPA, et l'ASPA n'empêche pas de demander l'APA si la personne est en GIR 1 à 4."
+    },
+    {
+      "q": "L'ASPA est-elle versée dès 60 ans ?",
+      "r": "Non. Dans le cas général, elle est versée dès 65 ans. L'âge est abaissé à 62 ans pour une retraite anticipée pour carrière longue ou pour handicap, et il varie selon l'année de naissance pour certaines retraites (ancien combattant, déporté, mère de famille ouvrière)."
+    },
+    {
+      "q": "Qui doit rembourser l'ASPA après le décès du bénéficiaire ?",
+      "r": "Elle est récupérée sur la succession du bénéficiaire, et seulement si l'actif net dépasse 108 586,14 € pour un décès en 2026 en métropole, et dans la limite de 8 463,42 € par année de versement."
+    },
+    {
+      "q": "L'aide de mes enfants fait-elle baisser l'ASPA ?",
+      "r": "Non, une aide en espèces ou en nature reçue des descendants, lorsqu'elle n'est pas fixée par une décision judiciaire, n'est pas prise en compte. Une pension alimentaire fixée par un juge, elle, est comptée."
+    },
+    {
+      "q": "Peut-on toucher l'ASPA en vivant à l'étranger ?",
+      "r": "Non, il faut résider en France de manière stable : avoir son foyer permanent en France ou y séjourner plus de 9 mois dans l'année de versement. Si la condition de résidence n'est plus respectée, le versement peut être suspendu ou retiré."
+    },
+    {
+      "q": "Combien de temps faut-il pour toucher l'ASPA après la demande ?",
+      "r": "Le premier versement part au plus tôt le 1er jour du mois qui suit la réception de la demande par la caisse. Une demande reçue le 12 mai 2026 ouvre donc le droit à compter du 1er juin 2026, sous réserve que le dossier soit complet."
+    }
+  ],
+  "liens_internes": [
+    {
+      "slug": "apa",
+      "ancre": "l'APA, qui se cumule avec l'ASPA"
+    },
+    {
+      "slug": "aide-sociale-hebergement",
+      "ancre": "l'aide sociale à l'hébergement en EHPAD"
+    },
+    {
+      "slug": "obligation-alimentaire",
+      "ancre": "l'obligation alimentaire des enfants"
+    },
+    {
+      "slug": "ehpad-prix-aides",
+      "ancre": "financer un EHPAD"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16871",
+      "titre": "Service-public.gouv.fr : Allocation de solidarité aux personnes âgées (Aspa), vérifié le 23 juin 2026"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/actualites/ce-qui-change-au-1er-janvier-2026",
+      "titre": "Pour les personnes âgées : Ce qui change au 1er janvier 2026"
+    }
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Les seuils de récupération sur succession dans les DOM, et le cas où les deux membres du couple reçoivent l'ASPA (plafond annuel), n'ont pas été détaillés ici.",
+    "La liste des justificatifs à fournir n'a pas été lue : elle figure dans la notice du formulaire de la caisse.",
+    "Les montants de l'ASPA et de la récupération sont ceux publiés au 1er janvier 2026 : à recontrôler à chaque revalorisation."
+  ]
+}

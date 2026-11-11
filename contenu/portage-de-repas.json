@@ -1,0 +1,234 @@
+{
+ "slug": "portage-de-repas",
+ "title": "Portage de repas à domicile : prix et aides 2026",
+ "description": "Portage de repas pour une personne âgée : prix indicatifs (12 € environ le repas), aides du département et du CCAS, crédit d'impôt.",
+ "h1": "Portage de repas à domicile pour une personne âgée : prix et aides",
+ "chapo": "Le portage de repas livre des plateaux-repas à réchauffer chez une personne âgée. Il n'y a pas de prix national : des services publics affichent 12 à 12,85 € le repas, avec des tarifs réduits selon les ressources. Le département finance en partie le portage sous 1 043,59 € de ressources par mois pour une personne seule (2026). L'APA ou la caisse de retraite peuvent aussi aider.",
+ "en_bref": [
+  "Votre parent choisit chaque semaine le nombre de repas et ses menus. Les repas arrivent en plateaux, la plupart du temps à réchauffer.",
+  "Prix d'exemples publics : 12 € le repas (CCAS de Laval, 2025) et 12,85 € le plateau (Vichy et Cusset, 2026). Le CCAS de Laval propose 7,27 à 10,86 € selon les ressources.",
+  "Aide du département : 65 ans ou plus (60 ans si inapte au travail) et ressources sous 1 043,59 € par mois seul, 1 620,18 € en couple.",
+  "L'APA et les caisses de retraite peuvent financer une partie du portage.",
+  "Crédit d'impôt de 50 % possible sur la livraison de repas, si elle est comprise dans une offre qui inclut des services à domicile."
+ ],
+ "sections": [
+  {
+   "h2": "Comment fonctionne le portage de repas à domicile ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Recevoir des repas tout prêts chez soi permet de continuer à manger des repas complets et équilibrés sans faire les courses ni la cuisine. C'est utile quand l'appétit baisse, quand cuisiner devient pénible, ou quand les courses sont difficiles. Une alimentation équilibrée aide à prévenir la dénutrition, les chutes et les maladies, et soutient aussi le moral."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Pour chaque semaine, votre parent choisit le nombre de repas souhaités et ses menus parmi la proposition du service.",
+      "Les repas sont livrés en plateaux-repas, la plupart du temps à réchauffer.",
+      "Les plateaux du week-end sont généralement livrés le vendredi.",
+      "Les repas peuvent être adaptés à un régime particulier, par exemple sans sel."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Le portage de repas est proposé par certaines communes, par des services d'aide et d'accompagnement à domicile, et par des organismes de services à la personne, associatifs ou commerciaux."
+    }
+   ]
+  },
+  {
+   "h2": "Combien coûte un repas livré ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les coûts varient selon les organismes, pour le repas lui-même et pour la livraison. Voici des exemples de tarifs publics, à lire comme des repères indicatifs :"
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Service",
+      "Tarif relevé",
+      "Remarque"
+     ],
+     "lignes": [
+      [
+       "CCAS de Laval (barème 2025)",
+       "12,00 € le repas livré, tarif plein",
+       "Tarif aidé selon les ressources : 7,27 à 10,86 €"
+      ],
+      [
+       "Vichy et Cusset (plaquette 2026)",
+       "12,85 € le plateau, tarif unique",
+       "Menus élaborés par une diététicienne, adaptés au régime"
+      ]
+     ]
+    },
+    {
+     "type": "exemple",
+     "titre": "Exemple",
+     "texte": "Votre père reçoit 5 repas par semaine à 12,85 € le plateau : 64,25 € par semaine, soit environ 278 € par mois (64,25 x 52 semaines, divisé par 12). Au tarif plein de 12 € : 60 € par semaine, soit 260 € par mois. Si son CCAS applique un tarif aidé de 7,27 €, la même formule donne environ 157 € par mois (36,35 € par semaine)."
+    },
+    {
+     "type": "p",
+     "texte": "Demandez au service le prix exact du repas, de la livraison, des éventuels frais d'inscription et s'il existe un tarif selon les ressources."
+    }
+   ]
+  },
+  {
+   "h2": "Qui peut obtenir une aide du département ou de la mairie ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le portage de repas est financé en partie ou en totalité par le département si votre parent remplit trois conditions."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Perte d'autonomie** : sa santé ne lui permet plus de faire sa cuisine ni ses courses.",
+      "**Âge** : 65 ans ou plus, ou 60 ans s'il est reconnu inapte au travail.",
+      "**Ressources** : en 2026, moins de 1 043,59 € par mois s'il vit seul, moins de 1 620,18 € par mois en couple."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "La demande se fait à la mairie, auprès du CCAS. Certaines communes participent aussi au financement selon les ressources de la personne."
+    },
+    {
+     "type": "attention",
+     "texte": "Si votre parent dépasse ces plafonds, ne vous arrêtez pas là : il peut s'adresser à sa caisse de retraite, qui peut proposer une aide au portage de repas (si elle le prévoit), ou demander l'APA."
+    }
+   ]
+  },
+  {
+   "h2": "L'APA et les caisses de retraite prennent-elles en charge le portage ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Si votre parent remplit les conditions de l'allocation personnalisée d'autonomie (APA) à domicile, les frais de portage de repas peuvent être pris en charge par l'APA. Cette possibilité dépend du département. Posez la question à l'équipe médico-sociale qui visite votre parent pour l'APA : le portage peut être inscrit dans son plan d'aide. Le détail de l'APA est dans notre page dédiée."
+    },
+    {
+     "type": "p",
+     "texte": "Les caisses de retraite, de leur côté, peuvent proposer une aide financière sous conditions, après évaluation des besoins : intervention à domicile, portage de repas ou aide aux déplacements. Si votre parent perçoit une retraite de plusieurs régimes, il s'adresse à celui pour lequel il a cotisé le plus de trimestres."
+    },
+    {
+     "type": "attention",
+     "texte": "Si votre parent touche l'APA ou peut y prétendre, il ne peut pas cumuler l'aide de la caisse de retraite avec l'APA pour la même aide."
+    }
+   ]
+  },
+  {
+   "h2": "Y a-t-il un crédit d'impôt sur le portage de repas ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Oui, mais avec une condition. La livraison de repas à domicile figure parmi les services à la personne ouvrant droit au crédit d'impôt de 50 %, quand elle est comprise dans une offre globale de services incluant des activités effectuées à domicile. Le portage de repas ouvre donc droit au crédit d'impôt s'il est couplé avec une autre aide à domicile (ménage, aide aux gestes quotidiens, par exemple)."
+    },
+    {
+     "type": "p",
+     "texte": "L'avantage fiscal porte sur la prestation de livraison, pas sur le prix des ingrédients. Demandez à l'organisme son attestation fiscale annuelle, qui indique la part éligible. Le plafond général de dépenses est de 12 000 € par an, majoré dans certains cas. Le détail du calcul est expliqué dans notre page sur l'aide à domicile."
+    },
+    {
+     "type": "attention",
+     "texte": "Un portage de repas seul, sans autre service à domicile, peut ne pas ouvrir droit au crédit d'impôt. Vérifiez avec l'organisme avant de compter dessus."
+    }
+   ]
+  },
+  {
+   "h2": "Comment trouver un service de portage de repas près de chez vous ?",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Contactez la mairie ou le CCAS de la commune de votre parent : beaucoup proposent le service, parfois avec un tarif selon les ressources.",
+      "Appelez le point d'information local dédié aux personnes âgées, listé dans l'annuaire de pour-les-personnes-agees.gouv.fr. Ils connaissent les services du secteur et les aides.",
+      "Cherchez les services d'aide et d'accompagnement à domicile de la zone, dont certains proposent le portage en plus de l'aide à domicile.",
+      "Comparez deux ou trois offres : prix du repas, frais de livraison, jours de livraison (y compris le week-end), choix de menus, régimes proposés, souplesse pour changer le nombre de repas d'une semaine à l'autre."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour un essai, demandez si le service accepte quelques repas pour tester la qualité avant de s'engager sur la durée."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quel est le prix d'un repas livré à domicile pour une personne âgée ?",
+   "r": "Il varie selon l'organisme. Exemples publics : 12 € le repas au tarif plein au CCAS de Laval en 2025 et 12,85 € le plateau à Vichy et Cusset en 2026. Des tarifs réduits existent selon les ressources, par exemple de 7,27 à 10,86 € à Laval."
+  },
+  {
+   "q": "Le portage de repas est-il pris en charge par l'APA ?",
+   "r": "Si votre parent remplit les conditions pour l'APA à domicile, les frais de portage peuvent être pris en charge, mais cela dépend du département. Demandez-le lors de la visite d'évaluation, pour qu'il figure dans le plan d'aide."
+  },
+  {
+   "q": "Peut-on choisir le nombre de repas par semaine ?",
+   "r": "Oui. Le bénéficiaire choisit, pour chaque semaine, le nombre de repas qu'il souhaite et ses menus à partir de la proposition du service."
+  },
+  {
+   "q": "Les repas du week-end sont-ils livrés ?",
+   "r": "Les plateaux du week-end sont généralement livrés le vendredi. Vérifiez les jours de livraison du service que vous choisissez."
+  },
+  {
+   "q": "Peut-on avoir un régime particulier, par exemple sans sel ?",
+   "r": "Oui, les repas peuvent être adaptés à des besoins particuliers comme un régime sans sel. Demandez les régimes proposés avant de vous engager."
+  },
+  {
+   "q": "Que faire si ses revenus dépassent le plafond du département ?",
+   "r": "Votre parent peut contacter sa caisse de retraite, qui peut proposer une aide si elle le prévoit, ou voir si les conditions de l'APA sont remplies. Certaines communes participent aussi selon les ressources."
+  },
+  {
+   "q": "À qui faire la demande d'aide au portage ?",
+   "r": "À la mairie, auprès du CCAS, pour l'aide du département. Pour l'APA, la demande se fait au conseil départemental. Pour l'aide de la caisse de retraite, au régime pour lequel votre parent a le plus cotisé."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "apa",
+   "ancre": "conditions et montants de l'APA"
+  },
+  {
+   "slug": "aide-a-domicile",
+   "ancre": "aide à domicile et crédit d'impôt"
+  },
+  {
+   "slug": "teleassistance",
+   "ancre": "téléassistance"
+  },
+  {
+   "slug": "aidant-familial",
+   "ancre": "aides pour les aidants"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/le-portage-de-repas-a-domicile",
+   "titre": "Le portage de repas à domicile (pour-les-personnes-agees.gouv.fr)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F248",
+   "titre": "Personne âgée : aide financière pour payer le portage de repas (Service-Public.gouv.fr)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12",
+   "titre": "Crédit d'impôt pour l'emploi d'un salarié à domicile (vérifié le 15 avril 2026)"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/j-ai-besoin-d-etre-aide-a-domicile-comment-faire",
+   "titre": "J'ai besoin d'être aidé à domicile : comment faire ?"
+  },
+  {
+   "url": "https://www.laval.fr/fileadmin/documents/CCAS/grille_tarifaire_MAD_2025-1.pdf",
+   "titre": "Grille tarifaire 2025, CCAS de Laval (portage : 12 €, aidé 7,27 à 10,86 €)"
+  },
+  {
+   "url": "https://www.ville-cusset.com/wp-content/uploads/2026/01/Plaquette-Repas-a-domicile-2026.pdf",
+   "titre": "Plaquette Repas à domicile 2026, Cusset et Vichy (12,85 € le plateau)"
+  }
+ ],
+ "date_verification": "2026-11-11",
+ "a_verifier": [
+  "Les seuils de ressources de 1 043,59 € et 1 620,18 € sont repris de service-public.gouv.fr (page F248 datée du 1er janvier 2025), qui concordent avec les montants 2026 publiés par pour-les-personnes-agees.gouv.fr pour l'aide-ménagère. Un moteur de recherche a aussi renvoyé d'anciens chiffres (1 034,28 € et 1 605,73 €) : ignorés.",
+  "Que le crédit d'impôt exclue le prix des ingrédients : pratique générale, mais aucun texte lu ne le dit expressément. À confirmer sur impots.gouv.fr avant diffusion large.",
+  "Prix moyen national d'un repas livré : aucune source officielle trouvée, seuls deux tarifs de services publics sont cités.",
+  "Les aides de caisses de retraite pour le portage varient selon les caisses : aucun montant national lu."
+ ]
+}

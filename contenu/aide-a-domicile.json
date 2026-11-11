@@ -1,0 +1,281 @@
+{
+ "slug": "aide-a-domicile",
+ "title": "Aide à domicile personne âgée : prix et aides 2026",
+ "description": "Aide à domicile pour un parent âgé : prestataire, mandataire ou emploi direct, prix indicatifs, aides et crédit d'impôt de 50 % jusqu'à 12 000 €.",
+ "h1": "Aide à domicile pour une personne âgée : prix, aides et crédit d'impôt",
+ "chapo": "Pour qu'un parent âgé reste chez lui, vous pouvez passer par un service prestataire, un service mandataire ou l'emploi direct. Le prix est libre mais l'État fixe un repère : 25 € de l'heure comme tarif plancher pour l'APA en 2026. Le crédit d'impôt de 50 % s'applique à vos dépenses, jusqu'à 12 000 € par an en règle générale.",
+ "en_bref": [
+  "Trois solutions : service prestataire (il est l'employeur), service mandataire ou emploi direct (vous ou votre parent êtes l'employeur).",
+  "Repère de prix : 25 € de l'heure, tarif plancher national des services à domicile pour l'APA au 1er janvier 2026. Un CCAS affichait 30,03 € de l'heure en 2025.",
+  "Crédit d'impôt : 50 % des dépenses, plafond de 12 000 € par an, majoré de 1 500 € par personne de plus de 65 ans, dans la limite de 15 000 €.",
+  "Aide-ménagère du département en 2026 : ressources sous 1 043,59 € par mois pour une personne seule, 1 620,18 € pour un couple, 65 ans et plus.",
+  "Un service prestataire doit vous remettre un devis gratuit dès 100 € TTC de prestations par mois."
+ ],
+ "sections": [
+  {
+   "h2": "Quelles solutions pour faire venir quelqu'un chez un parent âgé ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Il existe trois façons d'organiser les interventions. Elles ont chacune des avantages et des inconvénients, et un point d'information local peut vous conseiller gratuitement."
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Solution",
+      "Qui est l'employeur ?",
+      "Ce que vous gérez"
+     ],
+     "lignes": [
+      [
+       "Service prestataire (SAAD)",
+       "Le service",
+       "Vous êtes client et réglez une facture selon les heures réalisées. Le service gère le recrutement, les remplacements et la paie."
+      ],
+      [
+       "Service mandataire",
+       "Votre parent",
+       "Le service vous présente des candidats et vous aide pour le contrat, les bulletins de paie et l'Urssaf. Vous payez des frais de gestion et le salaire."
+      ],
+      [
+       "Emploi direct (Cesu)",
+       "Votre parent",
+       "Tout : recrutement, contrat, déclaration à l'Urssaf, congés, remplacement."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les services prestataires pour personnes âgées en perte d'autonomie sont autorisés et contrôlés par le conseil départemental. Les services mandataires, eux, n'ont pas ce statut : ils doivent détenir un agrément délivré par la préfecture (la DDETS)."
+    },
+    {
+     "type": "p",
+     "texte": "Pour les gestes les plus personnels comme la toilette, on s'adresse en général à un service autorisé, pour une personne en forte perte d'autonomie qui touche l'APA. Les tâches de ménage, de linge et de préparation des repas sont les plus courantes. Pour un proche qui souhaite employer un membre de sa famille, voyez notre page sur le statut d'aidant familial."
+    }
+   ]
+  },
+  {
+   "h2": "Combien coûte une aide à domicile en 2026 ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Il n'existe pas de prix national unique. Voici les repères publics que nous avons pu vérifier, à lire comme des ordres de grandeur indicatifs :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**25 € de l'heure** : tarif plancher national pour les services à domicile dans les plans d'aide financés par l'APA ou la PCH, au 1er janvier 2026. Le département peut fixer un tarif plus élevé.",
+      "**30,03 € de l'heure en semaine, 31,13 € le dimanche et les jours fériés** : tarif plein du service d'aide à domicile du CCAS de Laval, barème du 1er mars 2025, avant crédit d'impôt. Le même barème prévoit 15,01 € de l'heure après crédit d'impôt.",
+      "Emploi direct ou mandataire : le salaire est fixé librement avec la personne, mais il doit respecter les minimums de la convention collective des particuliers employeurs. À cela s'ajoutent les cotisations et, pour un mandataire, des frais de gestion."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les prix et les majorations (dimanche, jours fériés, horaires particuliers) varient d'un service à l'autre. Demandez toujours un devis écrit."
+    },
+    {
+     "type": "exemple",
+     "titre": "Exemple",
+     "texte": "Votre mère reçoit 4 heures d'aide par semaine d'un service prestataire facturé 30,03 € de l'heure, sur 52 semaines, soit 208 heures. Le coût est de 6 246,24 € par an. Le crédit d'impôt de 50 % représente 3 123,12 €, soit un reste à charge de 3 123,12 € par an, environ 260 € par mois. Si elle touche l'APA, la somme versée par l'APA doit être déduite avant le calcul du crédit d'impôt."
+    }
+   ]
+  },
+  {
+   "h2": "Comment fonctionne le crédit d'impôt de 50 % ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les dépenses d'aide à une personne âgée à domicile, par un service ou par un salarié que vous employez, donnent droit à un crédit d'impôt égal à **50 % des dépenses**, y compris si vous ne payez pas d'impôt (vous êtes alors remboursé). Il faut que la structure soit déclarée, agréée ou habilitée, ou que vous soyez employeur direct."
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Situation",
+      "Dépenses retenues par an"
+     ],
+     "lignes": [
+      [
+       "Cas général",
+       "12 000 € (avantage maximal de 6 000 €)"
+      ],
+      [
+       "Majoration par membre du foyer de plus de 65 ans ou par enfant à charge",
+       "+ 1 500 €, sans dépasser 15 000 € au total"
+      ],
+      [
+       "Première année d'emploi direct d'un salarié à domicile",
+       "15 000 €, majorés jusqu'à 18 000 € au total"
+      ],
+      [
+       "Carte d'invalidité d'au moins 80 % dans le foyer",
+       "20 000 € (aucune majoration)"
+      ],
+      [
+       "Petit bricolage (2 heures maximum par intervention)",
+       "500 € par an, compris dans le plafond"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Vous pouvez aussi faire valoir le crédit d'impôt pour des services rendus chez un ascendant qui remplit les conditions de l'APA, par exemple quand vous payez à sa place. Dans ce cas, vous ne pouvez pas déduire de pension alimentaire pour ce même parent."
+    },
+    {
+     "type": "p",
+     "texte": "Avec le service Cesu +, ou avec un prestataire qui le propose, vous pouvez activer l'avance immédiate : vous ne payez que 50 % du coût des prestations, au lieu d'attendre la déclaration de revenus. Les aides reçues (APA, PCH) sont à déduire de vos dépenses. Le crédit d'impôt concerne aussi la téléassistance et la livraison de repas : voir nos pages sur la téléassistance et le portage de repas."
+    },
+    {
+     "type": "attention",
+     "texte": "Les dépenses de services à la personne se déclarent en case 7DB de la déclaration de revenus, et les aides perçues (APA, PCH) en case 7DR. Gardez l'attestation annuelle de l'organisme ou de l'Urssaf : l'administration peut la demander."
+    }
+   ]
+  },
+  {
+   "h2": "Quelles aides pour payer l'aide à domicile ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La bonne aide dépend du niveau d'autonomie de votre parent et de ses ressources."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Il a besoin d'aide pour les gestes essentiels** (se lever, se laver, se déplacer) : c'est la voie de l'APA à domicile, demandée au conseil départemental, quels que soient les revenus, à partir de 60 ans. Le montant dépend des revenus. Tout est détaillé dans notre page sur l'APA.",
+      "**Il est autonome et a besoin d'un coup de main** : sa caisse de retraite peut proposer des heures d'aide à domicile après évaluation de ses ressources et de son niveau de fragilité, via le formulaire de demande d'aides à l'autonomie à domicile. Ces aides ne se cumulent pas avec l'APA pour la même aide.",
+      "**Ses ressources sont modestes** : l'aide-ménagère du département. En 2026, il faut avoir 65 ans ou plus (60 ans si inapte au travail) et des ressources mensuelles inférieures à 1 043,59 € pour une personne seule ou à 1 620,18 € pour un couple. La demande se fait à la mairie ou au CCAS. La durée est fixée par le département et ne peut pas dépasser 30 heures par mois (48 heures si chaque membre du couple y a droit).",
+      "**Il sort de l'hôpital** : le service social de l'hôpital peut demander une aide au retour à domicile, que la Carsat met en place."
+     ]
+    },
+    {
+     "type": "attention",
+     "texte": "L'aide-ménagère du département ne se cumule pas avec l'APA. Si votre parent peut prétendre à l'APA, c'est elle qui s'applique."
+    }
+   ]
+  },
+  {
+   "h2": "Comment choisir un bon service d'aide à domicile ?",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Appelez le point d'information local (via l'annuaire de pour-les-personnes-agees.gouv.fr) ou le CCAS de la commune. Ils vous indiquent les services autorisés et les aides possibles.",
+      "Demandez un devis. Un service prestataire doit vous remettre un devis gratuit automatiquement dès 100 € TTC de prestations par mois, et sur demande en dessous. Il doit afficher ses prix horaires HT et TTC.",
+      "Vérifiez le contrat. Pour les contrats signés depuis le 1er janvier 2023, il doit préciser les jours et horaires d'intervention, la durée et la fréquence, les conditions de suspension (hospitalisation) et le préavis de résiliation.",
+      "Regardez le prix : si le service n'est pas habilité à l'aide sociale, le prix est libre à la signature, mais il ne peut ensuite augmenter que dans la limite du taux fixé chaque année par arrêté interministériel.",
+      "Lisez le livret d'accueil : remplacement de l'intervenant, personne de confiance, recours en cas de litige, coordonnées du président du conseil départemental."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Une clause qui dispenserait le service de remplacer l'aide à domicile en arrêt maladie est abusive. En cas de litige, vous pouvez vous adresser au président du conseil départemental."
+    }
+   ]
+  },
+  {
+   "h2": "Et pour une garde de nuit ou des horaires particuliers ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les interventions de nuit, le week-end ou les jours fériés sont facturées selon le barème du service, souvent avec une majoration : le barème du CCAS de Laval compte par exemple 31,13 € de l'heure le dimanche et les jours fériés, contre 30,03 € en semaine. Aucun tarif national de nuit n'a été relevé dans les sources officielles : demandez le prix de la nuit dans le devis. Un plan d'aide APA peut inclure des heures d'aide, mais il est plafonné selon le niveau de perte d'autonomie."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quel est le prix moyen d'une aide à domicile par heure ?",
+   "r": "Il n'y a pas de prix moyen officiel que nous ayons pu vérifier. Repères publics : 25 € de l'heure comme tarif plancher pour l'APA en 2026, et 30,03 € de l'heure en semaine pour le service du CCAS de Laval en 2025, avant crédit d'impôt. Demandez des devis à plusieurs services."
+  },
+  {
+   "q": "Peut-on avoir une aide à domicile gratuite pour une personne âgée ?",
+   "r": "Pas totalement gratuite en général. L'APA, l'aide-ménagère du département ou une aide de la caisse de retraite peuvent financer tout ou partie des heures, selon les ressources et le niveau de perte d'autonomie. Une participation reste souvent demandée, et le crédit d'impôt de 50 % réduit encore le coût."
+  },
+  {
+   "q": "Quelle est la différence entre prestataire et mandataire ?",
+   "r": "Avec un prestataire, le service est l'employeur de l'intervenant et vous êtes son client. Avec un mandataire, votre parent est l'employeur, et le service vous aide seulement pour les formalités, contre des frais de gestion."
+  },
+  {
+   "q": "Le crédit d'impôt est-il versé même si mon parent ne paie pas d'impôt ?",
+   "r": "Oui. C'est un crédit d'impôt : si le montant dépasse l'impôt dû, la différence est remboursée. Un acompte de 60 % peut être versé en janvier, le solde l'été suivant, selon l'année et la situation. L'avance immédiate permet de ne payer que 50 % sur la facture."
+  },
+  {
+   "q": "Quel plafond de dépenses pour le crédit d'impôt avec un parent de plus de 65 ans ?",
+   "r": "Le plafond de 12 000 € est majoré de 1 500 € par membre du foyer de plus de 65 ans, sans dépasser 15 000 €. Pour un ascendant de plus de 65 ans remplissant les conditions de l'APA, la majoration s'applique aussi, uniquement pour le calcul de la réduction d'impôt."
+  },
+  {
+   "q": "Un enfant peut-il devenir l'aide à domicile de son parent ?",
+   "r": "Oui, en emploi direct. Si le parent touche l'APA, tous les membres de la famille sont autorisés sauf le conjoint, le concubin et le partenaire de Pacs. Voir notre page sur l'aidant familial pour les conditions et les risques."
+  },
+  {
+   "q": "Combien d'heures d'aide à domicile peut-on obtenir par mois ?",
+   "r": "Avec l'APA, le nombre d'heures dépend du plan d'aide, calculé par le département selon le niveau de perte d'autonomie. Avec l'aide-ménagère du département, la limite est de 30 heures par mois, 48 heures pour un couple dont chaque membre y a droit."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "apa",
+   "ancre": "montant et conditions de l'APA"
+  },
+  {
+   "slug": "aidant-familial",
+   "ancre": "devenir salarié de son parent"
+  },
+  {
+   "slug": "teleassistance",
+   "ancre": "téléassistance pour sécuriser le domicile"
+  },
+  {
+   "slug": "portage-de-repas",
+   "ancre": "portage de repas à domicile"
+  },
+  {
+   "slug": "grille-aggir",
+   "ancre": "niveaux de GIR"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/j-ai-besoin-d-etre-aide-a-domicile-comment-faire",
+   "titre": "J'ai besoin d'être aidé à domicile : comment faire ?"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/vos-droits-en-tant-que-beneficiaire-d-un-service-d-aide-a-domicile-prestataire",
+   "titre": "Vos droits en tant que bénéficiaire d'un service d'aide à domicile prestataire"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/vos-droits-en-tant-que-beneficiaire-d-un-service-mandataire-d-aide-a-domicile",
+   "titre": "Vos droits en tant que bénéficiaire d'un service mandataire d'aide à domicile"
+  },
+  {
+   "url": "https://solidarites.gouv.fr/ce-qui-change-au-1er-janvier-2026-dans-le-champ-des-solidarites",
+   "titre": "Ce qui change au 1er janvier 2026 dans le champ des solidarités (tarif plancher 25 €)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12",
+   "titre": "Crédit d'impôt pour l'emploi d'un salarié à domicile (Service-Public.gouv.fr, vérifié le 15 avril 2026)"
+  },
+  {
+   "url": "https://www.impots.gouv.fr/particulier/emploi-domicile",
+   "titre": "Emploi à domicile (impots.gouv.fr, modifié le 07/04/2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F245",
+   "titre": "Personne âgée : aide financière pour rémunérer une aide à domicile"
+  },
+  {
+   "url": "https://www.laval.fr/fileadmin/documents/CCAS/grille_tarifaire_MAD_2025-1.pdf",
+   "titre": "Grille tarifaire 2025, service maintien à domicile du CCAS de Laval (exemple de tarif public)"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/solutions-pour-les-aidants/soutien-financier/etre-remunere-pour-l-aide-apportee-a-son-proche",
+   "titre": "Être rémunéré pour l'aide apportée à son proche"
+  }
+ ],
+ "date_verification": "2026-11-11",
+ "a_verifier": [
+  "Pas de moyenne nationale officielle du prix horaire d'un service prestataire : seuls le tarif plancher 25 € (2026) et le barème d'un CCAS (Laval, 2025) ont été lus. Les fourchettes de sites privés n'ont pas été reprises.",
+  "Salaire horaire minimum conventionnel en emploi direct (particuliers employeurs, 2026) : montant officiel non relevé, donc non cité.",
+  "Tarifs de garde de nuit : aucune source officielle trouvée.",
+  "Écart de dates entre sources : la page service-public sur l'aide-ménagère est datée du 1er janvier 2025 mais cite déjà 1 043,59 € et 1 620,18 € (identiques à pour-les-personnes-agees.gouv.fr pour 2026 et à la hausse de l'ASPA au 1er janvier 2026)."
+ ]
+}

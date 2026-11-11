@@ -1,0 +1,112 @@
+{
+  "slug": "sortir-plus",
+  "title": "Sortir Plus Agirc-Arrco : conditions, coût et demande",
+  "description": "Sortir Plus accompagne les retraités Agirc-Arrco de 75 ans et plus dans leurs sorties, sans avance de frais ni condition de ressources. Mode d'emploi.",
+  "h1": "Sortir Plus (Agirc-Arrco) : conditions, prise en charge et demande",
+  "chapo": "Sortir Plus est un service de la retraite complémentaire Agirc-Arrco pour les retraités de 75 ans et plus, fragilisés ou qui ont du mal à se déplacer. Un accompagnateur les emmène à pied ou en voiture faire leurs courses, voir leurs proches ou aller chez le médecin. Sans condition de ressources, sans rien avancer, dans la limite d'un plafond annuel. Demande au 0 971 090 971.",
+  "en_bref": [
+    "Pour qui : retraités Agirc-Arrco de 75 ans et plus en situation de fragilité (isolement, âge, difficulté à se déplacer).",
+    "Aucune condition de ressources.",
+    "Depuis 2024, les sorties sont entièrement prises en charge par la caisse, dans la limite d'un plafond fixé chaque année.",
+    "Un seul numéro : 0 971 090 971, du lundi au vendredi de 8h30 à 18h30, hors jours fériés.",
+    "Pour chaque sortie : appeler au moins 2 jours à l'avance."
+  ],
+  "sections": [
+    {
+      "h2": "Qu'est-ce que Sortir Plus et que finance ce service ?",
+      "blocs": [
+        {"type": "p", "texte": "Sortir Plus est un service d'action sociale proposé par la caisse de retraite complémentaire Agirc-Arrco. Son objectif est de favoriser la mobilité et le lien social : permettre à une personne âgée de renouer avec les sorties, en étant accompagnée par une personne de confiance."},
+        {"type": "p", "texte": "L'accompagnement peut se faire à pied ou en véhicule. Il couvre les sorties de la vie quotidienne :"},
+        {"type": "liste", "items": [
+          "faire des courses ;",
+          "rendre visite à des amis ou à la famille ;",
+          "aller chez le coiffeur ;",
+          "aller au restaurant ;",
+          "faire une promenade ;",
+          "aller chez le médecin."
+        ]},
+        {"type": "p", "texte": "L'accompagnateur est un salarié d'un organisme d'aide à domicile ou de transport. À l'heure convenue, il vient chercher la personne, l'accompagne, puis la raccompagne chez elle. Selon les cas, il peut l'attendre ou rester à ses côtés."}
+      ]
+    },
+    {
+      "h2": "Qui peut en bénéficier ?",
+      "blocs": [
+        {"type": "p", "texte": "Le service s'adresse aux personnes de **75 ans et plus** qui relèvent du régime Agirc-Arrco, c'est-à-dire qui perçoivent une retraite complémentaire de ce régime (salariés et cadres du secteur privé), et qui sont en situation de fragilité : isolement, âge, difficulté à se déplacer. Il n'y a **aucune condition de ressources**."},
+        {"type": "attention", "texte": "Sortir Plus ne concerne que les retraités Agirc-Arrco. Si votre parent a eu une carrière agricole, de fonctionnaire ou d'indépendant, sa caisse peut proposer d'autres aides : voir plus bas. Le conseiller du 0 971 090 971 vérifie l'éligibilité lors du premier appel."}
+      ]
+    },
+    {
+      "h2": "Combien cela coûte-t-il ? Y a-t-il encore des chèques à acheter ?",
+      "blocs": [
+        {"type": "p", "texte": "Le dispositif a changé. Auparavant payant, avec des chèques CESU (chèque emploi service universel), il est depuis 2024 **entièrement pris en charge par la caisse de retraite**, selon service-public.gouv.fr. Vous n'avez rien à avancer ni à régler au service d'aide à la personne à la fin de la sortie."},
+        {"type": "p", "texte": "La prise en charge se fait dans la limite d'un plafond fixé chaque année. Le coût d'une sortie est calculé en fonction de la durée et de la distance à parcourir. Lors du premier appel, le conseiller indique le montant de l'aide dont la personne peut disposer."},
+        {"type": "attention", "texte": "Le montant du plafond annuel n'est pas publié sur les pages officielles consultées. Ne vous fiez pas à un chiffre vu sur un site de vente de chèques ou de comparaison : demandez-le au conseiller."}
+      ]
+    },
+    {
+      "h2": "Comment faire la demande, étape par étape ?",
+      "blocs": [
+        {"type": "etapes", "items": [
+          "Étape 1 : appelez le 0 971 090 971 (du lundi au vendredi de 8h30 à 18h30, hors jours fériés). Un conseiller vérifie l'éligibilité et indique le montant de l'aide. Il peut aussi vous rappeler.",
+          "Étape 2 : faites ce premier appel quand un premier besoin de sortie se présente, si possible environ une semaine à l'avance. On peut opter pour le service à tout moment de l'année.",
+          "Étape 3 : pour chaque sortie, rappelez un téléconseiller au moins 2 jours à l'avance. Il note la nature de la demande : sortie en voiture ou non, durée, distance.",
+          "Étape 4 : le téléconseiller trouve un accompagnateur dans une structure d'aide à domicile proche de chez vous et règle les aspects financiers. Vous pouvez demander à retrouver le même prestataire, sous réserve de sa disponibilité."
+        ]},
+        {"type": "p", "texte": "Si la personne a créé un compte en ligne sur le site de l'Agirc-Arrco, elle peut aussi faire ses demandes de sorties par internet."}
+      ]
+    },
+    {
+      "h2": "Quelles autres aides l'Agirc-Arrco propose-t-elle ?",
+      "blocs": [
+        {"type": "p", "texte": "L'Agirc-Arrco propose aussi une **aide à domicile momentanée**, utile lors d'un passage difficile : maladie, handicap temporaire, absence de l'aidant habituel. Le même numéro, le 0 971 090 971, sert à la demander."},
+        {"type": "tableau", "entetes": ["Aide à domicile momentanée", "Ce que dit le portail officiel"], "lignes": [
+          ["Conditions", "Percevoir une retraite complémentaire Agirc-Arrco, avoir au moins 75 ans, ne pas bénéficier d'une aide à domicile régulière toute l'année (par exemple l'APA), être temporairement dans l'incapacité d'assumer certaines tâches"],
+          ["Aide apportée", "Ménage, préparation des repas, courses"],
+          ["Volume", "10 heures réparties sur 6 semaines maximum, par demande"],
+          ["Délai", "Mise en place possible en 48 heures"],
+          ["Coût", "Gratuit pour le bénéficiaire, financé par l'Agirc-Arrco"],
+          ["Fréquence", "Plusieurs demandes possibles dans l'année civile"]
+        ]},
+        {"type": "p", "texte": "Si la cause de la demande est récurrente, par exemple une maladie chronique, l'aide momentanée n'est pas adaptée : la personne est orientée vers la Carsat pour une aide régulière ou vers le département pour l'APA."},
+        {"type": "p", "texte": "Les caisses de retraite proposent aussi, selon les régions, des informations et des conseils pour bien vivre sa retraite, des ateliers de prévention (équilibre, nutrition, mémoire) et un accompagnement renforcé après un veuvage ou un retour d'hospitalisation. Les critères sont à voir sur le site de la caisse dont dépend votre parent."}
+      ]
+    },
+    {
+      "h2": "Et si votre parent n'est pas à l'Agirc-Arrco, ou si Sortir Plus ne suffit pas ?",
+      "blocs": [
+        {"type": "p", "texte": "Les retraités de l'Assurance retraite du régime général, de la fonction publique d'État ou de la MSA peuvent demander des aides à leur propre caisse avec le formulaire de demande d'aides à l'autonomie à domicile. Le portail officiel cite par exemple le plan d'aides OSCAR de l'Assurance retraite et, pour la MSA, des aides à domicile, un portage de repas ou une téléassistance."},
+        {"type": "attention", "texte": "Si votre parent bénéficie de l'APA ou est éligible à l'APA, il ne peut pas obtenir une aide de sa caisse de retraite qui porte sur la même chose, par exemple l'aide à domicile. Vérifiez avant de multiplier les demandes."},
+        {"type": "p", "texte": "Pour d'autres besoins de déplacement, le portail officiel détaille les solutions de transport pour les personnes âgées selon le lieu de résidence. Si votre parent a un handicap ou une perte d'autonomie, la carte mobilité inclusion peut aussi faciliter ses déplacements."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Sortir Plus est-il gratuit ?", "r": "Oui, pour la personne. Le dispositif, auparavant payant avec des chèques CESU, est depuis 2024 entièrement pris en charge par la caisse Agirc-Arrco, dans la limite d'un plafond fixé chaque année. La personne n'avance rien et ne règle rien à la fin de la sortie."},
+    {"q": "Faut-il être sous un certain plafond de ressources ?", "r": "Non. Sortir Plus est ouvert sans condition de ressources, selon service-public.gouv.fr. Il faut avoir 75 ans ou plus, percevoir une retraite Agirc-Arrco et être en situation de fragilité."},
+    {"q": "Combien de temps à l'avance faut-il appeler ?", "r": "Pour la première demande, environ une semaine à l'avance si possible. Ensuite, pour chaque sortie, il faut appeler le téléconseiller au moins 2 jours avant, du lundi au vendredi de 8h30 à 18h30."},
+    {"q": "L'accompagnateur peut-il conduire mon parent en voiture ?", "r": "Oui. Le service propose des sorties à pied ou en véhicule. Lors de la demande, le téléconseiller note si la sortie est véhiculée ou non, la durée et la distance, ce qui détermine le coût de la sortie."},
+    {"q": "Peut-on choisir toujours la même personne ?", "r": "Vous pouvez demander à solliciter le même prestataire pour vos autres sorties, sous réserve qu'il soit disponible. C'est un organisme d'aide à domicile proche de chez vous qui fournit l'accompagnateur."},
+    {"q": "Sortir Plus peut-il se cumuler avec l'APA ?", "r": "Les pages officielles lues ne l'indiquent pas pour Sortir Plus. Pour l'aide à domicile momentanée, l'Agirc-Arrco la refuse aux personnes qui ont une aide à domicile régulière comme l'APA. Demandez au conseiller au 0 971 090 971 avant de vous engager."},
+    {"q": "Y a-t-il une date limite pour demander Sortir Plus ?", "r": "Non : on peut opter pour le service à tout moment de l'année. La prise en charge reste soumise au plafond fixé chaque année par la caisse."}
+  ],
+  "liens_internes": [
+    {"slug": "carte-mobilite-inclusion", "ancre": "carte mobilité inclusion"},
+    {"slug": "apa", "ancre": "APA, allocation personnalisée d'autonomie"},
+    {"slug": "aide-a-domicile", "ancre": "aide à domicile"},
+    {"slug": "aidant-familial", "ancre": "aider un parent au quotidien"}
+  ],
+  "sources": [
+    {"url": "https://www.service-public.gouv.fr/particuliers/actualites/A17302", "titre": "Sortir Plus, un service qui facilite les mobilités des personnes âgées (29 mars 2024)"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/preserver-son-autonomie/preserver-son-autonomie-et-sa-sante/le-service-sortir-plus-pour-renouer-avec-l-exterieur", "titre": "Le service Sortir Plus pour renouer avec l'extérieur"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/l-aide-a-domicile-momentanee-pour-les-retraites-agirc-arrco", "titre": "L'aide à domicile momentanée pour les retraités Agirc-Arrco"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/quelles-sont-les-aides-des-caisses-de-retraite", "titre": "Les aides des caisses de retraite"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Montant du plafond annuel Sortir Plus pour 2026 : introuvable sur les pages officielles lues. Le site agirc-arrco.fr bloque l'accès automatisé, donc non vérifié à la source. Des sites tiers parlent de 300 € par an pour 2025, non repris car non officiel.",
+    "L'article service-public.gouv.fr sur Sortir Plus date du 29 mars 2024 et est marqué « ancien » : conditions (75 ans, sans condition de ressources, prise en charge totale) à recontrôler sur agirc-arrco.fr.",
+    "Le cumul de Sortir Plus avec l'APA n'est pas précisé par les pages officielles lues.",
+    "Le bilan de prévention / centres de prévention Agirc-Arrco n'a pas été vérifié sur une source officielle : non traité dans la page.",
+    "Non vérifié : si un proche peut faire la démarche à la place du retraité."
+  ]
+}

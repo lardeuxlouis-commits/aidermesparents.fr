@@ -1,0 +1,134 @@
+{
+  "slug": "obligation-alimentaire",
+  "title": "Obligation alimentaire envers ses parents : qui paie ?",
+  "description": "Les enfants doivent aider un parent dans le besoin, mais il n'existe aucun barème. Qui est concerné, comment le juge décide, dispenses et impôts.",
+  "h1": "Obligation alimentaire envers ses parents : qui doit payer l'EHPAD ?",
+  "chapo": "Oui, des enfants peuvent devoir aider un parent qui ne peut plus assurer ses besoins fondamentaux, par exemple pour payer l'EHPAD. Il n'existe aucun barème : c'est le juge aux affaires familiales qui fixe le montant selon les besoins du parent et les ressources de chaque enfant. Des dispenses existent, et la pension versée est déductible des impôts sous conditions.",
+  "en_bref": [
+    "Sont concernés : les enfants, les petits-enfants, et les gendres et belles-filles envers leurs beaux-parents.",
+    "Pas de barème : le montant dépend des besoins du parent et des ressources et charges de chacun.",
+    "Chacun doit pouvoir continuer à vivre normalement une fois sa contribution fixée.",
+    "Dispense possible si le parent a gravement manqué à ses devoirs (abandon, violences), et automatique dans certains cas.",
+    "La pension versée à un parent dans le besoin est déductible de vos revenus, sans plafond dans le cas général."
+  ],
+  "sections": [
+    {
+      "h2": "Qu'est-ce que l'obligation alimentaire envers un parent ?",
+      "blocs": [
+        {"type": "p", "texte": "C'est l'obligation d'aider un parent ou un beau-parent qui n'arrive pas à assurer ses besoins fondamentaux : logement, nourriture, soins, dépenses courantes. Elle s'exécute le plus souvent sous la forme d'une **pension alimentaire** versée chaque mois. Elle peut aussi se faire en nature : héberger, nourrir et entretenir le parent."},
+        {"type": "p", "texte": "La personne qui reçoit l'aide s'appelle le créancier d'aliments. Celle qui la verse est l'obligé alimentaire, ou débiteur d'aliments. Le parent qui réclame l'aide doit démontrer qu'il est dans le besoin et qu'il n'a pas de ressources suffisantes pour faire face à ses dépenses essentielles."}
+      ]
+    },
+    {
+      "h2": "Qui est concerné, et qui ne l'est pas ?",
+      "blocs": [
+        {"type": "p", "texte": "Selon service-public.gouv.fr, doivent aider leurs parents dans le besoin :"},
+        {"type": "liste", "items": [
+          "les enfants et les petits-enfants, envers leurs père, mère ou autres ascendants dans le besoin ;",
+          "les gendres et belles-filles, envers leurs beaux-parents dans le besoin."
+        ]},
+        {"type": "p", "texte": "Pour les gendres et belles-filles, c'est une conséquence du mariage. Cette obligation cesse au décès de l'époux qui faisait le lien, et des enfants issus de l'union. L'obligation est aussi **réciproque** : un parent doit aider son enfant dans le besoin."},
+        {"type": "p", "texte": "En cas d'adoption, l'obligation dépend du type d'adoption (simple ou plénière) et du lien familial. Un enfant admis comme pupille de l'État ne doit pas d'aliments à ses parents biologiques."},
+        {"type": "attention", "texte": "Il n'existe pas de hiérarchie entre un enfant et un gendre ou une belle-fille : ils sont tenus de la même manière. Si le parent est marié, il doit d'abord solliciter son conjoint, puis ses enfants."}
+      ]
+    },
+    {
+      "h2": "Comment le montant est-il fixé ?",
+      "blocs": [
+        {"type": "p", "texte": "**Il n'existe pas de barème.** Le juge fixe la somme en fonction des besoins du parent et des ressources du débiteur, en tenant compte de la situation de tous les intéressés."},
+        {"type": "tableau", "entetes": ["Ce que le juge regarde chez l'enfant", "Exemples"], "lignes": [
+          ["Revenus du travail", "Salaire, retraite, allocation chômage, indemnités de Sécurité sociale"],
+          ["Aides sociales", "Allocation adulte handicapé, allocation logement, RSA"],
+          ["Revenus du capital", "Intérêts de placements, loyers, dividendes"],
+          ["Charges de famille", "Enfant ou conjoint à charge, pension alimentaire versée, prestation compensatoire"],
+          ["Dépenses de la vie courante", "Logement, nourriture, impôts, transports"],
+          ["Crédits", "Remboursements en cours, taux d'endettement"]
+        ]},
+        {"type": "p", "texte": "Une fois la contribution fixée, l'enfant doit pouvoir continuer à subvenir à ses besoins et à ceux des personnes qui vivent à son foyer. Le juge peut aussi décharger un enfant dont les ressources sont insuffisantes ou les charges trop importantes."},
+        {"type": "p", "texte": "Les revenus de votre conjoint, partenaire de Pacs ou concubin ne s'ajoutent pas aux vôtres, car votre obligation est personnelle. Ils sont pris en compte seulement dans la mesure où ils réduisent vos charges, par exemple si vous partagez le loyer. Les revenus de votre époux comptent si des aliments lui sont aussi réclamés en tant que gendre ou belle-fille."}
+      ]
+    },
+    {
+      "h2": "Comment cela se passe-t-il quand un parent entre en EHPAD ?",
+      "blocs": [
+        {"type": "p", "texte": "Deux situations se présentent. Dans la première, le parent demande une aide sociale à l'hébergement : le département demande les revenus des obligés alimentaires et en tient compte pour fixer son aide. Les règles de cette aide sont détaillées dans notre page sur l'ASH. Dans la seconde, un parent ou un établissement réclame directement une contribution."},
+        {"type": "p", "texte": "Le service-public précise que les établissements publics de santé peuvent agir pour récupérer des sommes dues à leur établissement (impayés de soins ou d'hébergement), et que les collectivités chargées de l'aide sociale peuvent agir en leur nom ou au nom de la personne aidée. Dans tous les cas, le montant de la contribution relève du juge si les enfants et le parent ne s'entendent pas."},
+        {"type": "p", "texte": "La première démarche est une **demande à l'amiable**, par courrier ou avec un médiateur familial. Si un accord est trouvé, il peut être homologué par le juge aux affaires familiales pour lui donner force exécutoire. À défaut, le parent peut saisir le juge."}
+      ]
+    },
+    {
+      "h2": "Comment se déroule la procédure devant le juge aux affaires familiales ?",
+      "blocs": [
+        {"type": "etapes", "items": [
+          "Étape 1 : le parent (ou son représentant) saisit le juge aux affaires familiales par assignation, ou avec le formulaire « Requête en obligation alimentaire ».",
+          "Étape 2 : la requête est envoyée en lettre recommandée avec accusé de réception ou déposée au tribunal judiciaire du domicile du parent ou de l'enfant.",
+          "Étape 3 : le juge examine les besoins du parent et les ressources et charges de chaque enfant, puis fixe une pension, en général mensuelle.",
+          "Étape 4 : si le montant ne convient pas, les parties peuvent faire appel, et l'avocat est alors obligatoire."
+        ]},
+        {"type": "p", "texte": "Pour la première instance, l'avocat n'est pas obligatoire. Une personne qui a peu de revenus peut demander l'aide juridictionnelle si elle veut tout de même un avocat. Si le parent est sous tutelle, il est représenté par son tuteur ; sous curatelle, il est assisté par son curateur."},
+        {"type": "attention", "texte": "Le parent n'est pas obligé d'engager une procédure contre tous ses enfants. Gardez les justificatifs de vos revenus et de vos charges : c'est ce que le juge examinera."}
+      ]
+    },
+    {
+      "h2": "Peut-on être dispensé de l'obligation alimentaire ?",
+      "blocs": [
+        {"type": "p", "texte": "Oui, dans plusieurs cas. D'abord, si vos ressources sont insuffisantes ou vos charges trop importantes, le juge peut vous décharger. Ensuite, pour des raisons qui ne tiennent pas à vos moyens :"},
+        {"type": "liste", "items": [
+          "**Sur demande au juge** : si votre père ou votre mère a gravement manqué à ses obligations envers vous (abandon, violences). Vous devez le prouver : jugement, attestations, documents des services sociaux. Le juge peut vous décharger en tout ou en partie ;",
+          "**Automatiquement** si l'autorité parentale a été retirée à ce parent, sauf mention contraire dans le jugement ;",
+          "**Automatiquement** si vous avez été retiré de votre milieu familial par décision judiciaire pendant au moins 36 mois cumulés avant vos 18 ans ;",
+          "Si le parent a été condamné pour un crime commis sur vous ou sur l'un de vos ascendants, descendants, frères ou sœurs, vous êtes déchargé, sauf décision contraire du juge ;",
+          "Les petits-enfants sont dispensés dans le cadre d'une demande d'ASH pour l'un de leurs grands-parents."
+        ]},
+        {"type": "p", "texte": "Ces règles ont été élargies par la loi du 8 avril 2024 « bien vieillir », qui supprime l'obligation dans plusieurs cas (enfants retirés de leur famille, parent condamné pour un crime sur l'autre parent, petits-enfants dans le cadre de l'ASH)."},
+        {"type": "attention", "texte": "On ne peut pas demander à être dispensé par avance. La demande se fait au moment où vous êtes sollicité, souvent à l'occasion d'une entrée en EHPAD ou d'une demande d'aide sociale. Constituez vos preuves dès maintenant."}
+      ]
+    },
+    {
+      "h2": "Peut-on déduire la pension de ses impôts ?",
+      "blocs": [
+        {"type": "p", "texte": "Oui. Vous pouvez déduire de vos revenus la pension versée à un parent, un grand-parent ou un beau-parent dans le besoin, si elle couvre ses besoins essentiels (nourriture, logement, santé) et reste proportionnée à vos ressources. Elle peut être versée en argent, ou en payant à sa place des dépenses (frais médicaux, maison de retraite), ou en l'hébergeant."},
+        {"type": "tableau", "entetes": ["Situation", "Montant déductible"], "lignes": [
+          ["Cas général", "Les sommes réellement versées, sans limite, à condition de justifier les versements et les dépenses"],
+          ["Parent hébergé chez vous", "Forfait de 4 075 €"]
+        ]},
+        {"type": "exemple", "titre": "Exemple", "texte": "Vous versez 400 € par mois à votre mère dans le besoin : 4 800 € par an sont déduits de vos revenus (exemple de service-public.gouv.fr). Si votre tranche marginale d'imposition est de 30 %, l'économie est d'environ 1 440 € (4 800 x 30 %). Si votre mère vit chez vous, le forfait de 4 075 € s'applique et l'économie à 30 % est d'environ 1 222 €."},
+        {"type": "p", "texte": "Pour un parent de plus de 75 ans hébergé chez vous, les conditions du forfait sont considérées comme remplies si ses ressources ne dépassent pas, pour les revenus 2025, 12 411,44 € (personne seule) ou 19 268,80 € (couple marié ou pacsé). Votre parent doit déclarer la pension que vous lui versez, sauf s'il touche l'Aspa et que vous réglez directement la maison de retraite."},
+        {"type": "attention", "texte": "Vous ne pouvez pas déduire de pension alimentaire pour un parent si vous bénéficiez du crédit d'impôt pour l'emploi d'un salarié au domicile de ce même parent."}
+      ]
+    },
+    {
+      "h2": "Que faire en cas de désaccord, de changement de situation ou d'impayé ?",
+      "blocs": [
+        {"type": "p", "texte": "L'obligation peut être révisée ou supprimée si la situation change : vos revenus baissent (chômage) ou vos charges augmentent (naissance), la situation financière du parent s'améliore, ou la situation familiale évolue (mariage, divorce). La demande se fait sur papier libre ou avec le formulaire de requête. Si c'est vous, le débiteur, qui la faites, vous saisissez le tribunal du domicile du parent."},
+        {"type": "p", "texte": "L'obligation prend fin au décès du parent ou du débiteur, ou par décision du juge en cas de circonstances nouvelles (divorce, insolvabilité). Si une pension n'est pas versée, le créancier peut recourir à un commissaire de justice (paiement direct, saisie sur compte bancaire ou saisie-vente) ou demander une saisie sur salaire. Ne pas verser la pension pendant plus de 2 mois constitue le délit d'abandon de famille."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Mes petits-enfants doivent-ils aussi payer pour mon parent en EHPAD ?", "r": "Dans le cadre d'une demande d'aide sociale à l'hébergement pour un grand-parent, les petits-enfants sont dispensés de l'obligation alimentaire, et cette dispense s'étend à leurs descendants. En dehors de l'ASH, les petits-enfants font partie des personnes tenues envers leurs ascendants dans le besoin."},
+    {"q": "Mon parent m'a abandonné, dois-je quand même payer ?", "r": "Pas forcément. Si votre parent a gravement manqué à ses obligations envers vous, le juge aux affaires familiales peut vous dispenser en tout ou en partie, à condition que vous le prouviez. Vous devez en faire la demande au moment où l'on vous sollicite : on ne peut pas être dispensé par avance."},
+    {"q": "Quel est le montant de la pension que je devrais verser ?", "r": "Il n'y a pas de barème. Le juge fixe le montant selon les besoins de votre parent et vos revenus et charges. Il doit vous laisser de quoi vivre, ainsi que les personnes de votre foyer."},
+    {"q": "Mon conjoint doit-il aussi payer pour ma mère ?", "r": "Les revenus de votre conjoint ne s'ajoutent pas aux vôtres, car votre obligation est personnelle. Il est tenu lui-même envers vos parents en tant que gendre ou belle-fille, de la même manière que vous. Si le couple divorce, la situation familiale change et la demande peut être révisée."},
+    {"q": "Les frères et sœurs paient-ils chacun la même somme ?", "r": "Pas nécessairement. Le juge tient compte de la situation de chacun : des enfants aux revenus différents peuvent se voir fixer des montants différents. Vous pouvez aussi vous entendre à l'amiable, éventuellement avec un médiateur familial, puis faire homologuer l'accord par le juge."},
+    {"q": "Faut-il un avocat pour saisir le juge ?", "r": "Non en première instance : l'avocat n'est pas obligatoire. En cas d'appel, il l'est. Si vos revenus sont modestes, vous pouvez demander l'aide juridictionnelle."}
+  ],
+  "liens_internes": [
+    {"slug": "aide-sociale-hebergement", "ancre": "aide sociale à l'hébergement (ASH)"},
+    {"slug": "ehpad-prix-aides", "ancre": "prix d'un EHPAD et aides"},
+    {"slug": "aspa", "ancre": "Aspa, allocation de solidarité aux personnes âgées"},
+    {"slug": "aide-a-domicile", "ancre": "aide à domicile pour un parent"}
+  ],
+  "sources": [
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2009", "titre": "Doit-on aider ses parents dans le besoin ? Obligation alimentaire (vérifié le 12 décembre 2025)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F444", "titre": "Impôt sur le revenu : pension alimentaire versée à un ascendant (vérifié le 15 avril 2026)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2444", "titre": "Aide sociale à l'hébergement (ASH) d'une personne âgée"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/actualites/A17349", "titre": "Loi bien vieillir : suppression de l'obligation alimentaire dans certains cas (19 avril 2024)"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "La page service-public sur la loi bien vieillir (avril 2024) est marquée « ancienne » : j'ai appuyé les cas de dispense sur la fiche F2009, vérifiée le 12 décembre 2025.",
+    "La tranche marginale de 30 % dans l'exemple est une hypothèse de calcul, pas un chiffre officiel.",
+    "Ce que le département demande exactement aux enfants après l'ASH (saisine du juge, décision) n'est pas détaillé dans les pages lues."
+  ]
+}

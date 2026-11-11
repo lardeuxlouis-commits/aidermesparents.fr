@@ -1,0 +1,226 @@
+{
+  "slug": "aide-sociale-hebergement",
+  "title": "ASH en EHPAD : conditions, montant et démarches 2026",
+  "description": "L'aide sociale à l'hébergement laisse au résident au moins 10 % de ses revenus (125 € minimum). Conditions, demande à la mairie, récupération.",
+  "h1": "Aide sociale à l'hébergement (ASH) : conditions, montant et démarches",
+  "chapo": "L'aide sociale à l'hébergement (ASH) paie la différence entre la facture d'un EHPAD et ce que la personne âgée peut payer. Il faut avoir plus de 65 ans, résider dans un établissement habilité et avoir des revenus inférieurs à la facture. Il lui reste au moins 10 % de ses revenus, et jamais moins de 125 € par mois. La demande se fait en mairie ou au CCAS.",
+  "en_bref": [
+    "Âge : plus de 65 ans (plus de 60 ans si la personne est reconnue inapte au travail).",
+    "Il reste au résident au moins 10 % de ses revenus par mois, et jamais moins de 125 €.",
+    "Demande en mairie ou au CCAS, dans les 2 mois suivant l'entrée pour que l'aide remonte à la date d'entrée.",
+    "Le département peut récupérer les sommes versées, du vivant de la personne ou sur sa succession.",
+    "Les enfants et les gendres et belles-filles peuvent être sollicités ; les petits-enfants sont dispensés."
+  ],
+  "sections": [
+    {
+      "h2": "Qui peut obtenir l'aide sociale à l'hébergement ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "L'ASH est versée par le département. Elle sert à payer tout ou partie des frais d'hébergement quand les revenus de la personne ne suffisent pas. Pour l'obtenir, la personne âgée doit remplir toutes les conditions suivantes, selon service-public.gouv.fr :"
+        },
+        {
+          "type": "liste",
+          "items": [
+            "avoir plus de 65 ans, ou plus de 60 ans si elle a été reconnue inapte au travail ;",
+            "vivre en France de façon stable et régulière, avec un titre de séjour en cours de validité si elle est de nationalité étrangère ;",
+            "être hébergée dans un EHPAD, une résidence autonomie ou une unité de soins de longue durée qui a des places réservées aux bénéficiaires de l'aide sociale ;",
+            "avoir des revenus inférieurs aux frais d'hébergement facturés par l'établissement."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "L'ASH peut aussi financer le tarif dépendance en EHPAD ou en USLD. Elle existe aussi pour une personne accueillie chez un accueillant familial agréé par le département."
+        }
+      ]
+    },
+    {
+      "h2": "Tous les EHPAD acceptent-ils l'ASH ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Non. Seuls les établissements qui ont des places « habilitées à l'aide sociale » ouvrent droit à l'ASH. Ces places sont surtout dans le public et le privé non lucratif. D'après la CNSA, en 2024 environ 431 200 places étaient habilitées, contre environ 158 860 non habilitées parmi les chambres seules observées. Les places habilitées représentent 98 % des places des EHPAD publics et 82 % de celles du privé non lucratif, mais seulement 10 % de celles du privé commercial."
+        },
+        {
+          "type": "p",
+          "texte": "Pour savoir si un établissement est habilité, consultez sa fiche dans l'annuaire officiel des EHPAD : elle indique le nombre de chambres habilitées. Le prix d'hébergement de ces places est fixé par le président du conseil départemental."
+        },
+        {
+          "type": "attention",
+          "texte": "Un EHPAD non habilité n'ouvre pas droit à l'ASH. Si votre parent y entre et que ses revenus s'épuisent, il faudra changer d'établissement. Vérifiez l'habilitation avant de choisir, et pas seulement le prix."
+        }
+      ]
+    },
+    {
+      "h2": "Combien reste-t-il à la personne âgée une fois l'ASH accordée ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "L'ASH est une aide qui complète : la personne contribue d'abord avec ses revenus, et le département paie le reste de la facture. Le montant de l'ASH doit en général lui laisser au minimum **10 % de ses revenus par mois, et en aucun cas moins de 125 € par mois** (service-public.gouv.fr, vérifié le 1er janvier 2026)."
+        },
+        {
+          "type": "p",
+          "texte": "Si son conjoint, son partenaire de Pacs ou son concubin est resté vivre à domicile, le montant de l'ASH doit laisser à cette personne au moins **1 043,59 € par mois**."
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple : votre mère touche 1 500 € par mois",
+          "texte": "Elle est dans un EHPAD habilité dont la facture mensuelle est de 2 164 € (prix de référence CNSA 2024 pour une chambre habilitée, avant aides). Elle doit pouvoir garder au minimum 10 % de ses revenus, soit 150 €, ce qui dépasse le plancher de 125 €. Elle contribue donc à hauteur d'environ 1 350 € et l'ASH couvre la différence, soit environ 814 € par mois. Ce calcul est un ordre de grandeur : le département tient aussi compte de l'APA, de l'aide au logement et de son propre règlement d'aide sociale."
+        },
+        {
+          "type": "attention",
+          "texte": "Chaque département a son règlement d'aide sociale, donc les règles de versement varient d'un département à l'autre. La mairie, le CCAS ou le service du département vous donneront les règles locales."
+        }
+      ]
+    },
+    {
+      "h2": "Les enfants doivent-ils payer quand leur parent demande l'ASH ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Possiblement. Pour fixer l'ASH, le département peut tenir compte des revenus de la personne âgée, de son conjoint, partenaire de Pacs ou concubin, et de ses **obligés alimentaires**, c'est-à-dire ses enfants, gendres et belles-filles. Les revenus des obligés alimentaires sont donc demandés dans le dossier."
+        },
+        {
+          "type": "p",
+          "texte": "Une règle protège les petits-enfants : un petit-enfant est dispensé de l'obligation alimentaire quand l'ASH est demandée pour l'un de ses grands-parents, et cette dispense s'étend à ses descendants. Pour savoir comment la contribution des enfants est fixée, quand on peut en être dispensé et ce que fait le juge, lisez notre page sur l'obligation alimentaire."
+        }
+      ]
+    },
+    {
+      "h2": "Comment faire la demande, étape par étape ?",
+      "blocs": [
+        {
+          "type": "etapes",
+          "items": [
+            "Étape 1 : retirez le dossier de demande d'ASH à la mairie ou au CCAS de la commune où vit la personne âgée.",
+            "Étape 2 : rassemblez les justificatifs : pièce d'identité, justificatif de domicile, avis d'imposition de la personne et de la personne avec qui elle vit en couple.",
+            "Étape 3 : ajoutez les justificatifs de pensions ou salaires des 3 derniers mois, de la personne, de son conjoint ou concubin et de ses obligés alimentaires.",
+            "Étape 4 : fournissez la liste des obligés alimentaires, telle qu'elle figure dans le livret de famille.",
+            "Étape 5 : déposez le dossier. La mairie ou le CCAS le transmet au département, qui notifie sa décision d'attribution ou de refus à la personne ou à son représentant légal."
+          ]
+        },
+        {
+          "type": "attention",
+          "texte": "Pour que la prise en charge démarre à la date d'entrée dans l'établissement, la demande doit être faite dans les 2 mois qui suivent cette date. Le plus simple est de la déposer en même temps que le dossier d'admission."
+        }
+      ]
+    },
+    {
+      "h2": "Le département peut-il récupérer l'argent versé ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Oui, c'est une différence importante avec d'autres aides. Les sommes versées au titre de l'ASH sont récupérables par le département :"
+        },
+        {
+          "type": "liste",
+          "items": [
+            "**Du vivant de la personne**, si sa situation financière s'améliore (un héritage, par exemple), ou sur une donation qu'elle a faite dans les 10 ans qui ont précédé la demande d'ASH, ou après celle-ci ;",
+            "**Au décès**, sur la partie de l'actif net de la succession, c'est-à-dire sur le patrimoine transmis aux héritiers."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "À titre de comparaison, l'APA, elle, n'est jamais récupérée sur la succession. Avant de faire la demande, il est donc utile de parler du patrimoine du parent (logement, assurance-vie, donations passées) avec le CCAS ou le service du département."
+        }
+      ]
+    },
+    {
+      "h2": "Que faire en cas de refus, ou si les revenus baissent ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "En cas de refus, vous avez deux étapes de recours, selon service-public.gouv.fr :"
+        },
+        {
+          "type": "etapes",
+          "items": [
+            "Étape 1 : un recours préalable par lettre au président du conseil départemental, avec la décision de refus jointe. Il a 2 mois pour répondre. Vous pouvez l'envoyer par courrier simple ou le déposer à l'accueil du département.",
+            "Étape 2 : si la réponse ne vous convient pas, un recours devant le tribunal administratif dans les 2 mois, par lettre accompagnée de la réponse du département."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Si les revenus de la personne âgée ou de ses obligés alimentaires baissent, vous pouvez demander la révision du montant de l'ASH par une lettre simple adressée au département."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "L'ASH existe-t-elle en résidence autonomie ?",
+      "r": "Oui, à condition que la résidence autonomie soit habilitée à recevoir des bénéficiaires de l'aide sociale. En revanche, les résidences services seniors ne sont pas habilitées à l'ASH."
+    },
+    {
+      "q": "Peut-on avoir l'ASH et l'APA en même temps ?",
+      "r": "Oui. Service-public.gouv.fr indique que l'APA, l'aide au logement et l'ASH sont cumulables en EHPAD. Le portail officiel précise aussi qu'une personne qui paie le tarif dépendance GIR 5-6 peut demander l'ASH pour le financer."
+    },
+    {
+      "q": "Quels documents faut-il pour déposer le dossier ?",
+      "r": "La pièce d'identité et le justificatif de domicile de la personne âgée, son avis d'imposition (et celui de la personne avec laquelle elle vit en couple), les justificatifs de pensions ou salaires des 3 derniers mois, y compris pour les obligés alimentaires, et la liste de ces derniers d'après le livret de famille."
+    },
+    {
+      "q": "Les revenus du conjoint sont-ils pris en compte ?",
+      "r": "Oui. Le département peut tenir compte des revenus de l'époux, du partenaire de Pacs ou du concubin. Si cette personne reste vivre à domicile, l'ASH doit lui laisser au minimum 1 043,59 € par mois."
+    },
+    {
+      "q": "Peut-on demander l'ASH après l'entrée en EHPAD ?",
+      "r": "Oui, mais le service-public indique que pour être prise en charge dès la date d'entrée, la demande doit être faite dans les 2 mois qui suivent. Au-delà, la date de départ de l'aide dépend de la décision du département : renseignez-vous auprès de lui."
+    },
+    {
+      "q": "Qui reçoit la décision du département ?",
+      "r": "La décision d'attribution ou de refus est notifiée à la personne âgée ou à son représentant légal, par exemple un tuteur ou la personne habilitée dans le cadre d'une habilitation familiale."
+    }
+  ],
+  "liens_internes": [
+    {
+      "slug": "obligation-alimentaire",
+      "ancre": "obligation alimentaire : qui doit payer ?"
+    },
+    {
+      "slug": "ehpad-prix-aides",
+      "ancre": "prix d'un EHPAD et autres aides"
+    },
+    {
+      "slug": "apa",
+      "ancre": "APA, l'allocation personnalisée d'autonomie"
+    },
+    {
+      "slug": "residence-senior",
+      "ancre": "résidence autonomie ou résidence services"
+    },
+    {
+      "slug": "aspa",
+      "ancre": "Aspa, minimum vieillesse"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2444",
+      "titre": "Aide sociale à l'hébergement (ASH) d'une personne âgée (vérifié le 1er janvier 2026)"
+    },
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38574",
+      "titre": "Vous allez être hébergé en Ehpad : quelles aides financières ?"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/comprendre-les-prix-tarifs-et-prestations-affiches-dans-l-annuaire-des-ehpad",
+      "titre": "Comprendre les prix, tarifs et prestations affichés dans l'annuaire des EHPAD"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/l-apa-en-etablissement",
+      "titre": "L'APA en établissement"
+    },
+    {
+      "url": "https://www.cnsa.fr/sites/default/files/2026-04/PUB_RS-n27_Prix-EHPAD_2024_vf.pdf",
+      "titre": "CNSA, Repères statistiques n°27 : prix des EHPAD en 2024"
+    }
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Le délai de réponse du département à une demande d'ASH n'est pas indiqué sur les pages officielles lues.",
+    "Le montant de 125 € et celui de 1 043,59 € viennent de service-public.gouv.fr (page vérifiée le 1er janvier 2026) : à recontrôler après une éventuelle revalorisation en 2027.",
+    "Le sort d'une demande déposée plus de 2 mois après l'entrée n'est pas détaillé : formulé comme dépendant du département.",
+    "Les règles varient selon le règlement départemental d'aide sociale : l'exemple chiffré est un ordre de grandeur."
+  ]
+}
