@@ -121,3 +121,10 @@ button{font:inherit;cursor:pointer;border:0}
 .lettre pre{white-space:pre-wrap;font:15px/1.6 "Source Sans 3",sans-serif;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px}
 .note{font-size:15px;color:var(--mut)}
 @media print{.top,footer,.noprint,.cta,.offre{display:none!important}.lettre{border:0}details.lettre>*{display:block}body{background:#fff}}
+.contact{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:12px;padding:14px 18px;margin:12px 0;font-size:17px}
+ul.lieux{list-style:none;padding:0;columns:2;column-gap:24px;font-size:16px}ul.lieux li{break-inside:avoid;margin:0 0 8px}
+@media (max-width:640px){ul.lieux{columns:1}}
+ul.deps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+ul.deps a{display:block;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);text-decoration:none;color:var(--fg)}ul.deps a:hover{border-color:var(--brand)}
+.num{display:inline-block;min-width:34px;font-weight:700;color:var(--brand)}
+.dep-lien{background:var(--soft);border-radius:12px;padding:10px 14px;font-weight:600}

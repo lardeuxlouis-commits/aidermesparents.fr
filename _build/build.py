@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Générateur statique de aidermesparents.fr : contenu/*.json -> docs/ (GitHub Pages)."""
-import json, glob, os, re, html, shutil, datetime as dt
+import json, glob, os, re, html, shutil, sys, datetime as dt
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import departements as DEP
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs")
@@ -149,6 +151,7 @@ def page(title, desc, path, body, schema, image="accueil", actif=None, foot=""):
 <link rel="stylesheet" href="/style.css?v={ASSET_V}">
 {ld}
 <script src="/calc.js?v={ASSET_V}" defer></script>
+<script data-goatcounter="https://aidermesparents.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 <a class="skip" href="#contenu">Aller au contenu</a>
@@ -205,6 +208,8 @@ def article(d, pages):
     i2 = [m.end() for m in re.finditer("</section>", corps)]
     if len(i2) >= 3:  # encart d'action après la 2e section
         corps = corps[:i2[1]] + CTA_MILIEU + corps[i2[1]:]
+    if slug in ("apa", "apa/demande", "ehpad-prix-aides"):
+        corps = '<p class="dep-lien">Votre parent vit dans un département précis ? <a href="/apa/departements/">Contacts et prix des EHPAD, département par département →</a></p>' + corps
     if slug in CALC and i2:  # calculateur après la 1re section
         corps = corps[:i2[0]] + f'<div class="calc" data-calc="{CALC[slug]}"><noscript>Activez JavaScript pour utiliser le calculateur.</noscript></div>' + corps[i2[0]:]
     urg = URGENCE.get(slug)
@@ -285,6 +290,36 @@ def rubrique(r, pages, contenus):
     return path, page(titre, desc, path, body, schema, img, r, FOOTER)
 
 
+def page_departement(d):
+    p = DEP.page_dep(d)
+    body = f"""<div class="wrap art">
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <a href="/apa/">APA</a> › <a href="/apa/departements/">Par département</a> › <span>{E(p['nom'])}</span></nav>
+<header class="ahead"><h1>{E(p['h1'])}</h1><p class="chapo">{E(p['chapo'])}</p>
+<ul class="trust"><li>Contacts de l'annuaire officiel</li><li>Prix déclarés à la CNSA</li><li>Guide indépendant et gratuit</li></ul></header>
+<div class="txt">{p['body']}<p class="calc-cta">Votre parent a peut-être droit à d’autres aides : <a href="/quelles-aides/">faites le point en 1 minute</a>.</p>
+<section class="lire"><h2>À lire aussi</h2><ul><li><a href="/apa/">APA : montant et conditions</a></li><li><a href="/apa/demande/">Faire la demande d'APA</a></li><li><a href="/ehpad-prix-aides/">Prix d'un EHPAD et aides</a></li><li><a href="/apa/departements/">L'APA dans les autres départements</a></li></ul></section></div></div>"""
+    schema = [{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Accueil", "item": DOMAIN + "/"},
+                {"@type": "ListItem", "position": 2, "name": "APA", "item": DOMAIN + "/apa/"},
+                {"@type": "ListItem", "position": 3, "name": "Par département", "item": DOMAIN + "/apa/departements/"},
+                {"@type": "ListItem", "position": 4, "name": p["nom"], "item": DOMAIN + p["path"]}]},
+              {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in p["faq"]]}]
+    h = page(p["title"], p["desc"], p["path"], body, schema, "aidant", "aides", FOOTER)
+    if not d.get("ehpad"):  # pas assez de données propres : on ne demande pas l'indexation
+        h = h.replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"')
+    return p["path"], h
+
+
+def hub_departements():
+    items = "".join(f'<li><a href="/apa/{d["slug"]}/"><span class="num">{E(d["code"])}</span> {E(d["nom"])}</a></li>' for d in DEP.DEPS)
+    body = f"""<div class="wrap art"><nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <a href="/apa/">APA</a> › <span>Par département</span></nav>
+<header class="ahead"><h1>L'APA et les EHPAD dans votre département</h1><p class="chapo">Choisissez le département où vit votre parent : vous trouverez la collectivité qui gère l'APA et ses coordonnées, les points d'information pour les personnes âgées, et les prix réels des EHPAD déclarés à la CNSA.</p></header>
+<ul class="deps">{items}</ul>{CTA_FIN}</div>"""
+    path = "/apa/departements/"
+    return path, page("APA par département : contacts et prix des EHPAD (2026)", "Où demander l'APA dans chaque département, contacts officiels, points d'information et prix des EHPAD, département par département.", path, body,
+                      [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "APA par département", "url": DOMAIN + path}], "aidant", "aides", FOOTER)
+
+
 def accueil(pages, contenus):
     cartes = ""
     for r, t, sous in RUBRIQUES:
@@ -304,6 +339,7 @@ def accueil(pages, contenus):
 </div></section>
 <div class="wrap">
 <section class="start" aria-labelledby="h-start"><h2 id="h-start">Par où commencer ?</h2>
+<p class="dep-lien">Contacts et prix des EHPAD près de chez votre parent : <a href="/apa/departements/">choisir son département →</a></p>
 <ol class="steps3">
 <li><b>Évaluer le besoin</b><span>Le niveau d'autonomie (le GIR) décide de presque tout : <a href="/grille-aggir/">comprendre la grille AGGIR</a>.</span></li>
 <li><b>Demander l'aide principale</b><span>Dès le GIR 4, c'est l'APA, versée par le département : <a href="/apa/demande/">monter le dossier</a>.</span></li>
@@ -334,7 +370,7 @@ STATIQUES = {
                             "<h2>Remboursement</h2><p>Si le plan ne vous convient pas, écrivez-nous dans les 14 jours suivant l'achat à <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a> : nous vous remboursons, sans justification.</p>"
                             "<h2>Vendeur</h2><p>Louis Lardeux, entrepreneur individuel, SIREN 999 443 880. Médiation de la consommation : en cas de litige non résolu, vous pouvez recourir gratuitement à un médiateur de la consommation.</p>"),
     "confidentialite": ("Confidentialité | Aider mes parents", "Données personnelles et cookies sur aidermesparents.fr.",
-                        "<h1>Confidentialité</h1><p>Ce site ne dépose aucun cookie publicitaire et ne vous demande aucune donnée pour être consulté.</p><p>La mesure d'audience, si elle est activée, se fait sans cookie et de façon anonyme.</p><p>Pour toute question : <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a>.</p>"),
+                        "<h1>Confidentialité</h1><p>Ce site ne dépose aucun cookie publicitaire et ne vous demande aucune donnée pour être consulté.</p><p>La mesure d'audience est faite avec GoatCounter, sans cookie et de façon anonyme : nous comptons les pages vues et l'usage des calculateurs, sans vous identifier.</p><p>Les réponses aux questionnaires et aux calculateurs restent dans votre navigateur : elles ne nous sont pas envoyées.</p><p>Pour toute question : <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a>.</p>"),
 }
 
 CTA_MILIEU = ('<aside class="cta"><div><p class="ctat">Votre parent a peut-être droit à d’autres aides</p>'
@@ -380,6 +416,10 @@ def main():
     write("/", accueil(pages, contenus)); urls.append(("/", max([c.get("date_verification", LANCEMENT) for c in contenus.values()] or [LANCEMENT])))
     for r, _, _ in RUBRIQUES:
         path, h = rubrique(r, pages, contenus); write(path, h); urls.append((path, max(contenus[x].get("date_verification", LANCEMENT) for x in PAGES if PAGES[x][0] == r and x in contenus)))
+    path, h = hub_departements(); write(path, h); urls.append((path, LANCEMENT))
+    for d in DEP.DEPS:
+        path, h = page_departement(d); write(path, h)
+        if d.get("ehpad"): urls.append((path, LANCEMENT))
     for s in PAGES:
         if s in contenus:
             path, h = article(contenus[s], pages); write(path, h); urls.append((path, contenus[s].get("date_verification", LANCEMENT)))
