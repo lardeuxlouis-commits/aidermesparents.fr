@@ -1,0 +1,204 @@
+{
+  "slug": "habilitation-familiale",
+  "title": "Habilitation familiale : conditions, procédure et coût",
+  "description": "Protéger un parent qui ne peut plus décider seul sans tutelle : qui peut être habilité, démarches devant le juge, certificat médical à 192 €.",
+  "h1": "Habilitation familiale : protéger un parent âgé sans tutelle",
+  "chapo": "L'habilitation familiale permet à un proche (enfant, conjoint, frère ou sœur…) d'être autorisé par le juge à représenter ou assister un parent qui ne peut plus exprimer sa volonté. Elle est gratuite pour l'habilité, dure 10 ans au maximum au départ et évite les comptes rendus annuels de la tutelle. Elle exige un certificat médical circonstancié (192 €) et l'accord de la famille.",
+  "en_bref": [
+    "Un proche est autorisé par le juge à représenter ou assister le parent, sans passer par une tutelle",
+    "Certificat médical circonstancié obligatoire : 192 € TTC, non remboursé par l'Assurance maladie",
+    "Durée : 10 ans maximum au départ, jusqu'à 20 ans si l'état ne peut pas s'améliorer",
+    "Mission exercée gratuitement, sans compte rendu de gestion à rendre au juge chaque année",
+    "Demande au juge des contentieux de la protection, avec le formulaire Cerfa 15891"
+  ],
+  "sections": [
+    {
+      "h2": "Qu'est-ce que l'habilitation familiale ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "C'est une mesure qui permet à un membre de la famille d'être autorisé par le juge à agir pour un proche qui n'est plus en état d'exprimer sa volonté, à cause d'une altération de ses facultés mentales ou physiques (maladie d'Alzheimer, par exemple). Le proche habilité peut **représenter** la personne ou seulement l'**assister**."
+        },
+        {
+          "type": "p",
+          "texte": "Elle peut être **générale** (gestion des biens et décisions courantes) ou **limitée** à certains actes précis, comme la vente d'un bien. Le juge intervient une seule fois, à l'ouverture de la mesure. Ensuite, il n'a plus à suivre la gestion au quotidien, sauf conflit ou acte important."
+        },
+        {
+          "type": "p",
+          "texte": "C'est ce qui la distingue de la [tutelle ou de la curatelle](tutelle-curatelle-parent), qui placent la personne sous un contrôle judiciaire régulier."
+        }
+      ]
+    },
+    {
+      "h2": "Qui peut être habilité et qui peut la demander ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Peuvent être habilités : un parent ou grand-parent, un enfant ou petit-enfant, un frère ou une sœur, le conjoint, le partenaire de PACS ou le concubin (sauf séparation). Ne peuvent pas l'être : un neveu, une nièce, un beau-fils ou une belle-fille, un beau-parent. Plusieurs proches peuvent être habilités ensemble."
+        },
+        {
+          "type": "p",
+          "texte": "La demande peut être faite par la personne à protéger elle-même, par un proche de la famille éligible, ou par le procureur de la République."
+        },
+        {
+          "type": "attention",
+          "texte": "L'habilitation suppose que la famille soit d'accord, ou du moins que les proches ne s'y opposent pas. En cas de conflit familial, ou si le juge estime que la mesure ne suffit pas, il peut orienter vers une tutelle ou une curatelle."
+        }
+      ]
+    },
+    {
+      "h2": "Dans quels cas le juge l'accorde-t-il ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Le juge ne l'accorde que si elle est nécessaire. Trois éléments sont regardés : un certificat médical d'un médecin habilité qui constate l'altération des facultés, l'accord de la famille proche, et le fait que les solutions plus légères ne suffisent pas, par exemple une [procuration bancaire](procuration-bancaire-parent) ou un [mandat de protection future](mandat-protection-future)."
+        },
+        {
+          "type": "p",
+          "texte": "Si le parent est encore en état de choisir, ces outils sont à regarder avant tout, car ils se mettent en place sans juge."
+        }
+      ]
+    },
+    {
+      "h2": "Comment faire la demande, étape par étape ?",
+      "blocs": [
+        {
+          "type": "etapes",
+          "items": [
+            "Prenez contact avec un médecin inscrit sur la liste du procureur de la République. La liste est disponible au greffe du juge des contentieux de la protection de la juridiction où vit votre parent.",
+            "Faites établir le certificat médical circonstancié. Le médecin le remet sous pli fermé, adressé au juge, jamais par voie numérique.",
+            "Remplissez le formulaire Cerfa n°15891 (requête en vue d'une protection juridique d'un majeur).",
+            "Joignez une copie de la pièce d'identité des deux personnes, un extrait d'acte de naissance de moins de 3 mois, et l'exposé de la situation.",
+            "Déposez le dossier au tribunal judiciaire (juge des contentieux de la protection) du lieu de résidence de votre parent.",
+            "Le juge entend la personne à protéger, sauf si son état de santé l'en empêche, puis rend sa décision. La procédure prend au maximum environ un an selon service-public.gouv.fr."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Un avocat n'est pas obligatoire pour déposer la requête. Pour un dossier tendu (désaccord familial, patrimoine important), un conseil juridique reste utile."
+        }
+      ]
+    },
+    {
+      "h2": "Combien coûte une habilitation familiale ?",
+      "blocs": [
+        {
+          "type": "liste",
+          "items": [
+            "Ouverture de la mesure par le juge : gratuite",
+            "Certificat médical circonstancié : **192 € TTC** (160 € hors taxe), non remboursé par l'Assurance maladie, à la charge de la personne à protéger sauf décision contraire du juge",
+            "Mission de l'habilité : gratuite, aucune rémunération",
+            "Frais de déplacement du médecin s'il se rend au domicile : possibles en plus"
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple",
+          "texte": "Votre mère, 84 ans, ne reconnaît plus ses proches. Ses trois enfants sont d'accord pour que vous gériez ses comptes. Coût de départ : 192 € pour le certificat, que sa pension peut régler. Le juge vous habilite pour 10 ans. Vous n'avez pas de compte rendu annuel à déposer."
+        }
+      ]
+    },
+    {
+      "h2": "Quels sont les pouvoirs et les limites de la personne habilitée ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Selon l'étendue fixée par le juge, vous pouvez gérer les comptes, signer des contrats courants, payer les factures, et si le jugement le prévoit, prendre des décisions pour la personne. Pour certains actes, l'autorisation du juge reste nécessaire : donation, acte grave sur le logement principal, renonciation à une succession, situation de conflit d'intérêts."
+        },
+        {
+          "type": "p",
+          "texte": "Vous ne pouvez pas acquérir vous-même un bien de la personne protégée, ni vous porter caution pour elle ou souscrire certains contrats comme une assurance-vie à sa place."
+        },
+        {
+          "type": "attention",
+          "texte": "Pas de compte rendu annuel ne veut pas dire pas de contrôle. Gardez les justificatifs de toutes les dépenses : en cas de litige, le juge peut être saisi par un proche."
+        }
+      ]
+    },
+    {
+      "h2": "Combien de temps dure-t-elle et comment prend-elle fin ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Une habilitation générale dure 10 ans au maximum au départ. Elle peut être renouvelée, pour 10 ans, et jusqu'à 20 ans au total si l'état ne peut pas s'améliorer. Demandez le renouvellement au moins 6 mois avant la fin."
+        },
+        {
+          "type": "p",
+          "texte": "Elle s'arrête au décès, si la personne retrouve ses capacités, si une tutelle, une curatelle ou une sauvegarde de justice est ouverte, ou sur décision du juge."
+        },
+        {
+          "type": "p",
+          "texte": "Si votre parent ne peut plus vivre seul, [d'autres démarches sont à prévoir en parallèle](parent-ne-peut-plus-vivre-seul)."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quelle est la différence entre habilitation familiale et tutelle ?",
+      "r": "Dans les deux cas un juge intervient à l'ouverture. Avec l'habilitation, le proche habilité n'a pas de compte rendu de gestion à rendre chaque année, et le juge n'intervient plus ensuite sauf pour les actes importants ou un conflit. La tutelle reste une mesure judiciaire contrôlée, avec comptes et suivi."
+    },
+    {
+      "q": "L'habilitation familiale est-elle gratuite ?",
+      "r": "L'ouverture par le juge est gratuite et la mission de l'habilité n'est pas rémunérée. Reste le certificat médical circonstancié à 192 € TTC, non remboursé par l'Assurance maladie."
+    },
+    {
+      "q": "Peut-on demander une habilitation familiale si un frère ou une sœur s'y oppose ?",
+      "r": "C'est difficile. La mesure repose sur l'accord de la famille proche ou l'absence d'opposition. En cas de désaccord, le juge peut préférer une tutelle ou une curatelle. Un avocat peut vous conseiller dans ce cas."
+    },
+    {
+      "q": "Faut-il un avocat pour l'habilitation familiale ?",
+      "r": "Non, vous pouvez déposer vous-même la requête (Cerfa 15891) auprès du juge des contentieux de la protection. Un avocat peut aider si la famille est divisée ou si le patrimoine est important."
+    },
+    {
+      "q": "Peut-on habiliter un neveu ou un beau-fils ?",
+      "r": "Non. Neveux, nièces, beaux-enfants et beaux-parents ne peuvent pas être habilités. La liste comprend ascendants, descendants, frères et sœurs, conjoint, partenaire de PACS et concubin."
+    },
+    {
+      "q": "Que se passe-t-il à la fin de l'habilitation ?",
+      "r": "Au décès, ou si la personne retrouve ses capacités, ou si elle est placée sous tutelle, curatelle ou sauvegarde de justice. Pour une habilitation arrivée à son terme, le renouvellement se demande au moins 6 mois avant."
+    }
+  ],
+  "liens_internes": [
+    {
+      "slug": "tutelle-curatelle-parent",
+      "ancre": "tutelle ou curatelle"
+    },
+    {
+      "slug": "mandat-protection-future",
+      "ancre": "mandat de protection future"
+    },
+    {
+      "slug": "procuration-bancaire-parent",
+      "ancre": "procuration bancaire"
+    },
+    {
+      "slug": "parent-ne-peut-plus-vivre-seul",
+      "ancre": "parent qui ne peut plus vivre seul"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.justice.fr/fiche/habilitation-familiale",
+      "titre": "justice.fr, Habilitation familiale"
+    },
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33367",
+      "titre": "service-public.gouv.fr, Habilitation familiale"
+    },
+    {
+      "url": "https://www.justice.fr/fiche/cout-dune-tutelle-dune-curatelle-dune-habilitation-familiale-dune-sauvegarde-justice-dune-personne-majeure",
+      "titre": "justice.fr, Coût des mesures de protection"
+    },
+    {
+      "url": "https://www.justice.fr/fiche/tutelle-curatelle-habilitation-familiale-sauvegarde-justice-obtenir-certificat-medical",
+      "titre": "justice.fr, Certificat médical"
+    }
+  ],
+  "a_verifier": [
+    "Durée exacte de la procédure (service-public indique au plus un an, délais réels variables selon les tribunaux)",
+    "Liste exacte des pièces à joindre au Cerfa 15891 selon la notice en vigueur",
+    "Date de dernière actualisation du tarif de 192 € du certificat médical"
+  ],
+  "date_verification": "2026-11-11"
+}

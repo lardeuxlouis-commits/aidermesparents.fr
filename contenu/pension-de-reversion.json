@@ -1,0 +1,113 @@
+{
+  "slug": "pension-de-reversion",
+  "title": "Pension de réversion 2026 : conditions, montant, demande",
+  "description": "Pension de réversion : 54 % de la retraite de base (régime général), 60 % à l'Agirc-Arrco. Plafond 2026, âge, ex-conjoint, demande unique en ligne.",
+  "h1": "Pension de réversion : conditions, montant et demande",
+  "chapo": "La pension de réversion verse une partie de la retraite du conjoint décédé à celui qui reste. Il faut avoir été marié et avoir au moins 55 ans. Au régime général, elle atteint 54 % de la retraite de base du défunt, sous un plafond de ressources de 25 001,60 € par an pour une personne seule. À l'Agirc-Arrco, c'est 60 %, sans condition de ressources. La demande n'est pas automatique.",
+  "en_bref": [
+    "Il faut avoir été marié avec la personne décédée : le Pacs et le concubinage n'ouvrent pas de droit.",
+    "Âge minimum : 55 ans (la plupart des régimes).",
+    "Régime général : 54 % de la retraite de base du défunt, si vos ressources annuelles restent sous 25 001,60 € (seul) ou 40 002,56 € (en couple).",
+    "Retraite complémentaire Agirc-Arrco : 60 % des points du défunt, sans condition de ressources.",
+    "Une seule demande en ligne sur info-retraite.fr suffit pour contacter tous les régimes. Faites-la dans l'année qui suit le décès pour être payé dès le mois suivant."
+  ],
+  "sections": [
+    {
+      "h2": "Qui peut toucher une pension de réversion ?",
+      "blocs": [
+        {"type": "p", "texte": "La règle de base est simple : vous devez **avoir été marié** avec la personne décédée. Le Pacs et le concubinage ne donnent aucun droit à la réversion, quelle que soit la durée de la vie commune."},
+        {"type": "p", "texte": "Les ex-conjoints sont aussi concernés. Un époux divorcé peut toucher la pension, même s'il vit de nouveau en couple au moment du décès. Si le défunt s'était remarié, la pension du régime général est partagée entre le conjoint survivant et les ex-conjoints, au prorata de la durée de chaque mariage. Quand l'un des bénéficiaires décède, sa part s'ajoute à celle des autres."},
+        {"type": "p", "texte": "Côté âge, la plupart des régimes demandent d'avoir au moins 55 ans. Si vous êtes veuf ou veuve avant 55 ans, une aide temporaire existe : voir [l'allocation veuvage](allocation-veuvage)."},
+        {"type": "attention", "texte": "Les parents qui lisent ceci pour un père ou une mère : ce droit appartient au conjoint survivant, pas aux enfants. Les enfants ne touchent pas de réversion, mais peuvent aider leur parent à faire la demande."}
+      ]
+    },
+    {
+      "h2": "Quel est le montant de la pension de réversion en 2026 ?",
+      "blocs": [
+        {"type": "p", "texte": "Le montant dépend du régime auquel cotisait le défunt. Un salarié du privé a souvent deux retraites, donc deux réversions à demander."},
+        {"type": "tableau", "entetes": ["Régime", "Taux", "Condition de ressources"], "lignes": [
+          ["Régime général (retraite de base, salariés du privé)", "54 % de la retraite de base du défunt", "Oui : 25 001,60 € par an (seul) ou 40 002,56 € (couple)"],
+          ["Agirc-Arrco (retraite complémentaire)", "60 % des droits du défunt", "Non"],
+          ["Fonction publique", "50 % de la retraite", "Selon le régime, à vérifier auprès de la caisse"],
+          ["MSA (agricole), base", "54 % de la retraite de base", "Oui, comme au régime général"]
+        ]},
+        {"type": "p", "texte": "Au régime général, le minimum est de **334,92 € par mois** en 2026 si le défunt avait au moins 15 ans de cotisation. Si vous avez au moins 67 ans et que le total de toutes vos pensions (retraites et réversions) ne dépasse pas 3 020,07 € par trimestre, une majoration de 11,1 % s'applique. Une majoration de 10 % est aussi prévue si vous avez élevé au moins trois enfants."},
+        {"type": "exemple", "titre": "Exemple", "texte": "Votre père touchait 1 200 € de retraite de base par mois. Votre mère, veuve, peut prétendre à 54 % de ce montant, soit 648 € par mois, si ses ressources restent sous le plafond. À cela s'ajoute la réversion Agirc-Arrco, calculée à 60 % des points de complémentaire de votre père."},
+        {"type": "attention", "texte": "La pension de réversion est soumise à la CSG, à la CRDS et à la Casa (contribution de solidarité pour l'autonomie). Le montant versé peut donc être un peu inférieur au montant calculé."}
+      ]
+    },
+    {
+      "h2": "Quel plafond de ressources et que compte-t-on ?",
+      "blocs": [
+        {"type": "p", "texte": "La condition de ressources concerne le régime de base (régime général, MSA, fonction publique selon les cas). Les plafonds annuels bruts en 2026 sont de **25 001,60 € pour une personne seule** et de **40 002,56 € pour un couple**. La retraite complémentaire Agirc-Arrco n'en a pas."},
+        {"type": "p", "texte": "On additionne vos ressources personnelles : vos propres retraites, vos revenus du patrimoine, etc. Les revenus d'activité ne comptent qu'à hauteur de 70 %. Ne comptent pas : les revenus du conjoint décédé, les pensions de réversion des retraites complémentaires et les revenus des biens que vous avez reçus grâce aux droits du défunt."},
+        {"type": "p", "texte": "Les ressources regardées sont celles des trois mois civils précédant la date d'effet de la pension. Si elles dépassent un quart du plafond, on prend les 12 derniers mois. Au-delà du plafond, la pension est réduite d'autant, elle ne disparaît pas d'un coup. Elle peut être revue à la hausse ou à la baisse si vos ressources changent."},
+        {"type": "exemple", "titre": "Exemple", "texte": "Votre mère vit seule et reçoit 1 900 € de retraite par mois, soit 22 800 € par an. Elle est à 2 201,60 € sous le plafond de 25 001,60 €. La réversion calculée à 648 € par mois (7 776 € par an) dépasserait ce plafond : elle sera donc réduite pour que le total ne dépasse pas 25 001,60 €. Elle toucherait environ 2 201,60 € par an, soit 183,47 € par mois, avant prélèvements. Ce calcul est une illustration : la caisse fait le calcul exact."}
+      ]
+    },
+    {
+      "h2": "Comment faire la demande de réversion ?",
+      "blocs": [
+        {"type": "p", "texte": "La pension n'est **jamais versée automatiquement**. Depuis mars 2026, la démarche est simplifiée : une demande unique permet de contacter tous les régimes en une fois, via le site info-retraite.fr, avec FranceConnect. Un formulaire prérempli (état civil, revenus connus de l'administration) peut aussi être envoyé : il faut le demander à l'Assurance retraite au 39 60. Le formulaire papier reste possible."},
+        {"type": "etapes", "items": [
+          "Rassemblez : acte de décès, pièce d'identité, avis d'imposition, RIB, acte de naissance du défunt et le vôtre (avec mentions en marge, pour vérifier les mariages et l'absence de remariage).",
+          "Connectez-vous sur info-retraite.fr (FranceConnect) et lancez la demande unique de réversion, ou demandez le formulaire prérempli au 39 60.",
+          "Indiquez vos ressources et envoyez les justificatifs demandés.",
+          "Signalez ensuite tout changement de situation (remariage, nouvelles ressources)."
+        ]},
+        {"type": "p", "texte": "Pour savoir à l'avance si vous avez droit à quelque chose, le simulateur de réversion d'info-retraite.fr donne une estimation."}
+      ]
+    },
+    {
+      "h2": "Dans quel délai faut-il demander, et à partir de quand est-on payé ?",
+      "blocs": [
+        {"type": "p", "texte": "Le moment de la demande compte. Si vous demandez **dans l'année qui suit le décès**, la pension peut démarrer le premier jour du mois qui suit le décès. Sinon, elle part plus tard, à une date qui dépend de la date de votre demande. Elle ne peut pas commencer avant le premier jour du mois qui suit vos 55 ans."},
+        {"type": "p", "texte": "Au régime général, l'absence de réponse pendant plus de 4 mois vaut refus. Vous pouvez alors contester la décision."},
+        {"type": "attention", "texte": "Ne laissez pas traîner. Un parent en deuil oublie souvent cette démarche : chaque mois de retard après la première année est un mois non rattrapé."}
+      ]
+    },
+    {
+      "h2": "Et si le conjoint survivant se remarie ou vit de nouveau en couple ?",
+      "blocs": [
+        {"type": "p", "texte": "À l'Agirc-Arrco, la pension de réversion s'arrête définitivement en cas de remariage, et elle ne peut pas être rétablie ensuite. Une attestation de non-remariage doit être renvoyée régulièrement : tous les 4 ans si vous vivez en France, chaque année si vous vivez à l'étranger. Si elle n'est pas retournée dans les 3 mois qui suivent sa réception, le paiement est suspendu."},
+        {"type": "p", "texte": "Ce qui compte pour la retraite complémentaire est le mariage : le Pacs et le concubinage ne sont pas mentionnés comme motif d'arrêt dans les pages que nous avons lues. Vérifiez votre cas auprès de la caisse avant de modifier votre situation."}
+      ]
+    },
+    {
+      "h2": "Que faire si la réversion ne suffit pas ?",
+      "blocs": [
+        {"type": "p", "texte": "Si les revenus du parent restent très bas, le minimum vieillesse peut compléter : voir [l'ASPA](aspa). Si le parent perd en autonomie, [l'APA](apa) est ouverte à partir de 60 ans, sans condition de ressources pour y avoir droit."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Le concubin ou le partenaire de Pacs a-t-il droit à la pension de réversion ?", "r": "Non. Il faut avoir été marié avec la personne décédée. Le Pacs et le concubinage n'ouvrent aucun droit à la réversion, quelle que soit la durée de la vie commune."},
+    {"q": "Une ex-épouse divorcée a-t-elle droit à la pension de réversion ?", "r": "Oui, un époux divorcé peut en bénéficier, même s'il vit de nouveau en couple au moment du décès. Au régime général, si le défunt s'était remarié, la pension est partagée au prorata de la durée de chaque mariage. À l'Agirc-Arrco, l'ex-conjoint ne doit pas être remarié."},
+    {"q": "À quel âge peut-on toucher la pension de réversion ?", "r": "À partir de 55 ans pour la plupart des régimes. Avant 55 ans, une aide temporaire, l'allocation veuvage, peut exister sous conditions."},
+    {"q": "La pension de réversion est-elle imposable ?", "r": "Elle est soumise à la CSG, à la CRDS et à la Casa. Pour l'impôt sur le revenu, elle s'ajoute à vos autres pensions : vérifiez sur impots.gouv.fr, nous n'avons pas détaillé ce point ici."},
+    {"q": "Peut-on cumuler la réversion avec sa propre retraite ?", "r": "Oui. Au régime général, votre propre retraite compte dans les ressources : si le total dépasse le plafond de 25 001,60 € par an (seul), la réversion est réduite. À l'Agirc-Arrco, il n'y a pas de condition de ressources."},
+    {"q": "La pension de réversion est-elle versée automatiquement après le décès ?", "r": "Non. Il faut en faire la demande. Dans l'année qui suit le décès, elle peut démarrer dès le mois suivant ce décès."}
+  ],
+  "liens_internes": [
+    {"slug": "allocation-veuvage", "ancre": "allocation veuvage avant 55 ans"},
+    {"slug": "aspa", "ancre": "minimum vieillesse (ASPA)"},
+    {"slug": "apa", "ancre": "allocation personnalisée d'autonomie"}
+  ],
+  "sources": [
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13104", "titre": "Pension de réversion de l'Assurance retraite (service-public.gouv.fr)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/actualites/A19103", "titre": "Retraite de réversion : la procédure est simplifiée (service-public.gouv.fr)"},
+    {"url": "https://www.info-retraite.fr/portail-info/sites/PortailInformationnel/home/votre-demande-de-reversion--info.html", "titre": "Les conditions de ressources de la demande de réversion (info-retraite.fr)"},
+    {"url": "https://www.info-retraite.fr/portail-info/sites/PortailInformationnel/home/mes-droits-a-la-retraite/ma-vie-personnelle-1/famille/pension-de-reversion-1.html", "titre": "Réversion (info-retraite.fr)"},
+    {"url": "https://reglementation.agirc-arrco.fr/home/liste-fiche-reglementaires/listes-area/liste-de-fiches-reglementaires/reversion-des-conjoints.html", "titre": "Réversion des conjoints (Agirc-Arrco)"},
+    {"url": "https://www.agirc-arrco.fr/mes-services-particuliers/les-experts-retraite/parole-experts/ma-reversion-peut-elle-etre-suspendue/", "titre": "Ma réversion peut-elle être suspendue ? (Agirc-Arrco)"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Écart entre sources : des sites non officiels annoncent 25 056 € et 40 090 € pour 2026 ; service-public.gouv.fr, info-retraite.fr et la circulaire Cnav donnent 25 001,60 € et 40 002,56 €, retenus ici.",
+    "Taux fonction publique (50 %) et MSA (54 %) lus dans un résumé d'info-retraite.fr, conditions détaillées non relues dans la source de chaque régime.",
+    "Majoration de 10 % pour trois enfants : mentionnée dans un résumé de service-public.gouv.fr, conditions exactes non relues.",
+    "Effet du Pacs ou du concubinage après réversion Agirc-Arrco et fiscalité détaillée (impôt sur le revenu) non confirmés.",
+    "Date exacte de départ de la pension quand la demande dépasse un an après le décès non confirmée.",
+    "Les pages Agirc-Arrco 'agirc-arrco.fr/particuliers/retraite-reversion' et la fiche service-public F349 renvoient 404 ; le site reglementation.agirc-arrco.fr a été lu via les résultats de recherche (certificat non vérifiable en direct)."
+  ]
+}

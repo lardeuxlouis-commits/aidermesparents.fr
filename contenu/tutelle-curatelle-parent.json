@@ -1,0 +1,210 @@
+{
+  "slug": "tutelle-curatelle-parent",
+  "title": "Tutelle et curatelle d'un parent âgé : démarches et coût",
+  "description": "Sauvegarde de justice, curatelle ou tutelle : les différences, qui peut demander, certificat médical à 192 €, rôle du juge et du tuteur.",
+  "h1": "Tutelle ou curatelle d'un parent âgé : démarches et coût",
+  "chapo": "La sauvegarde de justice, la curatelle et la tutelle sont les trois mesures par lesquelles un juge protège un adulte dont les facultés sont altérées. Un enfant peut en faire la demande au juge des contentieux de la protection avec un certificat médical circonstancié (192 €). La tutelle ou la curatelle dure 5 ans au départ, renouvelable. La gestion par un proche est gratuite.",
+  "en_bref": [
+    "Sauvegarde de justice (1 an renouvelable une fois), curatelle (assistance), tutelle (représentation)",
+    "Tutelle et curatelle : 5 ans au départ, renouvelables, jusqu'à 20 ans si l'état ne peut pas s'améliorer",
+    "Demande au juge des contentieux de la protection avec le Cerfa 15891 et un certificat médical à 192 €",
+    "Un proche tuteur ou curateur est bénévole, un mandataire judiciaire est payé selon les revenus de la personne protégée",
+    "L'habilitation familiale ou le mandat de protection future sont des alternatives plus légères"
+  ],
+  "sections": [
+    {
+      "h2": "Quelle différence entre sauvegarde de justice, curatelle et tutelle ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "entetes": [
+            "Mesure",
+            "Ce qu'elle change",
+            "Durée"
+          ],
+          "lignes": [
+            [
+              "Sauvegarde de justice",
+              "Mesure urgente ou temporaire. La personne gère ses affaires, un mandataire spécial peut être désigné pour un acte précis",
+              "1 an, renouvelable une fois"
+            ],
+            [
+              "Curatelle",
+              "La personne est assistée par un curateur pour les actes importants (vente d'un bien, emprunt)",
+              "5 ans au départ, renouvelable"
+            ],
+            [
+              "Tutelle",
+              "Le tuteur représente la personne pour la quasi-totalité des actes civils",
+              "5 ans au départ (10 ans exceptionnellement avec avis médical), renouvelable"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Le juge choisit la mesure selon le degré d'altération des facultés. Il doit retenir la plus légère qui suffit. Avant de saisir le juge, regardez l'[habilitation familiale](habilitation-familiale) si la famille est d'accord, ou le [mandat de protection future](mandat-protection-future) si votre parent peut encore le signer."
+        }
+      ]
+    },
+    {
+      "h2": "Que change concrètement la curatelle ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Trois formes existent. En **curatelle simple**, la personne gère le quotidien seule et le curateur l'assiste pour les actes graves (emprunter, vendre). En **curatelle renforcée**, le curateur gère aussi les comptes et les dépenses. En **curatelle aménagée**, le juge liste précisément les actes pour lesquels l'assistance est nécessaire."
+        },
+        {
+          "type": "p",
+          "texte": "La personne continue de choisir son lieu de vie et garde ses relations personnelles. Elle reste informée de sa situation par le curateur."
+        }
+      ]
+    },
+    {
+      "h2": "Que change la tutelle ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Le tuteur remplace la personne pour les actes de la vie civile, notamment la gestion du patrimoine. Il doit lui expliquer sa situation et chercher son avis dans la mesure du possible. Certains actes lui sont interdits même avec l'accord du juge : acheter les biens de la personne, faire des donations, se porter caution."
+        },
+        {
+          "type": "attention",
+          "texte": "Pour les actes les plus graves (vente du logement, par exemple), l'autorisation du juge est requise. Le tuteur rend des comptes sur sa gestion."
+        }
+      ]
+    },
+    {
+      "h2": "Qui peut demander une tutelle ou une curatelle ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "La demande peut venir de la personne elle-même, de son conjoint, de ses enfants et autres proches, d'une personne avec qui elle a des liens étroits et stables, de son tuteur ou curateur actuel, ou du procureur de la République. Un médecin ou un travailleur social peut signaler la situation au procureur."
+        },
+        {
+          "type": "p",
+          "texte": "Le juge compétent est le juge des contentieux de la protection du tribunal judiciaire du lieu de résidence de la personne."
+        }
+      ]
+    },
+    {
+      "h2": "Comment faire la demande ?",
+      "blocs": [
+        {
+          "type": "etapes",
+          "items": [
+            "Faites établir un certificat médical circonstancié par un médecin inscrit sur la liste du procureur (liste au greffe du tribunal).",
+            "Remplissez le formulaire Cerfa 15891 : requête en vue d'une protection juridique d'un majeur.",
+            "Joignez le certificat, une copie de la pièce d'identité, un extrait d'acte de naissance de moins de 3 mois et la description de la situation.",
+            "Déposez le dossier au tribunal du lieu de résidence de votre parent.",
+            "Le juge convoque et entend la personne, puis désigne le ou les protecteurs et fixe la mesure."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Le certificat est remis sous pli fermé, adressé au juge. Il ne se transmet pas par voie numérique."
+        }
+      ]
+    },
+    {
+      "h2": "Qui sera tuteur ou curateur : un proche ou un professionnel ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Le juge peut désigner le conjoint, le partenaire de PACS, un proche ou un mandataire judiciaire à la protection des majeurs (professionnel). Un soignant de la personne ne peut pas être désigné, ni une personne elle-même protégée."
+        },
+        {
+          "type": "p",
+          "texte": "Si plusieurs enfants sont d'accord, un seul peut être nommé. Si la famille est divisée, ou s'il n'y a personne de disponible, le juge se tourne vers un professionnel."
+        }
+      ]
+    },
+    {
+      "h2": "Combien coûte une mesure de protection ?",
+      "blocs": [
+        {
+          "type": "liste",
+          "items": [
+            "Ouverture de la mesure par le juge : gratuite",
+            "Certificat médical circonstancié : **192 € TTC**, non remboursé par l'Assurance maladie, à la charge de la personne à protéger sauf décision contraire du juge",
+            "Proche tuteur ou curateur : bénévole, le juge peut autoriser une indemnité selon le patrimoine ou la difficulté de la mission",
+            "Mandataire judiciaire : participation de la personne protégée calculée sur ses revenus de l'année précédente, nulle sous une première tranche de revenus (12 499 € par an selon justice.fr)",
+            "Si les ressources sont inférieures à l'AAH, la collectivité finance la rémunération du professionnel",
+            "Vérification des comptes de gestion par un professionnel : de 30 € (forfait) à 7 200 € TTC maximum selon revenus et patrimoine"
+          ]
+        },
+        {
+          "type": "exemple",
+          "titre": "Exemple",
+          "texte": "Votre père est sous tutelle gérée par vous. Vous ne touchez rien. Si le juge nomme un mandataire professionnel et que votre père perçoit moins de 12 499 € par an, il ne paie pas la participation. Au-delà, un pourcentage s'applique par tranche, jusqu'à un plafond annuel."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quelle différence entre tutelle et curatelle ?",
+      "r": "En curatelle, la personne agit elle-même et le curateur l'assiste pour les actes importants. En tutelle, le tuteur la représente pour quasiment tous les actes. La tutelle est la mesure la plus restrictive."
+    },
+    {
+      "q": "Un enfant peut-il demander la tutelle de son père ou de sa mère ?",
+      "r": "Oui. Les enfants font partie des proches qui peuvent saisir le juge des contentieux de la protection, avec un certificat médical circonstancié et le Cerfa 15891."
+    },
+    {
+      "q": "Combien de temps dure une tutelle ou une curatelle ?",
+      "r": "5 ans au départ, renouvelable. Elle peut aller jusqu'à 20 ans au total si l'altération paraît irréversible. La tutelle peut exceptionnellement être fixée à 10 ans d'emblée avec avis médical."
+    },
+    {
+      "q": "Peut-on devenir tuteur de son parent sans être payé ?",
+      "r": "Oui, c'est le cas général. La gestion par un proche est bénévole. Le juge peut seulement autoriser une indemnité selon l'importance du patrimoine ou la difficulté de la mission."
+    },
+    {
+      "q": "Quand choisir la sauvegarde de justice ?",
+      "r": "Pour une protection rapide et temporaire, par exemple le temps qu'une demande de tutelle ou de curatelle soit instruite. Elle dure 1 an, renouvelable une fois."
+    },
+    {
+      "q": "La personne sous tutelle ou curatelle perd-elle tous ses droits ?",
+      "r": "Non. La mesure doit être proportionnée. La personne est informée, son avis est recherché et elle garde ses droits personnels, notamment le choix de son lieu de vie et ses relations."
+    }
+  ],
+  "liens_internes": [
+    {
+      "slug": "habilitation-familiale",
+      "ancre": "habilitation familiale"
+    },
+    {
+      "slug": "mandat-protection-future",
+      "ancre": "mandat de protection future"
+    },
+    {
+      "slug": "procuration-bancaire-parent",
+      "ancre": "procuration bancaire"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10424",
+      "titre": "service-public.gouv.fr, Tutelle, curatelle, sauvegarde de justice"
+    },
+    {
+      "url": "https://www.justice.fr/fiche/tutelle-majeur",
+      "titre": "justice.fr, Tutelle d'un majeur"
+    },
+    {
+      "url": "https://www.justice.fr/fiche/curatelle-personne-majeure",
+      "titre": "justice.fr, Curatelle d'une personne majeure"
+    },
+    {
+      "url": "https://www.justice.fr/fiche/tutelle-curatelle-sauvegarde-justice-majeur-differences",
+      "titre": "justice.fr, Différences entre les mesures"
+    },
+    {
+      "url": "https://www.justice.fr/fiche/cout-dune-tutelle-dune-curatelle-dune-habilitation-familiale-dune-sauvegarde-justice-dune-personne-majeure",
+      "titre": "justice.fr, Coût des mesures"
+    }
+  ],
+  "a_verifier": [
+    "Barème complet de participation au mandataire professionnel (tranches et pourcentages, la page résumée comportait des incohérences) et année de référence",
+    "Montant du plafond annuel (10 651,78 € cité) à reconfirmer",
+    "Droit de vote et de mariage sous tutelle ou curatelle : non repris faute de lecture claire de la source"
+  ],
+  "date_verification": "2026-11-11"
+}

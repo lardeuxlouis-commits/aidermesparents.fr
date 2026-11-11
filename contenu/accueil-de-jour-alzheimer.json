@@ -1,0 +1,92 @@
+{
+  "slug": "accueil-de-jour-alzheimer",
+  "title": "Accueil de jour Alzheimer : prix, aides et inscription",
+  "description": "Accueil de jour pour un proche Alzheimer : prix fixé par le département, transport, APA et droit au répit jusqu'à 583,52 € par an, comment s'inscrire.",
+  "h1": "Accueil de jour Alzheimer : prix, aides et fonctionnement",
+  "chapo": "L'accueil de jour reçoit une personne atteinte d'Alzheimer ou d'une maladie apparentée une ou plusieurs journées par semaine, dans une structure spécialisée, pendant que ses proches souffle. Le prix à la journée est fixé chaque année par le département. L'APA peut le financer, et le droit au répit ajoute jusqu'à 583,52 € par an (2026).",
+  "en_bref": [
+    "Une ou plusieurs journées par semaine, avec des activités adaptées et un repas sur place.",
+    "Prix à la journée fixé chaque année par le conseil départemental pour chaque structure : il varie d'un lieu à l'autre.",
+    "Transport : la structure l'organise, sinon un forfait transport est versé à la famille ou déduit du tarif.",
+    "APA : finance l'accueil de jour. Droit au répit : jusqu'à 583,52 € par an (2026) en plus des plafonds de l'APA.",
+    "Inscription : contacter la structure, remplir un dossier d'admission, souvent après un diagnostic en consultation mémoire."
+  ],
+  "sections": [
+    {
+      "h2": "À qui s'adresse l'accueil de jour, et à quoi sert-il ?",
+      "blocs": [
+        {"type": "p", "texte": "L'accueil de jour s'adresse principalement aux personnes âgées atteintes de la maladie d'Alzheimer ou de maladies apparentées. Certains accueils reçoivent aussi des personnes atteintes d'autres maladies neurodégénératives comme Parkinson, ou des personnes en perte d'autonomie physique. La personne continue à vivre chez elle, et vient une à plusieurs journées par semaine."},
+        {"type": "p", "texte": "Pour la personne accueillie, l'objectif est d'entretenir ses capacités grâce à des activités adaptées, de bénéficier d'un suivi régulier, de renouer des liens et de sortir de chez elle. Pour les proches, c'est du temps libéré dans la journée, la possibilité d'échanger avec des professionnels et avec d'autres familles qui vivent la même situation."}
+      ]
+    },
+    {
+      "h2": "Comment se passe une journée en accueil de jour ?",
+      "blocs": [
+        {"type": "p", "texte": "L'accueil de jour est proposé soit par des structures autonomes, entièrement dédiées à ce service, soit par des EHPAD qui disposent d'un espace spécifique. Une équipe de professionnels de différentes spécialités encadre les activités : stimulation physique, sensorielle et cognitive, actions sur la nutrition et le bien-être."},
+        {"type": "p", "texte": "L'accueil fonctionne toute la journée. Certaines structures proposent aussi la demi-journée. Dans les deux cas, les personnes déjeunent sur place quand elles sont présentes à midi."}
+      ]
+    },
+    {
+      "h2": "Quel est le prix d'une journée en accueil de jour ?",
+      "blocs": [
+        {"type": "p", "texte": "Il n'y a pas de tarif national. Le prix à la journée est fixé chaque année par le conseil départemental pour chaque structure. Il varie donc selon le département et l'établissement : demandez le tarif en vigueur à la structure, avant toute inscription, ainsi que ce qui est inclus (repas, activités, transport)."},
+        {"type": "p", "texte": "Le transport est organisé par la structure si elle en propose un. Si ce n'est pas le cas, un forfait transport est versé à la famille ou déduit du tarif journalier, dans la limite du plafond de forfait journalier de frais de transport fixé chaque année."},
+        {"type": "attention", "texte": "Le tarif peut être complété d'un supplément demandé par la structure. Posez la question clairement : « Quel est mon reste à charge par journée, transport compris ? »"}
+      ]
+    },
+    {
+      "h2": "Comment l'APA et le droit au répit financent l'accueil de jour ?",
+      "blocs": [
+        {"type": "p", "texte": "L'APA à domicile peut servir à financer l'accueil de jour : il s'inscrit dans le plan d'aide au même titre que l'aide à domicile. La personne qui touche l'APA et qui a une participation à régler la paie aussi sur ces dépenses. Pour comprendre les plafonds et les participations, voyez la page [APA](apa)."},
+        {"type": "p", "texte": "Le **droit au répit** concerne les proches aidants de bénéficiaires de l'APA, qui assurent une présence ou une aide indispensable à la vie à domicile et qui ne peuvent pas être remplacés par une autre personne de l'entourage. Dans ce cadre, l'accueil de jour peut être financé jusqu'à **583,52 € par an (en 2026)**, au-delà des plafonds de l'APA. Une participation s'applique dans les mêmes conditions que pour le plan d'aide, et la structure peut demander un complément."},
+        {"type": "p", "texte": "Les besoins de repos du proche aidant sont évalués lors de la visite d'évaluation à domicile, pour une première demande d'APA ou lors d'un réexamen du plan d'aide. Vous pouvez aussi demander à l'équipe médico-sociale de l'APA de prendre en compte votre besoin de repos. Les autres droits de l'aidant sont dans la page [aidant familial](aidant-familial)."},
+        {"type": "exemple", "titre": "Exemple (prix inventé pour le calcul)", "texte": "Imaginons un accueil de jour à 30 € la journée, tarif choisi uniquement pour illustrer. Avec 583,52 € de droit au répit sur l'année, on peut financer 19 journées (583,52 ÷ 30 ≈ 19,4). Si votre proche y va deux jours par semaine, cela couvre environ 9 à 10 semaines, avant d'utiliser le plan d'aide APA. Le tarif réel de votre département sera différent : demandez-le."}
+      ]
+    },
+    {
+      "h2": "Quelles autres aides pour réduire le reste à charge ?",
+      "blocs": [
+        {"type": "p", "texte": "Le coût restant peut être en partie financé par la caisse de retraite, la mutuelle, une assurance, ou certaines communes dans le cadre d'aides extralégales. Renseignez-vous auprès de chaque organisme : la caisse de retraite, la mutuelle, l'assureur et la mairie ou le CCAS. Pour les aides de la caisse de retraite, voyez la page sur l'[aide ménagère de la caisse de retraite](aide-menagere-caisse-retraite)."},
+        {"type": "p", "texte": "Les plateformes d'accompagnement et de répit font partie des organismes que le portail officiel recommande de contacter pour les proches aidants."}
+      ]
+    },
+    {
+      "h2": "Comment trouver une place et inscrire son proche ?",
+      "blocs": [
+        {"type": "etapes", "items": [
+          "Faites établir le diagnostic. Pour une maladie d'Alzheimer ou apparentée, une consultation dans une consultation mémoire ou chez un neurologue est souvent conseillée. Le bilan du médecin facilite l'orientation.",
+          "Cherchez une structure. L'annuaire de pour-les-personnes-agees.gouv.fr permet de filtrer sur « accueil de jour ». Le point d'information local dédié aux personnes âgées peut aussi vous orienter.",
+          "Contactez la structure, visitez-la avec votre proche si possible, et demandez un dossier d'admission.",
+          "Demandez le prix à la journée, le transport et le rythme possible (nombre de jours par semaine).",
+          "Si votre proche touche l'APA, signalez le projet à l'équipe du département pour qu'il soit inscrit au plan d'aide. S'il ne l'a pas encore, voyez la [demande d'APA](apa/demande)."
+        ]}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "L'accueil de jour est-il remboursé par la Sécurité sociale ?", "r": "Nous n'avons pas trouvé de remboursement par l'Assurance maladie sur les sources officielles consultées. Le financement passe surtout par l'APA, avec le droit au répit pour l'aidant, complété par la caisse de retraite, la mutuelle, une assurance ou la commune. Demandez à la structure le détail de ce qui est facturé."},
+    {"q": "Peut-on y aller une demi-journée seulement ?", "r": "Certains accueils de jour proposent la demi-journée, d'autres uniquement la journée. Demandez-le à la structure : les personnes déjeunent sur place quand elles sont présentes à midi."},
+    {"q": "Mon proche doit-il avoir un diagnostic pour y entrer ?", "r": "Pour une maladie d'Alzheimer ou apparentée, il est souvent conseillé de passer par une consultation mémoire ou un neurologue, car le bilan facilite l'orientation. La structure précise les pièces demandées dans son dossier d'admission."},
+    {"q": "Mon proche n'a pas l'APA : peut-il quand même aller en accueil de jour ?", "r": "Oui, il peut s'inscrire et payer le tarif, éventuellement aidé par sa caisse de retraite ou sa mutuelle. Le droit au répit de 583,52 € par an ne concerne en revanche que les aidants de bénéficiaires de l'APA."},
+    {"q": "Qui organise le transport jusqu'à l'accueil de jour ?", "r": "La structure peut organiser le transport. Sinon, un forfait transport est versé à la famille ou déduit du tarif journalier, dans la limite d'un plafond fixé chaque année."},
+    {"q": "Quelle différence avec l'hébergement temporaire ?", "r": "L'accueil de jour reçoit la personne dans la journée, elle rentre dormir chez elle. L'hébergement temporaire, en EHPAD par exemple, accueille la personne jour et nuit pour une durée limitée. Il est aussi évoqué dans la page [aidant familial](aidant-familial)."}
+  ],
+  "liens_internes": [
+    {"slug": "apa", "ancre": "APA"},
+    {"slug": "apa/demande", "ancre": "demande d'APA"},
+    {"slug": "aidant-familial", "ancre": "droits de l'aidant familial"},
+    {"slug": "aide-menagere-caisse-retraite", "ancre": "aides de la caisse de retraite"}
+  ],
+  "sources": [
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/solutions-d-accueil-temporaire/aller-a-l-accueil-de-jour", "titre": "Pour les personnes âgées : Aller à l'accueil de jour"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/l-apa-a-domicile", "titre": "Pour les personnes âgées : L'APA à domicile"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/preserver-son-autonomie/a-qui-s-adresser/les-organismes-a-contacter", "titre": "Pour les personnes âgées : Les organismes à contacter"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Aucun prix journalier moyen d'un accueil de jour trouvé sur une source officielle (CNSA, DREES) : seul le principe (tarif fixé par le département) est donné.",
+    "Montant du plafond du forfait journalier de transport : non trouvé.",
+    "Prise en charge éventuelle des transports par l'Assurance maladie : non trouvée sur une source officielle, non mentionnée.",
+    "Nombre d'heures ou de jours maximum par semaine : dépend des structures, non précisé."
+  ]
+}

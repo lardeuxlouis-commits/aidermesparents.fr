@@ -1,0 +1,177 @@
+{
+ "slug": "accueillir-parent-chez-soi",
+ "title": "Accueillir un parent âgé chez soi : aides et impôts 2026",
+ "description": "Hébergez un parent : déduction forfaitaire de 4 075 € (revenus 2025), APA à domicile, rattachement fiscal si carte d'invalidité, aménagement du logement.",
+ "h1": "Accueillir un parent âgé chez soi : aides et avantages fiscaux",
+ "chapo": "Si vous hébergez un parent qui a peu de ressources, vous pouvez déduire de votre impôt sur le revenu un forfait de 4 075 € par an et par parent (revenus 2025), sans justificatifs de dépenses, à condition de pouvoir prouver son besoin. Il reste éligible à l'APA à domicile. Le rattachement à votre foyer n'est possible que s'il a une carte mobilité inclusion invalidité.",
+ "en_bref": [
+  "Déduction forfaitaire : 4 075 € par parent hébergé (revenus 2025), doublée pour deux parents (8 150 € cités)",
+  "Condition : prouver que le parent a des ressources insuffisantes, et qu'il vit chez vous",
+  "Pas de cumul avec le crédit d'impôt pour l'emploi d'un salarié à domicile pour ce parent (selon service-public.gouv.fr)",
+  "Rattachement à votre foyer fiscal possible uniquement avec une carte mobilité inclusion « invalidité »",
+  "L'APA à domicile reste possible, ainsi que l'aide à l'aménagement du logement"
+ ],
+ "sections": [
+  {
+   "h2": "Quel avantage fiscal si j'héberge mon parent ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Aider un parent dans le besoin est une obligation légale, et cette aide est déductible sous forme de pension alimentaire. Quand le parent vit chez vous, l'hébergement et les repas sont chiffrés par un **forfait de 4 075 € par an et par personne** (revenus 2025, déclaration de 2026), sans avoir à fournir de factures. Si vous hébergez vos deux parents, le montant est doublé."
+    },
+    {
+     "type": "p",
+     "texte": "Au lieu du forfait, vous pouvez déduire vos dépenses réelles, mais il faut alors tout justifier. Retenez le forfait si vos frais sont proches ou inférieurs."
+    },
+    {
+     "type": "attention",
+     "texte": "La déduction est une réduction de votre revenu imposable, pas de votre impôt. Son effet dépend donc de votre tranche. De plus, la somme reçue est en principe à déclarer par votre parent comme revenu."
+    }
+   ]
+  },
+  {
+   "h2": "Quelles conditions faut-il remplir ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "Votre parent est dans le besoin : ses ressources ne suffisent pas à couvrir ses besoins. Vous devez pouvoir le prouver en cas de contrôle",
+      "Il vit réellement chez vous : l'administration peut vous demander de le justifier (adresse, courriers)",
+      "Vous ne demandez pas pour lui le crédit d'impôt pour emploi d'un salarié à domicile : les deux ne se cumulent pas",
+      "Il n'est pas rattaché à votre foyer fiscal"
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Le seuil de 12 411,44 € (personne seule) et 19 268,80 € (couple) cité par l'administration pour les revenus 2025 vise les personnes de plus de 75 ans non ascendantes. Pour un parent, c'est son besoin réel qui compte, que vous devez pouvoir démontrer."
+    },
+    {
+     "type": "exemple",
+     "titre": "Exemple",
+     "texte": "Votre mère vit chez vous toute l'année avec une pension de 700 € par mois. Vous déduisez 4 075 € de votre revenu 2025. Si votre taux marginal d'imposition est de 30 %, l'économie est d'environ 1 223 € (4 075 × 30 %). Elle déclare de son côté les 4 075 € reçus, ce qui est généralement sans impôt si ses revenus restent faibles."
+    }
+   ]
+  },
+  {
+   "h2": "Puis-je rattacher mon parent à mon foyer fiscal ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "En principe non : un parent âgé ne peut pas être rattaché à votre déclaration. L'exception concerne la personne titulaire d'une carte mobilité inclusion portant la mention « invalidité » qui vit sous votre toit. Elle peut alors être rattachée, ce qui ajoute une part à votre quotient familial, en déclarant ses revenus avec les vôtres."
+    },
+    {
+     "type": "p",
+     "texte": "Les deux avantages ne se cumulent pas pour la même personne : vous choisissez entre la déduction pour hébergement et le rattachement. Pour les conditions de la carte, voir la page sur la [carte mobilité inclusion](carte-mobilite-inclusion)."
+    }
+   ]
+  },
+  {
+   "h2": "Mon parent peut-il toucher l'APA s'il vit chez moi ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Oui : l'APA à domicile est ouverte à une personne qui vit chez un proche, comme chez elle (voir [les conditions de l'APA](apa)). Elle dépend de sa perte d'autonomie (GIR 1 à 4) et lui est versée. Elle finance des aides humaines, du matériel, du répit. Détails et montants sur la page [APA](apa)."
+    },
+    {
+     "type": "p",
+     "texte": "Si vous voulez être rémunéré pour votre aide, le statut d'aidant salarié est décrit dans la page [aidant familial](aidant-familial). Pour faire intervenir un service pendant que vous travaillez, voir l'[aide à domicile](aide-a-domicile)."
+    }
+   ]
+  },
+  {
+   "h2": "Quelles aides pour adapter le logement ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Barres d'appui, douche à l'italienne, monte-escalier : des aides existent pour adapter un logement à la perte d'autonomie, notamment [MaPrimeAdapt'](maprimeadapt). Elles dépendent des ressources et de la situation de la personne : renseignez-vous avant de lancer les travaux."
+    }
+   ]
+  },
+  {
+   "h2": "Et si l'accueil à la maison devient trop lourd ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Héberger un parent change le quotidien de la famille. Des solutions de répit existent, comme l'accueil de jour ou l'hébergement temporaire (voir [aidant familial](aidant-familial)), ou un [accueil familial agréé](accueil-familial-personne-agee) si vous ne pouvez plus l'accueillir vous-même. Pour envisager une autre solution, voir [parent qui ne peut plus vivre seul](parent-ne-peut-plus-vivre-seul)."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Combien déduire des impôts en hébergeant un parent ?",
+   "r": "Un forfait de 4 075 € par an et par parent pour les revenus 2025, sans justificatifs de dépenses, à condition que le parent ait des ressources insuffisantes. Le montant est doublé si vous hébergez les deux parents."
+  },
+  {
+   "q": "Peut-on cumuler la déduction et le crédit d'impôt pour l'aide à domicile ?",
+   "r": "Non, pas pour le même parent : service-public.gouv.fr précise qu'on ne peut pas déduire la pension alimentaire si l'on bénéficie du crédit d'impôt pour emploi d'un salarié à domicile pour ce parent."
+  },
+  {
+   "q": "Mon parent doit-il déclarer ce que je déduis ?",
+   "r": "En principe oui, la pension alimentaire est à déclarer dans les revenus du parent, avec quelques exceptions (ASPA, paiement direct à un établissement). Renseignez-vous sur sa situation."
+  },
+  {
+   "q": "Peut-on rattacher sa mère âgée à son foyer fiscal ?",
+   "r": "Seulement si elle a une carte mobilité inclusion « invalidité » et vit sous votre toit. Dans ce cas, vous ne cumulez pas avec la déduction pour hébergement."
+  },
+  {
+   "q": "Faut-il prouver que mon parent vit chez moi ?",
+   "r": "Oui, en cas de contrôle. Gardez des justificatifs à son adresse chez vous, comme des courriers ou son avis d'imposition."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "apa",
+   "ancre": "APA"
+  },
+  {
+   "slug": "aidant-familial",
+   "ancre": "aidant familial"
+  },
+  {
+   "slug": "aide-a-domicile",
+   "ancre": "aide à domicile"
+  },
+  {
+   "slug": "maprimeadapt",
+   "ancre": "MaPrimeAdapt'"
+  },
+  {
+   "slug": "carte-mobilite-inclusion",
+   "ancre": "carte mobilité inclusion"
+  },
+  {
+   "slug": "accueil-familial-personne-agee",
+   "ancre": "accueil familial"
+  },
+  {
+   "slug": "parent-ne-peut-plus-vivre-seul",
+   "ancre": "parent qui ne peut plus vivre seul"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F444",
+   "titre": "service-public.gouv.fr, Pension alimentaire versée à un parent"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F5",
+   "titre": "service-public.gouv.fr, Frais d'accueil d'une personne âgée"
+  },
+  {
+   "url": "https://www.impots.gouv.fr/particulier/les-autres-personnes-charge",
+   "titre": "impots.gouv.fr, Autres personnes à charge"
+  },
+  {
+   "url": "https://www.impots.gouv.fr/portail/particulier/questions/puis-je-deduire-laide-que-japporte-mes-parents-et-pour-quel-montant",
+   "titre": "impots.gouv.fr, Aide apportée à mes parents"
+  }
+ ],
+ "a_verifier": [
+  "Montant 8 150 € ou 8 151 € pour deux parents : les pages divergent d'un euro, à confirmer sur la brochure fiscale",
+  "Seuil de ressources applicable à un ascendant de plus de 75 ans (présomption de besoin) : non confirmé sur page officielle lue",
+  "Condition exacte pour l'APA lorsque l'aidant est hébergé : à vérifier sur la page APA",
+  "Exemple chiffré : taux de 30 % illustratif, à adapter à chaque foyer"
+ ],
+ "date_verification": "2026-11-11"
+}

@@ -1,0 +1,162 @@
+{
+ "slug": "procuration-bancaire-parent",
+ "title": "Procuration bancaire pour un parent âgé : mode d'emploi",
+ "description": "Procuration bancaire pour un parent âgé : comment la donner, ce qu'elle permet, ses limites et quand passer à l'habilitation familiale.",
+ "h1": "Procuration bancaire pour un parent âgé : comment faire",
+ "chapo": "Une procuration bancaire permet à votre parent de vous laisser faire des opérations sur son compte, sans que cela change qui en est titulaire. Elle se fait en agence, en général gratuitement, signée par vous deux. Vous ne pouvez pas clore le compte. Elle s'arrête en cas de tutelle ou de décès, et ne suffit pas si votre parent n'est plus en état de décider.",
+ "en_bref": [
+  "Démarche à faire ensemble, en agence, avec pièces d'identité et justificatifs de domicile",
+  "Procuration générale (toutes opérations) ou limitée (montant, durée, opérations)",
+  "Votre parent reste responsable de ce que vous faites sur son compte, découvert compris",
+  "Le mandataire ne peut jamais clôturer le compte",
+  "Elle prend fin par écrit, à l'échéance, à la mise sous tutelle ou au décès"
+ ],
+ "sections": [
+  {
+   "h2": "Qu'est-ce qu'une procuration bancaire ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le titulaire du compte (le mandant) autorise une autre personne (le mandataire) à faire des opérations à sa place : retirer ou déposer de l'argent, faire des virements, signer des chèques. Le titulaire garde ses droits sur son compte et ses revenus."
+    },
+    {
+     "type": "p",
+     "texte": "Ce n'est pas un compte joint, et ce n'est pas une mesure de protection : votre parent reste libre et responsable de ses choix. C'est pourquoi la procuration convient à une aide pratique, tant qu'il peut encore décider."
+    }
+   ]
+  },
+  {
+   "h2": "Comment donner procuration sur le compte de mon parent ?",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Rendez-vous à l'agence de votre parent, avec lui, ou demandez la démarche à sa banque.",
+      "Remplissez et signez le formulaire de procuration, vous deux. La banque garde un spécimen de votre signature.",
+      "Présentez vos pièces d'identité et un justificatif de domicile. La banque peut demander des informations sur votre lien.",
+      "Choisissez la forme : procuration générale ou limitée."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "La plupart des banques ne font pas payer la procuration. Si elle passe par un notaire, des frais s'ajoutent. Plusieurs mandataires peuvent être désignés sur un même compte et agir seuls, sauf clause contraire."
+    }
+   ]
+  },
+  {
+   "h2": "Procuration générale ou limitée : quelle différence ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**Générale** : le mandataire peut faire toutes les opérations courantes, sans limite de durée",
+      "**Limitée** : elle est restreinte à certaines opérations, à un montant, ou à une période"
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Pour aider un parent à payer ses factures, une procuration limitée à certaines opérations est plus prudente."
+    },
+    {
+     "type": "attention",
+     "texte": "Quelle que soit la forme, le mandataire ne peut jamais clôturer le compte de la personne qui donne procuration."
+    }
+   ]
+  },
+  {
+   "h2": "Qui est responsable en cas de problème ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le titulaire reste responsable des opérations faites par son mandataire, y compris en cas de découvert. Le mandataire n'est en principe pas rémunéré, sauf accord écrit."
+    },
+    {
+     "type": "p",
+     "texte": "Précautions : gardez les justificatifs de chaque dépense, séparez vos comptes des siens, et tenez la famille informée. Si un frère ou une sœur conteste, une trace claire protège tout le monde."
+    }
+   ]
+  },
+  {
+   "h2": "Comment mettre fin à une procuration bancaire ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Elle s'arrête par demande écrite de l'un ou de l'autre auprès de la banque, à l'échéance prévue, si l'un des deux perd sa capacité juridique (mise sous tutelle), ou au décès."
+    },
+    {
+     "type": "p",
+     "texte": "Après un décès, le compte est généralement bloqué : n'utilisez plus la procuration à partir de ce moment."
+    }
+   ]
+  },
+  {
+   "h2": "Et si mon parent ne peut plus décider seul ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La procuration repose sur le fait que votre parent comprend ce qu'il autorise. Si ses facultés sont altérées, elle ne suffit plus et la banque peut la refuser ou la bloquer. Il faut alors une protection par le juge."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Si la famille est d'accord : l'[habilitation familiale](habilitation-familiale)",
+      "Si votre parent peut encore signer : le [mandat de protection future](mandat-protection-future)",
+      "Si le désaccord ou les besoins sont plus lourds : [tutelle ou curatelle](tutelle-curatelle-parent)"
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Peut-on faire une procuration bancaire pour un parent atteint d'Alzheimer ?",
+   "r": "Seulement s'il comprend encore ce qu'il signe. Dès que ses facultés sont trop altérées, il faut passer par le juge : habilitation familiale, curatelle ou tutelle."
+  },
+  {
+   "q": "Une procuration bancaire est-elle payante ?",
+   "r": "En général non, la banque ne la facture pas. Si elle est faite chez un notaire, des frais de notaire s'ajoutent."
+  },
+  {
+   "q": "Le mandataire peut-il clôturer le compte ?",
+   "r": "Non, jamais. Il peut faire des opérations (retraits, virements), mais seul le titulaire, ou son représentant légal, peut fermer le compte."
+  },
+  {
+   "q": "Que devient la procuration si mon parent est placé sous tutelle ?",
+   "r": "Elle prend fin, ainsi qu'au décès du titulaire ou du mandataire. Le tuteur ou la personne habilitée prend le relais selon les pouvoirs fixés par le juge."
+  },
+  {
+   "q": "Procuration ou compte joint pour mon parent ?",
+   "r": "Avec une procuration, votre parent reste seul titulaire et c'est lui qui répond des opérations. Un compte joint vous fait cotitulaire, avec des conséquences juridiques et successorales différentes : renseignez-vous auprès de la banque ou d'un notaire."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "habilitation-familiale",
+   "ancre": "habilitation familiale"
+  },
+  {
+   "slug": "mandat-protection-future",
+   "ancre": "mandat de protection future"
+  },
+  {
+   "slug": "tutelle-curatelle-parent",
+   "ancre": "tutelle ou curatelle"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.justice.fr/fiche/faire-procuration-bancaire",
+   "titre": "justice.fr, Faire une procuration bancaire"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1474",
+   "titre": "service-public.gouv.fr, Procuration bancaire"
+  }
+ ],
+ "a_verifier": [
+  "Comportement exact des banques face à une personne dont les facultés baissent (pratiques variables, non établies par une source officielle)",
+  "Conséquences du compte joint : phrase prudente sans source lue",
+  "Liste exacte des pièces demandées : propre à chaque banque"
+ ],
+ "date_verification": "2026-11-11"
+}

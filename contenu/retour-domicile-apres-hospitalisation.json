@@ -1,0 +1,118 @@
+{
+  "slug": "retour-domicile-apres-hospitalisation",
+  "title": "Retour à domicile après hospitalisation : aides 2026",
+  "description": "Aide de l'Assurance retraite (3 mois, jusqu'à 64 h), aide Agirc-Arrco, Prado, APA en urgence : les aides pour un parent qui sort de l'hôpital.",
+  "h1": "Retour à domicile après une hospitalisation : les aides",
+  "chapo": "Quand un parent âgé sort de l'hôpital, sa caisse de retraite peut financer un plan d'aides d'urgence de 3 mois : jusqu'à 64 heures d'aide à domicile et des prestations prises en charge à 100 % dans la limite de 300 € (Assurance retraite, selon les ressources). La demande se fait avant la sortie, par l'assistant social de l'hôpital.",
+  "en_bref": [
+    "Assurance retraite : plan d'aides de 3 mois, jusqu'à 64 heures d'accompagnement à domicile, plus des prestations à 100 % jusqu'à 300 €, sous conditions de ressources.",
+    "Il faut en parler à l'assistant social de l'hôpital avant la sortie : c'est lui qui fait la demande.",
+    "Pas de cumul avec l'APA ou la PCH. Si l'aide est urgente et que l'APA n'est pas encore accordée, l'APA en urgence peut atteindre 1 040,17 € (2026).",
+    "Agirc-Arrco, dès 75 ans : aide à domicile momentanée de 10 heures sur 6 semaines, gratuite (brochure de mars 2022).",
+    "Dès 75 ans, le service Prado de l'Assurance maladie peut organiser les premiers rendez-vous médicaux et des services à domicile."
+  ],
+  "sections": [
+    {
+      "h2": "Quelles aides existent quand un parent rentre de l'hôpital ?",
+      "blocs": [
+        {"type": "p", "texte": "Après une hospitalisation, la fatigue et la fragilité rendent le retour chez soi difficile, même pour une personne habituellement autonome. Plusieurs dispositifs existent, et ils se complètent plus qu'ils ne se concurrencent."},
+        {"type": "tableau", "entetes": ["Dispositif", "Pour qui", "Ce que cela apporte"], "lignes": [
+          ["Aide de l'Assurance retraite (ADH, anciennement ARDH)", "Retraités du régime général, sous conditions de ressources", "Plan d'aides de 3 mois : aide à domicile, courses, portage de repas, téléalarme, aides techniques"],
+          ["Aide de la MSA", "Retraités de la MSA", "Aide à domicile, téléassistance, portage de repas, pendant 3 mois"],
+          ["Aide à domicile momentanée Agirc-Arrco", "Assurés de 75 ans et plus, sans APA", "10 heures d'aide à domicile sur 6 semaines"],
+          ["Prado personnes âgées", "75 ans et plus, sur accord de l'équipe médicale", "Premiers rendez-vous médicaux organisés, aide à la mise en place de services"],
+          ["APA en urgence", "Personne qui n'a pas encore l'APA", "Avance de 1 040,17 € en 2026 pour une aide immédiate"],
+          ["Garantie assistance de la mutuelle", "Selon le contrat", "Heures d'aide à domicile après hospitalisation"]
+        ]}
+      ]
+    },
+    {
+      "h2": "Que prévoit l'aide de l'Assurance retraite après une hospitalisation ?",
+      "blocs": [
+        {"type": "p", "texte": "L'Assurance retraite propose un plan d'aides d'urgence, d'une durée de 3 mois, non renouvelable, attribué sous conditions de ressources. Il s'adresse aux retraités du régime général qui ont besoin d'être accompagnés dans leur vie quotidienne à la sortie de l'hôpital. Selon la situation évaluée par des professionnels, il peut comprendre :"},
+        {"type": "liste", "items": [
+          "des **heures d'accompagnement à domicile, dans la limite de 64 heures** : entretien du linge et du logement, aide au déplacement à pied de proximité, aide à la préparation des repas ;",
+          "des **prestations de prévention prises en charge à 100 % dans la limite de 300 €** : petits et gros travaux d'entretien dans le logement, équipements pour le quotidien, portage de repas, livraison de courses, téléassistance, pédicure ;",
+          "des **programmes de prévention** : bilan nutritionnel, ateliers collectifs (alimentation, mémoire, logement)."
+        ]},
+        {"type": "p", "texte": "Ces aides sont modulables : tout le monde n'obtient pas le maximum. Votre parent participe au coût des heures selon ses revenus, et le montant de sa participation figure dans la décision de la caisse."},
+        {"type": "attention", "texte": "Cette aide ne peut pas être attribuée si votre parent perçoit déjà l'APA ou la PCH. Pour comprendre ce qu'est l'APA, voyez notre page sur l'[APA](apa)."}
+      ]
+    },
+    {
+      "h2": "Comment et quand faire la demande ?",
+      "blocs": [
+        {"type": "p", "texte": "Le bon réflexe : agir pendant l'hospitalisation, pas après. La demande doit être adressée, dans la mesure du possible, avant la sortie. Elle est directement faite par le service social de l'hôpital, qui prépare un plan d'aides avec votre parent et l'équipe médicale, puis l'envoie à la caisse régionale (Carsat, MSA, CNRACL selon le régime). La caisse organise ensuite la mise en place des aides."},
+        {"type": "etapes", "items": [
+          "Demandez à l'équipe soignante de vous mettre en contact avec l'assistant social de l'hôpital, dès que la date de sortie approche.",
+          "Donnez-lui le nom de la ou des caisses de retraite de votre parent et ses revenus (avis d'imposition).",
+          "Précisez les besoins concrets : ménage, repas, courses, toilette, présence la nuit, matériel.",
+          "Vérifiez que le formulaire de demande est bien parti à la caisse avant le retour à domicile. Vous pouvez aussi contacter vous-même la caisse régionale.",
+          "À la maison, recontactez la caisse si les aides n'ont pas démarré."
+        ]},
+        {"type": "p", "texte": "Le besoin peut être repéré par l'équipe de l'hôpital, mais aussi exprimé par votre parent ou par vous-même : n'attendez pas qu'on vous le propose."}
+      ]
+    },
+    {
+      "h2": "Et pour un parent affilié à la MSA ou à l'Agirc-Arrco ?",
+      "blocs": [
+        {"type": "p", "texte": "**MSA.** La MSA peut proposer une aide à la sortie de l'hôpital, composée surtout d'aide à domicile, de téléassistance et de portage de repas, pour 3 mois. Les plafonds, la participation et les délais de dépôt dépendent de votre MSA régionale. À titre d'exemple, la MSA Armorique indique un plafond de 1 800 € par période d'aide et une demande à faire dans les 15 jours qui suivent la sortie : demandez les règles de votre région."},
+        {"type": "p", "texte": "**Agirc-Arrco.** L'aide à domicile momentanée s'adresse aux assurés de 75 ans et plus confrontés à une difficulté passagère, comme un retour d'hospitalisation, et qui ne perçoivent pas l'APA. D'après la brochure Agirc-Arrco de mars 2022, elle représente 10 heures d'aide à domicile (ménage, courses, repas) sur 6 semaines, entièrement prises en charge, avec un numéro unique, le 0 971 090 971. Elle peut compléter l'aide de l'Assurance retraite si les conditions de chaque dispositif sont respectées, mais confirmez-le avec les caisses."},
+        {"type": "p", "texte": "**Mutuelle.** Certains contrats incluent une garantie d'assistance : un service d'aide à domicile intervient un nombre d'heures fixé, au retour d'hospitalisation. Relisez le contrat de votre parent ou appelez sa mutuelle avant la sortie."}
+      ]
+    },
+    {
+      "h2": "Et si la situation est urgente ou plus lourde ?",
+      "blocs": [
+        {"type": "p", "texte": "Si votre parent n'a pas encore l'APA mais a besoin d'une aide immédiate, en cas d'urgence médicale ou sociale, l'APA en urgence peut lui être attribuée pour un montant de 1 040,17 € en 2026. C'est une avance à titre provisoire : une partie peut être à rembourser si la demande d'APA est finalement rejetée. Le déroulé du dossier est expliqué dans la page [demande d'APA](apa/demande)."},
+        {"type": "p", "texte": "Plusieurs solutions de santé complètent les aides financières :"},
+        {"type": "liste", "items": [
+          "**Prado personnes âgées** : proposé par l'Assurance maladie aux 75 ans et plus, sur accord de l'équipe médicale. Un conseiller contacte votre parent avant la fin de l'hospitalisation, organise ses premiers rendez-vous médicaux et peut faciliter la mise en place du portage de repas ou d'une aide à domicile. Il n'existe pas encore dans tous les établissements.",
+          "**Soins infirmiers** : sur prescription médicale, un SSIAD (service de soins infirmiers à domicile), un infirmier libéral ou un centre de soins infirmiers peuvent intervenir.",
+          "**Matériel médical** : lit médicalisé, déambulateur… sur prescription, avec prise en charge par l'Assurance maladie si le matériel est sur la liste des produits remboursés. La mutuelle peut couvrir une partie du reste à charge.",
+          "**Séjour de convalescence** : le médecin peut prescrire des soins médicaux et de réadaptation (SMR), ou un hébergement temporaire en EHPAD pour reprendre des forces avant de rentrer."
+        ]}
+      ]
+    },
+    {
+      "h2": "Que faire si le retour à la maison se passe mal ?",
+      "blocs": [
+        {"type": "p", "texte": "Les 3 mois d'aide ne sont pas renouvelables. Si, passé ce délai, votre parent a toujours besoin d'aide régulière, il faut préparer la suite : demander l'APA s'il est en perte d'autonomie (GIR 1 à 4), ou une aide durable de sa caisse s'il est en GIR 5 ou 6. Voyez la page sur l'[aide ménagère de la caisse de retraite](aide-menagere-caisse-retraite) et sur l'[aide à domicile](aide-a-domicile)."},
+        {"type": "p", "texte": "Si vous constatez que votre parent ne peut plus rester seul malgré les aides, la page [mon parent ne peut plus vivre seul](parent-ne-peut-plus-vivre-seul) vous aide à évaluer les options."},
+        {"type": "exemple", "titre": "Exemple", "texte": "Votre père, 82 ans, sort d'une hospitalisation pour une chute. Vous voyez l'assistant social le jour de la sortie : la demande part à la Carsat. Pendant 3 mois, il peut bénéficier d'au plus 64 heures d'aide, soit un peu plus de 5 heures par semaine sur 12 semaines, et d'un portage de repas ou d'une téléalarme dans la limite de 300 €. Au bout de 3 mois, vous demandez l'évaluation de son GIR pour la suite."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Qu'est-ce que l'ARDH ?", "r": "L'ARDH est l'aide au retour à domicile après hospitalisation versée par la caisse de retraite. Elle est aujourd'hui présentée sous le nom d'ADH, accompagnement à domicile après hospitalisation. C'est un plan d'aides de 3 mois maximum, non renouvelable, attribué sous conditions de ressources."},
+    {"q": "Peut-on faire la demande une fois rentré chez soi ?", "r": "L'Assurance retraite demande que la demande soit adressée dans la mesure du possible avant la sortie, par le service social de l'hôpital. Si ce n'est pas fait, contactez rapidement la caisse régionale de votre parent. Certaines MSA fixent un délai de dépôt court, par exemple 15 jours en Armorique."},
+    {"q": "L'aide après hospitalisation est-elle cumulable avec l'APA ?", "r": "Non. L'aide de l'Assurance retraite ne peut pas être attribuée à une personne qui perçoit déjà l'APA ou la PCH. Si votre parent n'a pas encore l'APA et que le besoin est immédiat, l'APA en urgence peut être accordée."},
+    {"q": "Combien coûte l'aide à domicile après une hospitalisation ?", "r": "Les prestations de prévention (jusqu'à 300 €) sont prises en charge à 100 % par l'Assurance retraite. Pour les heures d'aide à domicile, votre parent paie une participation qui dépend de ses revenus. L'aide momentanée de l'Agirc-Arrco est gratuite pour l'assuré."},
+    {"q": "Mon parent a plus de 75 ans : que propose l'Assurance maladie ?", "r": "Le dispositif Prado personnes âgées : sur accord de l'équipe médicale, un conseiller de l'Assurance maladie contacte votre parent avant la fin de son hospitalisation, organise ses premiers rendez-vous médicaux et peut faciliter la mise en place d'un portage de repas ou d'une aide à domicile."},
+    {"q": "Mon parent ne peut pas rentrer chez lui, que faire ?", "r": "Le médecin de l'hôpital peut prescrire un séjour en soins médicaux et de réadaptation. Un hébergement temporaire en EHPAD est aussi possible pour se rétablir avant de revenir chez soi. L'assistant social de l'hôpital vous aide à trouver une place."}
+  ],
+  "liens_internes": [
+    {"slug": "apa", "ancre": "APA"},
+    {"slug": "apa/demande", "ancre": "demande d'APA"},
+    {"slug": "aide-menagere-caisse-retraite", "ancre": "aide ménagère de la caisse de retraite"},
+    {"slug": "aide-a-domicile", "ancre": "aide à domicile"},
+    {"slug": "parent-ne-peut-plus-vivre-seul", "ancre": "mon parent ne peut plus vivre seul"}
+  ],
+  "sources": [
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/etre-hospitalise/comment-organiser-sa-sortie-d-hospitalisation", "titre": "Pour les personnes âgées : Comment organiser sa sortie d'hospitalisation ?"},
+    {"url": "https://faq.lassuranceretraite.fr/categories/3/43", "titre": "Assurance retraite, FAQ : L'aide à domicile après hospitalisation"},
+    {"url": "https://www.lassuranceretraite.fr/portail-info/home/retraite/aide-retraite/aide-temporaire-sur-mesure.html", "titre": "Assurance retraite : Être aidé temporairement"},
+    {"url": "https://www.lassuranceretraite.fr/portail-info/hors-menu/newsletter/aides-services-au-quotidien.html", "titre": "Assurance retraite : Aides et services au quotidien"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/beneficier-daides/les-aides-domicile/les-aides-des-caisses-de-retraite", "titre": "Pour les personnes âgées : Les aides des caisses de retraite"},
+    {"url": "https://armorique.msa.fr/lfp/en/les-prestations-temporaires-de-retour-a-domicile-apres-hospitalisation", "titre": "MSA Armorique : prestations temporaires de retour à domicile après hospitalisation"},
+    {"url": "https://www.agirc-arrco.fr/wp-content/uploads/2021/10/A4_3volets_Prestamodelisees_maj0322_demat.pdf", "titre": "Agirc-Arrco : brochure Aide à domicile momentanée (mars 2022)"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Agirc-Arrco : 10 heures sur 6 semaines et numéro lus dans une brochure de mars 2022, pas sur une page web actuelle (site bloqué à la lecture).",
+    "MSA : plafond 1 800 € et délai de 15 jours lus sur la page de la MSA Armorique uniquement, les règles varient selon les caisses régionales.",
+    "Cumul possible entre l'aide de l'Assurance retraite et l'aide momentanée Agirc-Arrco : non confirmé par une source officielle.",
+    "Aucun délai de traitement de la demande par la caisse trouvé sur une source officielle.",
+    "Montant de l'APA en urgence : 1 040,17 € (2026) sur la page hospitalisation, alors que la page APA à domicile affiche encore 1 022,78 € (2025). Écart de millésime, 2026 retenu."
+  ]
+}

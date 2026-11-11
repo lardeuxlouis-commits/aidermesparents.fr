@@ -1,0 +1,99 @@
+{
+  "slug": "apl-ehpad",
+  "title": "APL en EHPAD : conditions, calcul et demande à la CAF",
+  "description": "APL ou ALS en EHPAD : l'aide dépend du conventionnement de l'établissement et des ressources. Versée à l'EHPAD, demande à la CAF ou à la MSA.",
+  "h1": "APL en EHPAD : conditions, montant et demande à la CAF",
+  "chapo": "Un résident d'EHPAD peut toucher une aide au logement de la CAF (ou de la MSA) : l'APL si l'établissement est conventionné APL, l'ALS s'il ne l'est pas. Les deux ne se cumulent pas. L'aide réduit le tarif hébergement, dépend des ressources des 12 derniers mois, et commence le 1er jour du mois qui suit la demande. L'APL est versée directement à l'EHPAD, qui la déduit de la facture.",
+  "en_bref": [
+    "APL si l'EHPAD est conventionné APL, ALS s'il ne l'est pas : jamais les deux.",
+    "L'aide réduit le tarif hébergement, pas le tarif dépendance (celui-ci relève de l'APA).",
+    "Le calcul tient compte des ressources des 12 derniers mois, du coût de l'hébergement et du lieu de l'établissement.",
+    "Demande à la CAF ou à la MSA, avec l'attestation de loyer signée par l'établissement.",
+    "L'APL est versée chaque mois à l'EHPAD, qui la déduit de la facture. Elle se cumule avec l'APA et l'aide sociale."
+  ],
+  "sections": [
+    {
+      "h2": "APL ou ALS en EHPAD : quelle différence ?",
+      "blocs": [
+        {"type": "p", "texte": "Les résidents d'EHPAD, d'USLD (unités de soins de longue durée) et de résidences autonomie peuvent demander une aide au logement. Il en existe deux, selon le statut de l'établissement :"},
+        {"type": "tableau", "entetes": ["Aide", "Quand ?", "Versée à qui ?"], "lignes": [
+          ["APL (aide personnalisée au logement)", "L'établissement est conventionné APL", "Chaque mois directement à l'établissement, qui réduit sa facture"],
+          ["ALS (allocation de logement sociale)", "L'établissement n'est pas conventionné APL", "Chaque mois sur votre compte bancaire ou directement à l'établissement"]
+        ]},
+        {"type": "p", "texte": "Les deux aides ne se cumulent pas. Pour savoir si un EHPAD est conventionné APL, utilisez l'annuaire du site officiel pour-les-personnes-agees.gouv.fr : après la recherche géographique, filtrez sur APL dans les aides publiques. Vous pouvez aussi poser la question au directeur de l'établissement."}
+      ]
+    },
+    {
+      "h2": "Quelles conditions pour toucher l'aide au logement en EHPAD ?",
+      "blocs": [
+        {"type": "liste", "items": [
+          "Avoir des **ressources sous un plafond** (le plafond APL ou ALS, selon la situation).",
+          "Résider de façon stable en France et y être en situation régulière.",
+          "Que la chambre soit votre **résidence principale**, c'est-à-dire un logement occupé au moins 8 mois par an.",
+          "Pour l'APL, que l'établissement soit conventionné. Pour l'ALS, qu'il ne le soit pas."
+        ]},
+        {"type": "p", "texte": "Garder son ancienne maison n'empêche pas de toucher l'aide : l'ancien domicile n'est plus considéré comme résidence principale dès que la personne vit en établissement."},
+        {"type": "attention", "texte": "Beaucoup de familles pensent que l'aide au logement concerne seulement les locataires. Ce n'est pas le cas : un résident d'EHPAD y a droit comme pour un loyer, et l'aide compte dans le calcul du reste à charge."}
+      ]
+    },
+    {
+      "h2": "Comment l'APL en EHPAD est-elle calculée ?",
+      "blocs": [
+        {"type": "p", "texte": "Le montant dépend de plusieurs éléments : vos ressources, le coût de l'hébergement (la redevance versée) et le lieu où se trouve l'établissement. L'APL tient compte du nombre de personnes à charge vivant avec vous, des ressources des 12 derniers mois et du patrimoine (financier et immobilier) s'il dépasse 30 000 €. Les ressources sont ensuite actualisées automatiquement tous les 3 mois."},
+        {"type": "p", "texte": "Nous ne donnons pas de montant moyen : il varie trop d'un département et d'un établissement à l'autre, et aucune source officielle ne publie de barème simple pour les résidents. Le plus fiable est de faire une **simulation sur caf.fr** (rubrique Aides et démarches, Faire une simulation, Le logement)."},
+        {"type": "exemple", "titre": "Comment la lire sur une facture", "texte": "Si l'EHPAD facture 2 400 € de tarif hébergement par mois et que l'APL accordée est de 220 €, l'établissement vous facture 2 180 € pour l'hébergement. Les chiffres sont fictifs, seul le mécanisme est réel : l'APL est versée à l'établissement, qui diminue le montant facturé."}
+      ]
+    },
+    {
+      "h2": "Comment faire la demande à la CAF ou à la MSA ?",
+      "blocs": [
+        {"type": "etapes", "items": [
+          "Demandez au secrétariat de l'EHPAD le formulaire de demande d'aide au logement, ou téléchargez-le sur caf.fr.",
+          "Faites remplir, dater et signer par le responsable de l'établissement l'attestation de loyer ou de résidence, incluse dans le formulaire.",
+          "Rassemblez une pièce d'identité, un RIB et l'attestation. La demande se fait en ligne sur caf.fr (Caf) ou en ligne ou par courrier recommandé (MSA).",
+          "Déposez le dossier dès l'entrée dans l'établissement : il n'y a pas de rétroactivité.",
+          "Déclarez ensuite tout changement de situation (ressources, départ de l'établissement) à la CAF ou à la MSA."
+        ]},
+        {"type": "p", "texte": "Les retraités du régime agricole font la demande auprès de la MSA, les autres auprès de la CAF. Le délai de traitement est en moyenne de 36,5 jours à la CAF, et de 4 à 8 semaines à la MSA si le dossier est complet."},
+        {"type": "attention", "texte": "L'APL est due à partir du 1er jour du mois qui suit le mois de la demande. Plus vous attendez après l'entrée en EHPAD, plus vous perdez de mois d'aide. Déposez le dossier le jour de l'arrivée."}
+      ]
+    },
+    {
+      "h2": "L'APL se cumule-t-elle avec l'APA et l'aide sociale ?",
+      "blocs": [
+        {"type": "p", "texte": "Oui. L'aide au logement (APL ou ALS), [l'APA](apa) et l'aide sociale à l'hébergement sont cumulables selon la situation. L'aide au logement sert à payer le tarif hébergement, l'APA aide à payer le tarif dépendance."},
+        {"type": "p", "texte": "L'aide sociale à l'hébergement (ASH) est versée par le conseil départemental aux personnes dont les ressources sont inférieures aux frais d'hébergement : voir [l'aide sociale à l'hébergement](aide-sociale-hebergement). Pour estimer ce qui reste réellement à votre charge, le comparateur de prix de pour-les-personnes-agees.gouv.fr déduit les aides au logement et l'APA : voir aussi [les prix et aides en EHPAD](ehpad-prix-aides)."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Mon parent a-t-il droit à l'APL en EHPAD ?", "r": "Oui, si l'établissement est conventionné APL, si ses ressources sont sous le plafond, et si la chambre est sa résidence principale. Si l'EHPAD n'est pas conventionné, c'est l'ALS qui peut s'appliquer, aux mêmes conditions de ressources."},
+    {"q": "Comment savoir si un EHPAD est conventionné APL ?", "r": "Dans l'annuaire des EHPAD de pour-les-personnes-agees.gouv.fr, lancez votre recherche, puis filtrez sur APL dans les aides publiques. L'établissement peut aussi vous le confirmer."},
+    {"q": "À quelle date l'APL commence-t-elle ?", "r": "À partir du 1er jour du mois qui suit la demande. Il est donc préférable de déposer le dossier dès l'entrée. L'aide est ensuite versée le 5 de chaque mois."},
+    {"q": "L'APL est-elle versée à la famille ou à l'EHPAD ?", "r": "L'APL est versée directement à l'EHPAD, qui déduit son montant de la facture. L'ALS peut être versée sur le compte bancaire du résident ou directement à l'établissement."},
+    {"q": "Garder sa maison empêche-t-il de toucher l'aide au logement ?", "r": "Non. Si le résident garde le logement où il vivait avant son entrée, il peut toucher les aides au logement : son ancien domicile n'est pas considéré comme sa résidence principale."},
+    {"q": "Peut-on cumuler l'APL et l'ALS ?", "r": "Non. L'une s'applique aux établissements conventionnés, l'autre à ceux qui ne le sont pas, et elles ne se cumulent pas."}
+  ],
+  "liens_internes": [
+    {"slug": "apa", "ancre": "APA en établissement"},
+    {"slug": "aide-sociale-hebergement", "ancre": "aide sociale à l'hébergement"},
+    {"slug": "ehpad-prix-aides", "ancre": "prix d'un EHPAD et aides"}
+  ],
+  "sources": [
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/vivre-en-etablissement-et-faire-une-demande-d-apl-ou-d-als", "titre": "Vivre en établissement et demander l'APL ou l'ALS (pour-les-personnes-agees.gouv.fr)"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/aides-financieres-en-ehpad/les-aides-financieres-pour-les-depenses-d-hebergement-en-etablissement", "titre": "Les aides financières pour les dépenses d'hébergement (pour-les-personnes-agees.gouv.fr)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38574", "titre": "Vous allez vivre en EHPAD : aides financières (service-public.gouv.fr)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12006", "titre": "Aide personnalisée au logement (APL) (service-public.gouv.fr)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1280", "titre": "Allocation de logement sociale (ALS) (service-public.gouv.fr)"},
+    {"url": "https://www.caf.fr/allocataires/caf-de-la-haute-marne/offre-de-service/vie-personnelle/je-suis-dependant-quelles-sont-les-aides-pour-mes-proches-et-moi/je-m-installe-en-maison-de-retraite/les-aides-que-la-caf-peut-vous-verser", "titre": "Les aides que la Caf peut vous verser (caf.fr)"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Aucun barème ni plafond chiffré de l'APL ou de l'ALS pour résident d'établissement n'a été trouvé sur une source officielle : aucun montant donné, renvoi à la simulation caf.fr. Les chiffres de l'exemple de facture sont fictifs.",
+    "Début du droit : service-public.gouv.fr dit 1er jour du mois suivant la demande pour l'APL, et 1er jour du mois suivant le traitement du dossier pour l'ALS ; l'écart n'est pas expliqué.",
+    "Délais de traitement (36,5 jours CAF, 4 à 8 semaines MSA) lus sur la fiche APL de service-public.gouv.fr, à vérifier.",
+    "Absence de rétroactivité : déduite du début du droit au mois suivant la demande, pas écrite telle quelle dans la source.",
+    "Règle de prise en compte de l'ASH dans le calcul des ressources de l'APL non confirmée par une page officielle : non reprise.",
+    "Les pages de pour-les-personnes-agees.gouv.fr ont été lues avec le certificat TLS non vérifié (curl), pas de souci de contenu, mais à signaler."
+  ]
+}

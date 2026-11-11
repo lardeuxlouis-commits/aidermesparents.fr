@@ -1,0 +1,115 @@
+{
+  "slug": "accueil-familial-personne-agee",
+  "title": "Accueil familial personne âgée : prix, aides, contrat 2026",
+  "description": "Vivre chez un accueillant familial agréé : rémunération minimale de 30,78 € par jour, indemnités, aides (APA, APL, ASH), contrat et démarches.",
+  "h1": "Accueil familial d'une personne âgée : prix, aides et fonctionnement",
+  "chapo": "L'accueil familial permet à une personne âgée d'être hébergée chez un accueillant agréé par le département, qui la rémunère pour ses services. Le coût comprend au minimum 30,78 € bruts par jour de rémunération (plus 10 % de congés payés), des indemnités d'entretien de 8,70 € à 21,75 € par jour, et un loyer négocié. L'APA, l'APL ou l'ASH peuvent aider.",
+  "en_bref": [
+    "L'accueillant est agréé par le conseil départemental pour 5 ans et ne peut pas accueillir plus de 3 personnes en même temps (sauf dérogation pour un couple).",
+    "Rémunération minimale : 30,78 € brut par jour, plus 10 % d'indemnité de congés payés.",
+    "Indemnité de sujétions particulières : de 4,55 € à 17,97 € par jour selon le besoin d'aide. Indemnité d'entretien : de 8,70 € à 21,75 € par jour.",
+    "Aides possibles : APA à domicile, APL ou ALS, aide sociale à l'hébergement (ASH).",
+    "Un contrat d'accueil conforme au modèle national est obligatoire, signé au plus tard le jour de l'arrivée."
+  ],
+  "sections": [
+    {
+      "h2": "Qu'est-ce que l'accueil familial, et pour quelle personne âgée ?",
+      "blocs": [
+        {"type": "p", "texte": "Un accueillant familial, personne seule ou couple, héberge à son domicile une personne âgée ou un adulte handicapé, momentanément ou durablement. La personne hébergée le rémunère. Le logement proposé est une chambre individuelle meublée chez l'accueillant, avec accès aux pièces communes (salon, cuisine, jardin) : vie de famille plutôt que collectivité."},
+        {"type": "p", "texte": "L'accueil peut être permanent ou temporaire (par exemple après une hospitalisation, ou quand les proches s'absentent), à temps complet (jour et nuit), à temps partiel (la journée) ou séquentiel (tous les week-ends). Il convient à une personne valide, ou dont la perte d'autonomie est compatible avec ce mode de vie : pas à une personne lourdement dépendante, qui aurait besoin de soins constants."},
+        {"type": "attention", "texte": "L'accueillant et son conjoint ne doivent avoir aucun lien de parenté, jusqu'au 4e degré inclus, avec la personne hébergée. On ne peut donc pas « devenir accueillant familial » de son propre parent pour être rémunéré. Pour accueillir un parent chez vous, voyez [accueillir un parent chez soi](accueillir-parent-chez-soi)."}
+      ]
+    },
+    {
+      "h2": "Qui sont les accueillants familiaux, et qui les contrôle ?",
+      "blocs": [
+        {"type": "p", "texte": "Aucun diplôme n'est demandé, mais l'accueillant doit suivre une formation proposée par le département. Il doit obtenir un agrément du président du conseil départemental, valable 5 ans, qui fixe le nombre de personnes accueillies. L'accueillant ne peut pas accueillir plus de 3 personnes en même temps, sauf dérogation pour un couple."},
+        {"type": "p", "texte": "Pour obtenir l'agrément, le logement doit comporter, entre autres :"},
+        {"type": "liste", "items": [
+          "une chambre individuelle d'au moins 9 m² (16 m² pour un couple), avec fenêtre sur l'extérieur ;",
+          "une salle d'eau et des toilettes, partagées ou privées ;",
+          "un moyen d'appeler du secours immédiatement ;",
+          "un libre accès aux pièces communes."
+        ]},
+        {"type": "p", "texte": "Le département vérifie le logement par au moins une visite, contrôle ensuite régulièrement l'accueillant et assure le suivi social et médico-social de la personne accueillie. Il tient la liste des accueillants agréés : c'est le premier interlocuteur à appeler pour trouver une place."}
+      ]
+    },
+    {
+      "h2": "Combien coûte un accueil familial ?",
+      "blocs": [
+        {"type": "p", "texte": "Le coût dépend de l'accueillant, de son logement et du nombre de jours d'accueil. Il est fixé dans le contrat, dans le cadre de la réglementation et du règlement départemental d'aide sociale. La personne hébergée paie directement l'accueillant (virement, chèque). Voici les éléments, d'après service-public.gouv.fr (page vérifiée le 1er juin 2026) :"},
+        {"type": "tableau", "entetes": ["Élément", "Montant"], "lignes": [
+          ["Rémunération pour services rendus (repas, linge, aide aux actes du quotidien, trajets chez le médecin)", "30,78 € brut par jour minimum"],
+          ["Indemnité de congés payés", "10 % de la rémunération pour services rendus"],
+          ["Indemnité de sujétions particulières (si le besoin d'aide demande plus de disponibilité)", "de 4,55 € à 17,97 € par jour"],
+          ["Indemnité d'entretien (eau, chauffage, nourriture, produits d'hygiène)", "de 8,70 € à 21,75 € par jour"],
+          ["Indemnité de mise à disposition des pièces (l'équivalent d'un loyer)", "Négociée, selon la taille et la qualité des pièces et les loyers du secteur"]
+        ]},
+        {"type": "p", "texte": "La rémunération et les sujétions donnent lieu à des cotisations sociales, payées par la personne hébergée via le Cesu accueil familial, géré par l'Urssaf : c'est elle qui calcule les cotisations et les prélève chaque mois."},
+        {"type": "exemple", "titre": "Exemple de calcul", "texte": "Pour un mois de 30 jours d'accueil à temps complet, sans sujétions, avec les montants minimums : 30,78 € × 30 = 923,40 €, plus 10 % de congés (92,34 €) = 1 015,74 €. Ajoutez l'indemnité d'entretien : de 261 € (8,70 € × 30) à 652,50 € (21,75 € × 30). On arrive donc à 1 276,74 € à 1 668,24 €, hors loyer et hors cotisations sociales. Les sujétions ajoutent de 136,50 € (4,55 € × 30) à 539,10 € (17,97 € × 30) par mois. L'indemnité de logement s'ajoute encore. Ce calcul est un ordre de grandeur : l'accueillant peut demander plus que le minimum."}
+      ]
+    },
+    {
+      "h2": "Quelles aides pour financer l'accueil familial ?",
+      "blocs": [
+        {"type": "liste", "items": [
+          "**L'APA à domicile**, si la personne est en GIR 1 à 4. L'APA à domicile peut financer des interventions complémentaires (aide à domicile, soins). Voyez la page [APA](apa).",
+          "**Les aides au logement** (APL ou ALS).",
+          "**L'aide sociale à l'hébergement (ASH)**, demandée au CCAS ou à la mairie."
+        ]},
+        {"type": "p", "texte": "Pour l'ASH en accueil familial, il faut avoir plus de 65 ans (60 ans si on est reconnu inapte au travail), résider en France de façon stable et avoir des ressources inférieures aux frais d'hébergement. Le département tient compte des ressources de la personne, de son conjoint et de ses obligés alimentaires. Une somme minimale lui est laissée : au moins 10 % de ses ressources, et pas moins de 125 € par mois pour une personne seule en 2026. Le droit s'ouvre à la date d'arrivée chez l'accueillant, mais la demande doit être faite dans les deux mois suivant l'entrée. Les sommes versées sont récupérables sur la personne de son vivant et à son décès. Tout est détaillé dans les pages [aide sociale à l'hébergement](aide-sociale-hebergement) et [obligation alimentaire](obligation-alimentaire)."},
+        {"type": "p", "texte": "De son côté, l'accueillant familial peut bénéficier d'un crédit d'impôt pour des dépenses d'équipement pour personnes âgées ou handicapées dans son habitation principale."}
+      ]
+    },
+    {
+      "h2": "Comment trouver un accueillant et signer le contrat ?",
+      "blocs": [
+        {"type": "etapes", "items": [
+          "Contactez le service accueil familial du conseil départemental, ou le point d'information local pour personnes âgées. Ils expliquent la solution, évaluent si elle convient et fournissent la liste des accueillants agréés.",
+          "Rencontrez l'accueillant et visitez les lieux. Posez les questions concrètes : repas, sorties, visites de la famille, remplacement pendant ses congés.",
+          "Adhérez au Cesu accueil familial, avec l'accord de l'accueillant, pour la déclaration et les cotisations.",
+          "Signez le contrat d'accueil au plus tard le jour de l'arrivée. Il doit être conforme au contrat type réglementaire et prévoir un projet d'accueil personnalisé, la durée de la période d'essai, le délai de préavis (au moins 2 mois), l'assurance des deux parties et le remplacement de l'accueillant.",
+          "Envoyez un exemplaire signé au département, et signalez toute modification."
+        ]},
+        {"type": "p", "texte": "En cas de désaccord, la personne hébergée et l'accueillant cherchent d'abord un accord amiable, puis saisissent le tribunal du lieu de résidence de l'accueillant."}
+      ]
+    },
+    {
+      "h2": "Accueil familial ou EHPAD : comment choisir ?",
+      "blocs": [
+        {"type": "p", "texte": "L'accueil familial est une alternative à l'établissement : une présence stimulante, un cadre de vie de famille, un accompagnement personnalisé, pour un petit nombre de personnes. L'EHPAD offre en revanche une chambre en établissement, un accompagnement dans les actes de la vie quotidienne et dans les soins, et un programme d'animations. Si votre parent a besoin de soins constants, ou devient plus dépendant, l'accueil familial peut ne plus suffire. Pour comparer avec les prix d'un établissement, voyez la page [prix d'un EHPAD et aides](ehpad-prix-aides)."},
+        {"type": "p", "texte": "Si vous hésitez entre plusieurs options (aide à domicile renforcée, résidence, accueil familial, EHPAD), la page [mon parent ne peut plus vivre seul](parent-ne-peut-plus-vivre-seul) vous aide à choisir par où commencer."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Peut-on être accueillant familial de son propre parent ?", "r": "Non. L'accueillant et la personne avec qui il vit en couple ne doivent pas avoir de lien de parenté, jusqu'au 4e degré inclus, avec la personne hébergée. Pour rester auprès de votre parent, il existe d'autres solutions décrites dans la page sur l'accueil d'un parent chez soi."},
+    {"q": "Combien de personnes un accueillant peut-il héberger ?", "r": "Pas plus de 3 personnes en même temps, sauf dérogation du président du conseil départemental pour l'accueil d'un couple. Le nombre exact est fixé dans l'agrément."},
+    {"q": "Combien de temps dure l'agrément d'un accueillant familial ?", "r": "L'agrément est délivré par le président du conseil départemental et il est valable 5 ans. Le département dispose de 4 mois à compter de la réception du dossier complet pour notifier sa décision."},
+    {"q": "Peut-on quitter un accueil familial si cela ne se passe pas bien ?", "r": "Le contrat prévoit une période d'essai et les conditions pour y mettre fin, avec un préavis qui ne peut pas être inférieur à 2 mois. Le suivi social et médico-social par le département permet aussi de signaler un problème."},
+    {"q": "Qui paie les cotisations sociales de l'accueillant ?", "r": "C'est la personne hébergée, sur la rémunération pour services rendus, l'indemnité de congés payés et l'indemnité de sujétions. Le Cesu accueil familial, géré par l'Urssaf, calcule les cotisations et les prélève chaque mois sur le compte de la personne accueillie."},
+    {"q": "L'ASH est-elle récupérée sur la succession ?", "r": "Oui : les montants d'ASH versés par le département sont récupérables du vivant et au décès de la personne bénéficiaire. Le détail et les seuils sont dans la page sur l'aide sociale à l'hébergement."}
+  ],
+  "liens_internes": [
+    {"slug": "accueillir-parent-chez-soi", "ancre": "accueillir un parent chez soi"},
+    {"slug": "apa", "ancre": "APA"},
+    {"slug": "aide-sociale-hebergement", "ancre": "aide sociale à l'hébergement"},
+    {"slug": "obligation-alimentaire", "ancre": "obligation alimentaire"},
+    {"slug": "ehpad-prix-aides", "ancre": "prix d'un EHPAD et aides"},
+    {"slug": "parent-ne-peut-plus-vivre-seul", "ancre": "mon parent ne peut plus vivre seul"}
+  ],
+  "sources": [
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15240", "titre": "Service-public.gouv.fr : Accueil familial d'une personne âgée et/ou handicapée"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-en-accueil-familial/vivre-en-accueil-familial", "titre": "Pour les personnes âgées : Vivre en accueil familial"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-en-accueil-familial/l-ash-en-accueil-familial", "titre": "Pour les personnes âgées : L'ASH en accueil familial"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-en-accueil-familial/comment-l-accueil-familial-est-il-encadre", "titre": "Pour les personnes âgées : Comment l'accueil familial est-il encadré ?"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-en-accueil-familial/comment-un-accueillant-familial-obtient-il-son-agrement", "titre": "Pour les personnes âgées : Obtenir l'agrément d'accueillant familial"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/annuaires-et-services/fiches-pratiques/fiche-pratique-vos-besoins-evoluent-quelles-solutions-de-logement", "titre": "Pour les personnes âgées : Fiche pratique, les solutions de logement"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Aucun prix moyen national d'un accueil familial trouvé sur une source officielle (CNSA, DREES) : seuls les minimums réglementaires sont donnés.",
+    "Aucun crédit d'impôt ou réduction d'impôt pour la personne hébergée trouvé sur service-public (seul le crédit d'impôt d'équipement de l'accueillant est cité).",
+    "Montant des aides au logement (APL/ALS) en accueil familial : non détaillé, pas de barème trouvé."
+  ]
+}

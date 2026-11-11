@@ -1,0 +1,104 @@
+{
+  "slug": "pch-apres-60-ans",
+  "title": "PCH après 60 ans : la garder ou la demander (2026)",
+  "description": "PCH après 60 ans : on peut la demander si le handicap existait avant 60 ans ou si on travaille encore. PCH ou APA, qui choisir ? Démarche MDPH.",
+  "h1": "PCH après 60 ans : peut-on la garder ou la demander ?",
+  "chapo": "Oui, la PCH est possible après 60 ans dans trois cas : votre handicap répondait déjà aux critères avant 60 ans, vous travaillez encore, ou vous touchiez l'ACTP. Sinon, c'est l'APA qui prend le relais. La PCH et l'APA ne se cumulent pas, mais vous pouvez choisir l'une ou l'autre, et changer d'avis. La demande se fait auprès de la MDPH, qui répond en 4 mois maximum.",
+  "en_bref": [
+    "Règle générale : première demande avant 60 ans. Après 60 ans, trois exceptions (handicap avant 60 ans, activité professionnelle, ACTP).",
+    "Un handicap qui apparaît après 60 ans ouvre droit à l'APA, pas à la PCH (sauf si vous travaillez encore).",
+    "PCH et APA ne se cumulent pas : vous avez un droit d'option, jamais définitif.",
+    "Ni la PCH ni l'APA ne sont récupérées sur la succession.",
+    "Dossier à déposer à la MDPH, réponse en 4 mois maximum."
+  ],
+  "sections": [
+    {
+      "h2": "La PCH s'arrête-t-elle à 60 ans ?",
+      "blocs": [
+        {"type": "p", "texte": "Non. La limite de 60 ans s'applique à la **première demande**. Si vous touchez déjà la PCH, elle ne s'arrête pas à votre anniversaire : elle continue jusqu'à la fin de la durée accordée, puis se renouvelle. Elle est attribuée à vie si l'état de la personne ne peut pas s'améliorer, sinon pour 10 ans au maximum."},
+        {"type": "p", "texte": "À partir de 60 ans, une personne qui remplit aussi les conditions de l'APA peut choisir entre garder la PCH ou passer à l'APA, au moment du renouvellement de son droit."}
+      ]
+    },
+    {
+      "h2": "Dans quels cas peut-on demander la PCH après 60 ans ?",
+      "blocs": [
+        {"type": "p", "texte": "Il faut avoir un handicap qui répond aux critères de la PCH, et se trouver dans l'une de ces situations :"},
+        {"type": "liste", "items": [
+          "Vous avez moins de 60 ans à la première demande.",
+          "Votre handicap répondait **déjà aux critères avant 60 ans**, même si vous n'aviez fait aucune demande. Il n'y a pas de limite d'âge dans ce cas.",
+          "Vous êtes **encore en activité professionnelle**, même au-delà de l'âge légal de départ à la retraite.",
+          "Vous touchez l'ACTP (allocation compensatrice pour tierce personne) : si vous optez pour la PCH, vous ne touchez plus l'ACTP."
+        ]},
+        {"type": "p", "texte": "Côté handicap, il faut une difficulté absolue pour une activité de la vie quotidienne, ou une difficulté grave pour au moins deux activités (se lever, marcher, se laver, utiliser les toilettes, parler, entendre, voir…), pendant au moins un an. Vous devez aussi résider en France de façon stable et régulière."},
+        {"type": "exemple", "titre": "Exemple", "texte": "Miriam a 62 ans. Elle a fait un AVC à 59 ans et n'a rien demandé à l'époque. Son handicap répondait déjà aux critères de la PCH avant ses 60 ans : elle peut donc la demander, et elle est aussi éligible à l'APA. Elle choisira entre les deux selon ses besoins (par exemple pour transformer sa baignoire en douche)."},
+        {"type": "attention", "texte": "Si une maladie ou une perte d'autonomie apparaît **après 60 ans** et que vous ne travaillez plus, la PCH n'est en principe pas ouverte : c'est l'[APA](apa) qui est faite pour cela."}
+      ]
+    },
+    {
+      "h2": "PCH ou APA : laquelle choisir ?",
+      "blocs": [
+        {"type": "p", "texte": "Les deux aides ne se cumulent pas. Si vous êtes éligible aux deux, vous avez un droit d'option à tout moment, et le choix n'est pas définitif. Voici les principales différences, d'après le site officiel pour-les-personnes-agees.gouv.fr (page mise à jour le 12/01/2026) :"},
+        {"type": "tableau", "entetes": ["", "PCH", "APA"], "lignes": [
+          ["Âge", "Moins de 60 ans à la première demande, ou exceptions", "60 ans et plus"],
+          ["Qui évalue", "Équipe de la MDPH", "Équipe médico-sociale du département (grille AGGIR, GIR 1 à 4)"],
+          ["Ressources", "Prise en charge à 100 % si les ressources de patrimoine sont à 30 915,30 € par an ou moins (chiffre 2025), 80 % au-delà", "Une partie reste à votre charge au-delà de 933,89 € de revenus par mois (2026)"],
+          ["Ménage, courses, linge", "Non financés (l'aide-ménagère départementale peut se cumuler)", "Oui, l'aide à domicile peut les faire"],
+          ["Dédommager un aidant familial", "Oui", "Non"],
+          ["Récupération sur succession", "Non", "Non"],
+          ["Plafond", "Par type d'aide : aide humaine jusqu'à 9h05 par jour", "Plan d'aide plafonné selon le GIR : voir [l'APA](apa)"]
+        ]},
+        {"type": "p", "texte": "La PCH finance 5 types d'aides : aide humaine, aides techniques, aménagement du logement et du véhicule, charges spécifiques ou exceptionnelles (protections pour incontinence, téléalarme…) et aides animalières. Elle ne finance pas l'accueil en établissement médico-social ou de santé. Exemples de plafonds : 13 200 € sur 10 ans pour les aides techniques, 10 000 € sur 10 ans pour l'aménagement du logement."},
+        {"type": "p", "texte": "En règle générale, la PCH convient mieux quand les besoins sont techniques ou d'aménagement (matériel, travaux) ou quand on souhaite dédommager un proche. L'APA convient mieux quand l'aide au ménage compte beaucoup. Comparez les deux avec la MDPH et le département avant de trancher."}
+      ]
+    },
+    {
+      "h2": "Comment demander la PCH à la MDPH ?",
+      "blocs": [
+        {"type": "etapes", "items": [
+          "Retirez ou remplissez le dossier de la MDPH de votre département (en ligne sur monparcourshandicap.gouv.fr ou par courrier).",
+          "Faites remplir le certificat médical par votre médecin.",
+          "Joignez les justificatifs d'identité et de domicile. Si vous avez plus de 60 ans, précisez dans le dossier que votre handicap répondait aux critères avant 60 ans ou que vous travaillez encore, avec des preuves (compte rendu médical, arrêt, hospitalisation de l'époque).",
+          "L'équipe de la MDPH évalue vos besoins, puis la commission (CDAPH) décide du plan d'aide.",
+          "Le conseil départemental verse la prestation."
+        ]},
+        {"type": "p", "texte": "La MDPH a **4 mois maximum** pour répondre. En cas de refus, vous pouvez contester : un recours administratif d'abord, puis le tribunal dans les 2 mois."},
+        {"type": "attention", "texte": "Pour prouver que le handicap existait avant 60 ans, rassemblez les anciens dossiers médicaux. C'est la pièce qui fait la différence pour une première demande après 60 ans."}
+      ]
+    },
+    {
+      "h2": "Un proche peut-il être payé avec la PCH ?",
+      "blocs": [
+        {"type": "p", "texte": "Oui. Avec la PCH, un aidant familial peut être dédommagé, et un membre de la famille peut être salarié, avec des exceptions (conjoint, parents, enfants, sauf handicap très lourd). Le détail est sur la page [aidant familial](aidant-familial). Avec l'APA, le dédommagement n'est pas possible, mais on peut salarier un proche, sauf son conjoint, concubin ou partenaire de Pacs."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Peut-on avoir la PCH et l'APA en même temps ?", "r": "Non, les deux aides ne se cumulent pas. Si vous êtes éligible aux deux, vous avez un droit d'option : vous choisissez l'une ou l'autre, et vous pouvez changer, le choix n'étant pas définitif."},
+    {"q": "Y a-t-il un âge maximum pour toucher la PCH ?", "r": "Pas pour quelqu'un qui remplissait les critères avant 60 ans. La limite de 60 ans ne vaut que pour la première demande. L'ancienne limite de 75 ans a été supprimée depuis janvier 2021."},
+    {"q": "La PCH est-elle récupérée sur la succession ?", "r": "Non. D'après le site officiel pour-les-personnes-agees.gouv.fr, ni la PCH ni l'APA ne peuvent être récupérées par le conseil départemental, ni du vivant du bénéficiaire, ni sur sa succession."},
+    {"q": "Faut-il des ressources faibles pour avoir la PCH ?", "r": "Non, la PCH est accordée quels que soient les revenus. Mais la prise en charge est de 100 % si les ressources de patrimoine sont à 30 915,30 € par an ou moins (chiffre 2025), et de 80 % au-delà."},
+    {"q": "Combien de temps dure la PCH ?", "r": "Elle est attribuée au minimum 1 an, à vie si le handicap ne peut pas s'améliorer, et 10 ans maximum sinon."},
+    {"q": "Qui verse la PCH ?", "r": "La commission de la MDPH l'accorde, et le conseil départemental la verse."}
+  ],
+  "liens_internes": [
+    {"slug": "apa", "ancre": "APA : montant et conditions"},
+    {"slug": "aidant-familial", "ancre": "être dédommagé comme aidant familial"},
+    {"slug": "grille-aggir", "ancre": "grille AGGIR et GIR"}
+  ],
+  "sources": [
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/quelles-differences-entre-la-pch-et-l-apa", "titre": "Quelles différences entre la PCH et l'APA ? (pour-les-personnes-agees.gouv.fr)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14202", "titre": "Prestation de compensation du handicap (service-public.gouv.fr)"},
+    {"url": "https://www.monparcourshandicap.gouv.fr/aides/la-pch-pour-les-personnes-agees-de-plus-de-60-ans", "titre": "La PCH pour les personnes âgées de plus de 60 ans (monparcourshandicap.gouv.fr)"},
+    {"url": "https://www.monparcourshandicap.gouv.fr/aides/la-prestation-de-compensation-du-handicap-pch", "titre": "PCH (monparcourshandicap.gouv.fr)"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10009", "titre": "Allocation personnalisée d'autonomie (service-public.gouv.fr)"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Écart entre sources officielles sur le seuil de ressources de la PCH : pour-les-personnes-agees.gouv.fr donne 30 915,30 € par an en 2025 ; service-public.gouv.fr et monparcourshandicap.gouv.fr affichent 31 162,62 € (année non précisée, probablement 2026). Seul le chiffre 2025 daté est retenu.",
+    "Écart sur le dédommagement de l'aidant familial : 4,78 € et 7,16 € par heure (au 1er avril 2025) sur pour-les-personnes-agees.gouv.fr, 4,93 € et 7,40 € sur service-public.gouv.fr. Non repris ici, renvoi à la page aidant familial.",
+    "Droit d'option et suppression du plafond de 75 ans : le 'depuis janvier 2021' vient de monparcourshandicap.gouv.fr.",
+    "Procédure exacte de recours (administratif puis tribunal sous 2 mois) lue dans un résumé de service-public.gouv.fr, à relire.",
+    "Plafonds de la PCH (9h05 par jour, 13 200 €, 10 000 €) lus sur une page mise à jour le 12/01/2026 : à revérifier lors de la mise en ligne.",
+    "Le conseil à privilégier PCH ou APA selon le besoin est un repère éditorial tiré des différences officielles, pas une règle."
+  ]
+}

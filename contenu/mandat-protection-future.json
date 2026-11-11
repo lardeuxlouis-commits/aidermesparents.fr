@@ -1,0 +1,182 @@
+{
+  "slug": "mandat-protection-future",
+  "title": "Mandat de protection future : forme, coût et mise en œuvre",
+  "description": "Désigner à l'avance qui s'occupera de vous ou de vos biens : acte notarié ou sous seing privé, enregistrement à 125 €, entrée en vigueur et limites.",
+  "h1": "Mandat de protection future : à quoi ça sert et comment le faire",
+  "chapo": "Le mandat de protection future permet de choisir à l'avance la personne qui s'occupera de soi ou de ses biens le jour où l'on ne pourra plus le faire. Il se fait en bonne santé, soit par acte notarié, soit sous seing privé (enregistrement : environ 125 €). Il n'est mis en œuvre qu'avec un certificat médical, visé par le greffe du tribunal.",
+  "en_bref": [
+    "Se prépare tant qu'on est en capacité de décider, sans juge",
+    "Deux formes : acte notarié (pouvoirs larges) ou acte sous seing privé (actes d'administration seulement)",
+    "Enregistrement d'un acte sous seing privé : environ 125 € auprès des impôts",
+    "Mise en œuvre : certificat médical de moins de 2 mois, présentation au greffe du tribunal",
+    "Révocable librement tant qu'il n'a pas pris effet"
+  ],
+  "sections": [
+    {
+      "h2": "À quoi sert le mandat de protection future ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Il permet à une personne (le mandant) de désigner à l'avance un mandataire qui agira si elle devient incapable de pourvoir seule à ses intérêts, pour sa personne, pour ses biens ou pour les deux. Le mandant ne perd ni ses droits ni sa capacité en signant. Tant que le mandat n'a pas pris effet, il peut le modifier, le révoquer ou changer de mandataire."
+        },
+        {
+          "type": "p",
+          "texte": "L'intérêt est d'éviter, si l'état de santé baisse, une [tutelle ou une curatelle](tutelle-curatelle-parent) décidée par un juge, avec une personne que vous n'aurez pas choisie."
+        },
+        {
+          "type": "attention",
+          "texte": "Le mandat se signe tant que votre parent comprend ce qu'il signe. Une fois l'altération installée, il est trop tard : il faudra alors regarder l'[habilitation familiale](habilitation-familiale) ou la tutelle."
+        }
+      ]
+    },
+    {
+      "h2": "Sous seing privé ou notarié : quelle différence ?",
+      "blocs": [
+        {
+          "type": "tableau",
+          "entetes": [
+            "",
+            "Acte sous seing privé",
+            "Acte notarié"
+          ],
+          "lignes": [
+            [
+              "Pouvoirs du mandataire",
+              "Actes d'administration (gestion courante). Les actes de disposition (vente, donation) demandent l'accord du juge",
+              "Gestion complète du patrimoine, y compris actes de disposition"
+            ],
+            [
+              "Coût",
+              "Rédaction gratuite, enregistrement environ 125 € auprès de l'administration fiscale",
+              "Frais du notaire, qui couvrent la rédaction et l'enregistrement"
+            ],
+            [
+              "Contrôle",
+              "Inventaire et comptes annuels du mandataire, contrôle par le juge en cas de problème",
+              "Même principe"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "L'acte notarié est donc plus complet. Il est à privilégier si votre parent possède un logement ou des placements à gérer. Un notaire peut aussi vérifier que votre parent comprend la portée de l'acte."
+        }
+      ]
+    },
+    {
+      "h2": "Qui peut être mandataire ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Vous choisissez la personne : un enfant, le conjoint, un proche, ou un professionnel habilité. Le mandat est en principe exercé gratuitement, sauf remboursement des frais. Le mandant peut aussi nommer une personne qui contrôle le mandataire."
+        },
+        {
+          "type": "p",
+          "texte": "Vous pouvez séparer les rôles, par exemple un enfant pour les décisions personnelles et un autre pour les biens."
+        }
+      ]
+    },
+    {
+      "h2": "Comment le mettre en œuvre quand le moment arrive ?",
+      "blocs": [
+        {
+          "type": "etapes",
+          "items": [
+            "Faites constater l'altération par un médecin inscrit sur la liste du procureur, qui établit un certificat médical circonstancié de moins de 2 mois.",
+            "Le mandataire se présente au greffe du tribunal judiciaire avec le mandat et le certificat. Le mandant doit être présent, sauf impossibilité médicale justifiée.",
+            "Le greffier vise le mandat : il le date, le tamponne, y appose son visa, sur chaque page.",
+            "Le mandat prend effet à ce moment-là."
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Le certificat médical coûte 192 € TTC et n'est pas remboursé. Il est à la charge de la personne protégée."
+        }
+      ]
+    },
+    {
+      "h2": "Quelles sont les limites du mandat ?",
+      "blocs": [
+        {
+          "type": "liste",
+          "items": [
+            "Le mandataire doit tenir un inventaire des biens et rendre des comptes annuels",
+            "Il ne peut pas agir contre l'intérêt de la personne : en cas de mauvaise gestion, le juge peut mettre fin au mandat",
+            "Un acte sous seing privé n'autorise pas la vente du logement sans autorisation du juge",
+            "Le mandat s'arrête si la personne retrouve ses facultés, en cas de décès, ou si une tutelle ou une curatelle est ouverte"
+          ]
+        },
+        {
+          "type": "p",
+          "texte": "Si une fois en vigueur le mandat pose problème, il se révoque en saisissant par écrit le juge des tutelles."
+        }
+      ]
+    },
+    {
+      "h2": "Mandat de protection future pour un parent ou pour son propre enfant handicapé ?",
+      "blocs": [
+        {
+          "type": "p",
+          "texte": "Les parents peuvent aussi l'établir pour un enfant en situation de handicap, mineur ou majeur. Dans ce cas, il doit être notarié. Il prend effet quand l'enfant atteint la majorité et que les parents ne peuvent plus s'en occuper."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Combien coûte un mandat de protection future ?",
+      "r": "Pour un acte sous seing privé, l'enregistrement coûte environ 125 € auprès de l'administration fiscale, la rédaction étant gratuite. Pour un acte notarié, vous payez les frais du notaire. À la mise en œuvre, le certificat médical coûte 192 € TTC."
+    },
+    {
+      "q": "Peut-on faire un mandat de protection future pour une personne qui a Alzheimer ?",
+      "r": "Seulement si elle est encore capable de comprendre et de consentir. Sinon, il faut passer par le juge, avec une habilitation familiale, une curatelle ou une tutelle."
+    },
+    {
+      "q": "Faut-il un notaire pour un mandat de protection future ?",
+      "r": "Non, il peut être sous seing privé. Mais l'acte notarié donne des pouvoirs plus larges, notamment pour vendre ou donner des biens sans passer par le juge."
+    },
+    {
+      "q": "Le mandat de protection future est-il valable immédiatement ?",
+      "r": "Non. Il ne produit ses effets que lorsque le mandataire le fait viser par le greffe du tribunal avec un certificat médical montrant que la personne ne peut plus gérer ses affaires seule."
+    },
+    {
+      "q": "Peut-on annuler un mandat de protection future ?",
+      "r": "Oui, librement tant qu'il n'a pas pris effet. Une fois mis en œuvre, il faut une demande écrite adressée au juge."
+    }
+  ],
+  "liens_internes": [
+    {
+      "slug": "tutelle-curatelle-parent",
+      "ancre": "tutelle ou curatelle"
+    },
+    {
+      "slug": "habilitation-familiale",
+      "ancre": "habilitation familiale"
+    },
+    {
+      "slug": "procuration-bancaire-parent",
+      "ancre": "procuration bancaire"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16670",
+      "titre": "service-public.gouv.fr, Mandat de protection future"
+    },
+    {
+      "url": "https://www.justice.fr/fiche/mandat-protection-future",
+      "titre": "justice.fr, Mandat de protection future"
+    },
+    {
+      "url": "https://www.pour-les-personnes-agees.gouv.fr/preserver-son-autonomie/organiser-a-l-avance-sa-propre-protection/le-mandat-de-protection-future",
+      "titre": "pour-les-personnes-agees.gouv.fr, Le mandat de protection future"
+    }
+  ],
+  "a_verifier": [
+    "Montant de 125 € de l'enregistrement (cité comme approximatif par justice.fr)",
+    "Tarif du notaire pour un mandat notarié : non trouvé sur source officielle, à demander un devis",
+    "Rôle exact de la contresignature d'avocat pour l'acte sous seing privé (la source lue est ambiguë)",
+    "Page pour-les-personnes-agees.gouv.fr non lue (erreur de certificat), contenu repris via la recherche"
+  ],
+  "date_verification": "2026-11-11"
+}

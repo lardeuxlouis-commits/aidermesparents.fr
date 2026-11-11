@@ -1,0 +1,179 @@
+{
+ "slug": "allocation-veuvage",
+ "title": "Allocation veuvage 2026 : montant, conditions, demande",
+ "description": "Allocation veuvage 2026 : jusqu'à 719,58 € par mois pendant 2 ans si vous avez moins de 55 ans. Plafond de ressources, conditions et démarche.",
+ "h1": "Allocation veuvage : conditions, montant et demande",
+ "chapo": "L'allocation veuvage est une aide temporaire pour le conjoint survivant de moins de 55 ans. En 2026, elle atteint 719,58 € par mois au maximum, pendant 2 ans (ou jusqu'à 55 ans si vous aviez au moins 50 ans au décès). Vos ressources ne doivent pas dépasser 2 698,43 € sur 3 mois, soit environ 899,48 € par mois. La demande se fait dans les 2 ans suivant le décès.",
+ "en_bref": [
+  "Pour qui : conjoint survivant de moins de 55 ans, qui ne vit plus en couple.",
+  "Montant maximum en 2026 : 719,58 € par mois, sans CSG ni CRDS.",
+  "Plafond de ressources : 2 698,43 € sur 3 mois civils (soit 899,48 € par mois).",
+  "Durée : 2 ans au maximum, ou jusqu'à vos 55 ans si vous aviez 50 ans ou plus au décès.",
+  "Demande à faire dans les 2 ans qui suivent le décès, à l'Assurance retraite ou à la MSA."
+ ],
+ "sections": [
+  {
+   "h2": "À quoi sert l'allocation veuvage ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "L'allocation veuvage aide un conjoint qui perd son époux ou son épouse trop tôt pour toucher la pension de réversion, qui demande d'avoir au moins 55 ans. C'est un revenu de transition, versé pour une durée limitée, sous condition de ressources."
+    },
+    {
+     "type": "p",
+     "texte": "À 55 ans, elle laisse la place à la réversion : voir [la pension de réversion](pension-de-reversion)."
+    }
+   ]
+  },
+  {
+   "h2": "Qui peut y prétendre ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "Vous avez **moins de 55 ans**.",
+      "Vous étiez marié avec la personne décédée.",
+      "Vous ne vivez pas en couple : ni remariage, ni concubinage, ni Pacs.",
+      "Vous résidez en France (hexagone ou outre-mer) ou dans un pays lié à la France par les règles européennes ou une convention.",
+      "Votre conjoint était affilié à l'Assurance retraite pendant au moins 3 mois (consécutifs ou non) au cours des 12 mois avant son décès, ou se trouvait dans une situation assimilée : allocataire de l'AAH, chômeur indemnisé, retraité du régime général, indemnisé pour maladie, maternité, invalidité ou accident du travail.",
+      "Vos ressources respectent le plafond."
+     ]
+    },
+    {
+     "type": "attention",
+     "texte": "Pour la plupart des familles qui lisent ceci pour un parent âgé, cette aide ne s'applique pas : elle vise les veufs et veuves de moins de 55 ans. Si votre parent a plus de 55 ans, passez directement à la pension de réversion."
+    }
+   ]
+  },
+  {
+   "h2": "Quel est le montant de l'allocation veuvage en 2026 ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le montant maximum est de **719,58 € par mois** en 2026 (source service-public.gouv.fr). Il peut être réduit en fonction de vos ressources. Il n'est pas soumis à la CSG, à la CRDS ni à la Casa."
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Élément",
+      "Montant en 2026"
+     ],
+     "lignes": [
+      [
+       "Allocation maximale par mois",
+       "719,58 €"
+      ],
+      [
+       "Plafond de ressources sur 3 mois civils",
+       "2 698,43 €"
+      ],
+      [
+       "Plafond de ressources, équivalent mensuel",
+       "899,48 €"
+      ],
+      [
+       "Durée maximale",
+       "2 ans (ou jusqu'à 55 ans si vous aviez 50 ans ou plus au décès)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les ressources regardées sont celles des 3 mois civils qui précèdent la demande. Si vous reprenez un travail ou suivez une formation rémunérée, vous pouvez cumuler dans certaines limites et pour un temps limité : demandez les modalités à votre caisse."
+    },
+    {
+     "type": "exemple",
+     "titre": "Exemple",
+     "texte": "Marc a 47 ans. Sa femme décède en mars 2026. Sur les 3 mois avant sa demande, il a gagné 2 400 € au total (800 € par mois), sous le plafond de 2 698,43 €. Il est éligible. Comme il avait moins de 50 ans au décès de sa femme, l'allocation sera versée au plus 2 ans. Le montant exact sera fixé par la caisse, jusqu'à 719,58 € par mois."
+    }
+   ]
+  },
+  {
+   "h2": "Comment et quand faire la demande ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Contactez la caisse de retraite dont dépendait votre conjoint : l'Assurance retraite (régime général, 39 60) ou la MSA si c'était un exploitant ou salarié agricole. Vous pouvez faire la demande en ligne depuis votre compte, ou par courrier."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Prévenez la caisse du décès : acte de décès et numéro de sécurité sociale du conjoint.",
+      "Remplissez la demande d'allocation veuvage (formulaire de l'Assurance retraite ou de la MSA).",
+      "Joignez les justificatifs de vos ressources des 3 derniers mois.",
+      "Signalez à la caisse tout changement : reprise de travail, vie en couple, remariage."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "**Le délai est de 2 ans** après le décès. Si vous demandez dans les 12 mois, l'allocation est due à partir du mois du décès. Au-delà de 12 mois, elle est versée à partir du mois de la demande : vous perdez donc des mois en attendant."
+    }
+   ]
+  },
+  {
+   "h2": "Quand l'allocation s'arrête-t-elle ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "Au bout de 2 ans, ou à vos 55 ans si vous aviez 50 ans ou plus au décès.",
+      "En cas de remariage, de concubinage ou de Pacs.",
+      "Si vos ressources dépassent le plafond."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "À 55 ans, vous pouvez demander la pension de réversion. Anticipez : si vous êtes à moins d'un an de vos 55 ans, préparez le dossier."
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Quel est le montant de l'allocation veuvage en 2026 ?",
+   "r": "Au maximum 719,58 € par mois, selon service-public.gouv.fr. Le montant peut être réduit si vos ressources se rapprochent du plafond de 2 698,43 € sur 3 mois. Il n'est pas soumis à la CSG, à la CRDS ni à la Casa."
+  },
+  {
+   "q": "Peut-on cumuler l'allocation veuvage avec un salaire ?",
+   "r": "Oui, dans une certaine limite et pendant un temps limité, si vous reprenez un travail ou suivez une formation rémunérée. Vos ressources doivent rester sous le plafond de 899,48 € par mois en moyenne. Demandez les modalités à votre caisse."
+  },
+  {
+   "q": "À qui adresser la demande d'allocation veuvage ?",
+   "r": "À la caisse dont dépendait votre conjoint : l'Assurance retraite (39 60) pour un salarié du privé ou un indépendant, la MSA pour un affilié agricole. La demande peut se faire en ligne ou par courrier, avec l'acte de décès et vos justificatifs de ressources."
+  },
+  {
+   "q": "Que se passe-t-il à 55 ans ?",
+   "r": "L'allocation s'arrête et vous pouvez demander la pension de réversion, qui demande d'avoir au moins 55 ans et de respecter une condition de ressources au régime général."
+  },
+  {
+   "q": "Peut-on demander l'allocation veuvage plus de 2 ans après le décès ?",
+   "r": "Non. La demande doit être faite dans les 2 ans suivant le décès. Après 12 mois, elle n'est versée qu'à partir du mois de la demande."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "pension-de-reversion",
+   "ancre": "pension de réversion à partir de 55 ans"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F744",
+   "titre": "Allocation veuvage (service-public.gouv.fr)"
+  },
+  {
+   "url": "https://www.lassuranceretraite.fr/portail-info/home/actif/vie-personnelle-retraite/veuvage.html",
+   "titre": "Veuvage (Assurance retraite)"
+  },
+  {
+   "url": "https://www.msa.fr/lfp/en/retraite/allocation-veuvage",
+   "titre": "L'allocation veuvage (MSA)"
+  }
+ ],
+ "date_verification": "2026-11-11",
+ "a_verifier": [
+  "Écart entre sources officielles : service-public.gouv.fr donne un plafond de 2 698,43 € sur 3 mois, la MSA 2 698,42 € (arrondi).",
+  "Règle de calcul exacte de la réduction selon les ressources (allocation différentielle) non lue dans une source officielle : seul 'peut être réduit' est repris.",
+  "Le PDF 'veuvage-mes-droits' de l'Assurance retraite n'a pas pu être lu (format binaire)."
+ ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "parent-ne-peut-plus-vivre-seul",
+  "title": "Parent qui ne peut plus vivre seul : que faire en premier",
+  "description": "Signes à repérer, 4 questions pour savoir vers qui vous tourner (caisse de retraite ou APA), solutions à domicile ou en résidence, et qui contacter.",
+  "h1": "Mon parent ne peut plus vivre seul : que faire ?",
+  "chapo": "Commencez par une évaluation, pas par une maison de retraite. Contactez le point d'information local de votre parent et son médecin traitant. Quatre questions simples (se lever, s'habiller, faire sa toilette, manger seul) indiquent si la demande va à la caisse de retraite ou au département pour l'APA. Les solutions vont de l'aide à domicile à l'EHPAD.",
+  "en_bref": [
+    "Premier réflexe : le point d'information local dédié aux personnes âgées, le CCAS de la mairie et le médecin traitant.",
+    "Un seul « non » (ou aucun) aux 4 questions officielles : on s'adresse à la caisse de retraite. Deux « non » ou plus : dossier d'APA au conseil départemental.",
+    "En cas d'urgence médicale : le 15 (SAMU). Pour les personnes sourdes et malentendantes : le 114.",
+    "Plusieurs solutions existent entre le domicile et l'EHPAD : résidence autonomie, résidence services, accueil familial, habitat inclusif.",
+    "Rien ne se décide dans la précipitation : une visite d'évaluation à domicile précède l'APA, et la caisse de retraite fait elle aussi évaluer les besoins à domicile."
+  ],
+  "sections": [
+    {
+      "h2": "Comment savoir si mon parent ne peut plus vivre seul ?",
+      "blocs": [
+        {"type": "p", "texte": "Il n'y a pas un seul signe. C'est l'accumulation de petites difficultés qui doit vous alerter. Voici ce que les proches remarquent souvent :"},
+        {"type": "liste", "items": [
+          "il a du mal à se lever, à s'habiller, à faire sa toilette ou à manger seul ;",
+          "il tombe, ou il a peur de tomber, et évite de bouger ;",
+          "le frigo est vide ou périmé, il perd du poids, il oublie de prendre ses médicaments ;",
+          "le logement n'est plus entretenu, le courrier s'accumule, les factures ne sont plus payées ;",
+          "il se perd, oublie des rendez-vous ou répète les mêmes questions ;",
+          "il est très isolé et ne sort presque plus."
+        ]},
+        {"type": "p", "texte": "Ces observations ne remplacent pas un avis professionnel. Si la mémoire vous inquiète, un rendez-vous chez le médecin traitant puis, si besoin, en consultation mémoire, permet de savoir de quoi il s'agit. Le niveau d'autonomie est ensuite officiellement mesuré par la [grille AGGIR](grille-aggir), qui donne un « GIR » de 1 à 6."}
+      ]
+    },
+    {
+      "h2": "Par où commencer concrètement ?",
+      "blocs": [
+        {"type": "etapes", "items": [
+          "Parlez-en avec votre parent, sans chercher à décider à sa place. Demandez-lui ce qui est le plus difficile pour lui, et ce qu'il souhaite.",
+          "Prenez rendez-vous avec le médecin traitant : il peut prescrire des soins infirmiers à domicile ou orienter vers des services d'aide à domicile.",
+          "Contactez le point d'information local dédié aux personnes âgées, ou le CCAS de la mairie. Ces professionnels accueillent, informent, conseillent et soutiennent les personnes âgées et leurs proches, et vous donnent la liste des services de votre secteur. L'annuaire est sur pour-les-personnes-agees.gouv.fr.",
+          "Répondez aux 4 questions de la section suivante pour savoir à quel organisme faire la demande d'aide financière.",
+          "Faites la demande et préparez la visite d'évaluation à domicile : soyez présent si possible, avec les informations utiles (médicaments, difficultés du quotidien, revenus)."
+        ]}
+      ]
+    },
+    {
+      "h2": "Caisse de retraite ou APA : à qui faire la demande ?",
+      "blocs": [
+        {"type": "p", "texte": "Le portail officiel pour-les-personnes-agees.gouv.fr propose ces 4 questions. Pour chacune, demandez-vous si votre parent peut le faire seul, même avec difficulté."},
+        {"type": "liste", "items": [
+          "Peut-il se lever seul ?",
+          "Peut-il s'habiller seul ?",
+          "Peut-il faire sa toilette seul ?",
+          "Peut-il manger seul ?"
+        ]},
+        {"type": "tableau", "entetes": ["Réponses", "Vers qui se tourner"], "lignes": [
+          ["Un seul « non » ou aucun", "La caisse de retraite (voir [aide ménagère de la caisse de retraite](aide-menagere-caisse-retraite))"],
+          ["Deux « non » ou plus", "Dossier de demande d'APA au conseil départemental (voir [APA](apa) et [demande d'APA](apa/demande))"]
+        ]},
+        {"type": "p", "texte": "L'APA est accessible à partir de 60 ans, pour les personnes évaluées en GIR 1 à 4, quels que soient leurs revenus ; seul le montant dépend des revenus. Une visite d'évaluation à domicile est organisée par l'équipe médico-sociale du département. La caisse de retraite, elle, envoie un évaluateur mandaté et entièrement financé par elle."}
+      ]
+    },
+    {
+      "h2": "Quelles solutions entre le domicile et l'EHPAD ?",
+      "blocs": [
+        {"type": "p", "texte": "Beaucoup de familles pensent qu'il n'y a que deux choix, rester seul ou aller en EHPAD. Le portail officiel présente en réalité toute une palette de solutions :"},
+        {"type": "tableau", "entetes": ["Solution", "Ce que c'est", "Pour en savoir plus"], "lignes": [
+          ["Rester chez soi avec plus d'aide", "Aide à domicile, soins infirmiers, portage de repas, téléassistance, logement adapté", "[Aide à domicile](aide-a-domicile), [téléassistance](teleassistance), [portage de repas](portage-de-repas), [MaPrimeAdapt](maprimeadapt)"],
+          ["Soulager l'aidant", "Accueil de jour, hébergement temporaire", "[Accueil de jour](accueil-de-jour-alzheimer), [aidant familial](aidant-familial)"],
+          ["Résidence autonomie ou résidence services", "Logement individuel avec espaces collectifs et services, pour personnes autonomes ou relativement autonomes", "[Résidence senior](residence-senior)"],
+          ["Accueil familial", "Une chambre chez un accueillant agréé par le département, avec accès aux pièces communes", "[Accueil familial](accueil-familial-personne-agee)"],
+          ["Accueil chez un proche", "Dans le logement d'un proche, avec des aides à organiser", "[Accueillir un parent chez soi](accueillir-parent-chez-soi)"],
+          ["EHPAD", "Chambre en établissement, accompagnement dans les actes du quotidien et les soins", "[EHPAD : prix et aides](ehpad-prix-aides)"]
+        ]},
+        {"type": "p", "texte": "Les résidences autonomie et les résidences services accueillent des personnes autonomes ou relativement autonomes. Si l'état de santé de votre parent se dégrade au point que ces structures ne peuvent plus répondre à ses besoins, il faudra envisager une autre solution adaptée."}
+      ]
+    },
+    {
+      "h2": "Que faire en cas d'urgence : chute, hospitalisation, aidant absent ?",
+      "blocs": [
+        {"type": "p", "texte": "Pour une urgence médicale, appelez le 15 (SAMU). Le 114 est le numéro d'urgence pour les personnes sourdes et malentendantes. Pour le reste, le point d'information local vous aide à organiser vite une aide à domicile, une sortie d'hospitalisation ou une demande d'hébergement."},
+        {"type": "p", "texte": "Si votre parent est hospitalisé, parlez immédiatement à l'assistant social de l'hôpital avant la sortie : il peut organiser le retour à domicile ou chercher une solution d'hébergement. Les aides sont décrites dans la page [retour à domicile après une hospitalisation](retour-domicile-apres-hospitalisation)."}
+      ]
+    },
+    {
+      "h2": "Et si mon parent refuse de l'aide, ou n'est plus en état de décider ?",
+      "blocs": [
+        {"type": "p", "texte": "Un parent qui refuse n'est pas toujours un parent qui s'oppose : il a souvent peur de perdre son indépendance. Commencez par des aides légères (quelques heures de ménage, des repas livrés, une téléalarme), laissez-lui choisir l'intervenant et essayez à plusieurs reprises. Un professionnel extérieur, comme le médecin traitant ou l'évaluateur du département ou de la caisse, est parfois mieux écouté que ses enfants."},
+        {"type": "p", "texte": "Si une maladie l'empêche de comprendre ses intérêts et de défendre ses droits, une mesure juridique peut être nécessaire. Vous la trouverez dans les pages [habilitation familiale](habilitation-familiale), [tutelle et curatelle](tutelle-curatelle-parent) et [mandat de protection future](mandat-protection-future)."},
+        {"type": "attention", "texte": "Ne vendez pas le logement et n'inscrivez pas votre parent en établissement dans l'urgence, sous la pression. Prenez le temps d'une évaluation et de comparer les solutions et leur coût."}
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Qui contacter en premier quand un parent perd son autonomie ?", "r": "Le point d'information local dédié aux personnes âgées est le premier contact : il accueille, écoute, informe et conseille les personnes âgées, leurs proches et les professionnels. Le CCAS de la mairie, le médecin traitant et, si votre parent est hospitalisé, l'assistant social de l'hôpital peuvent aussi vous orienter."},
+    {"q": "Mon parent peut-il rester chez lui avec une aide ?", "r": "Souvent oui. Selon son niveau d'autonomie, il peut recevoir une aide à domicile financée par la caisse de retraite (GIR 5 ou 6) ou par l'APA (GIR 1 à 4), des soins infirmiers sur prescription, le portage de repas, la téléassistance et des aménagements du logement."},
+    {"q": "Quelle différence entre résidence autonomie, résidence services et EHPAD ?", "r": "Les deux premières accueillent des personnes autonomes ou relativement autonomes dans un logement individuel avec des services collectifs. La résidence autonomie est majoritairement publique ou associative, la résidence services principalement privée commerciale. L'EHPAD accueille des personnes qui ont besoin d'un accompagnement dans les actes du quotidien et de soins."},
+    {"q": "Faut-il attendre un accident pour agir ?", "r": "Non. Il vaut mieux préparer les choses avant une chute ou une hospitalisation : faire évaluer les besoins, mettre en place une aide légère et repérer les solutions de logement. Cela laisse le temps de choisir avec votre parent."},
+    {"q": "Qui paie l'aide à domicile, la résidence ou l'EHPAD ?", "r": "Ça dépend de la solution. Les aides possibles sont l'aide de la caisse de retraite, l'APA, les aides au logement et l'aide sociale à l'hébergement, selon les cas. Pour l'hébergement, le département peut tenir compte des revenus des obligés alimentaires, voir la page [obligation alimentaire](obligation-alimentaire)."},
+    {"q": "Peut-on décider à la place de son parent ?", "r": "Pas sans mandat. Tant que votre parent est en capacité de décider, c'est lui qui choisit. S'il n'en est plus capable, il existe des mesures de protection juridique, comme l'habilitation familiale ou la tutelle, décidées par un juge."}
+  ],
+  "liens_internes": [
+    {"slug": "grille-aggir", "ancre": "grille AGGIR"},
+    {"slug": "apa", "ancre": "APA"},
+    {"slug": "apa/demande", "ancre": "demande d'APA"},
+    {"slug": "aide-menagere-caisse-retraite", "ancre": "aide ménagère de la caisse de retraite"},
+    {"slug": "aide-a-domicile", "ancre": "aide à domicile"},
+    {"slug": "teleassistance", "ancre": "téléassistance"},
+    {"slug": "portage-de-repas", "ancre": "portage de repas"},
+    {"slug": "maprimeadapt", "ancre": "adapter le logement"},
+    {"slug": "accueil-de-jour-alzheimer", "ancre": "accueil de jour"},
+    {"slug": "aidant-familial", "ancre": "droits de l'aidant"},
+    {"slug": "residence-senior", "ancre": "résidence senior"},
+    {"slug": "accueil-familial-personne-agee", "ancre": "accueil familial"},
+    {"slug": "accueillir-parent-chez-soi", "ancre": "accueillir un parent chez soi"},
+    {"slug": "ehpad-prix-aides", "ancre": "prix d'un EHPAD et aides"},
+    {"slug": "retour-domicile-apres-hospitalisation", "ancre": "retour à domicile après une hospitalisation"},
+    {"slug": "obligation-alimentaire", "ancre": "obligation alimentaire"},
+    {"slug": "habilitation-familiale", "ancre": "habilitation familiale"},
+    {"slug": "tutelle-curatelle-parent", "ancre": "tutelle et curatelle"},
+    {"slug": "mandat-protection-future", "ancre": "mandat de protection future"}
+  ],
+  "sources": [
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/en-cas-d-urgence", "titre": "Pour les personnes âgées : En cas d'urgence"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/preserver-son-autonomie/a-qui-s-adresser/les-organismes-a-contacter", "titre": "Pour les personnes âgées : Les organismes à contacter"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/annuaires-et-services/fiches-pratiques/fiche-pratique-vos-besoins-evoluent-quelles-solutions-de-logement", "titre": "Pour les personnes âgées : Fiche pratique, les solutions de logement"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/changer-de-logement/vivre-dans-une-residence-avec-services-pour-seniors/residence-autonomie-et-residence-services-quelle-difference", "titre": "Pour les personnes âgées : Résidence autonomie et résidence services, quelle différence ?"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/j-ai-besoin-d-etre-aide-a-domicile-comment-faire", "titre": "Pour les personnes âgées : Comment être aidé à domicile ?"},
+    {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/l-apa-a-domicile", "titre": "Pour les personnes âgées : L'APA à domicile"}
+  ],
+  "date_verification": "2026-11-11",
+  "a_verifier": [
+    "Les signes d'alerte listés (chutes, frigo vide, courrier...) sont des repères de bon sens, pas issus d'une source officielle.",
+    "Conseils pour un parent qui refuse l'aide : rédactionnels, pas tirés d'une source officielle.",
+    "Pas de chiffre de coût dans cette page : renvoi vers les pages dédiées."
+  ]
+}
