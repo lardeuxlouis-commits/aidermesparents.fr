@@ -37,6 +37,25 @@ RUBRIQUES = [
     ("etablissement", "EHPAD et résidences", "Les prix, les aides et qui doit payer."),
     ("aidants", "Vous, l'aidant", "Vos droits, votre congé, votre rémunération."),
 ]
+RUB_SLUG = {"aides": "aides-financieres", "domicile": "maintien-a-domicile", "etablissement": "ehpad-et-residences", "aidants": "aidants"}
+RUB_PAGE = {
+    "aides": ("Aides financières pour personnes âgées : le guide 2026",
+              "APA, ASPA, carte mobilité inclusion, Sortir Plus, mutuelle : toutes les aides financières pour un parent âgé, avec les montants 2026.",
+              "Aides financières pour les personnes âgées",
+              "Une personne âgée peut cumuler plusieurs aides : l'APA si elle perd de l'autonomie, l'ASPA si ses ressources sont faibles, des aides de sa caisse de retraite, et des avantages comme la carte mobilité inclusion. Chacune dépend d'un organisme différent : le département pour l'APA, la caisse de retraite pour l'ASPA et Sortir Plus, la MDPH ou le département pour la carte. Voici chaque aide, ses conditions et ses montants de 2026."),
+    "domicile": ("Maintien à domicile des personnes âgées : solutions et aides",
+                 "Aide à domicile, téléassistance, portage de repas, adaptation du logement : les solutions pour qu'un parent âgé reste chez lui, et les aides.",
+                 "Maintien à domicile : les solutions et les aides",
+                 "La plupart des personnes âgées souhaitent rester chez elles le plus longtemps possible. C'est souvent possible en combinant plusieurs services : une aide à domicile pour le quotidien, la téléassistance pour la sécurité, le portage de repas, et des travaux pour adapter le logement. Ces dépenses ouvrent droit à des aides (APA, caisse de retraite, MaPrimeAdapt) et, pour beaucoup, à un crédit d'impôt de 50 %."),
+    "etablissement": ("EHPAD et résidences seniors : prix, aides et démarches",
+                      "Prix d'un EHPAD, résidence autonomie ou services, aide sociale à l'hébergement, obligation alimentaire : tout pour choisir et financer.",
+                      "EHPAD et résidences : choisir et financer",
+                      "Quand le maintien à domicile devient trop difficile, plusieurs solutions existent : la résidence autonomie ou la résidence services pour une personne encore autonome, l'EHPAD quand les soins deviennent nécessaires. Le coût varie beaucoup selon l'établissement, et plusieurs aides peuvent réduire la facture. Si les ressources ne suffisent pas, l'aide sociale peut prendre le relais, avec une participation possible des enfants."),
+    "aidants": ("Aidants familiaux : droits, congé et aides en 2026",
+                "Congé de proche aidant, AJPA, rémunération via l'APA, droit au répit : les droits des enfants et proches qui aident un parent âgé.",
+                "Aidants : vos droits quand vous aidez un parent",
+                "Aider un parent âgé prend du temps, de l'énergie et parfois de l'argent. La loi reconnaît ce rôle : congé de proche aidant indemnisé, possibilité d'être rémunéré grâce à l'APA de votre parent, droit au répit, trimestres de retraite. Ces droits sont peu connus et souvent sous-utilisés. Voici ce que vous pouvez demander pour vous."),
+}
 PAGES = {  # slug -> (rubrique, image, libellé court pour le menu et les cartes)
     "apa": ("aides", "accueil", "APA : montant et conditions"),
     "apa/demande": ("aides", "accueil", "Faire la demande d'APA"),
@@ -80,7 +99,7 @@ def url(slug):
 def nav_html(actif=None):
     cur = ' aria-current="true"'
     items = "".join(
-        f'<li><a href="/#{r}"{cur if actif == r else ""}>{E(t)}</a></li>' for r, t, _ in RUBRIQUES)
+        f'<li><a href="/{RUB_SLUG[r]}/"{cur if actif == r else ""}>{E(t)}</a></li>' for r, t, _ in RUBRIQUES)
     return (f'<header class="top"><div class="wrap bar"><a class="logo" href="/" aria-label="{SITE}, accueil">'
             f'<span class="mark" aria-hidden="true"></span><span>aider<b>mes</b>parents</span></a>'
             f'<nav aria-label="Rubriques"><ul>{items}</ul></nav></div></header>')
@@ -93,7 +112,7 @@ def footer_html(pages):
     cols = ""
     for r, t, _ in RUBRIQUES:
         liens = "".join(f'<li><a href="{url(s)}">{E(PAGES[s][2])}</a></li>' for s in PAGES if PAGES[s][0] == r and s in pages)
-        cols += f'<div><h2>{E(t)}</h2><ul>{liens}</ul></div>'
+        cols += f'<div><h2><a href="/{RUB_SLUG[r]}/">{E(t)}</a></h2><ul>{liens}</ul></div>'
     return (f'<footer><div class="wrap"><div class="fcols">{cols}</div>'
             f'<p class="fnote">aidermesparents.fr est un guide indépendant. Il n\'est rattaché à aucune administration, caisse ou entreprise. '
             f'Les montants sont vérifiés sur les sources officielles citées en bas de chaque page.</p>'
@@ -202,7 +221,7 @@ def article(d, pages):
     sources = "".join(f'<li><a href="{E(x["url"])}" rel="noopener" target="_blank">{E(x.get("titre") or x["url"])}</a></li>'
                       for x in d.get("sources", []) if str(x.get("url", "")).startswith("https://"))
     body = f"""<div class="wrap art">
-<nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <a href="/#{rub}">{E(rub_t)}</a> › <span>{E(court)}</span></nav>
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <a href="/{RUB_SLUG[rub]}/">{E(rub_t)}</a> › <span>{E(court)}</span></nav>
 <header class="ahead">
 <h1>{E(strip(d['h1']))}</h1>
 <p class="chapo">{inline(d.get('chapo'))}</p>
@@ -225,13 +244,40 @@ def article(d, pages):
          "citation": [x["url"] for x in d.get("sources", []) if str(x.get("url", "")).startswith("https://")]},
         {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Accueil", "item": DOMAIN + "/"},
-            {"@type": "ListItem", "position": 2, "name": rub_t, "item": f"{DOMAIN}/#{rub}"},
+            {"@type": "ListItem", "position": 2, "name": rub_t, "item": f"{DOMAIN}/{RUB_SLUG[rub]}/"},
             {"@type": "ListItem", "position": 3, "name": court, "item": DOMAIN + path}]},
     ]
     if faq:
         schema.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
             {"@type": "Question", "name": strip(f["q"]), "acceptedAnswer": {"@type": "Answer", "text": strip(f["r"])}} for f in faq]})
     return path, page(d["title"], d["description"], path, body, schema, img, rub, FOOTER)
+
+
+def rubrique(r, pages, contenus):
+    titre, desc, h1, intro = RUB_PAGE[r]
+    path = f"/{RUB_SLUG[r]}/"
+    items = ""
+    for s2 in PAGES:
+        if PAGES[s2][0] != r or s2 not in pages: continue
+        c = contenus[s2]
+        items += (f'<li><a class="card big" href="{url(s2)}"><b>{E(strip(c["h1"]))}</b><span>{inline(c.get("chapo",""))}</span>'
+                  f'<i>Lire le guide →</i></a></li>')
+    autres = "".join(f'<li><a href="/{RUB_SLUG[x]}/">{E(t)}</a></li>' for x, t, _ in RUBRIQUES if x != r)
+    body = f"""<div class="wrap art">
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <span>{E(dict((a, t) for a, t, _ in RUBRIQUES)[r])}</span></nav>
+<header class="ahead"><h1>{E(h1)}</h1><p class="chapo">{E(intro)}</p>
+<ul class="trust"><li>Montants 2026 vérifiés</li><li>Sources officielles citées</li><li>Indépendant et gratuit</li></ul></header>
+<ul class="cards cards1">{items}</ul>
+{CTA_FIN}
+<section class="lire"><h2>Les autres rubriques</h2><ul>{autres}</ul></section>
+</div>"""
+    schema = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": h1, "description": desc, "url": DOMAIN + path, "inLanguage": "fr-FR",
+               "hasPart": [{"@type": "Article", "headline": strip(contenus[s2]["h1"]), "url": DOMAIN + url(s2)} for s2 in PAGES if PAGES[s2][0] == r and s2 in pages]},
+              {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                  {"@type": "ListItem", "position": 1, "name": "Accueil", "item": DOMAIN + "/"},
+                  {"@type": "ListItem", "position": 2, "name": h1, "item": DOMAIN + path}]}]
+    img = {"aides": "accueil", "domicile": "aide-domicile", "etablissement": "ehpad", "aidants": "aidant"}[r]
+    return path, page(titre, desc, path, body, schema, img, r, FOOTER)
 
 
 def accueil(pages, contenus):
@@ -242,7 +288,7 @@ def accueil(pages, contenus):
             if PAGES[s][0] != r or s not in pages: continue
             c = contenus[s]
             items += f'<li><a class="card" href="{url(s)}"><b>{E(PAGES[s][2])}</b><span>{E(court_txt(c.get("description","")))}</span></a></li>'
-        cartes += f'<section id="{r}" class="rub" aria-labelledby="h-{r}"><h2 id="h-{r}">{E(t)}</h2><p class="sous">{E(sous)}</p><ul class="cards">{items}</ul></section>'
+        cartes += f'<section id="{r}" class="rub" aria-labelledby="h-{r}"><h2 id="h-{r}"><a class="h2l" href="/{RUB_SLUG[r]}/">{E(t)}</a></h2><p class="sous">{E(sous)}</p><ul class="cards">{items}</ul></section>'
     body = f"""<section class="hero"><div class="wrap hgrid">
 <div><p class="kicker">Le guide des familles</p>
 <h1>Aider ses parents âgés : les aides, les démarches et les bons réflexes</h1>
@@ -319,6 +365,8 @@ def main():
         open(fp, "w", encoding="utf-8").write(content)
     urls = []
     write("/", accueil(pages, contenus)); urls.append(("/", max([c.get("date_verification", LANCEMENT) for c in contenus.values()] or [LANCEMENT])))
+    for r, _, _ in RUBRIQUES:
+        path, h = rubrique(r, pages, contenus); write(path, h); urls.append((path, max(contenus[x].get("date_verification", LANCEMENT) for x in PAGES if PAGES[x][0] == r and x in contenus)))
     for s in PAGES:
         if s in contenus:
             path, h = article(contenus[s], pages); write(path, h); urls.append((path, contenus[s].get("date_verification", LANCEMENT)))
