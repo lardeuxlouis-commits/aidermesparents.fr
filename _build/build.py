@@ -57,7 +57,7 @@ PAGES = {  # slug -> (rubrique, image, libellé court pour le menu et les cartes
     "conge-proche-aidant": ("aidants", "aidant", "Congé de proche aidant et AJPA"),
 }
 ALT = {
-    "accueil": "Une femme aide sa mère âgée à remplir des papiers sur la table de la cuisine",
+    "accueil": "Une femme serre sa mère âgée dans ses bras, toutes deux rient sur une terrasse ensoleillée",
     "aidant": "Un homme marche bras dessus bras dessous avec son père âgé dans une rue de village",
     "aide-domicile": "Une aide à domicile plie le linge avec une dame âgée dans son salon",
     "teleassistance": "Un homme âgé lit le journal dans son fauteuil avec un bouton de téléassistance autour du cou",
