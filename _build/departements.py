@@ -23,8 +23,35 @@ def article_dep(nom):
                 "Loire-Atlantique", "Lozère", "Mayenne", "Meurthe-et-Moselle", "Moselle", "Saône-et-Loire", "Savoie", "Seine-Maritime",
                 "Seine-Saint-Denis", "Seine-et-Marne", "Vendée", "Corse-du-Sud", "Martinique", "Guyane", "Guadeloupe")
     if n in feminins: return "en " + n
+    if n in ("Ille-et-Vilaine", "Eure-et-Loir", "Indre-et-Loire"): return "en " + n
     if n[0] in "AEIOUÉÈÎÏÔY": return "dans l'" + n
     return "dans le " + n
+
+
+def de_dep(nom):
+    """« de la Gironde », « du Nord », « des Landes », « de l'Ain », « de Paris »."""
+    a = article_dep(nom)
+    if a.startswith("dans le "): return "du " + nom
+    if a.startswith("dans la "): return "de la " + nom
+    if a.startswith("dans les "): return "des " + nom
+    if a.startswith("à "): return "de " + nom
+    if nom[0] in "AEIOUÉÈÎÏÔY": return "de l'" + nom
+    if a.startswith("en "): return "de la " + nom
+    return "de l'" + nom
+
+
+def org_dep(d):
+    """Nom de l'organisme qui gère l'APA, précédé de son article : « le conseil départemental de la Gironde »."""
+    org = d["cd"]["nom"]
+    if org.startswith("Conseil départemental"): return "le conseil départemental " + de_dep(d["nom"])
+    if org.startswith("Collectivité"): return "la " + org
+    return "le " + org
+
+
+def aupres(org):
+    """« auprès du conseil… », « auprès de la Collectivité… »."""
+    if org.startswith("le "): return "auprès du " + org[3:]
+    return "auprès de " + org
 
 
 def deps_publies():
@@ -79,17 +106,16 @@ def page_dep(d):
     if L(titre) > 62: titre = f"APA {nom} ({code}) : contacts et prix des EHPAD"
     if L(titre) > 62: titre = f"APA {nom} ({code}) : démarches et contacts"
     h1 = f"APA et EHPAD {dans} ({code}) : où s'adresser et combien ça coûte"
-    org = d["cd"]["nom"]
-    if org.startswith("Conseil départemental"): org = f"le conseil départemental ({nom})"
+    org = org_dep(d)
     if eh:
         mois = (eh["med"] + (eh["g56"] or 0)) * JOURS
         ecart = (eh["med"] - NAT["med"]) / NAT["med"] * 100
         comp = ("au-dessus" if ecart > 0 else "en dessous") + f" de la médiane nationale ({_eur(NAT['med'])})" if abs(ecart) >= 2 else f"proche de la médiane nationale ({_eur(NAT['med'])})"
-        chapo = (f"{dans[0].upper() + dans[1:]}, l'APA se demande auprès de : {org}. Les {eh['n']} EHPAD du département qui déclarent leurs prix affichent un prix d'hébergement médian de "
+        chapo = (f"{dans[0].upper() + dans[1:]}, l'APA se demande {aupres(org)}. Les {eh['n']} EHPAD du département qui déclarent leurs prix affichent un prix d'hébergement médian de "
                  f"{_eur(eh['med'])} par jour en 2025, {comp}, soit environ {_eur(mois, 0)} par mois avant les aides.")
         desc = f"APA {dans} : contacts officiels, points d'information seniors et prix des {eh['n']} EHPAD (médiane {_eur(eh['med'])} par jour en 2025)."
     else:
-        chapo = f"{dans[0].upper() + dans[1:]}, l'APA se demande auprès de : {org}. Voici les contacts officiels, les points d'information pour les personnes âgées et les démarches."
+        chapo = f"{dans[0].upper() + dans[1:]}, l'APA se demande {aupres(org)}. Voici les contacts officiels, les points d'information pour les personnes âgées et les démarches."
         desc = f"APA {dans} : où faire la demande, contacts officiels, points d'information pour les personnes âgées et démarches."
     if len(desc) > 158: desc = desc[:155].rsplit(" ", 1)[0] + "…"
 
@@ -105,7 +131,7 @@ def page_dep(d):
     if pts or d["mda"]:
         b.append(f'<section><h2 id="points">Les lieux d\'information pour les personnes âgées {dans}</h2>')
         if pts:
-            b.append(f"<p>{len(pts)} point{'s' if len(pts) > 1 else ''} d'information local{'aux' if len(pts) > 1 else ''} pour les personnes âgées (anciennement CLIC) {'sont recensés' if len(pts) > 1 else 'est recensé'} dans l'annuaire officiel. Ils renseignent gratuitement sur l'APA, l'aide à domicile et les établissements, et aident à remplir les dossiers.</p>")
+            b.append(f"<p>{len(pts)} point{'s' if len(pts) > 1 else ''} d'information {'locaux' if len(pts) > 1 else 'local'} pour les personnes âgées (anciennement CLIC) {'sont recensés' if len(pts) > 1 else 'est recensé'} dans l'annuaire officiel. {'Ils aident' if len(pts) > 1 else 'Il aide'} gratuitement à monter le dossier.</p>")
             b.append('<ul class="lieux">' + "".join(_li(c) for c in pts) + "</ul>")
         if d["mda"]:
             b.append(f"<p>Le département compte aussi {len(d['mda'])} maison{'s' if len(d['mda']) > 1 else ''} de l'autonomie ou antenne{'s' if len(d['mda']) > 1 else ''} de proximité :</p>")
@@ -123,17 +149,17 @@ def page_dep(d):
         b.append('<div class="tw"><table><tbody>' + "".join(f"<tr><td>{a}</td><td><b>{c}</b></td></tr>" for a, c in rows) + "</tbody></table></div>")
         mois = (eh["med"] + (eh["g56"] or 0)) * JOURS
         b.append(f'<aside class="exemple"><p class="lab">Exemple</p><p>Dans un EHPAD au prix médian du département, hébergement et tarif dépendance de base reviennent à environ {_eur(mois, 0)} par mois. '
-                 f'La réduction d\'impôt de 25 % (2 500 € par an au maximum) et l\'aide au logement peuvent faire baisser ce montant : estimez le reste à charge avec notre <a href="/ehpad-prix-aides/">calculateur EHPAD</a>.</p></aside>')
+                 f'Les aides font baisser ce montant : <a href="/ehpad-prix-aides/">calculer le reste à charge</a>.</p></aside>')
         b.append('<p>Les prix de chaque établissement sont consultables sur le comparateur officiel <a href="https://www.pour-les-personnes-agees.gouv.fr/annuaire-ehpad-et-maisons-de-retraite" rel="noopener" target="_blank">pour-les-personnes-agees.gouv.fr</a>.</p></section>')
 
-    b.append(f'<section><h2 id="montants">Estimer l\'APA d\'un parent qui vit {dans}</h2></section>')
+    b.append(f'<section><h2 id="montants">Estimer l\'APA d\'un parent qui vit {dans}</h2><p>Le barème est national. Conditions et montants détaillés : <a href="/apa/">notre guide de l\'APA</a>.</p></section>')
     b.append('<div class="calc" data-calc="apa"></div>')
 
-    faq = [(f"Où faire la demande d'APA {dans} ?", f"Auprès de {org}" + (f", joignable au {d['cd']['tel']}" if d['cd'].get('tel') else "") + ". Le formulaire est le cerfa n°16301, identique dans toute la France.")]
+    faq = [(f"Où faire la demande d'APA {dans} ?", aupres(org)[0].upper() + aupres(org)[1:] + (f", joignable au {d['cd']['tel']}" if d['cd'].get('tel') else "") + ". Le formulaire est le cerfa n°16301, identique dans toute la France.")]
     if eh:
         faq.append((f"Quel est le prix moyen d'un EHPAD {dans} ?", f"Le prix d'hébergement médian est de {_eur(eh['med'])} par jour en 2025 (chambre seule), d'après les prix déclarés par {eh['n']} établissements à la CNSA. Avec le tarif dépendance de base, cela fait environ {_eur((eh['med'] + (eh['g56'] or 0)) * JOURS, 0)} par mois avant aides."))
     if pts:
-        faq.append((f"Qui peut m'aider à remplir le dossier APA {dans} ?", f"Les {len(pts)} points d'information pour les personnes âgées du département aident gratuitement à remplir le dossier, tout comme le CCAS de la mairie."))
+        faq.append((f"Qui peut m'aider à remplir le dossier APA {dans} ?", (f"Les {len(pts)} points d'information pour les personnes âgées du département aident" if len(pts) > 1 else "Le point d'information pour les personnes âgées du département aide") + " gratuitement à remplir le dossier, tout comme le CCAS de la mairie."))
     if eh:
         faq.append((f"Quel est l'EHPAD le moins cher {dans} ?", f"D'après les prix déclarés à la CNSA pour 2025, le prix d'hébergement le plus bas relevé {dans} est de {_eur(eh['min'])} par jour, et 10 % des établissements sont sous {_eur(eh['p10'])}. Les places habilitées à l'aide sociale sont en général les moins chères."))
     b.append("<section aria-labelledby=\"faq\"><h2 id=\"faq\">Questions fréquentes</h2>" + "".join(f"<details><summary>{_e(q)}</summary><p>{_e(r)}</p></details>" for q, r in faq) + "</section>")
