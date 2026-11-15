@@ -308,10 +308,11 @@ def rubrique(r, pages, contenus):
 
 def page_departement(d):
     p = DEP.page_dep(d)
+    maj_html = f'<p class="maj">Chiffres DREES, Insee et CNSA ajoutés le {dt.date.fromisoformat(p["maj"]).strftime("%d/%m/%Y")}</p>' if p.get("maj") else ""
     body = f"""<div class="wrap art">
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <a href="/apa/">APA</a> › <a href="/apa/departements/">Par département</a> › <span>{E(p['nom'])}</span></nav>
 <header class="ahead"><h1>{E(p['h1'])}</h1><p class="chapo">{E(p['chapo'])}</p>
-<ul class="trust"><li>Contacts de l'annuaire officiel</li><li>Prix déclarés à la CNSA</li><li>Guide indépendant et gratuit</li></ul></header>
+<ul class="trust"><li>Contacts de l'annuaire officiel</li><li>Prix déclarés à la CNSA</li><li>Guide indépendant et gratuit</li></ul>{maj_html}</header>
 <div class="txt">{p['body']}<p class="calc-cta">Votre parent a peut-être droit à d’autres aides : <a href="/quelles-aides/">faites le point en 1 minute</a>.</p>
 <section class="lire"><h2>À lire aussi</h2><ul><li><a href="/apa/">APA : montant et conditions</a></li><li><a href="/apa/demande/">Faire la demande d'APA</a></li><li><a href="/ehpad-prix-aides/">Prix d'un EHPAD et aides</a></li><li><a href="/apa/departements/">L'APA dans les autres départements</a></li></ul></section></div></div>"""
     schema = [{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -320,6 +321,9 @@ def page_departement(d):
                 {"@type": "ListItem", "position": 3, "name": "Par département", "item": DOMAIN + "/apa/departements/"},
                 {"@type": "ListItem", "position": 4, "name": p["nom"], "item": DOMAIN + p["path"]}]},
               {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in p["faq"]]}]
+    if p.get("maj"):
+        schema.append({"@context": "https://schema.org", "@type": "WebPage", "name": p["h1"], "url": DOMAIN + p["path"], "inLanguage": "fr-FR",
+                       "datePublished": LANCEMENT, "dateModified": p["maj"]})
     h = page(p["title"], p["desc"], p["path"], body, schema, "aidant", "aides", FOOTER)
     if not d.get("ehpad"):  # pas assez de données propres : on ne demande pas l'indexation
         h = h.replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"')
@@ -438,7 +442,7 @@ def main():
     path, h = hub_departements(); write(path, h); urls.append((path, LANCEMENT))
     for d in DEP.DEPS:
         path, h = page_departement(d); write(path, h)
-        if d.get("ehpad"): urls.append((path, LANCEMENT))
+        if d.get("ehpad"): urls.append((path, DEP.page_dep(d).get("maj") or LANCEMENT))
     for s in PAGES:
         if s in contenus:
             path, h = article(contenus[s], pages); write(path, h); urls.append((path, contenus[s].get("date_verification", LANCEMENT)))
