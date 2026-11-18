@@ -278,6 +278,14 @@
   {
    "slug": "aide-sociale-hebergement",
    "ancre": "l'aide sociale à l'hébergement"
+  },
+  {
+   "slug": "aide-menagere-caisse-retraite",
+   "ancre": "l'aide ménagère de la caisse de retraite (GIR 5 et 6)"
+  },
+  {
+   "slug": "portage-de-repas",
+   "ancre": "le portage de repas à domicile"
   }
  ],
  "sources": [

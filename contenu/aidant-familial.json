@@ -220,6 +220,10 @@
     {
       "q": "Que se passe-t-il pour mon parent si je tombe malade ou si je suis hospitalisé ?",
       "r": "Si vous êtes son aidant indispensable et qu'il touche l'APA, vous pouvez demander une majoration ponctuelle de son plan d'aide, jusqu'à 1 159,32 € par hospitalisation en 2026. Elle finance un hébergement temporaire ou un relais à domicile. La demande se fait auprès du président du conseil départemental."
+    },
+    {
+      "q": "Existe-t-il un statut officiel d'aidant familial ?",
+      "r": "Il n'existe pas de carte ni de statut unique à demander. La loi (article L113-1-3 du code de l'action sociale et des familles) définit le proche aidant, et cette qualité ouvre des droits précis : congé de proche aidant avec l'allocation journalière, salariat par votre parent grâce à l'APA, droit au répit, assurance vieillesse des aidants pour la retraite. Chacun se demande séparément, auprès de l'employeur, de la CAF ou de la MSA, ou du département selon le cas."
     }
   ],
   "liens_internes": [

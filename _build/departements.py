@@ -104,10 +104,12 @@ def page_dep(d):
     dans = article_dep(nom)
     path = f"/apa/{d['slug']}/"
     eh = d.get("ehpad")
-    titre = f"APA {nom} ({code}) : contacts, démarches et prix des EHPAD"
+    # 18/11 : les recherches sont « apa <département ou ville> téléphone / contact » (Search Console) : le titre l'annonce.
     L = lambda t: len(t.replace("'", "&#x27;"))
-    if L(titre) > 62: titre = f"APA {nom} ({code}) : contacts et prix des EHPAD"
-    if L(titre) > 62: titre = f"APA {nom} ({code}) : démarches et contacts"
+    tel = d["cd"].get("tel")
+    for titre in ([f"APA {nom} ({code}) : téléphone, adresse, prix EHPAD", f"APA {nom} ({code}) : téléphone et prix EHPAD", f"APA {nom} ({code}) : téléphone et adresse", f"APA {nom} ({code}) : téléphone"] if tel else
+                  [f"APA {nom} ({code}) : contacts, démarches et prix des EHPAD", f"APA {nom} ({code}) : contacts et prix des EHPAD", f"APA {nom} ({code}) : démarches et contacts"]):
+        if L(titre) <= 60: break
     h1 = f"APA et EHPAD {dans} ({code}) : où s'adresser et combien ça coûte"
     org = org_dep(d)
     if eh:
@@ -120,7 +122,17 @@ def page_dep(d):
     else:
         chapo = f"{dans[0].upper() + dans[1:]}, l'APA se demande {aupres(org)}. Voici les contacts officiels, les points d'information pour les personnes âgées et les démarches."
         desc = f"APA {dans} : où faire la demande, contacts officiels, points d'information pour les personnes âgées et démarches."
-    if len(desc) > 158: desc = desc[:155].rsplit(" ", 1)[0] + "…"
+    if tel:
+        ville = (d["cd"].get("commune") or "").replace(" Cedex", "")
+        if ville == nom: ville = ""
+        debut = f"APA {dans} : téléphone {tel}" + (f" ({ville})" if ville else "")
+        fins = ([f", adresse et points d'information seniors. Prix des {eh['n']} EHPAD : médiane {_eur(eh['med'])} par jour en 2025.",
+                 f", adresse et points d'information. Prix des {eh['n']} EHPAD : médiane {_eur(eh['med'])} par jour en 2025.",
+                 f". Prix des {eh['n']} EHPAD : médiane {_eur(eh['med'])} par jour en 2025."] if eh else [])
+        fins += [", adresse officielle, points d'information pour les personnes âgées et démarches.", ", adresse officielle et démarches."]
+        for f in fins:
+            if L(debut + f) <= 155: desc = debut + f; break
+    if len(desc) > 155: desc = desc[:152].rsplit(" ", 1)[0] + "…"
 
     b = []
     if d.get("note"): b.append(f'<aside class="attention"><p class="lab">À savoir</p><p>{_e(d["note"])}</p></aside>')
@@ -162,6 +174,9 @@ def page_dep(d):
     b.append('<div class="calc" data-calc="apa"></div>')
 
     faq = [(f"Où faire la demande d'APA {dans} ?", aupres(org)[0].upper() + aupres(org)[1:] + (f", joignable au {d['cd']['tel']}" if d['cd'].get('tel') else "") + ". " + _var(code + "r", ["Le formulaire est le cerfa n°16301, identique dans toute la France.", "Le dossier à remplir est le cerfa n°16301, le même partout en France.", "On utilise le formulaire national cerfa n°16301."]))]
+    if tel:
+        faq.append((f"Quel est le numéro de téléphone de l'APA {dans} ?", f"L'annuaire officiel de l'administration indique le {tel} pour {org}" + (f" ({ville})" if ville else "") + ". "
+                    + _var(code + "t", ["Demandez le service de l'APA ou de l'autonomie.", "À l'accueil, demandez le service qui gère l'APA (souvent appelé service autonomie).", "Précisez à l'accueil que l'appel concerne l'APA pour être orienté vers le bon service."])))
     faq += stats_faq
     if eh:
         faq.append((f"Quel est le prix moyen d'un EHPAD {dans} ?", f"Le prix d'hébergement médian est de {_eur(eh['med'])} par jour en 2025 (chambre seule), d'après les prix déclarés par {eh['n']} établissements à la CNSA. Avec le tarif dépendance de base, cela fait environ {_eur((eh['med'] + (eh['g56'] or 0)) * JOURS, 0)} par mois avant aides."))

@@ -207,6 +207,10 @@
   {
    "q": "Le matériel suit-il mon parent s'il part en vacances ?",
    "r": "Cela dépend du contrat. Loire-Atlantique indique que le matériel suit l'abonné en cas d'absence pour une durée déterminée dans le département, sans intervention d'un technicien. Vérifiez cette possibilité avant de signer."
+  },
+  {
+   "q": "Comment déclarer la téléassistance aux impôts ?",
+   "r": "Votre parent indique le montant payé dans l'année dans sa déclaration de revenus, à la rubrique des services à la personne, avec le nom de l'organisme payé. L'administration calcule ensuite elle-même le crédit d'impôt de 50 %. La téléassistance y donne droit même si elle n'est pas comprise dans un ensemble d'autres services. Gardez les factures : une facture payée en espèces n'est pas acceptée (service-public.gouv.fr, fiche F12, mise à jour le 15/04/2026)."
   }
  ],
  "liens_internes": [

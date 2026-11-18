@@ -240,6 +240,10 @@
     {
       "slug": "ehpad-prix-aides",
       "ancre": "financer un EHPAD"
+    },
+    {
+      "slug": "pension-de-reversion",
+      "ancre": "la pension de réversion"
     }
   ],
   "sources": [

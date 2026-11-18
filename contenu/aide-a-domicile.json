@@ -1,6 +1,6 @@
 {
  "slug": "aide-a-domicile",
- "title": "Aide à domicile personne âgée : prix et aides 2026",
+ "title": "Aide à domicile personne âgée : prix et financement 2026",
  "description": "Aide à domicile pour un parent âgé : prestataire, mandataire ou emploi direct, prix indicatifs, aides et crédit d'impôt de 50 % jusqu'à 12 000 €.",
  "h1": "Aide à domicile pour une personne âgée : prix, aides et crédit d'impôt",
  "chapo": "Pour qu'un parent âgé reste chez lui, vous pouvez passer par un service prestataire, un service mandataire ou l'emploi direct. Le prix est libre mais l'État fixe un repère : 25 € de l'heure comme tarif plancher pour l'APA en 2026. Le crédit d'impôt de 50 % s'applique à vos dépenses, jusqu'à 12 000 € par an en règle générale.",
@@ -231,6 +231,10 @@
   {
    "slug": "grille-aggir",
    "ancre": "niveaux de GIR"
+  },
+  {
+   "slug": "aide-menagere-caisse-retraite",
+   "ancre": "l'aide ménagère de la caisse de retraite"
   }
  ],
  "sources": [
