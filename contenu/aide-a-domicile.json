@@ -118,7 +118,7 @@
     },
     {
      "type": "p",
-     "texte": "Vous pouvez aussi faire valoir le crédit d'impôt pour des services rendus chez un ascendant qui remplit les conditions de l'APA, par exemple quand vous payez à sa place. Dans ce cas, vous ne pouvez pas déduire de pension alimentaire pour ce même parent."
+     "texte": "Vous pouvez aussi faire valoir le crédit d'impôt pour des services rendus chez un ascendant qui perçoit l'APA, par exemple quand vous payez à sa place. Dans ce cas, vous ne pouvez pas déduire de pension alimentaire pour ce même parent."
     },
     {
      "type": "p",
@@ -200,7 +200,7 @@
   },
   {
    "q": "Quel plafond de dépenses pour le crédit d'impôt avec un parent de plus de 65 ans ?",
-   "r": "Le plafond de 12 000 € est majoré de 1 500 € par membre du foyer de plus de 65 ans, sans dépasser 15 000 €. Pour un ascendant de plus de 65 ans remplissant les conditions de l'APA, la majoration s'applique aussi, uniquement pour le calcul de la réduction d'impôt."
+   "r": "Le plafond de 12 000 € est majoré de 1 500 € par membre du foyer de plus de 65 ans, sans dépasser 15 000 €. Quand vous payez une aide à domicile chez un ascendant de plus de 65 ans qui perçoit l'APA, la majoration s'applique aussi. C'est bien un crédit d'impôt : il est remboursé même si vous n'êtes pas imposable."
   },
   {
    "q": "Un enfant peut-il devenir l'aide à domicile de son parent ?",
@@ -275,7 +275,7 @@
    "titre": "Être rémunéré pour l'aide apportée à son proche"
   }
  ],
- "date_verification": "2026-11-11",
+ "date_verification": "2026-11-19",
  "a_verifier": [
   "Pas de moyenne nationale officielle du prix horaire d'un service prestataire : seuls le tarif plancher 25 € (2026) et le barème d'un CCAS (Laval, 2025) ont été lus. Les fourchettes de sites privés n'ont pas été reprises.",
   "Salaire horaire minimum conventionnel en emploi direct (particuliers employeurs, 2026) : montant officiel non relevé, donc non cité.",

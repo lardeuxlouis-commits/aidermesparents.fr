@@ -44,12 +44,14 @@
     aspa: {
       titre: 'Simulateur : montant d’ASPA possible',
       html: '<label>Ressources mensuelles actuelles (retraites et autres revenus)<input name="res" inputmode="decimal" placeholder="ex. 750"></label>' +
-        '<label class="chk"><input type="checkbox" name="couple"> En couple (ressources du couple)</label>',
+        '<label class="chk"><input type="checkbox" name="couple"> En couple (ressources du couple)</label>' +
+        '<label>Si en couple, qui peut avoir l’ASPA ?<select name="qui"><option value="1">Un seul des deux</option><option value="2">Les deux</option></select></label>',
       calc: function (f) {
-        var R = num(f.res.value), c = f.couple.checked, plaf = c ? 1620.18 : 1043.59;
+        var R = num(f.res.value), c = f.couple.checked, deux = c && f.qui.value === '2', plaf = c ? 1620.18 : 1043.59;
         save('res', f.res.value); save('couple', c);
         var a = Math.max(0, plaf - R);
-        return '<p class="big">' + (a ? eur(a) + ' <small>par mois</small>' : 'Pas d’ASPA') + '</p><ul><li>Plafond 2026 : ' + eur(plaf) + ' par mois ' + (c ? 'pour un couple' : 'pour une personne seule') + '</li><li>L’ASPA complète les ressources jusqu’à ce plafond.</li></ul>' +
+        if (c && !deux) a = Math.min(a, 1043.59);  // un seul membre du couple : 1 043,59 € au maximum (service-public F16871)
+        return '<p class="big">' + (a ? eur(a) + ' <small>par mois</small>' : 'Pas d’ASPA') + '</p><ul><li>Plafond de ressources 2026 : ' + eur(plaf) + ' par mois ' + (c ? 'pour un couple' : 'pour une personne seule') + '</li><li>L’ASPA complète les ressources jusqu’à ce plafond.</li>' + (c && !deux ? '<li>Un seul des deux y a droit : 1 043,59 € par mois au maximum.</li>' : '') + '</ul>' +
           '<p class="note">Estimation. La caisse de retraite tient compte de toutes les ressources des 3 derniers mois (ou des 12 derniers).</p>';
       }
     },
@@ -77,8 +79,9 @@
         var fact = num(f.fact.value), apl = num(f.apl.value), apa = num(f.apa.value), R = num(f.res.value);
         save('res', f.res.value);
         var net = Math.max(0, fact - apl - apa), red = Math.min(0.25 * Math.min(net * 12, 10000), 2500) / 12;
-        var reste = net - red, manque = reste - R;
-        return '<p class="big">' + eur(reste) + ' <small>par mois après aides</small></p><ul><li>Après APL et APA : ' + eur(net) + '</li><li>Réduction d’impôt (25 %, 2 500 € par an au maximum) : environ ' + eur(red) + ' par mois, si votre parent est imposable</li>' +
+        var reste = net - red, manque = net - R;
+        return '<p class="big">' + eur(net) + ' <small>par mois après APL et APA</small></p><ul><li>S’il est imposable, la réduction d’impôt (25 %, 2 500 € par an au maximum) ramène ce coût à environ ' + eur(reste) + ' par mois, soit environ ' + eur(red) + ' de moins. S’il n’est pas imposable, il n’y a pas de réduction : comptez ' + eur(net) + '.</li>' +
+          '<li>Dans les 23 départements de l’expérimentation EHPAD (Seine-Saint-Denis, Haute-Garonne, Finistère…), il n’y a pas d’APA en établissement : laissez la case APA à 0.</li>' +
           (R ? '<li>' + (manque > 0 ? 'Il manque environ ' + eur(manque) + ' par mois par rapport à ses ressources : regardez <a href="/aide-sociale-hebergement/">l’aide sociale à l’hébergement</a>.' : 'Ses ressources couvrent la facture.') + '</li>' : '') +
           '</ul><p class="note">Estimation. Le tarif exact figure dans le contrat de séjour de l’établissement.</p>';
       }
@@ -131,7 +134,7 @@
         save('res', f.res.value);
         var P = R < 2.21 * S ? T : R <= 3.4 * S ? T + (A - T) * (R - 2.21 * S) / (1.19 * S) * 0.8 : T + (A - T) * 0.8;
         var apa = Math.max(0, A - P);
-        return '<p class="big">' + eur(apa) + ' <small>d’APA par mois, versés à l’EHPAD</small></p><ul><li>Tarif dépendance du GIR : ' + eur(A) + ' par mois</li><li>Reste à la charge de votre parent sur la dépendance : ' + eur(P) + ' par mois</li><li>' + (R < 2.21 * S ? 'Sous ' + eur(2.21 * S) + ' de ressources, il ne paie que le tarif GIR 5-6.' : 'Au-delà de ' + eur(2.21 * S) + ' de ressources, sa participation augmente progressivement.') + '</li></ul><p class="note">Barème national 2026 (fiche CNSA). Les tarifs de l’établissement figurent dans son contrat de séjour ou sur pour-les-personnes-agees.gouv.fr.</p>';
+        return '<p class="big">' + eur(apa) + ' <small>d’APA par mois, versés à l’EHPAD</small></p><ul><li>Tarif dépendance du GIR : ' + eur(A) + ' par mois</li><li>Reste à la charge de votre parent sur la dépendance : ' + eur(P) + ' par mois</li><li>' + (R < 2.21 * S ? 'Sous ' + eur(2.21 * S) + ' de ressources, il ne paie que le tarif GIR 5-6.' : 'Au-delà de ' + eur(2.21 * S) + ' de ressources, sa participation augmente progressivement.') + '</li><li>Dans les 23 départements de l’expérimentation EHPAD, ce calcul ne s’applique pas : pas d’APA en établissement, participation forfaitaire de 6,16 € par jour en 2026.</li></ul><p class="note">Barème national 2026 (fiche CNSA). Les tarifs de l’établissement figurent dans son contrat de séjour ou sur pour-les-personnes-agees.gouv.fr.</p>';
       }
     }
   };

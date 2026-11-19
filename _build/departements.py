@@ -1,5 +1,6 @@
 """Pages « APA et EHPAD dans le département » : uniquement des données officielles propres à chaque département."""
 import json, os, hashlib, re
+import local_dep as LOC
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = json.load(open(os.path.join(ROOT, "_data", "departements.json"), encoding="utf-8"))
@@ -99,33 +100,70 @@ def _li(c, nom_court=True):
     return h + "</li>"
 
 
+def bloc_local(d, dans):
+    """Le bon interlocuteur, vérifié à la source (19/11/2026), et l'encadré de l'expérimentation EHPAD."""
+    code, nom = d["code"], d["nom"]
+    out, faq = [], []
+    if code in LOC.EXPE or code == LOC.EXPE_METRO:
+        qui = "la Métropole de Lyon" if code == LOC.EXPE_METRO else ("la Guyane" if code == "973" else "La Réunion" if code == "974" else "le département")
+        lieu = "dans un EHPAD de la Métropole de Lyon (pas dans le reste du Rhône)" if code == LOC.EXPE_METRO else f"dans un EHPAD situé {dans}"
+        pf = _eur(LOC.PARTICIPATION_2026)
+        out.append(f'<aside class="attention"><p class="lab">EHPAD : une règle différente ici</p><p>Depuis le 1er juillet 2025, {qui} fait partie des 23 territoires qui expérimentent un nouveau financement des EHPAD. '
+                   f'{lieu[0].upper() + lieu[1:]}, il n\'y a plus de tarif dépendance selon le GIR ni d\'APA en établissement à demander : chaque résident paie une participation forfaitaire de {pf} par jour en 2026 (6,10 € en 2025), '
+                   f'quels que soient son niveau de dépendance et ses revenus. Les résidents qui payaient moins avant le 1er juillet 2025 gardent leur tarif. L\'APA à domicile, elle, ne change pas. '
+                   f'Le prix d\'hébergement reste à payer, avec l\'<a href="/aide-sociale-hebergement/">aide sociale à l\'hébergement</a> si les revenus ne suffisent pas.</p><p class="src">{LOC.SRC_EXPE}</p></aside>')
+        faq.append((f"Faut-il demander l'APA en établissement {dans} ?",
+                    f"Non, pas pour un EHPAD {'de la Métropole de Lyon' if code == LOC.EXPE_METRO else 'situé ' + dans}. Depuis le 1er juillet 2025, {qui} expérimente un forfait unique soins et dépendance : "
+                    f"le résident paie une participation de {pf} par jour en 2026, sans APA en établissement. L'APA à domicile continue de se demander comme avant."))
+    L = LOC.LOCAL.get(code)
+    if L:
+        lignes = []
+        if L.get("nom_aide"): lignes.append(f"<b>Nom local de l'aide</b> : {L['nom_aide']}")
+        lignes.append(f"<b>{_e(L['service'])}</b>")
+        lignes.append(_e(L["adresse"]))
+        if L.get("tel"): lignes.append('Téléphone : <a href="tel:' + _e(L["tel"].replace(" ", "")) + '">' + _e(L["tel"]) + "</a>")
+        if L.get("courriel"): lignes.append(f'Courriel : <a href="mailto:{_e(L["courriel"])}">{_e(L["courriel"])}</a>')
+        liens = "".join(f'<li><a href="{_e(u)}" rel="noopener" target="_blank">{_e(t)}</a></li>' for t, u in L.get("liens", []))
+        src = (f'Source : <a href="{LOC.ANN}{L["fiche"]}" rel="noopener" target="_blank">fiche du département dans l\'annuaire officiel pour-les-personnes-agees.gouv.fr</a>'
+               + (f' et <a href="{_e(L["site_src"])}" rel="noopener" target="_blank">site du département</a>' if L.get("site_src") else "") + ", relevés le 19/11/2026.")
+        out.append(f'<section><h2 id="interlocuteur">Le bon interlocuteur pour l\'APA {dans}</h2><p>{L["texte"]}</p>'
+                   f'<div class="contact">{"<br>".join(lignes)}</div>' + (f'<ul>{liens}</ul>' if liens else "") + f'<p class="src">{src}</p></section>')
+        faq += L.get("faq", [])
+    return "".join(out), faq
+
+
 def page_dep(d):
     nom, code = d["nom"], d["code"]
     dans = article_dep(nom)
+    expe = code in LOC.EXPE
+    local = code in LOC.LOCAL
     path = f"/apa/{d['slug']}/"
     eh = d.get("ehpad")
     # 18/11 : les recherches sont « apa <département ou ville> téléphone / contact » (Search Console) : le titre l'annonce.
     L = lambda t: len(t.replace("'", "&#x27;"))
-    tel = d["cd"].get("tel")
-    for titre in ([f"APA {nom} ({code}) : téléphone, adresse, prix EHPAD", f"APA {nom} ({code}) : téléphone et prix EHPAD", f"APA {nom} ({code}) : téléphone et adresse", f"APA {nom} ({code}) : téléphone"] if tel else
+    tel = (LOC.LOCAL.get(code) or {}).get("tel") or d["cd"].get("tel")  # 19/11 : numéro du service APA quand il est connu
+    for titre in ((["APA et ADPA Seine-Saint-Denis (93) : téléphone, prix EHPAD"] if code == "93" else []) + [f"APA {nom} ({code}) : téléphone, adresse, prix EHPAD", f"APA {nom} ({code}) : téléphone et prix EHPAD", f"APA {nom} ({code}) : téléphone et adresse", f"APA {nom} ({code}) : téléphone"] if tel else
                   [f"APA {nom} ({code}) : contacts, démarches et prix des EHPAD", f"APA {nom} ({code}) : contacts et prix des EHPAD", f"APA {nom} ({code}) : démarches et contacts"]):
         if L(titre) <= 60: break
     h1 = f"APA et EHPAD {dans} ({code}) : où s'adresser et combien ça coûte"
     org = org_dep(d)
     if eh:
-        mois = (eh["med"] + (eh["g56"] or 0)) * JOURS
+        dep_j = LOC.PARTICIPATION_2026 if expe else (eh["g56"] or 0)
+        mois = (eh["med"] + dep_j) * JOURS
         ecart = (eh["med"] - NAT["med"]) / NAT["med"] * 100
         comp = ("au-dessus" if ecart > 0 else "en dessous") + f" de la médiane nationale ({_eur(NAT['med'])})" if abs(ecart) >= 2 else f"proche de la médiane nationale ({_eur(NAT['med'])})"
         chapo = (f"{dans[0].upper() + dans[1:]}, l'APA se demande {aupres(org)}. Les {eh['n']} EHPAD du département qui déclarent leurs prix affichent un prix d'hébergement médian de "
-                 f"{_eur(eh['med'])} par jour en 2025, {comp}, soit environ {_eur(mois, 0)} par mois avant les aides.")
+                 f"{_eur(eh['med'])} par jour en 2025, {comp}. En ajoutant " + ("la participation forfaitaire de " + _eur(LOC.PARTICIPATION_2026) + " par jour propre au département" if expe else "le tarif dépendance de base (GIR 5-6)") + f", cela fait environ {_eur(mois, 0)} par mois avant les aides.")
         desc = f"APA {dans} : contacts officiels, points d'information seniors et prix des {eh['n']} EHPAD (médiane {_eur(eh['med'])} par jour en 2025)."
     else:
         chapo = f"{dans[0].upper() + dans[1:]}, l'APA se demande {aupres(org)}. Voici les contacts officiels, les points d'information pour les personnes âgées et les démarches."
         desc = f"APA {dans} : où faire la demande, contacts officiels, points d'information pour les personnes âgées et démarches."
+    if code in ("93", "69"):
+        chapo = chapo.replace("l'APA se demande", "l'APA, appelée ADPA" + (" hors Métropole de Lyon" if code == "69" else "") + ", se demande", 1)
     if tel:
         ville = (d["cd"].get("commune") or "").replace(" Cedex", "")
         if ville == nom: ville = ""
-        debut = f"APA {dans} : téléphone {tel}" + (f" ({ville})" if ville else "")
+        debut = ("APA (ADPA) en Seine-Saint-Denis" if code == "93" else f"APA {dans}") + f" : téléphone {tel}" + (f" ({ville})" if ville else "")
         fins = ([f", adresse et points d'information seniors. Prix des {eh['n']} EHPAD : médiane {_eur(eh['med'])} par jour en 2025.",
                  f", adresse et points d'information. Prix des {eh['n']} EHPAD : médiane {_eur(eh['med'])} par jour en 2025.",
                  f". Prix des {eh['n']} EHPAD : médiane {_eur(eh['med'])} par jour en 2025."] if eh else [])
@@ -136,11 +174,19 @@ def page_dep(d):
 
     b = []
     if d.get("note"): b.append(f'<aside class="attention"><p class="lab">À savoir</p><p>{_e(d["note"])}</p></aside>')
+    loc_html, loc_faq = bloc_local(d, dans)
+    b.append(loc_html)
     b.append(f'<section><h2 id="demande">Où demander l\'APA {dans} ?</h2>')
-    b.append(f"<p>{_var(code, ['La demande se fait auprès de la collectivité qui gère l’APA sur le territoire de votre parent.', 'C’est la collectivité ci-dessous qui reçoit les dossiers d’APA et organise la visite d’évaluation à domicile.', 'Le dossier d’APA est instruit par la collectivité suivante, qui envoie ensuite un évaluateur chez votre parent.'])}</p>")
+    if not local:
+        b.append(f"<p>{_var(code, ['La demande se fait auprès de la collectivité qui gère l’APA sur le territoire de votre parent.', 'C’est la collectivité ci-dessous qui reçoit les dossiers d’APA et organise la visite d’évaluation à domicile.', 'Le dossier d’APA est instruit par la collectivité suivante, qui envoie ensuite un évaluateur chez votre parent.'])}</p>")
+    else:
+        b.append("<p>Adresse générale de la collectivité, d'après l'annuaire de l'administration :</p>")
     b.append(_contact_html(d["cd"]))
     if d.get("metro"): b.append(_contact_html(d["metro"], "Métropole de Lyon (pour les habitants de la Métropole)"))
-    b.append(f'<p>Formulaire : cerfa n°16301, à envoyer à cette adresse {dans} ({_e(d["cd"].get("commune") or nom)}). Pièces et délais : <a href="/apa/demande/">notre guide de la demande</a>.</p></section>')
+    if not local:
+        b.append(f'<p>Formulaire : cerfa n°16301, à envoyer à cette adresse {dans} ({_e(d["cd"].get("commune") or nom)}). Pièces et délais : <a href="/apa/demande/">notre guide de la demande</a>.</p></section>')
+    else:
+        b.append('<p>Pièces à joindre, délais et recours : <a href="/apa/demande/">notre guide de la demande d\'APA</a>.</p></section>')
 
     pts = sorted(d["points"], key=lambda c: c.get("commune", ""))
     if pts or d["mda"]:
@@ -159,34 +205,47 @@ def page_dep(d):
         rows = [("EHPAD ayant déclaré un prix", str(eh["n"])), ("Prix d'hébergement médian", _eur(eh["med"]) + " par jour"),
                 ("Les 10 % les moins chers", "moins de " + _eur(eh["p10"]) + " par jour"), ("Les 10 % les plus chers", "plus de " + _eur(eh["p90"]) + " par jour"),
                 ("Écart observé", f"de {_eur(eh['min'])} à {_eur(eh['max'])} par jour")]
-        if eh.get("g56"): rows.append(("Tarif dépendance GIR 5-6 (médian)", _eur(eh["g56"]) + " par jour"))
-        if eh.get("g12"): rows.append(("Tarif dépendance GIR 1-2 (médian)", _eur(eh["g12"]) + " par jour, financé en partie par l'APA"))
+        if expe:
+            rows.append(("Participation forfaitaire soins et dépendance", _eur(LOC.PARTICIPATION_2026) + " par jour en 2026, quel que soit le GIR"))
+        else:
+            if eh.get("g56"): rows.append(("Tarif dépendance GIR 5-6 (médian)", _eur(eh["g56"]) + " par jour"))
+            if eh.get("g12"): rows.append(("Tarif dépendance GIR 1-2 (médian)", _eur(eh["g12"]) + " par jour, financé en partie par l'APA"))
         b.append('<div class="tw"><table><tbody>' + "".join(f"<tr><td>{a}</td><td><b>{c}</b></td></tr>" for a, c in rows) + "</tbody></table></div>")
-        mois = (eh["med"] + (eh["g56"] or 0)) * JOURS
-        b.append(f'<aside class="exemple"><p class="lab">Exemple</p><p>Dans un EHPAD au prix médian du département, hébergement et tarif dépendance de base reviennent à environ {_eur(mois, 0)} par mois. '
+        mois = (eh["med"] + dep_j) * JOURS
+        b.append(f'<aside class="exemple"><p class="lab">Exemple</p><p>Dans un EHPAD au prix médian du département, hébergement et {"participation forfaitaire" if expe else "tarif dépendance de base"} reviennent à environ {_eur(mois, 0)} par mois. '
                  f'Les aides font baisser ce montant : <a href="/ehpad-prix-aides/">calculer le reste à charge</a>.</p></aside>')
-        b.append('<p>Les prix de chaque établissement sont consultables sur le comparateur officiel <a href="https://www.pour-les-personnes-agees.gouv.fr/annuaire-ehpad-et-maisons-de-retraite" rel="noopener" target="_blank">pour-les-personnes-agees.gouv.fr</a>.</p></section>')
+        if not local:
+            b.append('<p>Les prix de chaque établissement sont consultables sur le comparateur officiel <a href="https://www.pour-les-personnes-agees.gouv.fr/annuaire-ehpad-et-maisons-de-retraite" rel="noopener" target="_blank">pour-les-personnes-agees.gouv.fr</a>.</p>')
+        b.append('</section>')
 
     stats_html, stats_faq = bloc_stats(d)
     b.append(stats_html)
 
-    b.append(f'<section><h2 id="montants">Estimer l\'APA d\'un parent qui vit {dans}</h2><p>Le barème est national. Conditions et montants détaillés : <a href="/apa/">notre guide de l\'APA</a>.</p></section>')
+    b.append(f'<section><h2 id="montants">Estimer l\'APA d\'un parent qui vit {dans}</h2>' + ("<p>Le barème est national. Conditions et montants détaillés : <a href=\"/apa/\">notre guide de l'APA</a>.</p>" if not local else f"<p>{'L’ADPA suit' if code in ('93', '69') else 'Le montant suit'} le barème national 2026 : le simulateur ci-dessous donne un ordre de grandeur avant la visite d'évaluation.</p>") + '</section>')
     b.append('<div class="calc" data-calc="apa"></div>')
 
-    faq = [(f"Où faire la demande d'APA {dans} ?", aupres(org)[0].upper() + aupres(org)[1:] + (f", joignable au {d['cd']['tel']}" if d['cd'].get('tel') else "") + ". " + _var(code + "r", ["Le formulaire est le cerfa n°16301, identique dans toute la France.", "Le dossier à remplir est le cerfa n°16301, le même partout en France.", "On utilise le formulaire national cerfa n°16301."]))]
+    if local:
+        Lc = LOC.LOCAL[code]
+        faq = [(f"Où faire la demande d'APA {dans} ?", f"Le service à contacter est : {Lc['service']}, {Lc['adresse']}" + (f", joignable au {Lc['tel']}" if Lc.get('tel') else "") + ".")]
+    else:
+        faq = [(f"Où faire la demande d'APA {dans} ?", aupres(org)[0].upper() + aupres(org)[1:] + (f", joignable au {d['cd']['tel']}" if d['cd'].get('tel') else "") + ". " + _var(code + "r", ["Le formulaire est le cerfa n°16301, identique dans toute la France.", "Le dossier à remplir est le cerfa n°16301, le même partout en France.", "On utilise le formulaire national cerfa n°16301."]))]
+    faq += loc_faq
     if tel:
-        faq.append((f"Quel est le numéro de téléphone de l'APA {dans} ?", f"L'annuaire officiel de l'administration indique le {tel} pour {org}" + (f" ({ville})" if ville else "") + ". "
+        faq.append((f"Quel est le numéro de téléphone de l'APA {dans} ?", (f"Le service qui gère l'APA répond au {tel} ({LOC.LOCAL[code]['service']}), d'après l'annuaire officiel pour-les-personnes-agees.gouv.fr et le site du département. Le standard général est le {d['cd']['tel']}" if local and LOC.LOCAL[code].get('tel') and d['cd'].get('tel') and LOC.LOCAL[code]['tel'] != d['cd']['tel'] else f"L'annuaire officiel de l'administration indique le {tel} pour {org}") + (f" ({ville})" if ville else "") + ". "
                     + _var(code + "t", ["Demandez le service de l'APA ou de l'autonomie.", "À l'accueil, demandez le service qui gère l'APA (souvent appelé service autonomie).", "Précisez à l'accueil que l'appel concerne l'APA pour être orienté vers le bon service."])))
     faq += stats_faq
-    if eh:
-        faq.append((f"Quel est le prix moyen d'un EHPAD {dans} ?", f"Le prix d'hébergement médian est de {_eur(eh['med'])} par jour en 2025 (chambre seule), d'après les prix déclarés par {eh['n']} établissements à la CNSA. Avec le tarif dépendance de base, cela fait environ {_eur((eh['med'] + (eh['g56'] or 0)) * JOURS, 0)} par mois avant aides."))
-    if pts:
+    avec_dep = ("la participation forfaitaire de " + _eur(LOC.PARTICIPATION_2026) + " par jour") if expe else "le tarif dépendance de base (GIR 5-6)"
+    if eh and not local:
+        faq.append((f"Quel est le prix moyen d'un EHPAD {dans} ?", f"Le prix d'hébergement médian est de {_eur(eh['med'])} par jour en 2025 (chambre seule), d'après les prix déclarés par {eh['n']} établissements à la CNSA. Avec {avec_dep}, cela fait environ {_eur((eh['med'] + dep_j) * JOURS, 0)} par mois avant aides."))
+    if pts and not local:
         faq.append((f"Qui peut m'aider à remplir le dossier APA {dans} ?", (f"Les {len(pts)} points d'information pour les personnes âgées du département aident" if len(pts) > 1 else "Le point d'information pour les personnes âgées du département aide") + " gratuitement à remplir le dossier, tout comme le CCAS de la mairie."))
     if eh:
         faq.append((f"Quel est l'EHPAD le moins cher {dans} ?", f"D'après les prix déclarés à la CNSA pour 2025, le prix d'hébergement le plus bas relevé {dans} est de {_eur(eh['min'])} par jour, et 10 % des établissements sont sous {_eur(eh['p10'])}. " + _var(code + "s", ["Les places habilitées à l'aide sociale sont en général les moins chères.", "Les établissements habilités à l'aide sociale pratiquent souvent les prix les plus bas.", "Pour un budget serré, regardez d'abord les places habilitées à l'aide sociale."])))
     b.append("<section aria-labelledby=\"faq\"><h2 id=\"faq\">Questions fréquentes</h2>" + "".join(f"<details><summary>{_e(q)}</summary><p>{_e(r)}</p></details>" for q, r in faq) + "</section>")
     b.append('<section class="sources"><h2 id="sources">Sources</h2><ul><li>Annuaire de l\'administration (api-lannuaire.service-public.fr), contacts relevés le 12/11/2026</li><li>CNSA, prix hébergement et tarifs dépendance des EHPAD, données brutes 2025 (data.gouv.fr)</li><li>CNSA, montants de l\'APA au 1er janvier 2026</li></ul></section>')
-    return {"path": path, "title": titre, "desc": desc, "h1": h1, "chapo": chapo, "body": "".join(b), "faq": faq, "nom": nom, "code": code, "maj": MAJ_STATS if stats_html else None}
+    # 19/11/2026 : chapô précisé sur toutes les pages avec prix (hébergement + dépendance), bloc local et réforme EHPAD
+    maj = LOC.MAJ_LOCAL if (eh or local or expe) else (MAJ_STATS if stats_html else None)
+    return {"path": path, "title": titre, "desc": desc, "h1": h1, "chapo": chapo, "body": "".join(b), "faq": faq, "nom": nom, "code": code, "maj": maj}
 
 
 # ---------------------------------------------------------------------------
@@ -394,7 +453,8 @@ def bloc_stats(d):
         txt = V("p", [f"{qui} fixe chaque année la valeur du point GIR, qui sert à calculer sa part du financement de la dépendance des résidents d'EHPAD. Elle est de {_eur(v)} en 2025 ({evo}), {pos} la médiane nationale ({_eur(med)}).",
                       f"Pour financer la dépendance des résidents d'EHPAD, {qui[0].lower() + qui[1:]} applique une valeur du point GIR de {_eur(v)} en 2025 ({evo}), {pos} la médiane nationale ({_eur(med)}).",
                       f"La valeur du point GIR, qui fixe la participation de la collectivité au coût de la dépendance en EHPAD, s'établit {dans} à {_eur(v)} en 2025 ({evo}), {pos} la médiane nationale ({_eur(med)})."])
-        if rhone and s.get("vpg_metro"): txt += f" Pour les EHPAD de la Métropole de Lyon, c'est la Métropole qui la fixe : {_eur(s['vpg_metro'])} en 2025."
+        if rhone and s.get("vpg_metro"): txt += f" Pour les EHPAD de la Métropole de Lyon, c'est la Métropole qui la fixe : {_eur(s['vpg_metro'])} en 2025, mais depuis le 1er juillet 2025 la Métropole expérimente un forfait unique soins et dépendance (voir l'encadré en haut de page)."
+        if code in LOC.EXPE: txt += " Attention : depuis le 1er juillet 2025, le département expérimente un forfait unique soins et dépendance, et ses EHPAD ne facturent plus de tarif dépendance selon le GIR (voir l'encadré en haut de page)."
         of.append(txt)
     if of:
         h2 = V("n", [f"Places en EHPAD et soins à domicile {dans}", f"L'offre d'accueil et de soins {dans}", f"EHPAD et soins à domicile {dans} : l'offre disponible"])

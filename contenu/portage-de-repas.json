@@ -1,7 +1,7 @@
 {
  "slug": "portage-de-repas",
- "title": "Portage de repas à domicile : prix et aides 2026",
- "description": "Portage de repas pour une personne âgée : prix indicatifs (12 € environ le repas), aides du département et du CCAS, crédit d'impôt.",
+ "title": "Portage de repas personne âgée : prix et aides 2026",
+ "description": "Portage de repas pour une personne âgée : prix indicatifs (12 € environ le repas), aides du département et du CCAS, crédit d'impôt de 50 % dès 2026.",
  "h1": "Portage de repas à domicile pour une personne âgée : prix et aides",
  "chapo": "Le portage de repas livre des plateaux-repas à réchauffer chez une personne âgée. Il n'y a pas de prix national : des services publics affichent 12 à 12,85 € le repas, avec des tarifs réduits selon les ressources. Le département finance en partie le portage sous 1 043,59 € de ressources par mois pour une personne seule (2026). L'APA ou la caisse de retraite peuvent aussi aider.",
  "en_bref": [
@@ -9,7 +9,7 @@
   "Prix d'exemples publics : 12 € le repas (CCAS de Laval, 2025) et 12,85 € le plateau (Vichy et Cusset, 2026). Le CCAS de Laval propose 7,27 à 10,86 € selon les ressources.",
   "Aide du département : 65 ans ou plus (60 ans si inapte au travail) et ressources sous 1 043,59 € par mois seul, 1 620,18 € en couple.",
   "L'APA et les caisses de retraite peuvent financer une partie du portage.",
-  "Crédit d'impôt de 50 % possible sur la livraison de repas, si elle est comprise dans une offre qui inclut des services à domicile."
+  "Crédit d'impôt de 50 % sur la livraison de repas : pour les dépenses de 2026, même sans autre service à domicile."
  ],
  "sections": [
   {
@@ -106,7 +106,7 @@
     },
     {
      "type": "p",
-     "texte": "Les caisses de retraite, de leur côté, peuvent proposer une aide financière sous conditions, après évaluation des besoins : intervention à domicile, portage de repas ou aide aux déplacements. Si votre parent perçoit une retraite de plusieurs régimes, il s'adresse à celui pour lequel il a cotisé le plus de trimestres."
+     "texte": "Les caisses de retraite, de leur côté, peuvent proposer une aide financière sous conditions, après évaluation des besoins : intervention à domicile, portage de repas ou aide aux déplacements. S'il a cotisé à plusieurs régimes, la caisse à solliciter dépend de son année de naissance : notre page sur [l'aide ménagère de la caisse de retraite](aide-menagere-caisse-retraite) explique la règle."
     },
     {
      "type": "attention",
@@ -119,7 +119,7 @@
    "blocs": [
     {
      "type": "p",
-     "texte": "Oui, mais avec une condition. La livraison de repas à domicile figure parmi les services à la personne ouvrant droit au crédit d'impôt de 50 %, quand elle est comprise dans une offre globale de services incluant des activités effectuées à domicile. Le portage de repas ouvre donc droit au crédit d'impôt s'il est couplé avec une autre aide à domicile (ménage, aide aux gestes quotidiens, par exemple)."
+     "texte": "Oui. La livraison de repas à domicile fait partie des services à la personne qui ouvrent droit au crédit d'impôt de 50 %. Pour les dépenses payées en 2026, service-public.gouv.fr précise qu'elle y ouvre droit même si elle n'est pas comprise dans un ensemble de services, comme la téléassistance. Pour les dépenses de 2025, il fallait encore qu'elle soit couplée à une autre aide à domicile (ménage, aide aux gestes quotidiens)."
     },
     {
      "type": "p",
@@ -127,7 +127,7 @@
     },
     {
      "type": "attention",
-     "texte": "Un portage de repas seul, sans autre service à domicile, peut ne pas ouvrir droit au crédit d'impôt. Vérifiez avec l'organisme avant de compter dessus."
+     "texte": "Le service doit être déclaré (association, entreprise ou organisme de services à la personne) et remettre une attestation annuelle : c'est elle qui sert à remplir la déclaration de revenus."
     }
    ]
   },
@@ -199,6 +199,7 @@
   }
  ],
  "sources": [
+  {"titre": "Service-public.gouv.fr, Crédit d'impôt pour l'emploi d'un salarié à domicile, F12", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12"},
   {
    "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/le-portage-de-repas-a-domicile",
    "titre": "Le portage de repas à domicile (pour-les-personnes-agees.gouv.fr)"
@@ -224,7 +225,7 @@
    "titre": "Plaquette Repas à domicile 2026, Cusset et Vichy (12,85 € le plateau)"
   }
  ],
- "date_verification": "2026-11-11",
+ "date_verification": "2026-11-19",
  "a_verifier": [
   "Les seuils de ressources de 1 043,59 € et 1 620,18 € sont repris de service-public.gouv.fr (page F248 datée du 1er janvier 2025), qui concordent avec les montants 2026 publiés par pour-les-personnes-agees.gouv.fr pour l'aide-ménagère. Un moteur de recherche a aussi renvoyé d'anciens chiffres (1 034,28 € et 1 605,73 €) : ignorés.",
   "Que le crédit d'impôt exclue le prix des ingrédients : pratique générale, mais aucun texte lu ne le dit expressément. À confirmer sur impots.gouv.fr avant diffusion large.",

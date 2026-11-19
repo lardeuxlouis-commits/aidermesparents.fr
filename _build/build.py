@@ -9,7 +9,15 @@ OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://aidermesparents.fr"
 SITE = "Aider mes parents"
 LANCEMENT = "2026-11-12"
-STRIPE_PLAN = "https://buy.stripe.com/14AbIUcRefiy41Faw1cQU00"
+# 19/11/2026 : vente du plan d'action 7,99 € SUSPENDUE (audit du 19/11). Plus aucun bouton ni lien d'achat.
+# Ancien lien : https://buy.stripe.com/14AbIUcRefiy41Faw1cQU00 (Louis désactive lui-même le lien côté Stripe).
+# Avant toute réactivation : vérification serveur du paiement (voir l'en-tête de plan.js).
+STRIPE_PLAN = None
+# Microsoft Clarity : inactif tant que l'identifiant n'est pas fourni par Louis.
+# Mode prévu : sans cookie (consentv2 refusé, réglage « Cookies : off » dans le projet Clarity),
+# saisies masquées, jamais chargé sur /mon-plan/, /quelles-aides/ ni /simulateurs/.
+CLARITY_ID = None
+CLARITY_EXCLU = ("/mon-plan/", "/quelles-aides/", "/simulateurs/", "/404.html")
 INDEXNOW = "ec97aa51e6fa335766b8991daee53218"
 
 E = lambda s: html.escape(str(s or ""), quote=True)
@@ -43,7 +51,7 @@ RUBRIQUES = [
 ]
 RUB_SLUG = {"aides": "aides-financieres", "domicile": "maintien-a-domicile", "etablissement": "ehpad-et-residences", "aidants": "aidants"}
 RUB_PAGE = {
-    "aides": ("Aides financières pour personnes âgées : le guide 2026",
+    "aides": ("Aides aux personnes âgées : toutes les aides financières 2026",
               "APA, ASPA, carte mobilité inclusion, Sortir Plus, mutuelle : toutes les aides financières pour un parent âgé, avec les montants 2026.",
               "Aides financières pour les personnes âgées",
               "Une personne âgée peut cumuler plusieurs aides : l'APA si elle perd de l'autonomie, l'ASPA si ses ressources sont faibles, des aides de sa caisse de retraite, et des avantages comme la carte mobilité inclusion. Chacune dépend d'un organisme différent : le département pour l'APA, la caisse de retraite pour l'ASPA et Sortir Plus, la MDPH ou le département pour la carte. Voici chaque aide, ses conditions et ses montants de 2026."),
@@ -140,6 +148,17 @@ def footer_html(pages):
             f'<a href="/confidentialite/">Confidentialité</a></p></div></footer>')
 
 
+def clarity_tag(path):
+    """Balise Clarity, vide tant que CLARITY_ID est None ou sur les pages exclues."""
+    if not CLARITY_ID or path in CLARITY_EXCLU:
+        return ""
+    return ('<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};'
+            't=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);'
+            f'}})(window,document,"clarity","script","{CLARITY_ID}");'
+            # pas de consentement envoyé : Clarity fonctionne sans cookie
+            'window.clarity("consentv2",{ad_Storage:"denied",analytics_Storage:"denied"});</script>')
+
+
 def page(title, desc, path, body, schema, image="accueil", actif=None, foot=""):
     canon = DOMAIN + path
     og_img = f"{DOMAIN}/img/{image}.jpg"
@@ -168,6 +187,7 @@ def page(title, desc, path, body, schema, image="accueil", actif=None, foot=""):
 {ld}
 <script src="/calc.js?v={ASSET_V}" defer></script>
 <script data-goatcounter="https://aidermesparents.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{clarity_tag(path)}
 </head>
 <body>
 <a class="skip" href="#contenu">Aller au contenu</a>
@@ -226,8 +246,11 @@ def article(d, pages):
         corps = corps[:i2[1]] + CTA_MILIEU + corps[i2[1]:]
     if slug in ("apa", "apa/demande", "ehpad-prix-aides"):
         corps = '<p class="dep-lien">Votre parent vit dans un département précis ? <a href="/apa/departements/">Contacts et prix des EHPAD, département par département →</a></p>' + corps
+    if slug in ("apa", "apa/demande", "ehpad-prix-aides", "aide-sociale-hebergement"):  # maillage vers les pages départementales
+        corps += ('<details class="deps-liste"><summary>Choisir le département de votre parent (contacts APA et prix des EHPAD)</summary><ul class="deps">'
+                  + "".join(f'<li><a href="/apa/{x["slug"]}/"><span class="num">{E(x["code"])}</span> {E(x["nom"])}</a></li>' for x in DEP.DEPS) + "</ul></details>")
     if slug in CALC and i2:  # calculateur après la 1re section
-        corps = corps[:i2[0]] + f'<div class="calc" data-calc="{CALC[slug]}"><noscript>Activez JavaScript pour utiliser le calculateur.</noscript></div>' + corps[i2[0]:]
+        corps = corps[:i2[0]] + f'<div class="calc" data-clarity-mask="True" data-calc="{CALC[slug]}"><noscript>Activez JavaScript pour utiliser le calculateur.</noscript></div>' + corps[i2[0]:]
     urg = URGENCE.get(slug)
     urg_html = f'<aside class="urgence"><p class="lab">Ne tardez pas</p><p>{inline(urg)}</p></aside>' if urg else ""
     bref = "".join(f"<li>{inline(x)}</li>" for x in d.get("en_bref", []))
@@ -263,7 +286,7 @@ def article(d, pages):
 </div></div></div>"""
     schema = [
         {"@context": "https://schema.org", "@type": "Article", "headline": strip(d["h1"])[:110], "description": d.get("description", ""),
-         "image": f"{DOMAIN}/img/{img}.jpg", "datePublished": LANCEMENT, "dateModified": verif, "inLanguage": "fr-FR",
+         "image": f"{DOMAIN}/img/{img}.jpg", "datePublished": min(LANCEMENT, verif), "dateModified": verif, "inLanguage": "fr-FR",
          "author": {"@type": "Person", "name": "Louis Lardeux", "url": DOMAIN + "/a-propos/"},
          "publisher": {"@type": "Organization", "name": SITE, "url": DOMAIN + "/", "logo": {"@type": "ImageObject", "url": DOMAIN + "/favicon.svg"}},
          "mainEntityOfPage": DOMAIN + path,
@@ -308,11 +331,11 @@ def rubrique(r, pages, contenus):
 
 def page_departement(d):
     p = DEP.page_dep(d)
-    maj_html = f'<p class="maj">Chiffres DREES, Insee et CNSA ajoutés le {dt.date.fromisoformat(p["maj"]).strftime("%d/%m/%Y")}</p>' if p.get("maj") else ""
+    maj_html = f'<p class="maj">Page mise à jour le {dt.date.fromisoformat(p["maj"]).strftime("%d/%m/%Y")}</p>' if p.get("maj") else ""
     body = f"""<div class="wrap art">
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <a href="/apa/">APA</a> › <a href="/apa/departements/">Par département</a> › <span>{E(p['nom'])}</span></nav>
 <header class="ahead"><h1>{E(p['h1'])}</h1><p class="chapo">{E(p['chapo'])}</p>
-<ul class="trust"><li>Contacts de l'annuaire officiel</li><li>Prix déclarés à la CNSA</li><li>Guide indépendant et gratuit</li></ul>{maj_html}</header>
+<ul class="trust"><li>Contacts de l'annuaire officiel</li><li>Prix déclarés à la CNSA</li><li>Site indépendant, ce n'est pas le site du département</li></ul>{maj_html}</header>
 <div class="txt">{p['body']}<p class="calc-cta">Votre parent a peut-être droit à d’autres aides : <a href="/quelles-aides/">faites le point en 1 minute</a>.</p>
 <section class="lire"><h2>À lire aussi</h2><ul><li><a href="/apa/">APA : montant et conditions</a></li><li><a href="/apa/demande/">Faire la demande d'APA</a></li><li><a href="/ehpad-prix-aides/">Prix d'un EHPAD et aides</a></li><li><a href="/apa/departements/">L'APA dans les autres départements</a></li></ul></section></div></div>"""
     schema = [{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -380,21 +403,24 @@ STATIQUES = {
                  "<p>aidermesparents.fr est né d'un constat simple : quand un parent perd son autonomie, les familles découvrent un maquis d'aides, de dossiers et de délais, répartis entre l'État, le département, la caisse de retraite, la CAF et la mairie. Beaucoup passent à côté d'aides auxquelles leur parent a droit, faute de savoir qu'elles existent.</p>"
                  "<p>Je ne suis ni travailleur social, ni avocat, ni notaire. Mon travail consiste à rassembler les règles officielles, à les vérifier une par une et à les expliquer simplement. Quand une situation demande un professionnel (juge, notaire, médecin, assistante sociale), la page le dit.</p>"
                  "<h2>Comment chaque page est vérifiée</h2><ul><li><b>Uniquement des sources officielles</b> pour les montants, plafonds et délais : service-public.gouv.fr, pour-les-personnes-agees.gouv.fr, CNSA, Assurance retraite, CAF, Anah, Légifrance. Elles sont citées en bas de chaque page.</li><li><b>Une date de vérification</b> sur chaque page, mise à jour quand les montants changent (en général au 1er janvier et au 1er avril).</li><li><b>Les calculateurs</b> reprennent les barèmes officiels, et nous refaisons les calculs à la main sur des cas types avant de les publier.</li><li><b>Les données par département</b> viennent de l'annuaire officiel de l'administration et des prix déclarés par les EHPAD à la CNSA.</li></ul>"
-                 "<h2>Comment le site est financé</h2><p>Les guides, les questionnaires et les calculateurs sont gratuits. Le site propose un plan d'action personnalisé payant (7,99 €) pour ceux qui veulent gagner du temps ; les démarches elles-mêmes restent gratuites auprès des organismes. À l'avenir, certaines pages pourront présenter des services partenaires : ils seront toujours signalés comme tels, et ils ne changent jamais le contenu des guides.</p>"
+                 "<h2>Comment le site est financé</h2><p>Les guides, les questionnaires et les calculateurs sont gratuits. Les démarches elles-mêmes restent gratuites auprès des organismes. Un plan d'action personnalisé payant a été proposé quelques jours en novembre 2026 : sa vente est suspendue. À l'avenir, certaines pages pourront présenter des services partenaires : ils seront toujours signalés comme tels, et ils ne changent jamais le contenu des guides.</p>"
                  "<h2>Une erreur ? Écrivez-nous</h2><p>Si une information vous semble fausse ou dépassée, écrivez à <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a> : nous vérifions et corrigeons sous 48 heures.</p>"),
     "mentions-legales": ("Mentions légales | Aider mes parents", "Mentions légales du site aidermesparents.fr.",
-                         "<h1>Mentions légales</h1><h2>Éditeur</h2><p>Louis Lardeux, entrepreneur individuel (micro-entreprise), SIREN 999 443 880, 63 rue Dostoïevski, A 307, 06560 Valbonne Sophia Antipolis. Contact : <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a>.</p>"
-                         "<h2>Hébergement</h2><p>GitHub Pages, GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>"
+                         "<h1>Mentions légales</h1><h2>Éditeur</h2><p>Louis Lardeux, entrepreneur individuel (micro-entreprise), SIREN 999 443 880, 63 rue Dostoïevski, A 307, 06560 Valbonne Sophia Antipolis. Contact : <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a>.<!-- À COMPLÉTER (Louis) : téléphone de l'éditeur --></p>"
+                         "<h2>Directeur de la publication</h2><p>Louis Lardeux.</p>"
+                         "<h2>Hébergement</h2><p>GitHub Pages, GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.<!-- À COMPLÉTER : téléphone de l'hébergeur --></p>"
                          "<h2>Informations</h2><p>Les contenus ont une vocation d'information générale. Ils ne remplacent pas l'avis de l'organisme qui verse l'aide, qui seul fait foi. Les photos d'illustration sont générées et ne représentent pas de personnes réelles.</p>"),
     "conditions-de-vente": ("Conditions de vente | Aider mes parents", "Conditions de vente du plan d'action personnalisé.",
-                            "<h1>Conditions de vente</h1><h2>Le service</h2><p>Le plan d'action personnalisé est un document numérique généré dans votre navigateur à partir de vos réponses : aides possibles et montants estimés selon les barèmes 2026, ordre des démarches, pièces à fournir, calendrier et modèles de lettres. Il ne constitue pas un conseil juridique. Les démarches auprès des organismes (département, caisses de retraite, CAF, Anah) sont gratuites ; seul l'organisme qui verse une aide décide de son attribution et de son montant.</p>"
+                            "<h1>Conditions de vente</h1><aside class=\"attention\"><p class=\"lab\">Vente suspendue</p><p>Depuis le 19/11/2026, le plan d'action personnalisé n'est plus proposé à la vente. Ces conditions restent en ligne pour les personnes qui l'ont acheté avant cette date.</p></aside><h2>Le service</h2><p>Le plan d'action personnalisé est un document numérique généré dans votre navigateur à partir de vos réponses : aides possibles et montants estimés selon les barèmes 2026, ordre des démarches, pièces à fournir, calendrier et modèles de lettres. Il ne constitue pas un conseil juridique. Les démarches auprès des organismes (département, caisses de retraite, CAF, Anah) sont gratuites ; seul l'organisme qui verse une aide décide de son attribution et de son montant.</p>"
                             "<h2>Prix et paiement</h2><p>7,99 € TTC, paiement unique sans abonnement, par carte via Stripe. TVA non applicable, article 293 B du CGI.</p>"
                             "<h2>Accès et droit de rétractation</h2><p>Le plan est accessible immédiatement après le paiement, sur l'appareil utilisé. En cochant la case prévue avant le paiement, vous demandez cet accès immédiat et reconnaissez perdre votre droit de rétractation une fois le plan affiché (article L221-28 du code de la consommation).</p>"
                             "<h2>Remboursement</h2><p>Si le plan ne vous convient pas, écrivez-nous dans les 14 jours suivant l'achat à <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a> : nous vous remboursons, sans justification.</p>"
-                            "<h2>Vendeur</h2><p>Louis Lardeux, entrepreneur individuel, SIREN 999 443 880, 63 rue Dostoïevski, A 307, 06560 Valbonne Sophia Antipolis, contact@aidermesparents.fr. Médiation de la consommation : en cas de litige non résolu, vous pouvez recourir gratuitement à un médiateur de la consommation.</p>"),
+                            "<h2>Vendeur</h2><p>Louis Lardeux, entrepreneur individuel, SIREN 999 443 880, 63 rue Dostoïevski, A 307, 06560 Valbonne Sophia Antipolis, contact@aidermesparents.fr. Médiation de la consommation : en cas de litige non résolu, vous pouvez recourir gratuitement à un médiateur de la consommation.<!-- À COMPLÉTER (Louis) : nom, site et adresse du médiateur, téléphone du vendeur --></p>"),
     "confidentialite": ("Confidentialité | Aider mes parents", "Données personnelles et cookies sur aidermesparents.fr.",
                         "<h1>Confidentialité</h1><p>Ce site ne dépose aucun cookie publicitaire et ne vous demande aucune donnée pour être consulté.</p><p>La mesure d'audience est faite avec GoatCounter, sans cookie et de façon anonyme : nous comptons les pages vues et l'usage des calculateurs, sans vous identifier.</p><p>Les réponses aux questionnaires et aux calculateurs restent dans votre navigateur : elles ne nous sont pas envoyées.</p><p>Pour toute question : <a href=\"mailto:contact@aidermesparents.fr\">contact@aidermesparents.fr</a>.</p>"),
 }
+
+STATIQUES_MAJ = {"mentions-legales": "2026-11-19", "a-propos": "2026-11-19"}
 
 CTA_MILIEU = ('<aside class="cta"><div><p class="ctat">Votre parent a peut-être droit à d’autres aides</p>'
               '<p>Répondez à 5 questions et voyez la liste des aides à vérifier pour sa situation. Gratuit, anonyme, 1 minute.</p></div>'
@@ -404,15 +430,24 @@ CTA_FIN = ('<aside class="cta fin"><div><p class="ctat">Ne passez pas à côté 
            '<a class="btn" href="/quelles-aides/">Voir les aides de mon parent</a></aside>')
 CALC = {"apa": "apa", "aspa": "aspa", "aide-a-domicile": "credit", "ehpad-prix-aides": "ehpad", "conge-proche-aidant": "ajpa", "mutuelle-senior": "c2s", "maprimeadapt": "mpa", "aide-sociale-hebergement": "apaetab"}
 URGENCE = {
-    "apa": "L'APA n'est due qu'à partir du dépôt du **dossier complet**. Elle ne couvre rien avant : chaque mois d'attente est un mois d'aide perdu.",
-    "apa/demande": "Les droits s'ouvrent à la date du **dossier complet**, pas avant. Déposez dès que possible, quitte à compléter ensuite.",
-    "grille-aggir": "Dès qu'un GIR 1 à 4 est probable, déposez la demande d'APA : elle n'est due qu'à partir du dossier complet.",
+    "apa": "À domicile, les droits à l'APA s'ouvrent à la **notification de la décision**, rendue au plus tard 2 mois après le dossier complet. Rien n'est versé pour la période d'avant : déposez le dossier sans attendre.",
+    "apa/demande": "Le département a **2 mois** après le dossier complet pour décider, et à domicile l'APA n'est versée qu'à partir de sa décision. Déposez le dossier dès que possible. En cas d'urgence, demandez l'APA forfaitaire de 1 040,17 € (2026).",
+    "grille-aggir": "Dès qu'un GIR 1 à 4 est probable, déposez la demande d'APA : à domicile, elle n'est versée qu'à partir de la décision du département.",
     "aide-sociale-hebergement": "Demandez l'aide sociale dans les **2 mois** qui suivent l'entrée en établissement pour qu'elle couvre les frais depuis l'arrivée.",
     "conge-proche-aidant": "Prévenez votre employeur **1 mois** avant le début du congé (sauf urgence), et faites la demande d'AJPA en parallèle.",
     "ehpad-prix-aides": "La réduction d'impôt de 25 % se déclare chaque printemps sur les frais de l'année précédente : gardez toutes les factures dès maintenant.",
 }
 
 QUIZ = open(os.path.join(ROOT, "_build", "quiz.html"), encoding="utf-8").read()
+
+
+def quiz_html():
+    """Questionnaire : l'encart d'achat (entre /*OFFRE*/ et /*FINOFFRE*/) n'est gardé que si la vente est active."""
+    if STRIPE_PLAN:
+        return QUIZ.replace("/*OFFRE*/", "").replace("/*FINOFFRE*/", "").replace("@@STRIPE@@", STRIPE_PLAN)
+    q = re.sub(r"/\*OFFRE\*/.*?/\*FINOFFRE\*/", "", QUIZ, flags=re.S)
+    assert "7,99" not in q and "@@STRIPE@@" not in q
+    return q
 PLAN = open(os.path.join(ROOT, "_build", "plan.html"), encoding="utf-8").read()
 ASSET_V = ""
 
@@ -448,17 +483,20 @@ def main():
             path, h = article(contenus[s], pages); write(path, h); urls.append((path, contenus[s].get("date_verification", LANCEMENT)))
     write("/quelles-aides/", page("Quelles aides pour mon parent âgé ? Le point en 1 minute",
           "5 questions pour voir les aides à vérifier pour votre parent : APA, ASPA, aide ménagère, crédit d'impôt, MaPrimeAdapt, aides aux aidants.",
-          "/quelles-aides/", QUIZ.replace("@@STRIPE@@", STRIPE_PLAN), [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Quelles aides pour mon parent ?", "applicationCategory": "UtilityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}], "accueil", None, FOOTER)); urls.append(("/quelles-aides/", LANCEMENT))
+          "/quelles-aides/", quiz_html(), [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Quelles aides pour mon parent ?", "applicationCategory": "UtilityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}], "accueil", None, FOOTER)); urls.append(("/quelles-aides/", LANCEMENT))
     write("/mon-plan/", page("Votre plan d'action | Aider mes parents", "Votre plan d'action personnalisé pour les aides de votre parent.", "/mon-plan/", PLAN, [], "accueil", None, FOOTER).replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"'))
     sims = [("apa", "/apa/"), ("aspa", "/aspa/"), ("credit", "/aide-a-domicile/"), ("ehpad", "/ehpad-prix-aides/"), ("apaetab", "/aide-sociale-hebergement/"), ("mpa", "/maprimeadapt/"), ("c2s", "/mutuelle-senior/"), ("ajpa", "/conge-proche-aidant/")]
     sim_body = ('<div class="wrap prose"><nav class="crumbs" aria-label="Fil d\'Ariane"><a href="/">Accueil</a> › <span>Simulateurs</span></nav><h1>Les simulateurs d\'aides pour les personnes âgées</h1>'
                 '<p class="chapo">Huit calculateurs gratuits, avec les barèmes officiels de 2026 : APA à domicile et en EHPAD, minimum vieillesse, crédit d\'impôt, reste à charge en EHPAD, MaPrimeAdapt, mutuelle gratuite et allocation de proche aidant. Tout se calcule dans votre navigateur : rien n\'est enregistré.</p>'
                 '<ul class="trust"><li>Barèmes officiels 2026</li><li>Aucune donnée enregistrée</li><li>Gratuit</li></ul>'
-                + "".join(f'<div class="calc" data-calc="{c}"></div><p class="calc-cta"><a href="{u}">Le guide complet →</a></p>' for c, u in sims) + '</div>')
+                + "".join(f'<div class="calc" data-clarity-mask="True" data-calc="{c}"></div><p class="calc-cta"><a href="{u}">Le guide complet →</a></p>' for c, u in sims) + '</div>')
     write("/simulateurs/", page("Simulateurs d'aides pour personnes âgées (2026)", "Calculez gratuitement l'APA, l'ASPA, le reste à charge en EHPAD, MaPrimeAdapt, le crédit d'impôt et la mutuelle gratuite, avec les barèmes 2026.",
           "/simulateurs/", sim_body, [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Simulateurs d'aides pour personnes âgées", "applicationCategory": "FinanceApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}], "accueil", None, FOOTER)); urls.append(("/simulateurs/", LANCEMENT))
     for s, (t, dsc, b) in STATIQUES.items():
-        write(url(s), page(t, dsc, url(s), f'<div class="wrap prose">{b}</div>', [], "accueil", None, FOOTER)); urls.append((url(s), LANCEMENT))
+        h = page(t, dsc, url(s), f'<div class="wrap prose">{b}</div>', [], "accueil", None, FOOTER)
+        if s == "conditions-de-vente" and not STRIPE_PLAN:  # vente suspendue : page gardée pour les acheteurs, hors index et sitemap
+            write(url(s), h.replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"')); continue
+        write(url(s), h); urls.append((url(s), STATIQUES_MAJ.get(s, LANCEMENT)))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         page("Page introuvable | Aider mes parents", "Cette page n'existe pas.", "/404.html", '<div class="wrap prose"><h1>Page introuvable</h1><p><a href="/">Revenir à l\'accueil</a></p></div>', [], "accueil", None, FOOTER).replace('<link rel="canonical"', '<meta name="robots" content="noindex"><link rel="canonical"'))
     open(os.path.join(OUT, "style.css"), "w", encoding="utf-8").write(CSS)

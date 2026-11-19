@@ -1,7 +1,7 @@
 {
  "slug": "accueillir-parent-chez-soi",
- "title": "Accueillir un parent âgé chez soi : aides et impôts 2026",
- "description": "Hébergez un parent : déduction forfaitaire de 4 075 € (revenus 2025), APA à domicile, rattachement fiscal si carte d'invalidité, aménagement du logement.",
+ "title": "Parent qui vit chez vous : impôts, aides et APA en 2026",
+ "description": "Votre mère ou votre père vit chez vous ? Déduction de 4 075 € sans justificatif (revenus 2025), APA à domicile, aménagement du logement et aides.",
  "h1": "Accueillir un parent âgé chez soi : aides et avantages fiscaux",
  "chapo": "Si vous hébergez un parent qui a peu de ressources, vous pouvez déduire de votre impôt sur le revenu un forfait de 4 075 € par an et par parent (revenus 2025), sans justificatifs de dépenses, à condition de pouvoir prouver son besoin. Il reste éligible à l'APA à domicile. Le rattachement à votre foyer n'est possible que s'il a une carte mobilité inclusion invalidité.",
  "en_bref": [
@@ -43,7 +43,7 @@
     },
     {
      "type": "p",
-     "texte": "Le seuil de 12 411,44 € (personne seule) et 19 268,80 € (couple) cité par l'administration pour les revenus 2025 vise les personnes de plus de 75 ans non ascendantes. Pour un parent, c'est son besoin réel qui compte, que vous devez pouvoir démontrer."
+     "texte": "Si votre parent a plus de 75 ans, l'administration considère que les conditions sont remplies quand ses revenus 2025 ne dépassent pas 12 411,44 € pour une personne seule, ou 19 268,80 € pour un couple marié ou pacsé. Vous n'avez alors pas à prouver son besoin. Avant 75 ans, ou au-dessus de ces plafonds, c'est son besoin réel qui compte, et vous devez pouvoir le démontrer."
     },
     {
      "type": "exemple",
@@ -173,5 +173,5 @@
   "Condition exacte pour l'APA lorsque l'aidant est hébergé : à vérifier sur la page APA",
   "Exemple chiffré : taux de 30 % illustratif, à adapter à chaque foyer"
  ],
- "date_verification": "2026-11-11"
+ "date_verification": "2026-11-19"
 }

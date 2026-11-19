@@ -219,7 +219,7 @@
  "faq": [
   {
    "q": "Quels sont les inconvénients de l'APA ?",
-   "r": "L'APA ne paie qu'un plan d'aide défini par le département, pas une somme libre : elle finance des heures d'aide, des équipements ou des services précis. Une participation reste à la charge de votre parent dès que ses ressources dépassent 933,89 € par mois, et elle atteint 90 % du plan au-delà de 3 439,31 €. Enfin, l'APA n'est due qu'à partir du dépôt du dossier complet, et la réponse peut prendre jusqu'à 2 mois. En revanche, elle n'est pas récupérée sur la succession."
+   "r": "L'APA ne paie qu'un plan d'aide défini par le département, pas une somme libre : elle finance des heures d'aide, des équipements ou des services précis. Une participation reste à la charge de votre parent dès que ses ressources dépassent 933,89 € par mois, et elle atteint 90 % du plan au-delà de 3 439,31 €. Enfin, la réponse peut prendre jusqu'à 2 mois après le dossier complet, et à domicile les droits ne s'ouvrent qu'à la notification de la décision : rien n'est versé pour la période d'avant. En revanche, elle n'est pas récupérée sur la succession."
   },
   {
    "q": "L'APA est-elle versée à partir de 60 ans pour tout le monde ?",
@@ -310,7 +310,7 @@
    "titre": "Pour les personnes âgées : Comment fonctionne la grille AGGIR ?"
   }
  ],
- "date_verification": "2026-11-11",
+ "date_verification": "2026-11-19",
  "a_verifier": [
   "La formule exacte de la participation entre 933,89 € et 3 439,31 € (article R232-11 du code de l'action sociale et des familles) n'a pas pu être lue sur Légifrance : la page n'en donne que les bornes.",
   "Le seuil haut de revenus pour l'APA en établissement (au-delà de 2 846,77 €) n'a pas été confirmé : seul le seuil de 2 846,77 € est publié sur la page officielle lue.",

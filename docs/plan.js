@@ -1,7 +1,15 @@
-/* Plan d'action personnalisé (produit payant). Tout est calculé dans le navigateur.
-   Montants 2026 : fiche CNSA APA au 1er janvier 2026, service-public.gouv.fr. */
+/* Plan d'action personnalisé (produit payant, VENTE SUSPENDUE depuis le 19/11/2026).
+   Tout est calculé dans le navigateur. Montants 2026 : fiche CNSA APA au 1er janvier 2026, service-public.gouv.fr.
+
+   ATTENTION, SÉCURITÉ : le déblocage par le paramètre ?s=cs_... n'est PAS sûr. N'importe qui peut ouvrir
+   /mon-plan/?s=cs_test et le dépôt est public. Il est gardé uniquement pour les acheteurs passés.
+   Avant toute réactivation de la vente : vérification serveur de la session Stripe
+   (checkout.sessions.retrieve, payment_status === 'paid') qui renvoie un jeton, et envoi du plan
+   par e-mail avec la confirmation de renonciation au droit de rétractation (L221-13). */
 (function () {
   var MTP = 1288.13, PLAF = {1: 2080.33, 2: 1682.30, 3: 1215.99, 4: 811.52};
+  // 23 territoires de l'expérimentation EHPAD (pour-les-personnes-agees.gouv.fr, mis à jour le 03/02/2026) : pas d'APA en établissement
+  var EXPE = ['11', '15', '17', '19', '22', '23', '29', '31', '40', '46', '47', '49', '52', '53', '56', '58', '62', '66', '73', '93', '973', '974'];
   var eur = function (x) { return Math.round(x).toLocaleString('fr-FR') + ' €'; };
   var num = function (v) { v = parseFloat(String(v || '').replace(/\s/g, '').replace(',', '.')); return isNaN(v) ? 0 : v; };
   var get = function (k) { try { return JSON.parse(localStorage.getItem(k) || 'null'); } catch (e) { return null; } };
@@ -40,18 +48,22 @@
     var dep = encodeURIComponent(i.dep), d = new Date(), j = function (n) { var x = new Date(d); x.setDate(x.getDate() + n); return x.toLocaleDateString('fr-FR', {day: 'numeric', month: 'long', year: 'numeric'}); };
     var A = [], total = 0;
     if (gir14) {
-      var g = auto === 1 ? [2, 1] : [4, 3], lo = apa(g[0], R), hi = apa(g[1], R); total += lo;
-      A.push({t: 'APA à domicile' + (dom ? '' : ' (en établissement)'), m: dom ? (lo === hi ? eur(lo) : eur(lo) + ' à ' + eur(hi)) + ' par mois (GIR ' + g[0] + ' ou ' + g[1] + ')' : 'Finance une partie du tarif dépendance de l’établissement',
-        ou: 'Conseil départemental (' + E(i.dep) + '), par le formulaire unique cerfa n°16301 « Demande d’aides à l’autonomie à domicile », sur papier ou sur demande-autonomie.gouv.fr si votre département le propose.',
+      var g = auto === 1 ? [2, 1] : [4, 3], lo = apa(g[0], R), hi = apa(g[1], R);
+      // lo et hi sont calculés sur le PLAFOND du GIR : ce sont des maximums, pas des minimums.
+      // En EHPAD, l'APA à domicile ne s'applique pas : rien n'est ajouté au total.
+      if (dom) total += hi;
+      var dnum = String(i.dep).trim().toUpperCase().replace(/^0+/, ''), expe = !dom && EXPE.indexOf(dnum) >= 0, lyon = !dom && dnum === '69';
+      A.push({t: dom ? 'APA à domicile' : 'APA en établissement', m: dom ? 'Jusqu’à ' + eur(lo) + ' par mois en GIR ' + g[0] + (lo === hi ? '' : ', ou ' + eur(hi) + ' en GIR ' + g[1]) + ' (montants atteints seulement si le plan d’aide va jusqu’au plafond)' : (expe ? 'Si l’EHPAD est dans votre département, qui expérimente la réforme du financement des EHPAD, il n’y a pas d’APA en établissement à demander : le résident paie une participation forfaitaire de 6,16 € par jour en 2026' : 'Finance une partie du tarif dépendance de l’établissement, versée en général directement à l’EHPAD' + (lyon ? '. Exception : dans un EHPAD de la Métropole de Lyon, pas d’APA en établissement mais une participation forfaitaire de 6,16 € par jour en 2026' : '')),
+        ou: dom ? 'Conseil départemental (' + E(i.dep) + '), par le formulaire unique cerfa n°16301 « Demande d’aides à l’autonomie à domicile », sur papier ou sur demande-autonomie.gouv.fr si votre département le propose.' : 'Conseil départemental du domicile de ' + nom + ', avec le formulaire de demande d’APA en établissement (l’EHPAD le fournit souvent).',
         pieces: ['Pièce d’identité de ' + nom, 'Dernier avis d’imposition', 'RIB', 'Avis de taxe foncière si ' + nom + ' est propriétaire de biens non loués'],
-        delais: 'Accusé de réception sous 10 jours, visite d’évaluation à domicile, décision au plus tard 2 mois après le dossier complet. L’APA est due à partir du dossier complet : déposez-le le plus tôt possible.', u: '/apa/demande/', prio: 3});
+        delais: dom ? 'Accusé de réception sous 10 jours, visite d’évaluation à domicile, décision au plus tard 2 mois après le dossier complet. À domicile, les droits s’ouvrent à la date de notification de la décision : déposez le dossier le plus tôt possible.' : 'Décision au plus tard 2 mois après le dossier complet. En établissement, l’APA est due à partir de la date du dossier complet.', u: '/apa/demande/', prio: 3});
     }
     if (auto === 1 && gir14) A.push({t: 'Carte mobilité inclusion (stationnement et invalidité)', m: 'Attribuée sans passer par la MDPH avec l’APA en GIR 1 ou 2',
       ou: 'Demandée en même temps que l’APA ; la carte arrive environ 10 jours après l’envoi de la photo.', pieces: ['Photo d’identité'], delais: 'Après la décision d’APA.', u: '/carte-mobilite-inclusion/', prio: 2});
-    if (age >= 65) { var plaf = i.couple ? 1620.18 : 1043.59, as = Math.max(0, plaf - i.res); if (as > 0) { total += as; A.push({t: 'ASPA (minimum vieillesse)', m: 'Environ ' + eur(as) + ' par mois', ou: 'La caisse qui verse sa retraite (Carsat ou MSA), avec le formulaire de demande d’ASPA de cette caisse.', pieces: ['Justificatifs de ressources des 3 ou 12 derniers mois', 'Pièce d’identité', 'RIB'], delais: 'Attention : l’ASPA peut être récupérée sur la succession au-delà de 108 586,14 € d’actif net (décès en 2026).', u: '/aspa/', prio: 3}); } }
+    if (age >= 65) { var plaf = i.couple ? 1620.18 : 1043.59, as = Math.max(0, plaf - i.res); if (i.couple) as = Math.min(as, 1043.59); if (as > 0) { total += as; A.push({t: 'ASPA (minimum vieillesse)', m: 'Jusqu’à ' + eur(as) + ' par mois' + (i.couple ? ' (montant maximum si un seul membre du couple y a droit : 1 043,59 €)' : ''), ou: 'La caisse qui verse sa retraite (Carsat ou MSA), avec le formulaire de demande d’ASPA de cette caisse.', pieces: ['Justificatifs de ressources des 3 ou 12 derniers mois', 'Pièce d’identité', 'RIB'], delais: 'Attention : l’ASPA peut être récupérée sur la succession au-delà de 108 586,14 € d’actif net (décès en 2026).', u: '/aspa/', prio: 3}); } }
     if (dom) A.push({t: 'Crédit d’impôt de 50 % sur l’aide à domicile', m: 'La moitié des dépenses restant à charge, jusqu’à 12 000 € de dépenses par an (plafond majoré selon l’âge)',
       ou: 'Sur la déclaration de revenus, au printemps, pour les dépenses de l’année précédente.', pieces: ['Attestations annuelles du service d’aide à domicile', 'Montant des aides reçues (APA) à déduire'], delais: 'Prochaine déclaration : printemps ' + (d.getFullYear() + 1) + '. Conservez toutes les factures dès maintenant.', u: '/aide-a-domicile/', prio: 2});
-    if (dom && (age >= 70 || gir14) && i.log !== 'autre') A.push({t: 'MaPrimeAdapt (adaptation du logement)', m: '50 % ou 70 % des travaux, sur 22 000 € HT de travaux au maximum, selon les revenus',
+    if (dom && (age >= 70 || auto <= 5) && i.log !== 'autre') A.push({t: 'MaPrimeAdapt (adaptation du logement)', m: '50 % ou 70 % des travaux, sur 22 000 € HT de travaux au maximum, selon les revenus',
       ou: 'Sur france-renov.gouv.fr, avec un assistant à maîtrise d’ouvrage (AMO) obligatoire.' + (i.log === 'loc' ? ' Locataire : il faut l’accord écrit du propriétaire.' : ''), pieces: ['Dernier avis d’imposition', 'Devis des travaux', 'Justificatif de propriété ou accord du propriétaire'], delais: 'Ne signez aucun devis et ne commencez aucun travaux avant l’accord de l’Anah.', u: '/maprimeadapt/', prio: 2});
     if (age >= 75 && dom) A.push({t: 'Sortir Plus (Agirc-Arrco)', m: 'Un accompagnateur pour les sorties, pris en charge par la caisse dans la limite d’un plafond annuel', ou: 'Appelez le 0 971 090 971 (lundi au vendredi, 8h30 à 18h30).', pieces: ['Numéro de sécurité sociale de ' + nom], delais: 'Appelez environ une semaine avant le premier besoin, puis 2 jours avant chaque sortie.', u: '/sortir-plus/', prio: 1});
     if (dom && auto <= 5) A.push({t: 'Téléassistance', m: 'Souvent aidée par le département ou la commune, parfois gratuite avec l’APA', ou: 'Service téléassistance du conseil départemental (' + E(i.dep) + ') ou CCAS de la mairie.', pieces: ['Coordonnées de 2 ou 3 proches à prévenir'], delais: 'Installation en quelques jours en général.', u: '/teleassistance/', prio: 1});
@@ -63,9 +75,9 @@
     A.sort(function (a, b) { return b.prio - a.prio; });
 
     var h = '<h1>Le plan d’action pour ' + nom + '</h1><p class="chapo">Établi le ' + j(0) + ', département ' + E(i.dep) + '. Montants 2026 estimés à partir de vos réponses : c’est l’organisme qui verse chaque aide qui décide.</p>';
-    h += '<div class="plan-total"><p class="lab">Aides financières estimées</p><p class="big">' + (total ? eur(total) + ' <small>par mois au minimum</small>' : 'Voir chaque aide ci-dessous') + '</p><p>Plus les avantages fiscaux et les services aidés listés ci-dessous.</p></div>';
+    h += '<div class="plan-total"><p class="lab">Aides financières estimées</p><p class="big">' + (total ? 'Jusqu’à ' + eur(total) + ' <small>par mois</small>' : 'Voir chaque aide ci-dessous') + '</p><p>' + (total ? 'Ce sont des maximums' + (gir14 && dom ? ' : l’APA réelle dépend du plan d’aide décidé après la visite' : '') + '. ' : '') + 'Plus les avantages fiscaux et les services aidés listés ci-dessous.</p></div>';
     h += '<h2>Votre calendrier</h2><ol class="etapes">' +
-      (gir14 ? '<li><b>Avant le ' + j(7) + '</b> : déposez le dossier APA (cerfa n°16301). Chaque semaine d’attente est une semaine d’aide en moins.</li>' : '') +
+      (gir14 && dom ? '<li><b>Avant le ' + j(7) + '</b> : déposez le dossier APA (cerfa n°16301). Plus tôt il part, plus tôt la décision arrive.</li>' : '') + (gir14 && !dom ? '<li><b>À l’entrée en EHPAD</b> : demandez à l’établissement s’il faut déposer un dossier d’APA en établissement (pas de dossier dans les départements de l’expérimentation).</li>' : '') +
       (!dom ? '<li><b>Dans les 2 mois après l’entrée en EHPAD</b> : déposez la demande d’aide sociale au CCAS si les ressources ne suffisent pas.</li>' : '') +
       (q.vous === 'sal' && gir14 ? '<li><b>1 mois avant</b> la date voulue : envoyez la lettre de congé de proche aidant à votre employeur.</li>' : '') +
       '<li><b>Dès maintenant</b> : rassemblez les pièces de chaque aide (liste ci-dessous) dans une même pochette.</li>' +

@@ -34,7 +34,7 @@
           ["Soins", "Médecin coordonnateur, infirmiers, aides-soignants, une partie du matériel médical", "L'Assurance maladie, pas facturé au résident"]
         ]},
         {"type": "p", "texte": "Le **tarif dépendance** dépend du niveau d'autonomie (le GIR) et il y en a trois. En moyenne nationale au 31 décembre 2024, il était de 22,65 € par jour pour les GIR 1-2, de 14,36 € pour les GIR 3-4 et de 6,11 € pour les GIR 5-6 (CNSA). Dans la pratique, le tarif GIR 5-6 est le plus souvent facturé : il s'applique à toutes les personnes dont le revenu mensuel est inférieur à 2 846,77 € en 2026, quel que soit leur GIR."},
-        {"type": "attention", "texte": "Depuis le 1er juillet 2025, 23 départements expérimentent la fusion du tarif soins et du tarif dépendance en un forfait unique. Si votre parent est dans l'un d'eux, la présentation de la facture peut différer. Demandez à l'établissement comment elle est construite."}
+        {"type": "attention", "texte": "Depuis le 1er juillet 2025, 23 territoires expérimentent un forfait unique soins et dépendance : Aude, Cantal, Charente-Maritime, Corrèze, Côtes-d'Armor, Creuse, Finistère, Haute-Garonne, Landes, Lot, Lot-et-Garonne, Maine-et-Loire, Haute-Marne, Mayenne, Morbihan, Nièvre, Pas-de-Calais, Pyrénées-Orientales, Métropole de Lyon, Savoie, Seine-Saint-Denis, Guyane et La Réunion. Dans un EHPAD de ces territoires, il n'y a plus de tarif dépendance selon le GIR ni d'APA en établissement : chaque résident paie une participation forfaitaire de 6,16 € par jour en 2026 (6,10 € en 2025), quels que soient son GIR et ses revenus. Ceux qui payaient moins avant le 1er juillet 2025 gardent leur tarif."}
       ]
     },
     {
@@ -68,7 +68,7 @@
     {
       "h2": "Un exemple de calcul pour comprendre la facture",
       "blocs": [
-        {"type": "exemple", "titre": "Exemple : votre mère, GIR 2, 1 800 € de retraite par mois", "texte": "Elle entre dans un EHPAD dont les tarifs correspondent aux moyennes 2024 de la CNSA : 66 € d'hébergement par jour et une dépendance à 22,65 € (GIR 1-2) ou 6,11 € (GIR 5-6). Ses revenus sont sous 2 846,77 €, donc elle paie le tarif GIR 5-6. Sur 30 jours : hébergement 66 x 30 = 1 980 €, dépendance 6,11 x 30 = environ 183 €, soit environ 2 163 € avant aide au logement. L'APA prend en charge la différence entre les deux tarifs de dépendance : (22,65 - 6,11) x 30 = environ 496 €, versés directement à l'établissement. Sa facture est de 2 163 € par mois, avant APL ou ALS. Sur l'année, elle dépense environ 25 960 €. La base de la réduction d'impôt est plafonnée à 10 000 €, donc si elle est imposable la réduction atteint 2 500 €. Si une aide au logement est versée, on la retire d'abord des dépenses."},
+        {"type": "exemple", "titre": "Exemple : votre mère, GIR 2, 1 800 € de retraite par mois", "texte": "Elle entre dans un EHPAD, hors des 23 territoires de l'expérimentation, dont les tarifs correspondent aux moyennes 2024 de la CNSA : 66 € d'hébergement par jour et une dépendance à 22,65 € (GIR 1-2) ou 6,11 € (GIR 5-6). Ses revenus sont sous 2 846,77 €, donc elle paie le tarif GIR 5-6. Sur 30 jours : hébergement 66 x 30 = 1 980 €, dépendance 6,11 x 30 = environ 183 €, soit environ 2 163 € avant aide au logement. L'APA prend en charge la différence entre les deux tarifs de dépendance : (22,65 - 6,11) x 30 = environ 496 €, versés directement à l'établissement. Sa facture est de 2 163 € par mois, avant APL ou ALS. Sur l'année, elle dépense environ 25 960 €. La base de la réduction d'impôt est plafonnée à 10 000 €, donc si elle est imposable la réduction atteint 2 500 €. Si une aide au logement est versée, on la retire d'abord des dépenses."},
         {"type": "attention", "texte": "Cet exemple utilise des moyennes nationales pour illustrer le calcul. Il ne remplace pas le simulateur officiel, qui part des tarifs réels de l'établissement."}
       ]
     },
@@ -112,6 +112,7 @@
     {"slug": "conge-proche-aidant", "ancre": "congé de proche aidant"}
   ],
   "sources": [
+    {"titre": "Pour-les-personnes-agees.gouv.fr, Financement des EHPAD : une expérimentation dans 23 départements (03/02/2026)", "url": "https://www.pour-les-personnes-agees.gouv.fr/actualites/financement-des-ehpad-une-experimentation-dans-23-departements"},
     {"url": "https://www.cnsa.fr/sites/default/files/2026-04/PUB_RS-n27_Prix-EHPAD_2024_vf.pdf", "titre": "CNSA, Repères statistiques n°27 (mars 2026) : prix des EHPAD en 2024"},
     {"url": "https://www.pour-les-personnes-agees.gouv.fr/comprendre-les-prix-tarifs-et-prestations-affiches-dans-l-annuaire-des-ehpad", "titre": "Comprendre les prix, tarifs et prestations affichés dans l'annuaire des EHPAD (mis à jour le 20/08/2026)"},
     {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-dans-un-ehpad/comprendre-les-prix-en-ehpad/comprendre-sa-facture-en-ehpad", "titre": "Comprendre sa facture en EHPAD"},
@@ -121,7 +122,7 @@
     {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17", "titre": "Réduction d'impôt pour frais d'accueil liés à la dépendance (vérifié le 15 avril 2026)"},
     {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/solutions-d-accueil-temporaire/l-hebergement-temporaire-ce-qu-il-faut-savoir", "titre": "L'hébergement temporaire : ce qu'il faut savoir"}
   ],
-  "date_verification": "2026-11-11",
+  "date_verification": "2026-11-19",
   "a_verifier": [
     "Les moyennes de prix datent de 2024 (étude CNSA de mars 2026) : à remplacer dès la publication de l'étude sur 2025.",
     "Le portail officiel dit que la réduction d'impôt concerne les résidents imposables, service-public.gouv.fr dit qu'il faut être hébergé en EHPAD ou USLD et domicilié fiscalement en France, sans mention explicite d'une condition d'imposition. La mécanique de réduction implique d'avoir un impôt à déduire : formulation à valider.",

@@ -41,7 +41,7 @@
         {"type": "tableau", "entetes": ["", "PCH", "APA"], "lignes": [
           ["Âge", "Moins de 60 ans à la première demande, ou exceptions", "60 ans et plus"],
           ["Qui évalue", "Équipe de la MDPH", "Équipe médico-sociale du département (grille AGGIR, GIR 1 à 4)"],
-          ["Ressources", "Prise en charge à 100 % si les ressources de patrimoine sont à 30 915,30 € par an ou moins (chiffre 2025), 80 % au-delà", "Une partie reste à votre charge au-delà de 933,89 € de revenus par mois (2026)"],
+          ["Ressources", "Prise en charge à 100 % si les ressources de patrimoine sont à 31 162,62 € par an ou moins (montant en vigueur depuis le 1er avril 2026), 80 % au-delà", "Une partie reste à votre charge au-delà de 933,89 € de revenus par mois (2026)"],
           ["Ménage, courses, linge", "Non financés (l'aide-ménagère départementale peut se cumuler)", "Oui, l'aide à domicile peut les faire"],
           ["Dédommager un aidant familial", "Oui", "Non"],
           ["Récupération sur succession", "Non", "Non"],
@@ -76,7 +76,7 @@
     {"q": "Peut-on avoir la PCH et l'APA en même temps ?", "r": "Non, les deux aides ne se cumulent pas. Si vous êtes éligible aux deux, vous avez un droit d'option : vous choisissez l'une ou l'autre, et vous pouvez changer, le choix n'étant pas définitif."},
     {"q": "Y a-t-il un âge maximum pour toucher la PCH ?", "r": "Pas pour quelqu'un qui remplissait les critères avant 60 ans. La limite de 60 ans ne vaut que pour la première demande. L'ancienne limite de 75 ans a été supprimée depuis janvier 2021."},
     {"q": "La PCH est-elle récupérée sur la succession ?", "r": "Non. D'après le site officiel pour-les-personnes-agees.gouv.fr, ni la PCH ni l'APA ne peuvent être récupérées par le conseil départemental, ni du vivant du bénéficiaire, ni sur sa succession."},
-    {"q": "Faut-il des ressources faibles pour avoir la PCH ?", "r": "Non, la PCH est accordée quels que soient les revenus. Mais la prise en charge est de 100 % si les ressources de patrimoine sont à 30 915,30 € par an ou moins (chiffre 2025), et de 80 % au-delà."},
+    {"q": "Faut-il des ressources faibles pour avoir la PCH ?", "r": "Non, la PCH est accordée quels que soient les revenus. Mais la prise en charge est de 100 % si les ressources de patrimoine sont à 31 162,62 € par an ou moins (montant en vigueur depuis le 1er avril 2026), et de 80 % au-delà."},
     {"q": "Combien de temps dure la PCH ?", "r": "Elle est attribuée au minimum 1 an, à vie si le handicap ne peut pas s'améliorer, et 10 ans maximum sinon."},
     {"q": "Qui verse la PCH ?", "r": "La commission de la MDPH l'accorde, et le conseil départemental la verse."}
   ],
@@ -86,13 +86,14 @@
     {"slug": "grille-aggir", "ancre": "grille AGGIR et GIR"}
   ],
   "sources": [
+    {"titre": "Service-public.gouv.fr, Prestation de compensation du handicap (PCH), F14202", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14202"},
     {"url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/quelles-differences-entre-la-pch-et-l-apa", "titre": "Quelles différences entre la PCH et l'APA ? (pour-les-personnes-agees.gouv.fr)"},
     {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14202", "titre": "Prestation de compensation du handicap (service-public.gouv.fr)"},
     {"url": "https://www.monparcourshandicap.gouv.fr/aides/la-pch-pour-les-personnes-agees-de-plus-de-60-ans", "titre": "La PCH pour les personnes âgées de plus de 60 ans (monparcourshandicap.gouv.fr)"},
     {"url": "https://www.monparcourshandicap.gouv.fr/aides/la-prestation-de-compensation-du-handicap-pch", "titre": "PCH (monparcourshandicap.gouv.fr)"},
     {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10009", "titre": "Allocation personnalisée d'autonomie (service-public.gouv.fr)"}
   ],
-  "date_verification": "2026-11-11",
+  "date_verification": "2026-11-19",
   "a_verifier": [
     "Écart entre sources officielles sur le seuil de ressources de la PCH : pour-les-personnes-agees.gouv.fr donne 30 915,30 € par an en 2025 ; service-public.gouv.fr et monparcourshandicap.gouv.fr affichent 31 162,62 € (année non précisée, probablement 2026). Seul le chiffre 2025 daté est retenu.",
     "Écart sur le dédommagement de l'aidant familial : 4,78 € et 7,16 € par heure (au 1er avril 2025) sur pour-les-personnes-agees.gouv.fr, 4,93 € et 7,40 € sur service-public.gouv.fr. Non repris ici, renvoi à la page aidant familial.",
