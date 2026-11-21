@@ -506,7 +506,13 @@ def main():
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#2f5f8a"/><path d="M32 48s-14-8.5-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 46 29c0 10.5-14 19-14 19z" fill="#f2b98b"/></svg>')
     open(os.path.join(OUT, "CNAME"), "w").write("aidermesparents.fr\n")
     open(os.path.join(OUT, INDEXNOW + ".txt"), "w").write(INDEXNOW)
-    open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
+    BOTS_IA = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User",
+               "Google-Extended", "Applebot-Extended", "Bingbot", "CCBot", "Meta-ExternalAgent", "MistralAI-User", "DuckAssistBot"]
+    robots = "# Robots des moteurs de recherche et des assistants IA : bienvenus (citation des guides avec un lien).\n"
+    robots += "".join(f"User-agent: {b}\nAllow: /\n\n" for b in BOTS_IA)
+    robots += "User-agent: *\nContent-Signal: search=yes, ai-input=yes, ai-train=yes\nAllow: /\n\n"
+    robots += f"Sitemap: {DOMAIN}/sitemap.xml\n"
+    open(os.path.join(OUT, "robots.txt"), "w").write(robots)
     sm = "".join(f"<url><loc>{DOMAIN}{u}</loc><lastmod>{d}</lastmod></url>" for u, d in urls)
     open(os.path.join(OUT, "sitemap.xml"), "w").write(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
     llms = [f"# {SITE} (aidermesparents.fr)", "",
