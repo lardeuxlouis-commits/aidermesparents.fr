@@ -1,11 +1,9 @@
-/* Plan d'action personnalisé (produit payant, VENTE SUSPENDUE depuis le 19/11/2026).
+/* Plan d'action personnalisé (produit payant, vente rouverte le 21/11/2026 avec vérification serveur).
    Tout est calculé dans le navigateur. Montants 2026 : fiche CNSA APA au 1er janvier 2026, service-public.gouv.fr.
 
-   ATTENTION, SÉCURITÉ : le déblocage par le paramètre ?s=cs_... n'est PAS sûr. N'importe qui peut ouvrir
-   /mon-plan/?s=cs_test et le dépôt est public. Il est gardé uniquement pour les acheteurs passés.
-   Avant toute réactivation de la vente : vérification serveur de la session Stripe
-   (checkout.sessions.retrieve, payment_status === 'paid') qui renvoie un jeton, et envoi du plan
-   par e-mail avec la confirmation de renonciation au droit de rétractation (L221-13). */
+   Accès : le serveur /pay/verifier (VPS, ~/Documents/paiements-sites/server.py) vérifie chez Stripe que la session
+   est payée et vient du lien du plan, puis renvoie un jeton HMAC gardé dans le navigateur. La confirmation de
+   renonciation au droit de rétractation (L221-13) est recueillie par la case à cocher Stripe et figure sur le reçu. */
 (function () {
   var MTP = 1288.13, PLAF = {1: 2080.33, 2: 1682.30, 3: 1215.99, 4: 811.52};
   // 23 territoires de l'expérimentation EHPAD (pour-les-personnes-agees.gouv.fr, mis à jour le 03/02/2026) : pas d'APA en établissement
@@ -25,24 +23,40 @@
   }
   function apa(gir, R) { var a = PLAF[gir] - partAPA(PLAF[gir], R); return a < 36.93 ? 0 : a; }
 
-  var p = new URLSearchParams(location.search);
-  if (/^cs_/.test(p.get('s') || '')) { set('amp-paid', {s: p.get('s'), t: Date.now()}); history.replaceState(null, '', '/mon-plan/'); }
-  var paid = get('amp-paid'), q = get('amp-quiz');
+  // Accès vérifié par le serveur : la session Stripe doit être payée et venir du lien du plan (jeton HMAC en retour).
+  var API = 'https://187-124-173-12.sslip.io/pay/verifier?p=plan';
   var vente = document.getElementById('plan-vente'), form = document.getElementById('plan-form'), out = document.getElementById('plan-out');
-  if (!paid) return;
-  vente.hidden = true;
-  if (!q) { out.innerHTML = '<h1>Votre plan d’action</h1><p>Pour préparer votre plan, répondez d’abord aux 5 questions du <a href="/quelles-aides/">questionnaire</a> sur ce même appareil, puis revenez sur cette page. Votre accès est conservé.</p>'; return; }
-  var info = get('amp-plan-info');
-  if (info) return render(info);
-  form.hidden = false;
-  var f = document.getElementById('pf');
-  f.addEventListener('submit', function () {
-    if (!f.checkValidity()) { f.reportValidity(); return; }
-    info = {dep: f.dep.value.trim(), res: num(f.res.value), couple: f.couple.checked, log: f.log.value, prenom: f.prenom.value.trim()};
-    set('amp-plan-info', info); form.hidden = true; render(info);
-  });
+  var p = new URLSearchParams(location.search), paid = get('amp-paid');
+  var sess = /^cs_/.test(p.get('s') || '') ? p.get('s') : (paid && paid.s), tok = paid && paid.s === sess ? paid.k : '';
+  if (!sess) return;
+  out.innerHTML = '<p class="aide">Vérification de votre paiement…</p>';
+  fetch(API + '&s=' + encodeURIComponent(sess) + (tok ? '&t=' + tok : ''))
+    .then(function (r) { return r.json(); })
+    .catch(function () { return {ok: false, reseau: true}; })
+    .then(function (r) {
+      if (r.ok) { set('amp-paid', {s: sess, k: r.t, d: Date.now()}); history.replaceState(null, '', '/mon-plan/'); out.innerHTML = ''; return start(); }
+      if (r.reseau && tok) { out.innerHTML = ''; return start(); }
+      out.innerHTML = '<h1>Paiement non retrouvé</h1><p>Nous n’avons pas pu confirmer votre paiement. Si vous venez de payer, rechargez la page dans une minute. Sinon, écrivez-nous depuis la page <a href="/a-propos/">À propos</a> avec l’e-mail utilisé pour le paiement : nous vous répondons rapidement.</p>';
+    });
+
+  function start() {
+    var q = get('amp-quiz');
+    vente.hidden = true;
+    if (!q) { out.innerHTML = '<h1>Votre plan d’action</h1><p>Pour préparer votre plan, répondez d’abord aux 5 questions du <a href="/quelles-aides/">questionnaire</a> sur ce même appareil, puis revenez sur cette page. Votre accès est conservé.</p>'; return; }
+    window.__q = q;
+    var info = get('amp-plan-info');
+    if (info) return render(info);
+    form.hidden = false;
+    var f = document.getElementById('pf');
+    f.addEventListener('submit', function () {
+      if (!f.checkValidity()) { f.reportValidity(); return; }
+      info = {dep: f.dep.value.trim(), res: num(f.res.value), couple: f.couple.checked, log: f.log.value, prenom: f.prenom.value.trim()};
+      set('amp-plan-info', info); form.hidden = true; render(info);
+    });
+  }
 
   function render(i) {
+    var q = window.__q || get('amp-quiz');
     var nom = i.prenom ? E(i.prenom) : 'votre parent', R = i.couple ? i.res / 1.7 : i.res;
     var dom = q.lieu !== 'ehpad', age = +q.age, auto = +q.auto, gir14 = auto <= 3;
     var dep = encodeURIComponent(i.dep), d = new Date(), j = function (n) { var x = new Date(d); x.setDate(x.getDate() + n); return x.toLocaleDateString('fr-FR', {day: 'numeric', month: 'long', year: 'numeric'}); };

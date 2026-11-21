@@ -117,6 +117,9 @@ button{font:inherit;cursor:pointer;border:0}
 @media (max-width:640px){.calc-f{grid-template-columns:1fr}}
 .offre{background:linear-gradient(135deg,var(--warmsoft),var(--soft));border:2px solid var(--warm);border-radius:20px;padding:20px 22px;margin:28px 0}
 .offre ul{padding-left:20px}.offre li{margin:6px 0}
+.offre .urg{background:#fff;border-left:4px solid var(--warm);border-radius:10px;padding:10px 14px;margin:12px 0}
+.offre .trust{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.offre .trust li{margin:0;font-size:.88em;background:#fff;border:1px solid var(--warm);border-radius:999px;padding:5px 12px}.offre .trust li:before{content:"✓ ";color:#2e7d4f;font-weight:700}
+.btn.big{font-size:1.12em;padding:15px 26px;box-shadow:0 8px 22px rgba(0,0,0,.15)}
 .btn.off{opacity:.55}.flash{outline:2px solid var(--alert);border-radius:8px}
 .plan-total{background:var(--soft);border-radius:18px;padding:16px 20px;margin:10px 0 20px}.plan-total .big{font-family:Fraunces,"Fraunces repli",Georgia,serif;font-size:36px;font-weight:700;color:var(--brand);margin:4px 0}.plan-total small{font-size:18px;color:var(--mut)}
 .plan-aide{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 18px 4px;margin:14px 0}.plan-aide h3{font-size:21px}.plan-aide .m{font-weight:700;color:var(--brand)}
