@@ -1,6 +1,6 @@
 {
  "slug": "portage-de-repas",
- "title": "Portage de repas personne âgée : prix et aides 2026",
+ "title": "Livraison de repas à domicile personne âgée : prix, aides",
  "description": "Portage de repas pour une personne âgée : prix indicatifs (12 € environ le repas), aides du département et du CCAS, crédit d'impôt de 50 % dès 2026.",
  "h1": "Portage de repas à domicile pour une personne âgée : prix et aides",
  "chapo": "Le portage de repas livre des plateaux-repas à réchauffer chez une personne âgée. Il n'y a pas de prix national : des services publics affichent 12 à 12,85 € le repas, avec des tarifs réduits selon les ressources. Le département finance en partie le portage sous 1 043,59 € de ressources par mois pour une personne seule (2026). L'APA ou la caisse de retraite peuvent aussi aider.",
@@ -152,6 +152,14 @@
  ],
  "faq": [
   {
+   "q": "Où demander la livraison de repas à domicile pour une personne âgée ?",
+   "r": "Auprès du CCAS de la mairie, qui connaît les services de portage de la commune et peut monter la demande d'aide du département. Les associations et entreprises de services à la personne livrent aussi des repas : choisissez un service déclaré, qui remet une attestation fiscale annuelle."
+  },
+  {
+   "q": "Existe-t-il une aide au repas pour les personnes âgées ?",
+   "r": "Oui, plusieurs. Le département peut financer tout ou partie du portage de repas si votre parent a 65 ans ou plus (60 ans s'il est inapte au travail), a du mal à cuisiner et a des ressources sous 1 043,59 € par mois seul ou 1 620,18 € en couple (montants 2026). Au-dessus, l'APA peut inclure le portage dans le plan d'aide selon le département, la caisse de retraite peut proposer une aide, et la livraison ouvre droit au crédit d'impôt de 50 % pour les dépenses payées en 2026."
+  },
+  {
    "q": "Quel est le prix d'un repas livré à domicile pour une personne âgée ?",
    "r": "Il varie selon l'organisme. Exemples publics : 12 € le repas au tarif plein au CCAS de Laval en 2025 et 12,85 € le plateau à Vichy et Cusset en 2026. Des tarifs réduits existent selon les ressources, par exemple de 7,27 à 10,86 € à Laval."
   },
@@ -199,7 +207,10 @@
   }
  ],
  "sources": [
-  {"titre": "Service-public.gouv.fr, Crédit d'impôt pour l'emploi d'un salarié à domicile, F12", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12"},
+  {
+   "titre": "Service-public.gouv.fr, Crédit d'impôt pour l'emploi d'un salarié à domicile, F12",
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12"
+  },
   {
    "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/beneficier-d-aide-a-domicile/le-portage-de-repas-a-domicile",
    "titre": "Le portage de repas à domicile (pour-les-personnes-agees.gouv.fr)"
@@ -225,7 +236,7 @@
    "titre": "Plaquette Repas à domicile 2026, Cusset et Vichy (12,85 € le plateau)"
   }
  ],
- "date_verification": "2026-11-19",
+ "date_verification": "2026-11-21",
  "a_verifier": [
   "Les seuils de ressources de 1 043,59 € et 1 620,18 € sont repris de service-public.gouv.fr (page F248 datée du 1er janvier 2025), qui concordent avec les montants 2026 publiés par pour-les-personnes-agees.gouv.fr pour l'aide-ménagère. Un moteur de recherche a aussi renvoyé d'anciens chiffres (1 034,28 € et 1 605,73 €) : ignorés.",
   "Que le crédit d'impôt exclue le prix des ingrédients : pratique générale, mais aucun texte lu ne le dit expressément. À confirmer sur impots.gouv.fr avant diffusion large.",
