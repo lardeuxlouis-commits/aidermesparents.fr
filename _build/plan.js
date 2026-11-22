@@ -42,7 +42,7 @@
   function start() {
     var q = get('amp-quiz');
     vente.hidden = true;
-    if (!q) { out.innerHTML = '<h1>Votre plan d’action</h1><p>Pour préparer votre plan, répondez d’abord aux 5 questions du <a href="/quelles-aides/">questionnaire</a> sur ce même appareil, puis revenez sur cette page. Votre accès est conservé.</p>'; return; }
+    if (!q) { out.innerHTML = '<h1>Votre plan d’action</h1><p>Pour préparer votre plan, répondez d’abord aux 5 questions du questionnaire sur ce même appareil (1 minute). Votre accès est conservé : à la fin du questionnaire, un bouton vous ramène à votre plan.</p><p><a class="btn big" href="/quelles-aides/">Répondre aux 5 questions</a></p>'; return; }
     window.__q = q;
     var info = get('amp-plan-info');
     if (info) return render(info);
