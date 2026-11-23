@@ -416,13 +416,28 @@ def page_departement(d):
 
 
 def hub_departements():
+    # 23/11/2026 : « apa contact téléphone », « apa téléphone », « apa adresse » (Search Console, position 6 à 10, 0 clic) : la page devient l'annuaire des numéros vérifiés.
+    rows, n_tel = [], 0
+    for d in DEP.DEPS:
+        C = DEP.contact_apa(d)
+        tel = C.get("tel")
+        if tel:
+            n_tel += 1
+            t = f'<a href="tel:{E(tel.replace(" ", ""))}">{E(tel)}</a>' + (" <small>(standard)</small>" if C.get("tel_lib") == "standard" else "")
+        else:
+            t = "<small>non confirmé, voir la page</small>"
+        rows.append(f'<tr><td><a href="/apa/{d["slug"]}/"><b>{E(d["code"])}</b> {E(d["nom"])}</a></td><td>{t}</td></tr>')
     items = "".join(f'<li><a href="/apa/{d["slug"]}/"><span class="num">{E(d["code"])}</span> {E(d["nom"])}</a></li>' for d in DEP.DEPS)
+    maj = DEP._date_fr(DEP.MAJ_CONTACT)
     body = f"""<div class="wrap art"><nav class="crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> › <a href="/apa/">APA</a> › <span>Par département</span></nav>
-<header class="ahead"><h1>L'APA et les EHPAD dans votre département</h1><p class="chapo">Choisissez le département où vit votre parent : vous trouverez la collectivité qui gère l'APA et ses coordonnées, les points d'information pour les personnes âgées, et les prix réels des EHPAD déclarés à la CNSA.</p></header>
+<header class="ahead"><h1>APA : le téléphone du service dans chaque département</h1><p class="chapo">L'APA se demande au conseil départemental du lieu où vit votre parent (<a href="https://www.service-public.gouv.fr/particuliers/vosdroits/F10009" rel="noopener" target="_blank">service-public.gouv.fr, fiche F10009</a>). Voici le numéro du service APA de {n_tel} départements, vérifié sur le site officiel de chaque département (relevés des 19 et 22 novembre 2026). Cliquez sur un département pour l'adresse, les démarches et les prix des EHPAD.</p></header>
+<div class="tw"><table><thead><tr><th scope="col">Département</th><th scope="col">Téléphone du service APA</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>
+<p class="src">Sources : sites officiels des départements et annuaire pour-les-personnes-agees.gouv.fr, consultés le {maj}. Quand nous n'avons pas pu confirmer le numéro sur le site du département, la page du département renvoie vers sa page officielle. Ce site n'est pas celui des départements.</p>
+<h2>Tous les départements</h2>
 <ul class="deps">{items}</ul>{offre_fin()}</div>"""
     path = "/apa/departements/"
-    return path, page("APA par département : contacts et prix des EHPAD (2026)", "Où demander l'APA dans chaque département, contacts officiels, points d'information et prix des EHPAD, département par département.", path, body,
-                      [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "APA par département", "url": DOMAIN + path}], "aidant", "aides", FOOTER)
+    return path, page("APA : contact et téléphone du service par département", f"Le numéro du service APA de {n_tel} départements, vérifié sur leur site officiel en novembre 2026, avec l'adresse, les démarches et les prix des EHPAD.", path, body,
+                      [{"@context": "https://schema.org", "@type": "CollectionPage", "name": "APA : contact et téléphone par département", "url": DOMAIN + path}], "aidant", "aides", FOOTER)
 
 
 def hero_offre():
