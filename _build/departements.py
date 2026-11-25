@@ -184,6 +184,19 @@ def bloc_contact(d, dans):
     return h, C
 
 
+IDF = {"75": "Paris", "77": "Seine-et-Marne", "78": "Yvelines", "91": "Essonne", "92": "Hauts-de-Seine", "93": "Seine-Saint-Denis", "94": "Val-de-Marne", "95": "Val-d'Oise"}
+
+
+def idf_liens(code):
+    """Liens vers les autres départements franciliens, ancre « APA <numéro> (<nom>) » : les gens cherchent « apa 93 », « apa 94 »."""
+    slugs = {x["code"]: x["slug"] for x in DEPS}
+    autres = [(c, n, slugs[c]) for c, n in IDF.items() if c != code and c in slugs]
+    if code not in IDF or not autres:
+        return ""
+    return ('<section><h2 id="idf">APA dans les autres départements d\'Île-de-France</h2><p>Votre parent habite un département voisin ? Chaque département a son propre service :</p><ul>'
+            + "".join(f'<li><a href="/apa/{slug}/">APA {c} ({_e(n)})</a></li>' for c, n, slug in autres) + "</ul></section>")
+
+
 def page_dep(d):
     nom, code = d["nom"], d["code"]
     dans = article_dep(nom)
@@ -196,7 +209,10 @@ def page_dep(d):
     # 22/11 : les gens cherchent le contact et le numéro (« apa 43 », « apa seine-et-marne telephone ») : seul un numéro vérifié est annoncé.
     contact_html, C = bloc_contact(d, dans)
     tel = C.get("tel")
-    for titre in ((["APA et ADPA Seine-Saint-Denis (93) : contact, téléphone"] if code == "93" and tel else []) +
+    # 25/11 : en Île-de-France, les recherches se font par numéro (« apa 93 » 102 affichages, « apa 77 », « apa 94 » en 28 j) : le numéro passe devant.
+    #         « apa 93 » s'affichait aussi sur la page du 94 : titre numéroté + lien croisé entre départements franciliens (IDF_LIENS).
+    num = ([f"APA {code} et ADPA {nom} : contact, téléphone"] if code == "93" else [f"APA {code} {nom} : contact, téléphone et démarches", f"APA {code} {nom} : contact et téléphone"]) if code in IDF and tel else ([f"APA {code} {nom} : contact et démarches"] if code in IDF else [])
+    for titre in (num + (["APA et ADPA Seine-Saint-Denis (93) : contact, téléphone"] if code == "93" and tel else []) +
                   ([f"APA {nom} ({code}) : contact, téléphone et démarches", f"APA {nom} ({code}) : contact et téléphone", f"APA {nom} ({code}) : téléphone"] if tel else
                    [f"APA {nom} ({code}) : contact et démarches", f"APA {nom} ({code}) : contact"])):
         if len(titre) <= 60: break
@@ -217,7 +233,9 @@ def page_dep(d):
         chapo = chapo.replace("l'APA se demande", "l'APA, appelée ADPA" + (" hors Métropole de Lyon" if code == "69" else "") + ", se demande", 1)
     ville = ""
     debut = ("Contacter l'APA (ADPA) en Seine-Saint-Denis (93)" if code == "93" else f"Contacter l'APA {dans} ({code})") + (f" : téléphone du service {tel}, adresse" if tel else " : service à joindre, adresse, page officielle")
-    fins = ([f" et démarches. Prix des {eh['n']} EHPAD : médiane {_eur(eh['med'])} par jour."] if eh else [])
+    # 25/11 : « dossier apa haute garonne », « dossier apa vaucluse » (Search Console, position 9-11) : le dossier est annoncé.
+    fins = ([f", dossier à envoyer et démarches. Prix des {eh['n']} EHPAD : médiane {_eur(eh['med'])} par jour.", f", dossier à envoyer et démarches. Prix des EHPAD : médiane {_eur(eh['med'])} par jour."] if eh else [])
+    fins += [", dossier à envoyer et démarches."]
     fins += [" et démarches, sources datées.", " et démarches.", "."]
     for f in fins:
         if L(debut + f) <= 155: desc = debut + f; break
@@ -293,6 +311,7 @@ def page_dep(d):
         faq.append((f"Qui peut m'aider à remplir le dossier APA {dans} ?", (f"Les {len(pts)} points d'information pour les personnes âgées du département aident" if len(pts) > 1 else "Le point d'information pour les personnes âgées du département aide") + " gratuitement à remplir le dossier, tout comme le CCAS de la mairie."))
     if eh:
         faq.append((f"Quel est l'EHPAD le moins cher {dans} ?", f"D'après les prix déclarés à la CNSA pour 2025, le prix d'hébergement le plus bas relevé {dans} est de {_eur(eh['min'])} par jour, et 10 % des établissements sont sous {_eur(eh['p10'])}. " + _var(code + "s", ["Les places habilitées à l'aide sociale sont en général les moins chères.", "Les établissements habilités à l'aide sociale pratiquent souvent les prix les plus bas.", "Pour un budget serré, regardez d'abord les places habilitées à l'aide sociale."])))
+    b.append(idf_liens(code))
     b.append("<section aria-labelledby=\"faq\"><h2 id=\"faq\">Questions fréquentes</h2>" + "".join(f"<details><summary>{_e(q)}</summary><p>{_e(r)}</p></details>" for q, r in faq) + "</section>")
     b.append('<section class="sources"><h2 id="sources">Sources</h2><ul><li>Contact du service APA : site officiel du département et annuaire pour-les-personnes-agees.gouv.fr, vérifiés le 22/11/2026</li><li>Annuaire de l\'administration (api-lannuaire.service-public.fr), contacts relevés le 12/11/2026</li><li>CNSA, prix hébergement et tarifs dépendance des EHPAD, données brutes 2025 (data.gouv.fr)</li><li>CNSA, montants de l\'APA au 1er janvier 2026</li></ul></section>')
     # 19/11/2026 : chapô précisé sur toutes les pages avec prix (hébergement + dépendance), bloc local et réforme EHPAD
