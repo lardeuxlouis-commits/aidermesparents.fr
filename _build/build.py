@@ -329,6 +329,7 @@ def article(d, pages):
 <header class="ahead">
 <h1>{E(strip(d['h1']))}</h1>
 <p class="chapo">{inline(d.get('chapo'))}</p>
+<div class="byline"><img src="/img/louis-lardeux-128.jpg" width="40" height="40" alt="Photo de Louis Lardeux" loading="lazy"><span>Par <a href="/a-propos/">Louis Lardeux</a>, fondateur du site</span></div>
 <ul class="trust"><li>Vérifié le {date_txt}</li><li>{nb_src} sources officielles citées</li><li>Guide indépendant et gratuit</li></ul>
 </header>
 <figure class="hero-img"><img src="/img/{img}.jpg" srcset="/img/{img}-800.jpg 800w, /img/{img}.jpg 1600w" sizes="(max-width: 900px) 100vw, 860px" width="1600" height="1067" alt="{E(ALT[img])}" fetchpriority="high"></figure>
@@ -342,7 +343,7 @@ def article(d, pages):
     schema = [
         {"@context": "https://schema.org", "@type": "Article", "headline": strip(d["h1"])[:110], "description": d.get("description", ""),
          "image": f"{DOMAIN}/img/{img}.jpg", "datePublished": min(LANCEMENT, verif), "dateModified": verif, "inLanguage": "fr-FR",
-         "author": {"@type": "Person", "name": "Louis Lardeux", "url": DOMAIN + "/a-propos/"},
+         "author": {"@type": "Person", "name": "Louis Lardeux", "url": DOMAIN + "/a-propos/", "image": DOMAIN + "/img/louis-lardeux.jpg", "sameAs": ["https://www.linkedin.com/in/louis-lardeux-96b600254/"]},
          "publisher": {"@type": "Organization", "name": SITE, "url": DOMAIN + "/", "logo": {"@type": "ImageObject", "url": DOMAIN + "/favicon.svg"}},
          "mainEntityOfPage": DOMAIN + path,
          "citation": [x["url"] for x in d.get("sources", []) if str(x.get("url", "")).startswith("https://")]},
@@ -493,7 +494,7 @@ def accueil(pages, contenus):
 
 STATIQUES = {
     "a-propos": ("Qui sommes-nous | Aider mes parents", "Qui écrit ce guide, comment chaque information est vérifiée, et comment le site est financé.",
-                 "<h1>Qui sommes-nous</h1><div class='auteur'><span class='initiales' aria-hidden='true'>LL</span><div><b>Louis Lardeux</b><span>Fondateur et éditeur de aidermesparents.fr</span></div></div>"
+                 "<h1>Qui sommes-nous</h1><div class='auteur'><img class='ava' src='/img/louis-lardeux.jpg' width='88' height='88' alt='Photo de Louis Lardeux'><div><b>Louis Lardeux</b><span>Fondateur et éditeur de aidermesparents.fr</span><a href='https://www.linkedin.com/in/louis-lardeux-96b600254/' rel='noopener me' target='_blank'>Mon profil LinkedIn</a></div></div>"
                  "<p>aidermesparents.fr est né d'un constat simple : quand un parent perd son autonomie, les familles découvrent un maquis d'aides, de dossiers et de délais, répartis entre l'État, le département, la caisse de retraite, la CAF et la mairie. Beaucoup passent à côté d'aides auxquelles leur parent a droit, faute de savoir qu'elles existent.</p>"
                  "<p>Je ne suis ni travailleur social, ni avocat, ni notaire. Mon travail consiste à rassembler les règles officielles, à les vérifier une par une et à les expliquer simplement. Quand une situation demande un professionnel (juge, notaire, médecin, assistante sociale), la page le dit.</p>"
                  "<h2>Comment chaque page est vérifiée</h2><ul><li><b>Uniquement des sources officielles</b> pour les montants, plafonds et délais : service-public.gouv.fr, pour-les-personnes-agees.gouv.fr, CNSA, Assurance retraite, CAF, Anah, Légifrance. Elles sont citées en bas de chaque page.</li><li><b>Une date de vérification</b> sur chaque page, mise à jour quand les montants changent (en général au 1er janvier et au 1er avril).</li><li><b>Les calculateurs</b> reprennent les barèmes officiels, et nous refaisons les calculs à la main sur des cas types avant de les publier.</li><li><b>Les données par département</b> viennent de l'annuaire officiel de l'administration et des prix déclarés par les EHPAD à la CNSA.</li></ul>"
