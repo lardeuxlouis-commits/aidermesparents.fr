@@ -172,6 +172,8 @@ STICKY_JS = ("<script>(function(){var b=document.getElementById('stk'),K='amp-st
 
 def sticky_html(path):
     """Barre collante mobile (900 px et moins), discrète, fermable (masquée 7 jours), seulement si la vente est active."""
+    # 27/11 : désactivée (le contenu d'abord, cf. chute Google du 22/11). Remettre en retirant le return ci-dessous.
+    return ""
     if not STRIPE_PLAN or path in STICKY_EXCLU:
         return ""
     return ('<div class="stk" id="stk" hidden><p><b>Le plan d’action</b> pour votre parent, 7,99 €</p>'
@@ -295,7 +297,7 @@ def article(d, pages):
     apres = {}
     if slug in CALC and parts:  # calculateur après la 1re section
         apres.setdefault(0, []).append(f'<div class="calc" data-clarity-mask="True" data-calc="{CALC[slug]}"><noscript>Activez JavaScript pour utiliser le calculateur.</noscript></div>')
-    if len(parts) >= 2:  # 22/11 : encart d'offre après l'introduction (après le calculateur s'il y en a un)
+    if False and len(parts) >= 2:  # 27/11 : retiré, l'offre reste en fin de page (offre_fin) ; avant : encart après l'introduction
         t_o, x_o = OFFRE_SLUG.get(slug) or OFFRE_RUB[rub]
         apres.setdefault(1 if slug in CALC and len(parts) >= 3 else 0, []).append(offre_ctx(t_o, x_o))
     corps = "".join(x + "".join(apres.get(i, [])) for i, x in enumerate(parts))
@@ -385,6 +387,7 @@ def rubrique(r, pages, contenus):
 def offre_dep(p):
     """Corps de la page département, avec l'encart d'offre après le premier bloc (contact du service APA)."""
     b = p["body"]
+    return b  # 27/11 : plus d'encart au milieu, l'offre reste en fin de page
     o = offre_ctx(f"Votre parent vit {DEP.article_dep(p['nom'])} ?",
                   "Le plan d’action estime son APA selon ses ressources, donne l’ordre des démarches, les pièces à réunir et les lettres prêtes.")
     i = b.find("</section>")
@@ -465,9 +468,8 @@ def accueil(pages, contenus):
     body = f"""<section class="hero"><div class="wrap hgrid">
 <div><p class="kicker">Le guide des familles</p>
 <h1>Aider ses parents âgés : les aides, les démarches et les bons réflexes</h1>
-{hero_offre()}
 <p class="lead">APA, aide à domicile, EHPAD, congé de proche aidant : chaque aide expliquée simplement, avec les montants 2026 vérifiés sur les sources officielles.</p>
-<p class="ctas"><a class="btn{' sec' if STRIPE_PLAN else ''}" href="/quelles-aides/">Voir les aides de mon parent en 1 minute (gratuit)</a><a class="btn sec" href="/apa/">Tout savoir sur l'APA</a></p>
+<p class="ctas"><a class="btn" href="/quelles-aides/">Voir les aides de mon parent en 1 minute (gratuit)</a><a class="btn sec" href="/apa/">Tout savoir sur l'APA</a></p>
 <ul class="trust"><li>Montants 2026 vérifiés</li><li>Sources officielles citées</li><li>Indépendant et gratuit</li></ul></div>
 <figure><img src="/img/accueil.jpg" srcset="/img/accueil-800.jpg 800w, /img/accueil.jpg 1600w" sizes="(max-width: 900px) 100vw, 560px" width="1600" height="1067" alt="{E(ALT['accueil'])}" fetchpriority="high"></figure>
 </div></section>
@@ -479,6 +481,7 @@ def accueil(pages, contenus):
 <li><b>Demander l'aide principale</b><span>Dès le GIR 4, c'est l'APA, versée par le département : <a href="/apa/demande/">monter le dossier</a>.</span></li>
 <li><b>Organiser l'aide au quotidien</b><span>Aide à domicile, téléassistance, logement adapté : <a href="/aide-a-domicile/">les solutions et leur prix</a>.</span></li>
 </ol></section>
+{hero_offre()}
 {cartes}
 </div>"""
     schema = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE, "url": DOMAIN + "/", "inLanguage": "fr-FR"},
