@@ -128,7 +128,7 @@ def bloc_local(d, dans):
         if L.get("courriel"): lignes.append(f'Courriel : <a href="mailto:{_e(L["courriel"])}">{_e(L["courriel"])}</a>')
         liens = "".join(f'<li><a href="{_e(u)}" rel="noopener" target="_blank">{_e(t)}</a></li>' for t, u in L.get("liens", []))
         src = (f'Source : <a href="{LOC.ANN}{L["fiche"]}" rel="noopener" target="_blank">fiche du département dans l\'annuaire officiel pour-les-personnes-agees.gouv.fr</a>'
-               + (f' et <a href="{_e(L["site_src"])}" rel="noopener" target="_blank">site du département</a>' if L.get("site_src") else "") + ", relevés le 19/11/2026.")
+               + (f' et <a href="{_e(L["site_src"])}" rel="noopener" target="_blank">site du département</a>' if L.get("site_src") else "") + f", relevés le {L.get('releve', '19/11/2026')}.")
         out.append(f'<section><h2 id="interlocuteur">Le bon interlocuteur pour l\'APA {dans}</h2><p>{L["texte"]}</p>'
                    f'<div class="contact">{"<br>".join(lignes)}</div>' + (f'<ul>{liens}</ul>' if liens else "") + f'<p class="src">{src}</p></section>')
         faq += L.get("faq", [])

@@ -136,3 +136,11 @@ LOCAL = {
                texte="En Haute-Saône, la Direction de l'autonomie à Vesoul attribue et verse l'APA, à domicile comme en établissement. Le Département finance aussi l'aide-ménagère et l'hébergement en EHPAD des personnes âgées aux revenus modestes, au titre de l'aide sociale, et soutient une plateforme de répit départementale pour les aidants.",
                fiche="haute-saone-70", site_src="https://www.haute-saone.fr/le-departement/les-competences/solidarites/"),
 }
+
+
+# 27/11/2026 : les 75 départements qui n'avaient pas de bloc local, relevés sur les sites officiels (Département, annuaire
+# pour-les-personnes-agees.gouv.fr), chaque fait avec son URL dans _data/local-apa-2026-11-27.json (champ « faits », non affiché).
+import json as _json, os as _os
+_P = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), "_data", "local-apa-2026-11-27.json")
+for _k, _v in _json.load(open(_P, encoding="utf-8")).items():
+    LOCAL.setdefault(_k, _v)
