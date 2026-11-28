@@ -16,6 +16,7 @@
       "h2": "Qu'est-ce que l'obligation alimentaire envers un parent ?",
       "blocs": [
         {"type": "p", "texte": "C'est l'obligation d'aider un parent ou un beau-parent qui n'arrive pas à assurer ses besoins fondamentaux : logement, nourriture, soins, dépenses courantes. Elle s'exécute le plus souvent sous la forme d'une **pension alimentaire** versée chaque mois. Elle peut aussi se faire en nature : héberger, nourrir et entretenir le parent."},
+        {"type": "p", "texte": "Elle continue après le décès : les enfants doivent payer les frais d'obsèques de leur parent, même s'ils renoncent à la succession. Voir [qui paie les obsèques d'un parent, et quelles aides](frais-obseques-parent)."},
         {"type": "p", "texte": "La personne qui reçoit l'aide s'appelle le créancier d'aliments. Celle qui la verse est l'obligé alimentaire, ou débiteur d'aliments. Le parent qui réclame l'aide doit démontrer qu'il est dans le besoin et qu'il n'a pas de ressources suffisantes pour faire face à ses dépenses essentielles."}
       ]
     },
@@ -114,6 +115,7 @@
     {"q": "Faut-il un avocat pour saisir le juge ?", "r": "Non en première instance : l'avocat n'est pas obligatoire. En cas d'appel, il l'est. Si vos revenus sont modestes, vous pouvez demander l'aide juridictionnelle."}
   ],
   "liens_internes": [
+    {"slug": "frais-obseques-parent", "ancre": "frais d'obsèques d'un parent"},
     {"slug": "aide-sociale-hebergement", "ancre": "aide sociale à l'hébergement (ASH)"},
     {"slug": "ehpad-prix-aides", "ancre": "prix d'un EHPAD et aides"},
     {"slug": "aspa", "ancre": "Aspa, allocation de solidarité aux personnes âgées"},
@@ -123,9 +125,11 @@
     {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2009", "titre": "Doit-on aider ses parents dans le besoin ? Obligation alimentaire (vérifié le 12 décembre 2025)"},
     {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F444", "titre": "Impôt sur le revenu : pension alimentaire versée à un ascendant (vérifié le 15 avril 2026)"},
     {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2444", "titre": "Aide sociale à l'hébergement (ASH) d'une personne âgée"},
+    {"url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17059", "titre": "Qui doit payer les frais d'obsèques ? (vérifié le 1er janvier 2026)"},
     {"url": "https://www.service-public.gouv.fr/particuliers/actualites/A17349", "titre": "Loi bien vieillir : suppression de l'obligation alimentaire dans certains cas (19 avril 2024)"}
   ],
   "date_verification": "2026-11-11",
+  "date_maj": "2026-11-28",
   "a_verifier": [
     "La page service-public sur la loi bien vieillir (avril 2024) est marquée « ancienne » : j'ai appuyé les cas de dispense sur la fiche F2009, vérifiée le 12 décembre 2025.",
     "La tranche marginale de 30 % dans l'exemple est une hypothèse de calcul, pas un chiffre officiel.",

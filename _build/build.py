@@ -76,6 +76,7 @@ PAGES = {  # slug -> (rubrique, image, libellé court pour le menu et les cartes
     "carte-mobilite-inclusion": ("aides", "aidant", "Carte mobilité inclusion"),
     "sortir-plus": ("aides", "aidant", "Sortir Plus (Agirc-Arrco)"),
     "mutuelle-senior": ("aides", "accueil", "Mutuelle senior et aides"),
+    "aides-retraites-non-imposables": ("aides", "accueil", "Retraité non imposable : les aides"),
     "aide-a-domicile": ("domicile", "aide-domicile", "Aide à domicile : prix et aides"),
     "teleassistance": ("domicile", "teleassistance", "Téléassistance"),
     "portage-de-repas": ("domicile", "aide-domicile", "Portage de repas"),
@@ -102,6 +103,7 @@ PAGES = {  # slug -> (rubrique, image, libellé court pour le menu et les cartes
     "accueillir-parent-chez-soi": ("aidants", "accueil", "Accueillir un parent chez soi"),
     "parent-victime-arnaque": ("aidants", "aidant", "Mon parent s'est fait arnaquer"),
     "demarchage-abusif-personne-agee": ("aidants", "aidant", "Démarchage abusif d'une personne âgée"),
+    "frais-obseques-parent": ("aidants", "aidant", "Frais d'obsèques d'un parent"),
 }
 ALT = {
     "accueil": "Une femme serre sa mère âgée dans ses bras, toutes deux rient sur une terrasse ensoleillée",
@@ -343,7 +345,7 @@ def article(d, pages):
 </div></div></div>"""
     schema = [
         {"@context": "https://schema.org", "@type": "Article", "headline": strip(d["h1"])[:110], "description": d.get("description", ""),
-         "image": f"{DOMAIN}/img/{img}.jpg", "datePublished": min(LANCEMENT, verif), "dateModified": verif, "inLanguage": "fr-FR",
+         "image": f"{DOMAIN}/img/{img}.jpg", "datePublished": min(LANCEMENT, verif), "dateModified": max(verif, d.get("date_maj") or verif), "inLanguage": "fr-FR",
          "author": {"@type": "Person", "name": "Louis Lardeux", "url": DOMAIN + "/a-propos/", "image": DOMAIN + "/img/louis-lardeux.jpg", "sameAs": ["https://www.linkedin.com/in/louis-lardeux-96b600254/"]},
          "publisher": {"@type": "Organization", "name": SITE, "url": DOMAIN + "/", "logo": {"@type": "ImageObject", "url": DOMAIN + "/favicon.svg"}},
          "mainEntityOfPage": DOMAIN + path,
@@ -657,14 +659,14 @@ def main():
     urls = []
     write("/", accueil(pages, contenus)); urls.append(("/", max([c.get("date_verification", LANCEMENT) for c in contenus.values()] or [LANCEMENT])))
     for r, _, _ in RUBRIQUES:
-        path, h = rubrique(r, pages, contenus); write(path, h); urls.append((path, max(contenus[x].get("date_verification", LANCEMENT) for x in PAGES if PAGES[x][0] == r and x in contenus)))
+        path, h = rubrique(r, pages, contenus); write(path, h); urls.append((path, max(max(contenus[x].get("date_verification", LANCEMENT), contenus[x].get("date_maj") or "") for x in PAGES if PAGES[x][0] == r and x in contenus)))
     path, h = hub_departements(); write(path, h); urls.append((path, LANCEMENT))
     for d in DEP.DEPS:
         path, h = page_departement(d); write(path, h)
         if d.get("ehpad"): urls.append((path, DEP.page_dep(d).get("maj") or LANCEMENT))
     for s in PAGES:
         if s in contenus:
-            path, h = article(contenus[s], pages); write(path, h); urls.append((path, contenus[s].get("date_verification", LANCEMENT)))
+            path, h = article(contenus[s], pages); write(path, h); urls.append((path, max(contenus[s].get("date_verification", LANCEMENT), contenus[s].get("date_maj") or "")))
     write("/quelles-aides/", page("Quelles aides pour mon parent âgé ? Le point en 1 minute",
           "5 questions pour voir les aides à vérifier pour votre parent : APA, ASPA, aide ménagère, crédit d'impôt, MaPrimeAdapt, aides aux aidants.",
           "/quelles-aides/", quiz_html(), [{"@context": "https://schema.org", "@type": "WebApplication", "name": "Quelles aides pour mon parent ?", "applicationCategory": "UtilityApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "inLanguage": "fr-FR"}], "accueil", None, FOOTER)); urls.append(("/quelles-aides/", LANCEMENT))

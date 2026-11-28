@@ -1,0 +1,283 @@
+{
+ "slug": "frais-obseques-parent",
+ "title": "Frais d'obsèques d'un parent : qui paie et quelles aides",
+ "description": "Obsèques d'un parent : les enfants paient, même s'ils renoncent à la succession. Jusqu'à 5 965 € pris sur son compte, aides et déduction d'impôt.",
+ "h1": "Frais d'obsèques d'un parent : qui paie, et quelles aides pour rembourser ?",
+ "chapo": "Si votre parent n'avait pas de contrat obsèques, ce sont ses enfants qui paient, même s'ils renoncent à la succession : cela fait partie de l'obligation alimentaire. Vous pouvez demander à sa banque de régler jusqu'à 5 965 € de frais sur ses comptes (2026), puis vous faire rembourser une partie par l'Assurance retraite, la mutuelle ou les autres héritiers.",
+ "en_bref": [
+  "Sans contrat obsèques, les enfants paient, même en cas de renonciation à la succession, sauf si le parent a gravement manqué à ses devoirs (violence, abandon).",
+  "La banque du défunt peut régler jusqu'à 5 965 € de frais d'obsèques sur ses comptes, dans la limite du solde, sur présentation de la facture.",
+  "L'Assurance retraite rembourse jusqu'à 2 286,74 € de frais si elle devait encore de l'argent au retraité décédé.",
+  "Les frais se partagent entre héritiers selon ce que chacun reçoit, ou selon les ressources des enfants si la succession ne suffit pas.",
+  "Déduction : 1 500 € au plus sur la succession, ou sur votre revenu imposable s'il n'y a pas d'actif successoral."
+ ],
+ "sections": [
+  {
+   "h2": "Qui doit payer les obsèques d'un parent ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Vérifiez d'abord si votre parent avait souscrit un contrat pour ses obsèques (voir plus bas). Sinon, les frais reviennent à ses héritiers. Pour les enfants, ce devoir fait partie de l'**obligation alimentaire** : vous devez payer les obsèques de votre père ou de votre mère, que vous ayez été proches ou non, et **même si vous renoncez à la succession**."
+    },
+    {
+     "type": "p",
+     "texte": "Une seule exception est prévue : vous n'êtes pas tenu de payer si votre parent a gravement manqué à ses obligations envers vous, par exemple en cas de violence ou d'abandon de famille."
+    },
+    {
+     "type": "p",
+     "texte": "En pratique, celui qui signe avec l'entreprise de pompes funèbres règle seul la facture. Il peut ensuite se retourner contre les autres héritiers pour être remboursé. Une personne qui n'est pas héritière, comme un concubin ou un ami, peut aussi avancer les frais et demander ensuite le remboursement aux héritiers."
+    },
+    {
+     "type": "p",
+     "texte": "Comptent comme frais funéraires, entre autres : l'inhumation ou la crémation et leur cérémonie, l'avis d'obsèques, les courriers, la concession au cimetière, le caveau, le transport du corps, le monument, les fleurs et les couronnes. Les règles générales de l'aide due entre parents et enfants sont expliquées sur notre page [obligation alimentaire envers un parent](obligation-alimentaire)."
+    }
+   ]
+  },
+  {
+   "h2": "Votre parent avait-il un contrat obsèques ou une assurance décès ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Trois types de contrats existent, et ils ne fonctionnent pas de la même façon :"
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Contrat",
+      "Ce qu'il prévoit",
+      "À savoir"
+     ],
+     "lignes": [
+      [
+       "Assurance décès",
+       "Un capital versé à la personne désignée",
+       "Le bénéficiaire n'est pas obligé de l'utiliser pour les obsèques"
+      ],
+      [
+       "Assurance obsèques",
+       "Un capital fixé à l'avance, versé à une personne désignée ou aux pompes funèbres",
+       "Il doit servir aux obsèques, mais ne couvre pas forcément tout le coût"
+      ],
+      [
+       "Contrat obsèques",
+       "Les prestations choisies par votre parent et leur prix",
+       "Il peut soulager la famille de démarches (cérémonie, annonce, concession)"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Vous ne trouvez aucun papier ? Le service public propose une démarche en ligne, « Demander la recherche d'un contrat d'assurance obsèques ». Si un contrat existe, il faudra fournir un justificatif de la prise en charge des obsèques pour obtenir le versement."
+    }
+   ]
+  },
+  {
+   "h2": "Payer les obsèques avec l'argent du compte de votre parent",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Au décès, les comptes bancaires de votre parent sont bloqués. Les frais d'obsèques font exception : vous pouvez demander à sa banque de prélever sur ses comptes tout ou partie des sommes nécessaires, **dans la limite de 5 965 €** en 2026 et du montant disponible sur les comptes."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Demandez la facture des pompes funèbres.",
+      "Présentez-la à la banque de votre parent. Si la facture n'est pas encore payée, la banque verse en général l'argent directement aux pompes funèbres.",
+      "Si vous avez déjà payé, présentez la facture acquittée : la banque vous rembourse sur les comptes du défunt."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Ce prélèvement est possible même si celui qui a payé n'est pas héritier, à condition d'être la personne la plus proche du défunt, celle qui a « qualité pour pourvoir aux funérailles »."
+    },
+    {
+     "type": "exemple",
+     "titre": "Exemple",
+     "texte": "Votre mère est décédée avec 3 200 € sur son compte courant. Les obsèques coûtent 4 800 €. La banque peut verser 3 200 € aux pompes funèbres, puisque le prélèvement est limité au solde disponible. Les 1 600 € restants sont à payer par les enfants, puis à répartir entre eux."
+    },
+    {
+     "type": "attention",
+     "texte": "Si les sommes détenues par la banque sont inférieures à 5 965 €, qu'il n'y a ni bien immobilier, ni testament, ni contrat de mariage, un héritier en ligne directe peut demander la clôture des comptes sans passer par un notaire."
+    }
+   ]
+  },
+  {
+   "h2": "Quelles aides pour rembourser les frais d'obsèques ?",
+   "blocs": [
+    {
+     "type": "liste",
+     "items": [
+      "**L'Assurance retraite** : la pension est due jusqu'à la fin du mois du décès. Si la caisse devait encore de l'argent à votre parent, vous pouvez lui demander de rembourser une partie des frais d'obsèques, **jusqu'à 2 286,74 €** et dans la limite des sommes dues. Joignez la facture et l'acte de décès. Il n'est pas nécessaire d'être héritier, et ce remboursement passe avant tout paiement à la succession.",
+      "**La caisse de retraite complémentaire, la mutuelle ou un organisme de prévoyance** : certains versent une aide pour les obsèques. Contactez directement chaque organisme auquel votre parent était affilié.",
+      "**Le capital décès de la Sécurité sociale** : il ne concerne que les personnes qui, dans les 3 mois avant le décès, étaient salariées, au chômage indemnisé, titulaires d'une pension d'invalidité ou d'une rente d'accident du travail (incapacité d'au moins 66,66 %). Un parent retraité sans activité dans les 3 mois avant son décès n'est donc en principe pas concerné.",
+      "**En cas d'accident du travail ou de maladie professionnelle** : la CPAM ou la MSA prend en charge les frais funéraires dans la limite de 2 003 €."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Si votre parent laisse un conjoint, celui-ci peut avoir droit à une [pension de réversion](pension-de-reversion) sur la retraite du défunt."
+    }
+   ]
+  },
+  {
+   "h2": "Comment partager les frais entre frères et sœurs ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Les frais d'obsèques sont répartis entre les héritiers **en proportion de ce que chacun reçoit dans la succession**. Si la succession ne suffit pas à les couvrir, ils sont pris en charge par les enfants **selon leurs ressources** : c'est l'application de leur obligation alimentaire."
+    },
+    {
+     "type": "etapes",
+     "items": [
+      "Mettez-vous d'accord entre vous, ou devant le notaire s'il est chargé de la succession.",
+      "En cas de désaccord, vous pouvez tenter une médiation.",
+      "Sans accord, le juge aux affaires familiales fixe la répartition. Si votre demande ne dépasse pas 5 000 €, une requête sur papier libre envoyée en recommandé avec avis de réception suffit."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Celui qui a payé et n'obtient pas le remboursement peut aussi passer par un commissaire de justice (sommation de payer, procédure des petites créances) ou saisir le tribunal judiciaire."
+    }
+   ]
+  },
+  {
+   "h2": "Et si la famille n'a pas les moyens de payer ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Si la famille du défunt n'a pas de ressources suffisantes, **la commune du lieu de décès doit prendre en charge les obsèques**. C'est le maire qui apprécie l'insuffisance de ressources, et la mairie qui choisit l'entreprise de pompes funèbres. Adressez-vous à la mairie dès que possible."
+    },
+    {
+     "type": "p",
+     "texte": "Quand personne ne s'occupe des obsèques, le maire y pourvoit aussi. La commune peut ensuite se faire rembourser sur le compte du défunt (jusqu'à 5 965 €), sur la succession, ou auprès des proches tenus à l'obligation alimentaire : enfants, parents, beaux-parents, gendres et belles-filles."
+    },
+    {
+     "type": "attention",
+     "texte": "Si votre parent touchait l'ASPA (minimum vieillesse), les frais d'obsèques sont déduits de la succession avant de savoir si l'ASPA doit être remboursée. En 2026, elle n'est récupérée que si l'actif net dépasse 108 586,14 € en métropole. Voir notre page [ASPA, le minimum vieillesse](aspa)."
+    }
+   ]
+  },
+  {
+   "h2": "Peut-on déduire les frais d'obsèques de ses impôts ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Deux possibilités existent, qui ne se cumulent pas :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Sur la succession** : les frais d'obsèques peuvent être déduits de la succession, dans la limite de 1 500 €.",
+      "**Sur votre revenu imposable** : si ces frais ne sont pas déduits de la succession, vous pouvez les déduire au titre d'une pension alimentaire versée à un ascendant (parent, grand-parent, beau-parent). L'administration l'admet au moins quand il n'y a pas d'actif successoral pour payer ces frais."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Dans le second cas, gardez de quoi prouver, si le centre des Finances publiques le demande : votre lien de parenté, le paiement réel de la dépense et l'absence d'actif successoral."
+    },
+    {
+     "type": "attention",
+     "texte": "Le monument funéraire, les fleurs et les couronnes ne sont déductibles ni de la succession, ni de votre revenu imposable."
+    }
+   ]
+  },
+  {
+   "h2": "Organiser les obsèques : délais et devis",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "L'inhumation doit avoir lieu 24 heures au moins et 14 jours calendaires au plus après le décès, sauf exceptions. Le préfet peut accorder un délai plus long, dans la limite de 21 jours."
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Le **devis funéraire est gratuit et sans engagement**. Vous pouvez en demander plusieurs pour comparer.",
+      "Depuis le 1er octobre 2026, chaque opérateur funéraire doit remettre une **notice d'information** identique pour tous, sans publicité. Elle distingue les prestations obligatoires des prestations facultatives.",
+      "Parmi les prestations obligatoires figure le cercueil avec une plaque d'identité, une cuvette étanche et quatre poignées.",
+      "En cas de litige avec l'opérateur, vous pouvez saisir le médiateur de la consommation auquel il adhère."
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Mon père m'a abandonné, dois-je payer ses obsèques ?",
+   "r": "Non, si vous pouvez montrer qu'il a gravement manqué à ses obligations envers vous, par exemple en cas d'abandon de famille ou de violence. C'est la seule exception prévue à l'obligation de payer les obsèques d'un parent."
+  },
+  {
+   "q": "Un concubin ou un ami qui a payé les obsèques peut-il être remboursé ?",
+   "r": "Oui. Il peut demander à la banque du défunt le prélèvement des frais, jusqu'à 5 965 €, s'il était la personne la plus proche du défunt. Il peut aussi se faire rembourser par les héritiers."
+  },
+  {
+   "q": "Combien la banque peut-elle verser pour les obsèques en 2026 ?",
+   "r": "Jusqu'à 5 965 €, et jamais plus que ce qui est disponible sur les comptes de votre parent au jour du décès. Ce plafond était de 5 910 € en 2025 et a été revalorisé au 1er janvier 2026."
+  },
+  {
+   "q": "La pension du mois du décès est-elle reprise ?",
+   "r": "La pension de l'Assurance retraite est due jusqu'à la fin du mois qui comprend le décès. Si la caisse devait encore de l'argent au retraité, cette somme peut servir à rembourser les frais d'obsèques, jusqu'à 2 286,74 €, avant tout paiement à la succession."
+  },
+  {
+   "q": "Faut-il payer les obsèques avant d'avoir réglé la succession ?",
+   "r": "Oui, les frais se paient au moment des obsèques. Vous pouvez présenter une facture non réglée à la banque du défunt, qui verse alors l'argent aux pompes funèbres, dans la limite de 5 965 € et du solde. Les remboursements (Assurance retraite, mutuelle, autres héritiers) viennent ensuite."
+  },
+  {
+   "q": "Faut-il passer par un notaire pour payer les obsèques ?",
+   "r": "Non. Le prélèvement sur les comptes du défunt se demande directement à la banque, avec la facture. Le notaire intervient pour le règlement de la succession, et pour le partage des frais quand son recours est obligatoire."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "obligation-alimentaire",
+   "ancre": "l'obligation alimentaire envers un parent"
+  },
+  {
+   "slug": "pension-de-reversion",
+   "ancre": "pension de réversion du conjoint survivant"
+  },
+  {
+   "slug": "allocation-veuvage",
+   "ancre": "allocation veuvage avant 55 ans"
+  },
+  {
+   "slug": "aspa",
+   "ancre": "ASPA et récupération sur succession"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17059",
+   "titre": "Service-public.gouv.fr : Qui doit payer les frais d'obsèques ? (vérifié le 1er janvier 2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1451",
+   "titre": "Service-public.gouv.fr : Que devient un compte bancaire en cas de décès ? (vérifié le 22 juin 2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17922",
+   "titre": "Service-public.gouv.fr : plafond de prélèvement pour les obsèques en 2025 (5 910 €, publié le 19 décembre 2024)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14935",
+   "titre": "Service-public.gouv.fr : Inhumation, délais (vérifié le 26 novembre 2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A19044",
+   "titre": "Service-public.gouv.fr : Obsèques, une notice d'information obligatoire (publié le 19 août 2026)"
+  },
+  {
+   "url": "https://www.impots.gouv.fr/particulier/questions/puis-je-deduire-les-frais-dobseques-que-jai-payes-pour-un-parent-decede",
+   "titre": "Impots.gouv.fr : Puis-je déduire les frais d'obsèques payés pour un parent décédé ? (modifié le 7 juillet 2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16871",
+   "titre": "Service-public.gouv.fr : ASPA, récupération sur succession (vérifié le 23 juin 2026)"
+  }
+ ],
+ "date_verification": "2026-11-28",
+ "a_verifier": [
+  "Délai d'inhumation : la fiche F17059 écrit « 14 jours ouvrés », la fiche F14935 (vérifiée le 26/11/2026, plus récente) écrit « 14 jours calendaires ». La page retient F14935.",
+  "Plafond de 5 965 € : lu sur F17059 et F1451 (arrêté du 24 décembre 2025). Le montant de 2025 (5 910 €) vient de l'actualité A17922.",
+  "Exemple bancaire : 4 800 - 3 200 = 1 600 €."
+ ]
+}

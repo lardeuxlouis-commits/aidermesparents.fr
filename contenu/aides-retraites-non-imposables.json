@@ -1,0 +1,403 @@
+{
+ "slug": "aides-retraites-non-imposables",
+ "title": "Retraité non imposable : aides et avantages en 2026",
+ "description": "Retraité non imposable ou petite retraite : CSG à zéro, taxe foncière, chèque énergie, mutuelle gratuite, ASPA. Les seuils 2026 et les démarches.",
+ "h1": "Retraité non imposable : quelles aides et quels avantages en 2026 ?",
+ "chapo": "Être non imposable n'ouvre aucun droit à lui seul : ce qui compte, c'est le revenu fiscal de référence (RFR) inscrit sur l'avis d'impôt, ou les ressources. Avec un petit RFR, votre parent peut ne payer aucune CSG sur sa pension (RFR 2024 jusqu'à 13 048 € pour une part), être exonéré de taxe foncière après 75 ans, recevoir le chèque énergie (48 à 277 €) et obtenir une mutuelle gratuite.",
+ "en_bref": [
+  "Le critère est le revenu fiscal de référence (RFR) ou les ressources, pas le fait de payer ou non l'impôt.",
+  "CSG sur la pension en 2026 : aucune jusqu'à 13 048 € de RFR 2024 pour une part, taux réduit de 3,8 % jusqu'à 17 057 €.",
+  "Taxe foncière 2026 : exonération après 75 ans et 100 € de moins entre 65 et 75 ans, si le RFR 2025 ne dépasse pas 12 793 € pour une part.",
+  "Chèque énergie 2026 : de 48 à 277 €, envoyé sans démarche, à demander avant le 31 décembre 2026 s'il n'est pas arrivé.",
+  "Complémentaire santé solidaire gratuite jusqu'à 10 421 € de ressources par an pour une personne seule."
+ ],
+ "sections": [
+  {
+   "h2": "Être non imposable donne-t-il droit à des aides ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Pas directement. Aucune aide ne s'obtient avec la seule mention « non imposable ». Chaque avantage a son propre critère : le **revenu fiscal de référence** (RFR) pour la CSG, la taxe foncière et le chèque énergie, les **ressources du foyer** pour la complémentaire santé solidaire et le minimum vieillesse. Les seuils ne sont pas les mêmes : un retraité peut être non imposable et payer quand même de la CSG, ou l'inverse."
+    },
+    {
+     "type": "p",
+     "texte": "Le RFR figure sur l'avis d'impôt, dans le cadre « Vos références ». Votre parent doit donc déclarer ses revenus chaque année : c'est obligatoire même avec de faibles ressources, ou aucune. Les exonérations sont ensuite appliquées d'office à partir de cette déclaration."
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Avantage",
+      "Critère en 2026",
+      "Démarche"
+     ],
+     "lignes": [
+      [
+       "CSG réduite ou nulle sur la pension",
+       "RFR 2024 et nombre de parts",
+       "Aucune, le taux dépend de l'avis d'impôt"
+      ],
+      [
+       "Taxe foncière : exonération ou 100 € de moins",
+       "Âge et RFR 2025",
+       "Aucune s'il vit chez lui"
+      ],
+      [
+       "Chèque énergie",
+       "RFR par unité de consommation",
+       "Envoi automatique, sinon demande"
+      ],
+      [
+       "Complémentaire santé solidaire",
+       "Ressources des 12 derniers mois",
+       "Demande à l'Assurance maladie"
+      ],
+      [
+       "ASPA, aide ménagère",
+       "Ressources mensuelles",
+       "Demande à la caisse de retraite ou au département"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "h2": "CSG sur la retraite : jusqu'à quel revenu est-on exonéré ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La pension de retraite supporte la CSG, la CRDS et la Casa (contribution pour l'autonomie). Il existe 4 taux de CSG : zéro, 3,8 %, 6,6 % et 8,3 %. En 2026, le taux dépend du RFR de 2024, inscrit sur l'avis d'impôt reçu en 2025, et du nombre de parts."
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "RFR 2024",
+      "1 part (personne seule)",
+      "2 parts (couple marié ou pacsé)"
+     ],
+     "lignes": [
+      [
+       "Taux zéro : rien n'est prélevé",
+       "Jusqu'à 13 048 €",
+       "Jusqu'à 20 016 €"
+      ],
+      [
+       "Taux réduit : 4,3 % au total",
+       "De 13 049 € à 17 057 €",
+       "De 20 017 € à 26 167 €"
+      ],
+      [
+       "Taux médian : 7,4 % au total",
+       "De 17 058 € à 26 472 €",
+       "De 26 168 € à 40 604 €"
+      ],
+      [
+       "Taux normal : 9,1 % au total",
+       "Plus de 26 472 €",
+       "Plus de 40 604 €"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Le total comprend la CSG, la CRDS de 0,5 % et la Casa de 0,3 %. Au taux zéro, votre parent ne paie ni CSG, ni CRDS, ni Casa. Au taux réduit, il est seulement exonéré de Casa. Pour 1,5 part, le taux zéro s'applique jusqu'à 16 532 €. Les prélèvements portent sur la totalité de la pension."
+    },
+    {
+     "type": "exemple",
+     "titre": "Exemple",
+     "texte": "Votre père vit seul, une part, avec un RFR 2024 de 15 000 € et une pension de 1 300 € brut par mois. Il est au taux réduit : 1 300 x 4,3 % = 55,90 € prélevés par mois. Au taux normal, ce serait 1 300 x 9,1 % = 118,30 €."
+    },
+    {
+     "type": "attention",
+     "texte": "Un retraité au taux réduit ne passe au taux médian ou normal que si son RFR dépasse le plafond **2 années de suite**. Une hausse ponctuelle, par exemple l'année d'un rappel de pension, ne suffit pas."
+    }
+   ]
+  },
+  {
+   "h2": "Taxe foncière : exonération après 75 ans et 100 € de moins dès 65 ans",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Si votre parent est propriétaire de sa résidence principale, deux avantages existent selon son âge au 1er janvier de l'année :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "**Plus de 75 ans** : exonération de taxe foncière sur l'habitation principale.",
+      "**Entre 65 et 75 ans** : dégrèvement de 100 € sur la taxe foncière de l'habitation principale."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Dans les deux cas, il doit vivre seul, avec son conjoint ou partenaire de Pacs, ou avec des personnes à sa charge pour l'impôt. Et son RFR de l'année précédente ne doit pas dépasser un plafond. Pour la taxe foncière 2026 en métropole, sur les revenus de 2025 :"
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Nombre de parts",
+      "RFR 2025 à ne pas dépasser"
+     ],
+     "lignes": [
+      [
+       "1 part",
+       "12 793 €"
+      ],
+      [
+       "1,5 part",
+       "16 209 €"
+      ],
+      [
+       "2 parts",
+       "19 625 €"
+      ],
+      [
+       "Par demi-part en plus",
+       "+ 3 416 €"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Ces avantages sont appliqués d'office, sans démarche. Si votre parent touche l'**ASPA** (minimum vieillesse), il est exonéré de taxe foncière sur son habitation principale sans condition de RFR. S'il perd son droit, l'exonération est prolongée 2 ans, puis il garde un abattement dégressif pendant 2 années de plus."
+    },
+    {
+     "type": "attention",
+     "texte": "L'exonération ne couvre pas la **taxe d'enlèvement des ordures ménagères**, qui figure sur le même avis. La taxe d'habitation sur la résidence principale, elle, est supprimée pour tout le monde depuis le 1er janvier 2023."
+    },
+    {
+     "type": "p",
+     "texte": "Votre parent est entré en EHPAD ? Il garde l'exonération (après 75 ans) sur son ancien logement si celui-ci reste inoccupé et si les conditions de revenus sont remplies. Entre 65 et 75 ans, le dégrèvement de 100 € reste possible aux mêmes conditions, mais il n'est pas accordé d'office : il faut le demander au centre des Finances publiques du lieu du logement."
+    }
+   ]
+  },
+  {
+   "h2": "Chèque énergie : qui le reçoit en 2026 et combien ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Le chèque énergie aide à payer l'électricité, le gaz, le fioul ou le bois. Selon la fiche officielle, il est réservé aux foyers dont le RFR par **unité de consommation** (UC) est inférieur à 11 000 €. Le premier déclarant compte pour 1 UC, le second pour 0,5 UC. Un retraité seul compte donc pour 1 UC, un couple pour 1,5 UC. Un membre du foyer doit être titulaire d'un contrat d'électricité."
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "RFR par UC",
+      "Personne seule (1 UC)",
+      "Couple (1,5 UC)"
+     ],
+     "lignes": [
+      [
+       "Moins de 5 700 €",
+       "194 €",
+       "240 €"
+      ],
+      [
+       "De 5 700 € à moins de 6 800 €",
+       "146 €",
+       "176 €"
+      ],
+      [
+       "De 6 800 € à moins de 7 850 €",
+       "98 €",
+       "113 €"
+      ],
+      [
+       "De 7 850 € à moins de 11 000 €",
+       "48 €",
+       "63 €"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Les chèques 2026 sont envoyés depuis le 1er avril 2026, sans démarche, aux foyers repérés grâce aux données fiscales et au compteur d'électricité. Si votre parent pense y avoir droit mais n'a rien reçu, il peut le demander jusqu'au **31 décembre 2026** sur le site du chèque énergie ou par courrier. En EHPAD ou en résidence autonomie, le chèque peut payer la part d'énergie comprise dans la redevance."
+    },
+    {
+     "type": "attention",
+     "texte": "Aucune administration ne demande de coordonnées bancaires pour verser le chèque énergie. Un mail ou un SMS qui en réclame est une arnaque."
+    }
+   ]
+  },
+  {
+   "h2": "Mutuelle gratuite : la complémentaire santé solidaire",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La complémentaire santé solidaire (C2S) rembourse la part des soins que l'Assurance maladie ne prend pas en charge, dans la limite des tarifs de la Sécurité sociale. Elle dépend des **ressources des 12 derniers mois**, pas de l'imposition."
+    },
+    {
+     "type": "tableau",
+     "entetes": [
+      "Foyer",
+      "C2S gratuite",
+      "C2S payante (avec participation)"
+     ],
+     "lignes": [
+      [
+       "1 personne",
+       "Jusqu'à 10 421 € par an",
+       "Entre 10 421 € et 14 069 €"
+      ],
+      [
+       "2 personnes",
+       "Jusqu'à 15 632 € par an",
+       "Entre 15 632 € et 21 103 €"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Un retraité qui touche l'ASPA a un accès facilité à la C2S payante, s'il n'a pas travaillé dans les 3 mois avant la demande. Le prix selon l'âge et la façon de faire la demande sont détaillés sur notre page [mutuelle senior et complémentaire santé solidaire](mutuelle-senior)."
+    }
+   ]
+  },
+  {
+   "h2": "Minimum vieillesse et aide ménagère : les aides selon les ressources",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "Quand la retraite est très faible, l'**ASPA** (minimum vieillesse) la complète. Depuis le 1er janvier 2026, elle garantit jusqu'à 1 043,59 € brut par mois pour une personne seule et 1 620,18 € pour un couple, dès 65 ans. Elle se demande à la caisse de retraite et peut être récupérée sur la succession : voir notre page [ASPA, le minimum vieillesse](aspa)."
+    },
+    {
+     "type": "p",
+     "texte": "Avec ces mêmes niveaux de ressources (moins de 1 043,59 € par mois seul, moins de 1 620,18 € en couple, hors aides au logement), votre parent peut aussi demander l'**aide ménagère du département**, s'il ne touche pas l'APA : jusqu'à 30 heures d'intervention par mois. Les caisses de retraite financent aussi une partie de l'aide à domicile des retraités autonomes (GIR 5 et 6), selon leurs revenus : voir [l'aide ménagère de la caisse de retraite](aide-menagere-caisse-retraite)."
+    },
+    {
+     "type": "p",
+     "texte": "Les mairies, par leur centre communal d'action sociale (CCAS), proposent aussi des tarifs selon les ressources. Exemple : à Laval, le repas livré à domicile coûte 12 €, ou de 7,27 € à 10,86 € au tarif aidé (barème 2025). Renseignez-vous auprès de la mairie de votre parent, car chaque commune fixe ses propres règles."
+    }
+   ]
+  },
+  {
+   "h2": "Crédit ou réduction d'impôt : lequel sert quand on ne paie pas d'impôt ?",
+   "blocs": [
+    {
+     "type": "p",
+     "texte": "La différence est importante pour un retraité non imposable :"
+    },
+    {
+     "type": "liste",
+     "items": [
+      "Un **crédit d'impôt** est remboursé sur le compte bancaire quand il dépasse l'impôt à payer, ou quand il n'y a pas d'impôt du tout. C'est le cas du crédit d'impôt de 50 % pour l'aide à domicile, le ménage ou la téléassistance : votre parent y a droit même s'il est non imposable.",
+      "Une **réduction d'impôt** diminue seulement l'impôt dû. Sans impôt à payer, elle ne rapporte rien. C'est le cas de la réduction d'impôt pour les frais de dépendance et d'hébergement en EHPAD."
+     ]
+    },
+    {
+     "type": "p",
+     "texte": "Le crédit d'impôt se calcule sur ce qui reste à payer après les aides, comme l'APA. Les montants et les plafonds sont expliqués sur notre page [aide à domicile : prix et crédit d'impôt](aide-a-domicile)."
+    }
+   ]
+  },
+  {
+   "h2": "Comment vérifier les droits de votre parent, étape par étape",
+   "blocs": [
+    {
+     "type": "etapes",
+     "items": [
+      "Retrouvez son dernier avis d'impôt et notez le RFR et le nombre de parts (cadre « Vos références »). S'il ne déclare plus ses revenus, aidez-le à reprendre.",
+      "Comparez ce RFR aux seuils de la CSG et de la taxe foncière ci-dessus. Si un avantage manque, contactez le centre des Finances publiques ou la caisse de retraite.",
+      "Testez le chèque énergie sur le simulateur du site officiel, et demandez-le avant le 31 décembre 2026 s'il n'est pas arrivé.",
+      "Additionnez ses ressources des 12 derniers mois pour la complémentaire santé solidaire, puis faites la demande à l'Assurance maladie.",
+      "Si sa retraite est sous 1 043,59 € par mois (seul), demandez l'ASPA à sa caisse de retraite, et l'aide ménagère s'il a besoin d'aide à la maison."
+     ]
+    }
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Pourquoi ma mère paie la CSG alors qu'elle n'est pas imposable ?",
+   "r": "Parce que les deux règles n'utilisent pas le même seuil. Un foyer peut ne pas payer d'impôt sur le revenu et avoir un RFR au-dessus du seuil du taux zéro de CSG (13 048 € de RFR 2024 pour une part en 2026). Elle paie alors la CSG au taux réduit de 3,8 %, plus 0,5 % de CRDS."
+  },
+  {
+   "q": "Un retraité non imposable doit-il quand même déclarer ses revenus ?",
+   "r": "Oui. La déclaration est obligatoire même avec de faibles ressources, ou aucune. Elle donne l'avis d'impôt et le RFR, qui servent à calculer la CSG, la taxe foncière et le chèque énergie. Si sa situation n'a pas changé, votre parent peut bénéficier de la déclaration automatique."
+  },
+  {
+   "q": "La taxe d'ordures ménagères est-elle aussi supprimée pour un retraité modeste ?",
+   "r": "Non. L'exonération de taxe foncière des plus de 75 ans et des bénéficiaires de l'ASPA ne s'applique pas à la taxe d'enlèvement des ordures ménagères, qui reste due."
+  },
+  {
+   "q": "Que se passe-t-il si mon père devient imposable une année ?",
+   "r": "Pour la CSG, un retraité au taux réduit ne passe au taux supérieur que si son RFR dépasse le plafond 2 années de suite. Pour la taxe foncière, l'exonération perdue est prolongée 2 ans, puis remplacée par un abattement qui diminue sur les 2 années suivantes."
+  }
+ ],
+ "liens_internes": [
+  {
+   "slug": "aspa",
+   "ancre": "ASPA, le minimum vieillesse"
+  },
+  {
+   "slug": "mutuelle-senior",
+   "ancre": "complémentaire santé solidaire et mutuelle senior"
+  },
+  {
+   "slug": "aide-menagere-caisse-retraite",
+   "ancre": "aide ménagère de la caisse de retraite"
+  },
+  {
+   "slug": "aide-a-domicile",
+   "ancre": "crédit d'impôt pour l'aide à domicile"
+  },
+  {
+   "slug": "sortir-plus",
+   "ancre": "Sortir Plus, sans condition de ressources"
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2971",
+   "titre": "Service-public.gouv.fr : CSG et CRDS sur les revenus d'activité et de remplacement (barème 2026, consulté le 28/11/2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F59",
+   "titre": "Service-public.gouv.fr : Taxe foncière, exonérations et abattements (vérifié le 25 septembre 2026)"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/preserver-son-autonomie/perte-d-autonomie-evaluation-et-droits/impots-locaux-de-quelles-aides-fiscales-pouvez-vous-beneficier",
+   "titre": "Pour les personnes âgées : Impôts locaux, de quelles aides fiscales pouvez-vous bénéficier ?"
+  },
+  {
+   "url": "https://www.impots.gouv.fr/particulier/exonerations-et-degrevements",
+   "titre": "Impots.gouv.fr : Exonérations et dégrèvements de taxe foncière"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33667",
+   "titre": "Service-public.gouv.fr : Chèque énergie, critères et barème (vérifié le 17 octobre 2025)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17885",
+   "titre": "Service-public.gouv.fr : Comment bénéficier du chèque énergie en 2026 ? (mis à jour le 1er avril 2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10027",
+   "titre": "Service-public.gouv.fr : Complémentaire santé solidaire (vérifié le 1er juillet 2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16871",
+   "titre": "Service-public.gouv.fr : Allocation de solidarité aux personnes âgées (vérifié le 23 juin 2026)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F245",
+   "titre": "Service-public.gouv.fr : Aide à domicile du département pour une personne âgée"
+  },
+  {
+   "url": "https://www.pour-les-personnes-agees.gouv.fr/vivre-a-domicile/aides-financieres/les-aides-fiscales-pour-l-aide-a-domicile",
+   "titre": "Pour les personnes âgées : Les aides fiscales pour l'aide à domicile (crédit et réduction d'impôt)"
+  },
+  {
+   "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358",
+   "titre": "Service-public.gouv.fr : Déclaration de revenus (vérifié le 20 novembre 2026)"
+  },
+  {
+   "url": "https://www.laval.fr/fileadmin/documents/CCAS/grille_tarifaire_MAD_2025-1.pdf",
+   "titre": "CCAS de Laval : grille tarifaire 2025 du portage de repas"
+  }
+ ],
+ "date_verification": "2026-11-28",
+ "a_verifier": [
+  "Seuil de 11 000 € par UC du chèque énergie : lu sur la fiche F33667 (vérifiée le 17/10/2025, campagne 2025). L'actualité 2026 confirme les montants de 48 à 277 € mais ne répète pas le seuil.",
+  "Barème du chèque énergie : la ligne intermédiaire de la fiche couvre les foyers de plus de 1 et moins de 2 UC (cas du couple à 1,5 UC), libellé partiellement illisible dans la page.",
+  "Taxe foncière : seuils métropole uniquement. Les seuils d'outre-mer sont plus élevés (F59).",
+  "Aide ménagère du département : fiche F245 vérifiée le 01/01/2025 mais qui affiche déjà les plafonds de 1 043,59 € et 1 620,18 € (ASPA 2026).",
+  "Exemple CSG : 1 300 x 4,3 % = 55,90 € ; 1 300 x 9,1 % = 118,30 €."
+ ]
+}

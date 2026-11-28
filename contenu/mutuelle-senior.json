@@ -117,7 +117,7 @@
       "blocs": [
         {
           "type": "p",
-          "texte": "La complémentaire santé solidaire (C2S) remplace la CMU-C. Elle rembourse intégralement les dépenses de santé dans la limite des tarifs de la Sécurité sociale, sans dépassement d'honoraires, sans franchise médicale ni participation forfaitaire de 2 €, avec tiers payant. Elle inclut aussi des forfaits pour les prothèses dentaires, les lunettes, les aides auditives et certains dispositifs médicaux. Elle est **gratuite** ou **payante** selon les revenus. Voici les plafonds annuels en métropole (page du service public vérifiée le 1er juillet 2026) :"
+          "texte": "La complémentaire santé solidaire (C2S) remplace la CMU-C. Elle rembourse intégralement les dépenses de santé dans la limite des tarifs de la Sécurité sociale, sans dépassement d'honoraires, sans franchise médicale ni participation forfaitaire de 2 €, avec tiers payant. Elle inclut aussi des forfaits pour les prothèses dentaires, les lunettes, les aides auditives et certains dispositifs médicaux. Elle est **gratuite** ou **payante** selon les revenus. Elle dépend des ressources, pas du fait d'être imposable : pour les autres avantages d'un retraité modeste, voir [retraité non imposable : les aides](aides-retraites-non-imposables). Voici les plafonds annuels en métropole (page du service public vérifiée le 1er juillet 2026) :"
         },
         {
           "type": "tableau",
@@ -313,6 +313,10 @@
   ],
   "liens_internes": [
     {
+      "slug": "aides-retraites-non-imposables",
+      "ancre": "les aides des retraités non imposables"
+    },
+    {
       "slug": "aspa",
       "ancre": "le minimum vieillesse (ASPA)"
     },
@@ -356,6 +360,7 @@
     }
   ],
   "date_verification": "2026-11-12",
+  "date_maj": "2026-11-28",
   "a_verifier": [
     "Plafonds C2S métropole : lus sur la page service-public vérifiée le 1er juillet 2026, sans date d'application explicite pour la métropole (seule la section Mayotte/DOM porte « à compter du 1er avril 2026 »). À confirmer sur ameli.fr.",
     "Résiliation : la règle du préavis d'un mois, du remboursement sous 30 jours et du rôle de la nouvelle mutuelle vient de l'article L113-15-2 du code des assurances tel que résumé par la recherche (page Légifrance non lue en entier) et le texte exact du décret 2020-1438 reste à relire.",

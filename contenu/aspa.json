@@ -22,6 +22,10 @@
         {
           "type": "p",
           "texte": "Elle est différente de l'APA, qui compense la perte d'autonomie et dépend du GIR : voir la page APA : montant et conditions. L'une n'empêche pas l'autre, car l'APA n'est pas comptée dans les revenus pris en compte pour l'ASPA."
+        },
+        {
+          "type": "p",
+          "texte": "D'autres avantages des petites retraites dépendent du revenu fiscal de référence, et non de l'ASPA : CSG réduite ou nulle sur la pension, exonération de taxe foncière, chèque énergie. Ils sont détaillés sur la page [retraité non imposable : les aides et avantages](aides-retraites-non-imposables)."
         }
       ]
     },
@@ -172,7 +176,7 @@
       "blocs": [
         {
           "type": "p",
-          "texte": "Oui, sous conditions. À votre décès, la caisse de retraite peut récupérer les sommes versées, mais seulement si l'actif net de la succession est au moins égal à un seuil. L'actif net, c'est le patrimoine moins les dettes et le coût des obsèques. Pour un décès survenu en 2026 en métropole, l'ASPA est récupérable uniquement si l'actif net dépasse **108 586,14 €**."
+          "texte": "Oui, sous conditions. À votre décès, la caisse de retraite peut récupérer les sommes versées, mais seulement si l'actif net de la succession est au moins égal à un seuil. L'actif net, c'est le patrimoine moins les dettes et le coût des obsèques (voir [qui paie les obsèques d'un parent](frais-obseques-parent)). Pour un décès survenu en 2026 en métropole, l'ASPA est récupérable uniquement si l'actif net dépasse **108 586,14 €**."
         },
         {
           "type": "p",
@@ -226,6 +230,10 @@
   ],
   "liens_internes": [
     {
+      "slug": "aides-retraites-non-imposables",
+      "ancre": "les aides des retraités non imposables"
+    },
+    {
       "slug": "apa",
       "ancre": "l'APA, qui se cumule avec l'ASPA"
     },
@@ -257,6 +265,7 @@
     }
   ],
   "date_verification": "2026-11-11",
+  "date_maj": "2026-11-28",
   "a_verifier": [
     "Les seuils de récupération sur succession dans les DOM, et le cas où les deux membres du couple reçoivent l'ASPA (plafond annuel), n'ont pas été détaillés ici.",
     "La liste des justificatifs à fournir n'a pas été lue : elle figure dans la notice du formulaire de la caisse.",
